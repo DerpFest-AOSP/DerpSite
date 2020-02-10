@@ -11,7 +11,7 @@
 
 body {
   background: #fff;
-  color: #666666;
+  color: #343a40;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
@@ -44,6 +44,7 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+  color:#1dc8cd;
 }
 
 /* Back to top button */
@@ -379,7 +380,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(73, 80, 87, 0.090);
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -467,7 +468,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-title {
   font-size: 32px;
-  color: #111;
+  color: #1dc8cd;
   text-align: center;
   font-weight: 400;
 }
@@ -526,6 +527,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   line-height: 26px;
   font-style: italic;
+  
 }
 
 #about .content p {
@@ -555,7 +557,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #features {
-  background: #fff;
   padding: 60px 0 0 0;
   overflow: hidden;
 }
@@ -599,7 +600,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .title a {
-  color: #111;
+  color: #1dc8cd;
 }
 
 #features .description {
@@ -922,6 +923,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member {
   text-align: center;
   margin-bottom: 20px;
+  color:#1dc8cd;
 }
 
 #team .member .pic {
@@ -1139,7 +1141,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #fff;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
   color: #333;
@@ -1317,4 +1318,36 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .swiper-slide.swiper-slide-active img {
   border-radius: 30px;
+}
+
+.dark-mode-toggle {
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:1030;
+  color: var(--foreground);
+  border: 2px solid currentColor;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+}
+
+:root {
+  --clr-light: #fff;
+  --clr-dark: #00332a;
+  --foreground: var(--clr-dark);
+  --background: var(--clr-light);
+}
+
+.darkmode {
+  --clr-light: #fff;
+  --clr-dark: #00332a;
+  --foreground: var(--clr-light);
+  --background: var(--clr-dark);
+}
+.darkmode-section-bg {
+ background: #0e0b10;
 }

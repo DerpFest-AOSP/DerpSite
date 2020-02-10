@@ -129,14 +129,9 @@ jQuery(document).ready(function($) {
   // custom code
  var swiperMobile = new Swiper('.swiper-container.swiper-full-mobile', {
       slidesPerView: 1,
-      spaceBetween: 20,
+      spaceBetween: 0,
       slideToClickedSlide:true,
       centeredSlides:true,
-     pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-
-      },
 
       loop:true,
         autoplay: {
@@ -161,15 +156,85 @@ jQuery(document).ready(function($) {
             640: {
               freemode:true,
               slidesPerView: 1,
-              spaceBetween: 20,
+              spaceBetween: 0,
             },
             320: {
               freemode:true,
               slidesPerView: 1,
-              spaceBetween: 20,
+              spaceBetween: 0,
             }
       }
 
     });
+
+let darkMode = localStorage.getItem('darkMode'); 
+
+const darkModeToggle = document.querySelector('#dark-mode-toggle');
+
+const enableDarkMode = () => {
+  // 1. Add the class to the body
+  document.body.classList.add('darkmode');
+  // diff ids of diff sections rip no easy way to do it ;/
+  // 1)about
+   document.getElementById('about').classList.remove('section-bg');
+  document.getElementById('about').classList.add('darkmode-section-bg');
+  // 2)features
+  document.getElementById('features').classList.remove('section-bg');
+  document.getElementById('features').classList.add('darkmode-section-bg');
+  // 3)Team
+  document.getElementById('team').classList.remove('section-bg');
+  document.getElementById('team').classList.add('darkmode-section-bg');
+  // 4)Contact
+  document.getElementById('contact').classList.remove('section-bg');
+  document.getElementById('contact').classList.add('darkmode-section-bg');
+  // 5)footer
+  document.getElementById('footer').classList.remove('section-bg');
+  document.getElementById('footer').classList.add('darkmode-section-bg');
+  // 2. Update darkMode in localStorage
+  localStorage.setItem('darkMode', 'enabled');
+}
+
+const disableDarkMode = () => {
+  // 1. Remove the class from the body
+  document.body.classList.remove('darkmode');
+  // diff ids of diff sections rip no easy way to do it ;/
+  // 1)about
+  document.getElementById('about').classList.remove('darkmode-section-bg');
+  document.getElementById('about').classList.add('section-bg');
+  // 2)features
+  document.getElementById('features').classList.remove('darkmode-section-bg');
+  document.getElementById('features').classList.add('section-bg');
+  // 3)Team
+  document.getElementById('team').classList.remove('darkmode-section-bg');
+  document.getElementById('team').classList.add('section-bg');
+  // 4)Contact
+  document.getElementById('contact').classList.remove('darkmode-section-bg');
+  document.getElementById('contact').classList.add('section-bg');
+  // 5)footer
+  document.getElementById('footer').classList.remove('darkmode-section-bg');
+  document.getElementById('footer').classList.add('section-bg');
+  // 2. Update darkMode in localStorage 
+  localStorage.setItem('darkMode', null);
+}
+ 
+// If the user already visited and enabled darkMode
+// start things off with it on
+if (darkMode === 'enabled') {
+  enableDarkMode();
+}
+
+// When someone clicks the button
+darkModeToggle.addEventListener('click', () => {
+  // get their darkMode setting
+  darkMode = localStorage.getItem('darkMode'); 
+  
+  // if it not current enabled, enable it
+  if (darkMode !== 'enabled') {
+    enableDarkMode();
+  // if it has been enabled, turn it off  
+  } else {  
+    disableDarkMode(); 
+  }
+});
 
 });
