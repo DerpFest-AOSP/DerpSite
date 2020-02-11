@@ -108,31 +108,14 @@ jQuery(document).ready(function($) {
     }
   });
 
-  // Gallery - uses the magnific popup jQuery plugin
-  $('.gallery-popup').magnificPopup({
-    type: 'image',
-    removalDelay: 300,
-    mainClass: 'mfp-fade',
-    gallery: {
-      enabled: true
-    },
-    zoom: {
-      enabled: true,
-      duration: 300,
-      easing: 'ease-in-out',
-      opener: function(openerElement) {
-        return openerElement.is('img') ? openerElement : openerElement.find('img');
-      }
-    }
-  });
-
   // custom code
- var swiperMobile = new Swiper('.swiper-container.swiper-full-mobile', {
-      slidesPerView: 1,
+ const swiper = new Swiper('.swiper-container.swiper-full', {
+      slidesPerView: 'auto',
       spaceBetween: 0,
+       speed: 200,
       slideToClickedSlide:true,
       centeredSlides:true,
-
+       
       loop:true,
         autoplay: {
           delay: 3000,
@@ -144,7 +127,10 @@ jQuery(document).ready(function($) {
         onlyInViewport: true,
       },
 
-
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+       },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -154,19 +140,16 @@ jQuery(document).ready(function($) {
        breakpoints: {
             
             640: {
-              freemode:true,
-              slidesPerView: 1,
-              spaceBetween: 0,
+              slidesPerView: 'auto',
             },
             320: {
-              freemode:true,
-              slidesPerView: 1,
-              spaceBetween: 0,
+              slidesPerView: 'auto',
             }
       }
 
+   
     });
-
+ 
 let darkMode = localStorage.getItem('darkMode'); 
 
 const darkModeToggle = document.querySelector('#dark-mode-toggle');
@@ -190,6 +173,10 @@ const enableDarkMode = () => {
   // 5)footer
   document.getElementById('footer').classList.remove('section-bg');
   document.getElementById('footer').classList.add('darkmode-section-bg');
+  //a)add darker box for elements changing color
+  document.getElementById('features').classList.add('darkmode-shadow');
+  document.getElementById('contact').classList.add('darkmode-shadow');
+  document.getElementById('footer').classList.add('darkmode-shadow');
   // 2. Update darkMode in localStorage
   localStorage.setItem('darkMode', 'enabled');
 }
@@ -213,6 +200,10 @@ const disableDarkMode = () => {
   // 5)footer
   document.getElementById('footer').classList.remove('darkmode-section-bg');
   document.getElementById('footer').classList.add('section-bg');
+  //a)add darker box for elements changing color
+  document.getElementById('features').classList.remove('darkmode-shadow');
+  document.getElementById('contact').classList.remove('darkmode-shadow');
+  document.getElementById('footer').classList.remove('darkmode-shadow');
   // 2. Update darkMode in localStorage 
   localStorage.setItem('darkMode', null);
 }
