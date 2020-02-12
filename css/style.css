@@ -786,13 +786,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
-  color: #333;
+  color: #888;
   font-size: 14px;
 }
 
 #footer .credits {
   font-size: 13px;
-  color: #888;
+  color: #777;
 }
 
 #footer .footer-links a {
@@ -955,8 +955,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index:2;
   top:-.8px;
   left:0%;
-  width:352px;
+  width:354px;
   height:642px;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+right:14px;
+left:auto;
+    
+}
+.swiper-button-next, .swiper-button-prev{
+top:80%;
+    
 }
 .dark-mode-toggle {
   position:fixed;
@@ -988,6 +997,9 @@ button:focus {
   --clr-dark: #0e0b10;
   --foreground: var(--clr-dark);
   --background: var(--clr-light);
+  --swiper-navigation-color:#1dc8cd;
+
+    
 }
 
 .darkmode {
@@ -995,9 +1007,14 @@ button:focus {
   --clr-dark: #0e0b10;
   --foreground: var(--clr-light);
   --background: var(--clr-dark);
+  color:#eff5f5; 
+  
 }
 .darkmode-section-bg {
  background: #0e0b10;
+}
+.darkmode-body{
+color:#eff5f5;    
 }
 .darkmode-shadow{
 box-shadow:0px 0px 12px 0px rgba(0, 0, 0, 0.62)!important;
