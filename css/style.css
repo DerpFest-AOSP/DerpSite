@@ -60,6 +60,7 @@ h6 {
   right: 15px;
   bottom: 0;
   transition: none;
+  z-index: 3;
 }
 
 .back-to-top:focus {
@@ -921,67 +922,78 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
   }
 }
-    .swiper-container {
-      width: 100%;
-      height: 100%;
+
+.screenshot{
+  height:640px;
+  width:350px;
+  position:relative;
+  display: block;
+  margin:50px auto;
+    
+}   
+  
+  .swiper-container {
+      width: 92%;
+      height: 102%;
       
     }
 
 
-
-
-.swiper-full:before {
-    content: "";
-    width: 265px;
-    background: url(../img/smartphone.png);
-    background-size: 180%;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 10px;
-    right: 0;
-    top: -1px;
-    height: 565px;
-    z-index: 2;
-    margin: auto;
-}
-.swiper-slide {
-  height: 100%;
-}
 .swiper-slide img{
-  width: 250px;
-  height: 476px;
-  object-fit: cover;
+  width: 97%;
+  height: 98%;
+  
 
 }
 .swiper-slide.swiper-slide-active img {
   border-radius: 30px;
 }
-
+.swiper-slide.swiper-slide img {
+  border-radius: 30px;
+}
+.smartphone{
+  position:absolute;
+  z-index:2;
+  top:0%;
+  left:0%;
+  width:350px;
+  height:640px;
+}
 .dark-mode-toggle {
   position:fixed;
-  left:0;
+  left:10px;
   right:0;
-  bottom:0;
+  bottom:10px;
   z-index:1030;
   color: var(--foreground);
-  border: 2px solid currentColor;
+  border: 5px solid currentColor;
   background: transparent;
   cursor: pointer;
-  border-radius: 4px;
-  width: 30px;
-  height: 30px;
+  border-radius: 360px;
+  width: 35px;
+  height: 35px;
+  transition:all 0.5s ease;
+  justify-content:center;
+  align-items:center;
+  border-radius:50%;
+}
+
+ 
+button:focus {
+  outline: 0;
+  outline-width:0px
 }
 
 :root {
-  --clr-light: #fff;
-  --clr-dark: #00332a;
+  --clr-light: #eff5f5;
+  --clr-dark: #0e0b10;
   --foreground: var(--clr-dark);
   --background: var(--clr-light);
 }
 
 .darkmode {
-  --clr-light: #fff;
-  --clr-dark: #00332a;
+  --clr-light: #eff5f5;
+  --clr-dark: #0e0b10;
   --foreground: var(--clr-light);
   --background: var(--clr-dark);
 }

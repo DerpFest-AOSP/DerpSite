@@ -113,7 +113,6 @@ jQuery(document).ready(function($) {
       slidesPerView: 'auto',
       spaceBetween: 0,
        speed: 200,
-      slideToClickedSlide:true,
       centeredSlides:true,
        
       loop:true,
@@ -138,12 +137,11 @@ jQuery(document).ready(function($) {
 
 
        breakpoints: {
-            
             640: {
-              slidesPerView: 'auto',
+              slidesPerView: 1,
             },
             320: {
-              slidesPerView: 'auto',
+              slidesPerView: 1,
             }
       }
 
