@@ -942,7 +942,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .swiper-slide img{
   width: 97%;
   height: 98%;
-  
 
 }
 .swiper-slide.swiper-slide-active img {
@@ -954,10 +953,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .smartphone{
   position:absolute;
   z-index:2;
-  top:0%;
+  top:-.8px;
   left:0%;
-  width:350px;
-  height:640px;
+  width:352px;
+  height:642px;
 }
 .dark-mode-toggle {
   position:fixed;
