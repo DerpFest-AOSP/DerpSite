@@ -108,7 +108,7 @@ jQuery(document).ready(function($) {
     }
   });
 
-  // custom code
+   // custom code
  const swiper = new Swiper('.swiper-container.swiper-full', {
       slidesPerView: 'auto',
       spaceBetween: 0,

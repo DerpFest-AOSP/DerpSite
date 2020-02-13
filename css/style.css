@@ -672,7 +672,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
 }
 
 #team .member .pic img {
@@ -967,6 +966,8 @@ left:auto;
 top:80%;
     
 }
+
+
 .dark-mode-toggle {
   position:fixed;
   left:10px;
