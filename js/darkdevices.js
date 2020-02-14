@@ -7,10 +7,13 @@ const enableDarkMode = () => {
   // 1. Add the class to the body
   document.body.classList.add('darkmode');
   // diff ids of diff sections rip no easy way to do it ;/
-  // 4)Contact
+  // 2)Devices
+  document.getElementById('devices').classList.remove('section-bg');
+  document.getElementById('devices').classList.add('darkmode-section-bg');
+  // 3)Contact
   document.getElementById('contact').classList.remove('section-bg');
   document.getElementById('contact').classList.add('darkmode-section-bg');
-  // 5)footer
+  // 4)footer
   document.getElementById('footer').classList.remove('section-bg');
   document.getElementById('footer').classList.add('darkmode-section-bg');
   //a)add darker box for elements changing color
@@ -24,15 +27,19 @@ const disableDarkMode = () => {
   // 1. Remove the class from the body
   document.body.classList.remove('darkmode');
   // diff ids of diff sections rip no easy way to do it ;/
-  // 4)Contact
+  // 2)Devices
+  document.getElementById('devices').classList.remove('darkmode-section-bg');
+  document.getElementById('devices').classList.add('section-bg');
+  // 3)Contact
   document.getElementById('contact').classList.remove('darkmode-section-bg');
   document.getElementById('contact').classList.add('section-bg');
-  // 5)footer
+  // 4)footer
   document.getElementById('footer').classList.remove('darkmode-section-bg');
   document.getElementById('footer').classList.add('section-bg');
   //a)add darker box for elements changing color
   document.getElementById('contact').classList.remove('darkmode-shadow');
   document.getElementById('footer').classList.remove('darkmode-shadow');
+
   // 2. Update darkMode in localStorage 
   localStorage.setItem('darkMode', null);
 }
