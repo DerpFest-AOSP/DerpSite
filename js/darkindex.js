@@ -2,7 +2,6 @@ jQuery(document).ready(function($) {
 let darkMode = localStorage.getItem('darkMode'); 
 
 const darkModeToggle = document.querySelector('#dark-mode-toggle');
-
 const enableDarkMode = () => {
   // 1. Add the class to the body
   document.body.classList.add('darkmode');
@@ -75,6 +74,14 @@ darkModeToggle.addEventListener('click', () => {
   } else {  
     disableDarkMode(); 
   }
+
 });
+document.body.onload = function() {
+
+    if (localStorage.getItem("hasCodeRunBefore") === null) {
+        enableDarkMode();
+        localStorage.setItem("hasCodeRunBefore", true);
+    }
+}
 
 }); 

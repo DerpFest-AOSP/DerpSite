@@ -56,5 +56,11 @@ darkModeToggle.addEventListener('click', () => {
     disableDarkMode(); 
   }
 });
+document.body.onload = function() {
 
+    if (localStorage.getItem("hasCodeRunBefore") === null) {
+        enableDarkMode();
+        localStorage.setItem("hasCodeRunBefore", true);
+    }
+}
 });
