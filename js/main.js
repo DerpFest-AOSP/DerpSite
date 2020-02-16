@@ -109,12 +109,17 @@ jQuery(document).ready(function($) {
   });
 
    // custom code
- const swiper = new Swiper('.swiper-container.swiper-full', {
-      slidesPerView: 'auto',
-      spaceBetween: 0,
-       speed: 200,
+ var swiperMobile = new Swiper('.swiper-container.swiper-full-mobile', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      slideToClickedSlide:true,
       centeredSlides:true,
-       
+     pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+
+      },
+
       loop:true,
         autoplay: {
           delay: 3000,
@@ -126,6 +131,7 @@ jQuery(document).ready(function($) {
         onlyInViewport: true,
       },
 
+
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -133,15 +139,19 @@ jQuery(document).ready(function($) {
 
 
        breakpoints: {
+            
             640: {
+              freemode:true,
               slidesPerView: 1,
+              spaceBetween: 20,
             },
             320: {
+              freemode:true,
               slidesPerView: 1,
+              spaceBetween: 20,
             }
       }
 
-   
     });
 
 });
