@@ -839,28 +839,40 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .devices h1 {
     color: #1dc8cd;
-    font-size: 32px;
-    margin: 0 0 20px;
+    font-size: 40px;
+    padding-top:10px;
 }
-/*.devices.devices-search {
+.devices-search {
     border-radius: 5px;
     background-color: transparent;
-    background-image: url(../img/search.png);
-    background-size: 17px;
-    background-position: 8px 10px;
     background-repeat: no-repeat;
-    border: 1px solid #1dc8cd6;
+    border: 1px solid #1de099;
     padding: 8px 12px 8px 29px;
-    width: 250px;
     outline: none;
-    font-size: 16px;
+    font-size: 20px;
+    text-align:center;
     color: #1dc8cd;
-}*/
+    margin: 0 auto;
+    &:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -$border; /* !importanté */
+    border-radius: inherit; /* !importanté */
+    border: linear-gradient(45deg, #33bbff,#1de099 );
+  }
+}
 .devices .device-list {
-  display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     flex-wrap: wrap;
     text-align: center;
     margin-bottom: 20px;
+    justify-content: center;
 }
 .devices .device{    
     flex-shrink: 0;
@@ -877,7 +889,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #devices h4 {
   font-weight: 700;
   margin-bottom: 2px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #devices span {
@@ -899,6 +911,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 20px;
   padding: 6px 9px;
   display:block;
+  
   
 }
 #devices .links a:hover {
@@ -1215,4 +1228,8 @@ box-shadow:0px 0px 12px 0px rgba(0, 0, 0, 0.62)!important;
 .glow-button:hover {
  color: linear-gradient(45deg, #1dc8cd,#1de099);
  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+.sbox{
+    width: 100%;
+    text-align:center;
 }
