@@ -25,6 +25,8 @@ const enableDarkMode = () => {
   document.getElementById('features').classList.add('darkmode-shadow');
   document.getElementById('contact').classList.add('darkmode-shadow');
   document.getElementById('footer').classList.add('darkmode-shadow');
+  document.getElementById('tg').classList.remove('tele');
+  document.getElementById('tg').classList.add('darkmode-tele');
   // 2. Update darkMode in localStorage
   localStorage.setItem('darkMode', 'enabled');
 }
@@ -52,6 +54,8 @@ const disableDarkMode = () => {
   document.getElementById('features').classList.remove('darkmode-shadow');
   document.getElementById('contact').classList.remove('darkmode-shadow');
   document.getElementById('footer').classList.remove('darkmode-shadow');
+  document.getElementById('tg').classList.remove('darkmode-tele');
+  document.getElementById('tg').classList.add('tele');
   // 2. Update darkMode in localStorage 
   localStorage.setItem('darkMode', null);
 }

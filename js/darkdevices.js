@@ -19,6 +19,21 @@ const enableDarkMode = () => {
   //a)add darker box for elements changing color
   document.getElementById('contact').classList.add('darkmode-shadow');
   document.getElementById('footer').classList.add('darkmode-shadow');
+  document.getElementById('tg').classList.remove('tele');
+  document.getElementById('tg').classList.add('darkmode-tele');
+  //b)different approach for all dark mode in device section
+  let els = document.querySelectorAll('.device-bg');
+
+els.forEach(function(el) {
+  el.classList.add('darkmode-device-bg');
+  el.classList.remove('device-bg');
+});
+  let els1 = document.querySelectorAll('.span-color');
+
+els1.forEach(function(el) {
+  el.classList.add('darkmode-span-color');
+  el.classList.remove('span-color');
+});
   // 2. Update darkMode in localStorage
   localStorage.setItem('darkMode', 'enabled');
 }
@@ -39,7 +54,19 @@ const disableDarkMode = () => {
   //a)add darker box for elements changing color
   document.getElementById('contact').classList.remove('darkmode-shadow');
   document.getElementById('footer').classList.remove('darkmode-shadow');
+  document.getElementById('tg').classList.remove('darkmode-tele');
+  document.getElementById('tg').classList.add('tele');
+  let els = document.querySelectorAll('.darkmode-device-bg');
+  els.forEach(function(el) {
+  el.classList.add('device-bg');
+  el.classList.remove('darkmode-device-bg');
+});
+   let els1 = document.querySelectorAll('.darkmode-span-color');
 
+els1.forEach(function(el) {
+  el.classList.add('span-color');
+  el.classList.remove('darkmode-span-color');
+});
   // 2. Update darkMode in localStorage 
   localStorage.setItem('darkMode', null);
 }
