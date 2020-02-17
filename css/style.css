@@ -885,10 +885,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 2px;
   font-size: 16px;
 }
+#devices span {
+  font-style: normal;
+  font-size: 15px;
+}
+#devices .links {
+  margin-top: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#devices .links a {
+  justify-content: center;
+  margin: 20px;
+  padding: 6px 9px;
+  display:block;
+  
+  
+}
+#devices .links a:hover {
+  color: #0e0b10;
+}
 /*--------------------------------------------------------------
 # credits Section
 --------------------------------------------------------------*/
-# span {
+#tou span {
   font-style: normal;
   font-size: 15px;
 }
@@ -919,7 +940,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   color:#1dc8cd;
 }
 
-
+#tou.member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+#tou .member .pic img {
+  max-width: 100%;
+}
 
 #tou .member h4 {
   font-weight: 700;
