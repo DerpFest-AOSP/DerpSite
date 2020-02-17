@@ -114,6 +114,7 @@ h6 {
   padding: 0;
   margin: 0;
   top: 16px;
+  width:140px;
   height: 40px;
   position: absolute;
 }
@@ -669,14 +670,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color:#1dc8cd;
 }
 
-#team .member .pic {
-  margin-bottom: 15px;
-  overflow: hidden;
-}
 
-#team .member .pic img {
-  max-width: 100%;
-}
 
 #team .member h4 {
   font-weight: 700;
@@ -736,20 +730,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links {
-  padding-bottom: 20px;
+  padding-bottom: 35px;
 }
 
 #contact .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   color: #1dc8cd;
   line-height: 1;
-  padding: 8px 0;
+  padding: 4px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 50px;
+  height: 50px;
   transition: 0.3s;
   border: 1px solid #1dc8cd;
 }
@@ -768,14 +762,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info i {
-  font-size: 32px;
+  font-size: 40px;
   color: #1dc8cd;
   float: left;
   line-height: 1;
 }
 
 #contact .info p {
-  padding: 0 0 10px 42px;
+  padding: 5px 5px 10px 45px;
   line-height: 28px;
   font-size: 14px;
 }
@@ -891,8 +885,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 2px;
   font-size: 16px;
 }
-
-#devices span {
+/*--------------------------------------------------------------
+# credits Section
+--------------------------------------------------------------*/
+# span {
   font-style: normal;
   font-size: 15px;
 }
@@ -900,13 +896,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   color:#000;
 }
 
-#devices .links {
+#tou .links {
   margin-top: 20px;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-#devices .links a {
+#tou .links a {
   justify-content: center;
   margin: 20px;
   padding: 6px 9px;
@@ -914,10 +910,45 @@ body.mobile-nav-active #mobile-nav-toggle {
   
   
 }
-#devices .links a:hover {
+#tou .links a:hover {
   color: #0e0b10;
 }
+#tou .member {
+  text-align: center;
+  margin-bottom: 20px;
+  color:#1dc8cd;
+}
 
+
+
+#tou .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+#tou .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+#tou .member .social {
+  margin-top: 15px;
+}
+
+#tou .member .social a {
+  color: #b3b3b3;
+}
+
+#tou .member .social a:hover {
+  color: #1dc8cd;
+}
+
+#tou .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -946,10 +977,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-links a:hover {
   color: #1dc8cd;
 }
-@media (max-width:600px) {
-   .pic img {
-      display:none;
-   }
 }
 
 @media (min-width: 769px) {
@@ -1090,9 +1117,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: 0;
     text-align: center;
   }
-  .pic img{
-    display:none;
-}
 }
 
 .screenshot{
@@ -1256,3 +1280,8 @@ box-shadow:0px 0px 12px 0px rgba(0, 0, 0, 0.62)!important;
   border-radius: 30px;
 }
 
+.ch2 {
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+}
