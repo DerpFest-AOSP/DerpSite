@@ -946,6 +946,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-links a:hover {
   color: #1dc8cd;
 }
+@media (max-width:600px) {
+   .pic img {
+      display:none;
+   }
+}
 
 @media (min-width: 769px) {
   #features .features-img {
@@ -1039,6 +1044,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #faq #faq-list i {
     top: 13px;
   }
+
 }
 
 @media (max-width: 767px) {
@@ -1084,6 +1090,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: 0;
     text-align: center;
   }
+  .pic img{
+    display:none;
+}
 }
 
 .screenshot{
