@@ -212,6 +212,7 @@ h6 {
 
 #intro .product-screens img {
   box-shadow: 0px -2px 19px 4px rgba(0, 0, 0, 0.29);
+  border-radius: 15px
 }
 
 #intro .product-screens .product-screen-1 {
@@ -1307,8 +1308,29 @@ box-shadow:0px 0px 12px 0px rgba(0, 0, 0, 0.62)!important;
   border-radius: 30px;
 }
 
+.swiper-button-next:after{
+  height: 35px;
+  width: 35px;
+  font-size: inherit;
+}
+.swiper-button-prev:after{
+  height: 35px;
+  width: 35px;
+  font-size: inherit;
+}
+.swiper-button-next:focus{
+  outline: 0;
+  outline-width:0px;
+}
+.swiper-button-prev:focus{
+  outline: 0;
+  outline-width:0px;
+}
 .ch2 {
     width: 100%;
     text-align: center;
     padding: 10px 10px;
+}
+.img-404{
+    width:30%;
 }

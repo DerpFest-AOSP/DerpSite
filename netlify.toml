@@ -1,0 +1,26 @@
+[[redirects]]
+  from = "/*"
+  to = "/error404.html"
+  status = 404 
+
+  
+
+[[headers]]
+  for = "css/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, must-revalidate"
+    
+[[headers]]
+  for = "js/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, must-revalidate"
+
+[[headers]]
+  for = "lib/*/.js"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, must-revalidate"
+
+[[headers]]
+  for = "lib/*/.css"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, must-revalidate"
