@@ -1365,3 +1365,15 @@ box-shadow:0px 0px 12px 0px rgba(0, 0, 0, 0.62)!important;
     color: #fff;
     border-radius: 4px;
 }
+.hr-dark {
+    display: block;
+    border-color:#fff;
+    padding-top: 20px;
+    display:block;
+}
+.hr {
+    display: block;
+    border-color:#000;
+    padding-top: 20px;
+    display:block;
+}

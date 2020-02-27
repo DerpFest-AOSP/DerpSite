@@ -55,7 +55,7 @@
           <ul class="nav-menu">
             <li class="menu-active"><a href="index.html">Home</a></li>
             <li><a href="devices.html">Devices</a></li>
-            <li class="menu-has-children" id="menu"><a href="blog.html">Blogs</a>
+            <li class="menu-has-children" id="menu"><a href="#">Wiki</a>
               <ul>
                 <li><a href="#build">Build DerpFest</a></li>
                 <li><a href="changelogs.html">Weekly Changelogs</a></li>
@@ -115,12 +115,12 @@
 <div>
 <h5>Rename the file shown below</h5>
 <p>If Pixel Expirence</br>
-aosp.mk to derp.mk</br>
+aosp_device-codename.mk to derp_device-codename.mk</br>
 If Lineage os</br>
-lineage.mk to derp.mk</p>
+lineage_device-codename.mk to derp_device-codename.mk</p>
 </div>
 <div>
-  <h5>Now change contents of derp.mk as shown below </h5>
+  <h5>Now change contents of derp_device-codename.mk as shown below </h5>
   <p>Change “aosp“ or “lineage“ to “aosip” & /”common.mk” to “common_full_phone.mk”
 for example: $(call inherit-product, vendor/aosip/config/common.mk)</p>
 <p>Change PRODUCT_NAME value to “lineage_device-codename || aosp_device-codename”
