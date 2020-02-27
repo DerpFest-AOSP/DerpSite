@@ -83,7 +83,7 @@
     <div class="container">
     <div class="row">
       <div class="ch2">
-        <h4>Before you get excited and rush things up please read this articles and follow the steps provided there</h4></div>
+        <h4>Before you get excited and rush things up, please read these articles and follow the steps provided there</h4></div>
         <ul id="txt">
           <li><a href="https://source.android.com/setup/build/initializing"class="txt">Setting Up The Build Enviroment</a></li></br>
           <li><a href="https://github.com/akhilnarang/scripts"class="txt">Alternative & easy way to do it by using akhil narang's scripts</a></li></br>
@@ -92,7 +92,7 @@
         <div class="ch2">
           <h4>Begin with initialization of the derpfest repository</h4>
         </div>
-<div class="col-lg-4 col-md-5"><figure id="fig" class="figtxt">
+<div class="col-lg-7 col-md-5"><figure id="fig" class="figtxt">
 <pre>
 <code>
 <span class="txt">mkdir derpfest</span>
@@ -107,7 +107,7 @@
         </div>
           <p>If your device sources (trees, vendor, kernel etc.) are not stable we don't suggest to continue reading this guide. Fix your device side sources first, else the expirence will be bad.</p>
           <p>We suggest using LOS or PE device sources as they are mostly stable and don't require much changes.</p>
-          <p>so below given examples are for either PE or LOS rom</p>
+          <p>The given examples below are for either PE or LOS rom</p>
           <div class="ch2">
            <h4>Adapting Device Side Sources (Trees) for DerpFest
            </h4>
@@ -142,18 +142,17 @@ lineage-overlays
 lineagehw
 Simillarly from <b>BoardConfig.mk/BoardConfigCommon.mk</b>:
 </div>
-<div class="col-lg-4 col-md-5"><figure id="fig" class="figtxt">
+<div class="col-lg-7 col-md-5"><figure id="fig" class="figtxt">
 <pre>
 <code>
 <span class="txt"># Lineage Hardware</span>
 <span class="txt">BOARD_HARDWARE_CLASS += \</span>
 <span class="txt">$(VENDOR_PATH)/lineagehw</span>
-<span class="txt">From manifest.xml remove livedisplay HAL:</span>
 </code>
 </pre>
 </figure></div>
 <div class="col-lg-12 col-md-5"><p>From manifest.xml remove livedisplay HAL:</p></div>
-<div class="col-lg-4 col-md-5"><figure id="fig" class="figtxt">
+<div class="col-lg-7 col-md-5"><figure id="fig" class="figtxt">
 <pre>
 <code>
 <span class="txt">
@@ -170,7 +169,7 @@ Simillarly from <b>BoardConfig.mk/BoardConfigCommon.mk</b>:
 </pre>
 </figure></div>
 <div class="col-lg-12 col-md-5">From device.mk(also named as your SOC codename like: msm8953.mk):</div>
-<div class="col-lg-4 col-md-5"><figure id="fig" class="figtxt">
+<div class="col-lg-7 col-md-5"><figure id="fig" class="figtxt">
 <pre>
 <code>
 <span class="txt">DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage</span>
