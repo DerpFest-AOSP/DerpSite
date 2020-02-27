@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>DerpFest|Error</title>
+    <title>DerpFest|Frequently Asked Questions</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="DerpFest rom derpfest updates derpfest download derpfest github derp derplab custom rom custom os derpfest blog derp derpfest github" name="keywords" />
     <meta content="DerpFest Official Site for there officially supported devices" name="description" />
@@ -55,11 +55,11 @@
           <ul class="nav-menu">
             <li class="menu-active"><a href="index.html">Home</a></li>
             <li><a href="devices.html">Devices</a></li>
-             <li class="menu-has-children" id="menu"><a href="#">Wiki</a>
+            <li class="menu-has-children" id="menu"><a href="#">Wiki</a>
               <ul>
-                <li><a href="blog/build.html">Build DerpFest</a></li>
-                <li><a href="blog/changelogs.html">Weekly Changelogs</a></li>
-                <li><a href="blog/faq.html">Frequently asked questions</a></li>
+                <li><a href="build.html">Build DerpFest</a></li>
+                <li><a href="changelogs.html">Weekly Changelogs</a></li>
+                <li><a href="#faq">Frequently asked questions</a></li>
               </ul>
             </li>
             <li><a href="#contact">Contact Us</a></li>
@@ -74,17 +74,43 @@
   ============================-->
   <section id="dev-intro">
     <div class="intro-text">
-      <h2>Error 404</h2>
-      <p>Guess who lost his path?</p>
+      <h2>DerpFest FAQ's</h2>
+      <p>we tried to answer most of your queries here</p>
     </div>
   </section>
 
-<section id="tou"class="section-bg">
-    <div class="container">
-    <div class="ch2">
-    <h2>Lost? Don't Worry, Mighty Kronic Owl Has Got Your Back!</h2>
-    <a href="index.html"><img class="img-404" src="img/derpowl.jpg"></a>
-    <p>just tap on the pic above to go back home :D<p>
+<section id="build"class="section-bg">
+    <div class="container"id="faq">
+    <div class="row">
+      <div class="ch2">
+        <h3>F.A.Q's</h3>
+    </div>
+    <div class ="ch2"style="text-align:inherit">
+<h5>1)Why derpfest on android 10(Q) provides inlined gapps version?</h5>
+A)With the lack of official opengapps for android 10(Q) and to prevent a complaints from people breaking their boot by flashing several versions of gapps that are available out in the community we find it as a much more needed necessity to inline our own minimal version of gapps.</p></br>
+
+<h5>2)Will there be a non gapps version?</h5>
+A)Yes,(Depends upon device maintainer) if he want he can either choose to ship both gapps and gapps less versions. The non-gapps version zips will be named as VANILLA while the gapps version zips will be named as usal zips.</br></p>
+
+<h5>3)Possible to switch between gapps & non gapps versions?</h5>
+A)It is possible but we never suggest to do it unless you know how to deal with the bugs you might get</p></br>
+
+<h4><i>THIS QUESTIONS ARE FOR DEVELOPERS ONLY</i></h4>
+    </br>
+
+<h5>4)How can i remove gapps from my build?</h5>
+A)First of all this is not for the end users this is for developer or contributor of the derpfest rom 
+to remove gapps from building run this code before starting to build it</br>
+<figure id="fig" class="figtxt">
+<pre><code>
+<span class="txt">export DERP_BUILD_ZIP_TYPE=VANILLA && rm -rf vendor/gapps</span>
+</code></pre></figure>
+</p></br>
+
+<h5>5)How can i apply for official maintainer ship for my device?</h5>
+A)Contact us on our <a href="https://t.me/DerpFest5T">Telegram</a> group there our lead devs will verify your device and other stuffs and then if they want they will add you (no MTK chip based devices are eligable for officials)</br></p>
+
+
     </div>
 </div>
 </section>
@@ -189,7 +215,7 @@ Footer
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/jquery/jquery-migrate.min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/darktou.js"></script>
+<script src="js/darkbuilds.js"></script>
 <script src="lib/swiper/swiper.min.js"></script>
 <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="lib/easing/easing.min.js"></script>
@@ -200,3 +226,5 @@ Footer
 
 </body>
 </html>
+ 
+

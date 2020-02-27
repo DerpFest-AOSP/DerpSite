@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>DerpFest|Error</title>
+    <title>DerpFest|How To Build</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="DerpFest rom derpfest updates derpfest download derpfest github derp derplab custom rom custom os derpfest blog derp derpfest github" name="keywords" />
     <meta content="DerpFest Official Site for there officially supported devices" name="description" />
@@ -55,11 +55,11 @@
           <ul class="nav-menu">
             <li class="menu-active"><a href="index.html">Home</a></li>
             <li><a href="devices.html">Devices</a></li>
-             <li class="menu-has-children" id="menu"><a href="#">Wiki</a>
+            <li class="menu-has-children" id="menu"><a href="#">Wiki</a>
               <ul>
-                <li><a href="blog/build.html">Build DerpFest</a></li>
-                <li><a href="blog/changelogs.html">Weekly Changelogs</a></li>
-                <li><a href="blog/faq.html">Frequently asked questions</a></li>
+                <li><a href="#build">Build DerpFest</a></li>
+                <li><a href="changelogs.html">Weekly Changelogs</a></li>
+                <li><a href="faq.html">Frequently asked questions</a></li>
               </ul>
             </li>
             <li><a href="#contact">Contact Us</a></li>
@@ -74,18 +74,128 @@
   ============================-->
   <section id="dev-intro">
     <div class="intro-text">
-      <h2>Error 404</h2>
-      <p>Guess who lost his path?</p>
+      <h2>DerpFest Guides</h2>
+      <p>learn how to build derpfest from source for your device</p>
     </div>
   </section>
 
-<section id="tou"class="section-bg">
+<section id="build"class="section-bg">
     <div class="container">
-    <div class="ch2">
-    <h2>Lost? Don't Worry, Mighty Kronic Owl Has Got Your Back!</h2>
-    <a href="index.html"><img class="img-404" src="img/derpowl.jpg"></a>
-    <p>just tap on the pic above to go back home :D<p>
-    </div>
+    <div class="row">
+      <div class="ch2">
+        <h4>Before you get excited and rush things up please read this articles and follow the steps provided there</h4></div>
+        <ul id="txt">
+          <li><a href="https://source.android.com/setup/build/initializing"class="txt">Setting Up The Build Enviroment</a></li></br>
+          <li><a href="https://github.com/akhilnarang/scripts"class="txt">Alternative & easy way to do it by using akhil narang's scripts</a></li></br>
+          <li><a href="https://source.android.com/setup/develop/repo"class="txt">Setting Up Repo</a></li></br>
+        </ul>
+        <div class="ch2">
+          <h4>Begin with initialization of the derpfest repository</h4>
+        </div>
+<div class="col-lg-4 col-md-5"><figure id="fig" class="figtxt">
+<pre>
+<code>
+<span class="txt">mkdir derpfest</span>
+<span class="txt">cd derpfest</span>
+<span class="txt">repo init -u git://github.com/DerpLab/platform_manifest.git -b ten</span>
+<span class="txt">repo sync --force-sync --no-tags --no-clone-bundle</span>
+</code>
+</pre>
+</figure></div>
+        <div class="ch2">
+          <h4>Find Your device sources and modify it as described below</h4>
+        </div>
+          <p>If your device sources (trees, vendor, kernel etc.) are not stable we don't suggest to continue reading this guide. Fix your device side sources first, else the expirence will be bad.</p>
+          <p>We suggest using LOS or PE device sources as they are mostly stable and don't require much changes.</p>
+          <p>so below given examples are for either PE or LOS rom</p>
+          <div class="ch2">
+           <h4>Adapting Device Side Sources (Trees) for DerpFest
+           </h4>
+          </div>
+<div>
+<h5>Rename the file shown below</h5>
+<p>If Pixel Expirence</br>
+aosp_device-codename.mk to derp_device-codename.mk</br>
+If Lineage os</br>
+lineage_device-codename.mk to derp_device-codename.mk</p>
+</div>
+<div>
+  <h5>Now change contents of derp_device-codename.mk as shown below </h5>
+  <p>Change “aosp“ or “lineage“ to “aosip” & /”common.mk” to “common_full_phone.mk”
+for example: $(call inherit-product, vendor/aosip/config/common.mk)</p>
+<p>Change PRODUCT_NAME value to “lineage_device-codename || aosp_device-codename”
+  for example: ( “lineage_tissot || aosp_tissot” ) to derp_device-codename ( i.e, derp_tissot )</p>
+<p>Also rename make file name in the AndroidProducts.mk file - open it and change value of
+  ("PRODUCT_MAKEFILES := \
+  $(LOCAL_DIR)/"(lineage_device-codename.mk || aosp_device-codename.mk”) to ”derp_device-codename.mk”)
+</br>( i.e "PRODUCT_MAKEFILES := \
+  $(LOCAL_DIR)/derp_tissot.mk )</p>
+</div>
+<div>
+  <h5>
+    Remove Lineage OS Stuff</h5>
+    <p>
+  It is necessary to clean up any specific files from LineageOS as these features depend on Los SDK which won’t be available on AOSP and will results in build failures. e.g: LiveDisplay, LineageParts, LineageOverlays etc.</p>
+From the root of your device tree/Common device tree remove the following folders/files:
+
+lineage-overlays
+lineagehw
+Simillarly from <b>BoardConfig.mk/BoardConfigCommon.mk</b>:
+</div>
+<div class="col-lg-4 col-md-5"><figure id="fig" class="figtxt">
+<pre>
+<code>
+<span class="txt"># Lineage Hardware</span>
+<span class="txt">BOARD_HARDWARE_CLASS += \</span>
+<span class="txt">$(VENDOR_PATH)/lineagehw</span>
+<span class="txt">From manifest.xml remove livedisplay HAL:</span>
+</code>
+</pre>
+</figure></div>
+<div class="col-lg-12 col-md-5"><p>From manifest.xml remove livedisplay HAL:</p></div>
+<div class="col-lg-4 col-md-5"><figure id="fig" class="figtxt">
+<pre>
+<code>
+<span class="txt">
+&lt;hal <span class="nv">format</span><span class="o">=</span><span class="s2">"hidl"</span><span class="o">&gt;</span>
+<span class="txt">&lt;name&gt;vendor.lineage.livedisplay&lt;/name&gt;</span>
+<span class="txt">&lt;transport&gt;hwbinder&lt;/transport&gt;</span>
+<span class="txt">&lt;version&gt;1.0&lt;/version&gt;</span>
+<span class="txt">&lt;interface&gt;</span>
+<span class="txt">&lt;name&gt;IColor&lt;/name&gt;</span>
+<span class="txt">&lt;instance&gt;default&lt;/instance&gt;</span>
+<span class="txt">&lt;/interface&gt;</span>
+<span class="txt">&lt;/hal&gt;</span>
+</code>
+</pre>
+</figure></div>
+<div class="col-lg-12 col-md-5">From device.mk(also named as your SOC codename like: msm8953.mk):</div>
+<div class="col-lg-4 col-md-5"><figure id="fig" class="figtxt">
+<pre>
+<code>
+<span class="txt">DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage</span>
+<span class="txt"># LiveDisplay native</span>
+<span class="txt">PRODUCT_PACKAGES += \</span>
+<span class="txt">vendor.lineage.livedisplay@1.0-service-sdm</span>
+</code>
+</pre>
+</figure></div>
+<div>Note: There is a possiblity that some custom packages such as doze etc may have dependency on lineageSDK, it is necessary to fix them to avoid complie errors.</div>
+<div class="ch2">
+<h4>Start compiling the rom from source
+</h4>
+</div>
+<div class="col-lg-4 col-md-5"><figure id="fig" class="figtxt">
+<pre>
+<code>
+<span class="txt">. build/envsetup.sh</span>
+<span class="txt">lunch derp_device-userdebug</span>
+<span class="txt">time mka kronic</span>
+</code>
+</pre>
+</figure></div>
+<div class="col-lg-4 col-md-5"></div><p>Reference for this guide is taken from <a href="https://blog.arrowos.net/posts/compilation-guide">Arrow OS Blog</a></p></div>
+</div>
 </div>
 </section>
 <!--==========================
@@ -189,7 +299,7 @@ Footer
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/jquery/jquery-migrate.min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/darktou.js"></script>
+<script src="js/darkbuilds.js"></script>
 <script src="lib/swiper/swiper.min.js"></script>
 <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="lib/easing/easing.min.js"></script>
