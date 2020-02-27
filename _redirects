@@ -1,7 +1,10 @@
 # Redirects from what the browser requests to what we serve
-/index.html              /
+/index.html             /
 /devices.html           /devices
-/pp.html               /pp
-/tou.html              /tou
-/credit.html           /credit
-/error404.html         /error404 
+/pp.html                /pp
+/tou.html               /tou
+/credit.html            /credit
+/error404.html          /error404 
+/build.html             /build
+/changelogs.html        /changelogs
+/faq.html               /faq

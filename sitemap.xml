@@ -9,27 +9,42 @@
 
 <url>
   <loc>https://derpfest.org/</loc>
-  <lastmod>2020-02-18T18:21:28+00:00</lastmod>
+  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://derpfest.org/build</loc>
+  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://derpfest.org/changelogs</loc>
+  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://derpfest.org/faq</loc>
+  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://derpfest.org/devices</loc>
-  <lastmod>2020-02-18T18:21:28+00:00</lastmod>
+  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://derpfest.org/credit</loc>
-  <lastmod>2020-02-18T18:21:28+00:00</lastmod>
+  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://derpfest.org/pp</loc>
-  <lastmod>2020-02-18T18:21:28+00:00</lastmod>
+  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://derpfest.org/tou</loc>
-  <lastmod>2020-02-18T18:21:28+00:00</lastmod>
+  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
