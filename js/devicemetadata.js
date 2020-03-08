@@ -8,7 +8,6 @@ var onPageLoad = function() {
       .then(ret => {
         var file = ret.response[0].filename;
         el.getElementsByClassName("btn-download")[0].href = sourceForge + "/files/" + device + "/" + file + "/download";
-        el.getElementsByClassName("btn-changelog")[0].href = updatedb + "/" + device + "/changelog.txt";
       })
       .catch(err => {
         console.error("failed to fetch " + device + " data");
