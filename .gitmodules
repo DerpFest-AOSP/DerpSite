@@ -1,3 +1,0 @@
-[submodule ".scripts/UpdateChecker"]
-	path = .scripts/UpdateChecker
-	url = https://github.com/idoybh/UpdateChecker
