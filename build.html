@@ -122,7 +122,7 @@ lineage_device-codename.mk to derp_device-codename.mk</p>
 <div>
   <h5>Now change contents of derp_device-codename.mk as shown below </h5>
   <p>Change “aosp“ or “lineage“ to “aosip” & /”common.mk” to “common_full_phone.mk”
-for example: $(call inherit-product, vendor/aosip/config/common.mk)</p>
+for example: $(call inherit-product, vendor/aosip/config/common_full_phone.mk)</p>
 <p>Change PRODUCT_NAME value to “lineage_device-codename || aosp_device-codename”
   for example: ( “lineage_tissot || aosp_tissot” ) to derp_device-codename ( i.e, derp_tissot )</p>
 <p>Also rename make file name in the AndroidProducts.mk file - open it and change value of
