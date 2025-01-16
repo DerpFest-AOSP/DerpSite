@@ -34,7 +34,14 @@ p {
   margin: 0 0 30px 5px;
 }
 
-h1,
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #fff;
+}
+
 h2,
 h3,
 h4,
@@ -811,7 +818,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
 }
 
-#dev-intro h2 {
+#dev-intro h1 {
   margin: 30px 0 10px 0;
   padding: 0 15px;
   font-size: 48px;
@@ -832,10 +839,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 .devices {
     padding: 40px 10vw 30px;
 }
-.devices h1 {
+
+.devices h2 {
     color: #1dc8cd;
-    font-size: 40px;
+    font-size: 30px;
     padding-top:10px;
+}
+.devices h3 {
+  color: #1dc8cd;
+  font-size: 25px;
+  padding-top:10px;
 }
 .devices-search {
     border-radius: 5px;
