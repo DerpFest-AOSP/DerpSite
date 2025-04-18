@@ -1,52 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://derpfest.org/</loc>
-  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://derpfest.org/build</loc>
-  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://derpfest.org/changelogs</loc>
-  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://derpfest.org/faq</loc>
-  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://derpfest.org/devices</loc>
-  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://derpfest.org/credit</loc>
-  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://derpfest.org/pp</loc>
-  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://derpfest.org/tou</loc>
-  <lastmod>2020-02-27T09:55:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+	<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+	<url>
+		<loc>
+			https://derpfest.org/
+		</loc>
+		<lastmod>
+			2020-02-27T09:55:35+00:00
+		</lastmod>
+		<priority>
+			1.00
+		</priority>
+	</url>
+	<url>
+		<loc>
+			https://derpfest.org/build
+		</loc>
+		<lastmod>
+			2020-02-27T09:55:35+00:00
+		</lastmod>
+		<priority>
+			0.80
+		</priority>
+	</url>
+	<url>
+		<loc>
+			https://derpfest.org/changelogs
+		</loc>
+		<lastmod>
+			2020-02-27T09:55:35+00:00
+		</lastmod>
+		<priority>
+			0.80
+		</priority>
+	</url>
+	<url>
+		<loc>
+			https://derpfest.org/faq
+		</loc>
+		<lastmod>
+			2020-02-27T09:55:35+00:00
+		</lastmod>
+		<priority>
+			0.80
+		</priority>
+	</url>
+	<url>
+		<loc>
+			https://derpfest.org/devices
+		</loc>
+		<lastmod>
+			2020-02-27T09:55:35+00:00
+		</lastmod>
+		<priority>
+			0.80
+		</priority>
+	</url>
+	<url>
+		<loc>
+			https://derpfest.org/credit
+		</loc>
+		<lastmod>
+			2020-02-27T09:55:35+00:00
+		</lastmod>
+		<priority>
+			0.80
+		</priority>
+	</url>
+	<url>
+		<loc>
+			https://derpfest.org/pp
+		</loc>
+		<lastmod>
+			2020-02-27T09:55:35+00:00
+		</lastmod>
+		<priority>
+			0.80
+		</priority>
+	</url>
+	<url>
+		<loc>
+			https://derpfest.org/tou
+		</loc>
+		<lastmod>
+			2020-02-27T09:55:35+00:00
+		</lastmod>
+		<priority>
+			0.80
+		</priority>
+	</url>
 </urlset>

@@ -3,7 +3,7 @@ var entries = document.getElementsByClassName("device");
 
 input.addEventListener(
   "input",
-  function() {
+  function () {
     var val = input.value;
     for (var i = 0, l = entries.length; i < l; i++) {
       var entryText = entries[i].getElementsByTagName("h4")[0].innerHTML;
