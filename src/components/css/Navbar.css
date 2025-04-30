@@ -1,0 +1,8 @@
+.navbar {
+   background: linear-gradient(45deg, #33bbff, #1de099);
+   color: white;
+}
+
+.navbar .btn:hover {
+   color: white;
+}

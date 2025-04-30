@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "animate.css";
+@plugin "daisyui";
+
+html,
+body {
+   font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
