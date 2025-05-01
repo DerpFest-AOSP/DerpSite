@@ -1,8 +1,7 @@
-
 const PP = () => {
    return (
-      <div>
-
+      <div className="py-6">
+         <h1 className="text-4xl text-center font-bold">Privacy Policy</h1>
       </div>
    );
 };
