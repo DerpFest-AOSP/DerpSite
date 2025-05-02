@@ -12,7 +12,7 @@ const Home = () => {
                         We are an AOSP based custom ROM, twisted with the latest features from all over the Android development community. Quality and stability is our first priority as we are dedicated to bringing you the best Android has to offer.
                      </p>
                      <Link to="/devices">
-                        <button className="btn btn-lg btn-ghost hover:border-0 bg-gradient-to-r from-[#33bbff] to-[#1de099] btn-primary">Download</button>
+                        <button className="btn btn-lg btn-ghost hover:border-0 bg-gradient-to-r from-[#33bbff] to-[#1de099]">Download</button>
                      </Link>
                      <Link to="/screenshots">
                         <button className="btn btn-lg btn-white ml-2">View more</button>
