@@ -6,3 +6,12 @@ html,
 body {
    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
+
+.colored-a {
+   @apply text-transparent underline bg-clip-text bg-gradient-to-r from-[#33bbff] to-[#1de099];
+}
+
+.code {
+   @apply p-2 rounded-lg text-white bg-gray-800;
+   font-family: "Jetbrains Mono", Arial, Helvetica, sans-serif;
+}

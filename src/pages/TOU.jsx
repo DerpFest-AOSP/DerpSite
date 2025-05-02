@@ -1,8 +1,6 @@
-import '../components/css/TOU.css'
-
 const TOU = () => {
    return (
-      <div className="tou py-6">
+      <div className="py-6">
          <h1 className="text-4xl text-center font-bold">Terms of Use</h1>
          <div className="p-6 md:px-12 px-6 leading-8">
             <p className="mb-3">The DerpFest website located at https://derpfest.org is a copyrighted work belonging to DerpFest. Certain
@@ -19,8 +17,8 @@ const TOU = () => {
 
             <p className="mb-3">These terms require the use of arbitration Section 10.2 on an individual basis to resolve disputes and also
                limit the remedies available to you in the event of a dispute. These Terms of Use were created with the help
-               of the <a href="https://www.termsofusegenerator.net" target="_blank">Terms Of Use Generator</a> and the <a
-                  href="https://www.privacy-policy-sample.com" target="_blank">Privacy Policy Sample</a>.</p>
+               of the <a href="https://www.termsofusegenerator.net" target="_blank" className="colored-a">Terms Of Use Generator</a> and the <a
+                  href="https://www.privacy-policy-sample.com" target="_blank" className="colored-a">Privacy Policy Sample</a>.</p>
 
             <h2 className="text-4xl mb-3">Access to the Site</h2>
 
@@ -130,15 +128,15 @@ const TOU = () => {
                U.S.C. § 512(c)) must be provided to our designated Copyright Agent:</p>
 
             <ul className="mb-3">
-               <li>your physical or electronic signature;</li>
-               <li>identification of the copyrighted work(s) that you claim to have been infringed;</li>
-               <li>identification of the material on our services that you claim is infringing and that you request us to
+               <li className="list-disc">your physical or electronic signature;</li>
+               <li className="list-disc">identification of the copyrighted work(s) that you claim to have been infringed;</li>
+               <li className="list-disc">identification of the material on our services that you claim is infringing and that you request us to
                   remove;</li>
-               <li>sufficient information to permit us to locate such material;</li>
-               <li>your address, telephone number, and e-mail address;</li>
-               <li>a statement that you have a good faith belief that use of the objectionable material is not authorized by
+               <li className="list-disc">sufficient information to permit us to locate such material;</li>
+               <li className="list-disc">your address, telephone number, and e-mail address;</li>
+               <li className="list-disc">a statement that you have a good faith belief that use of the objectionable material is not authorized by
                   the copyright owner, its agent, or under the law; and</li>
-               <li>a statement that the information in the notification is accurate, and under penalty of perjury, that you
+               <li className="list-disc">a statement that the information in the notification is accurate, and under penalty of perjury, that you
                   are either the owner of the copyright that has allegedly been infringed or that you are authorized to act on
                   behalf of the copyright owner.</li>
             </ul>
@@ -295,7 +293,7 @@ const TOU = () => {
                be null and void. Company may freely assign these Terms. The terms and conditions set forth in these Terms
                shall be binding upon assignees.</p>
 
-            <p className="mb-3"><strong>Your Privacy.</strong> Please read our <a href="https://privacypolicytemplate.net/" target="_blank">Privacy
+            <p className="mb-3"><strong>Your Privacy.</strong> Please read our <a href="https://privacypolicytemplate.net/" target="_blank" className="colored-a">Privacy
                Policy</a>.</p>
 
             <p className="mb-3"><strong>Copyright/Trademark Information.</strong> Copyright ©. All rights reserved. All trademarks, logos

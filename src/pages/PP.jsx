@@ -1,8 +1,6 @@
-import '../components/css/PP.css'
-
 const PP = () => {
    return (
-      <div className="pp py-6">
+      <div className="py-6">
          <h1 className="text-4xl text-center font-bold">Privacy Policy</h1>
          <div className="p-6 md:px-12 px-6 leading-8">
             <p className="mb-3">At DerpFest, accessible from https://derpfest.org, one of our main priorities is the privacy of our visitors.
@@ -35,15 +33,15 @@ const PP = () => {
             <p className="mb-3">We use the information we collect in various ways, including to:</p>
 
             <ul className="mb-3">
-               <li>Provide, operate, and maintain our webste</li>
-               <li>Improve, personalize, and expand our webste</li>
-               <li>Understand and analyze how you use our webste</li>
-               <li>Develop new products, services, features, and functionality</li>
-               <li>Communicate with you, either directly or through one of our partners, including for customer service, to
+               <li className="list-disc">Provide, operate, and maintain our webste</li>
+               <li className="list-disc">Improve, personalize, and expand our webste</li>
+               <li className="list-disc">Understand and analyze how you use our webste</li>
+               <li className="list-disc">Develop new products, services, features, and functionality</li>
+               <li className="list-disc">Communicate with you, either directly or through one of our partners, including for customer service, to
                   provide you with updates and other information relating to the webste, and for marketing and promotional
                   purposes</li>
-               <li>Send you emails</li>
-               <li>Find and prevent fraud</li>
+               <li className="list-disc">Send you emails</li>
+               <li className="list-disc">Find and prevent fraud</li>
             </ul>
 
             <h2 className="text-4xl mb-3">Log Files</h2>
@@ -54,8 +52,8 @@ const PP = () => {
                stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that
                is personally identifiable. The purpose of the information is for analyzing trends, administering the site,
                tracking users' movement on the website, and gathering demographic information. Our Privacy Policy was created
-               with the help of the <a href="https://www.privacypolicygenerator.info" target="_blank">Privacy Policy Generator</a> and the <a
-                  href="https://www.privacypolicytemplate.net/" target="_blank">Privacy Policy Template</a>.</p>
+               with the help of the <a href="https://www.privacypolicygenerator.info" target="_blank" className="colored-a">Privacy Policy Generator</a> and the <a
+                  href="https://www.privacypolicytemplate.net/" target="_blank" className="colored-a">Privacy Policy Template</a>.</p>
 
             <h2 className="text-4xl mb-3">Advertising Partners Privacy Policies</h2>
 
