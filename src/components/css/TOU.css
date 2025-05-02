@@ -1,0 +1,7 @@
+.tou a {
+   @apply text-transparent bg-clip-text bg-gradient-to-r from-[#33bbff] to-[#1de099];
+}
+
+.tou li {
+   @apply list-disc;
+}

@@ -26,9 +26,10 @@ const Footer = () => {
             </nav>
             <nav>
                <h6 className="footer-title">Links</h6>
-               <a href="https://t.me/derpfestupdates" className="link link-hover">Release Channel</a>
-               <a href="https://github.com/DerpFest-AOSP" className="link link-hover">GitHub</a>
-               <a href="https://github.com/DerpFest-Devices" className="link link-hover">GitHub (Devices)</a>
+               <a href="https://t.me/derpfestupdates" target="_blank" className="link link-hover">Release Channel</a>
+               <a href="https://t.me/DerpFestAOSP" target="_blank" className="link link-hover">Telegram</a>
+               <a href="https://github.com/DerpFest-AOSP" target="_blank" className="link link-hover">GitHub</a>
+               <a href="https://github.com/DerpFest-Devices" target="_blank" className="link link-hover">GitHub (Devices)</a>
             </nav>
          </footer>
       </div>
