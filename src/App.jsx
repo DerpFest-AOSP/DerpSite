@@ -11,6 +11,7 @@ import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import PP from './pages/PP'
 import Screenshots from './pages/Screenshots'
+import Team from './pages/Team'
 import TOU from './pages/TOU'
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/pp" element={<PP />} />
         <Route path="/screenshots" element={<Screenshots />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/tou" element={<TOU />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>

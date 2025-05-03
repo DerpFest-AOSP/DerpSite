@@ -6,8 +6,7 @@ const Navbar = () => {
       <div className="navbar shadow-sm">
          <div className="flex-1">
             <Link to="/" className="btn btn-ghost text-xl">
-               <img src="./img/favicon.png" alt="DerpFest Logo" className="w-6 h-6 mr-2" />
-               DerpFest
+               <img src="./img/logo.png" alt="DerpFest Logo" className="h-6 mr-2" />
             </Link>
          </div>
          <div className="flex-none">
@@ -18,6 +17,7 @@ const Navbar = () => {
                <li><Link to="/devices">Devices</Link></li>
                <li><Link to="/faq">FAQ</Link></li>
                <li><Link to="/screenshots">Screenshots</Link></li>
+               <li><Link to="/team">Team</Link></li>
             </ul>
             {/* Mobile Menu */}
             <div className="dropdown dropdown-end md:hidden block">
@@ -32,6 +32,7 @@ const Navbar = () => {
                   <li><Link to="/devices">Devices</Link></li>
                   <li><Link to="/faq">FAQ</Link></li>
                   <li><Link to="/screenshots">Screenshots</Link></li>
+                  <li><Link to="/team">Team</Link></li>
                </ul>
             </div>
          </div>
