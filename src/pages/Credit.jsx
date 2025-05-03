@@ -7,7 +7,7 @@ const Credit = () => {
          <div className="flex p-6 leading-7 justify-center">
             <div className="grid md:grid-cols-4 grid-cols-1 gap-2">
                {CreditData.map((credit) => (
-                  <div className="card bg-base-100 border-1 border-gray-300">
+                  <div className="card bg-base-100 border-1 border-gray-300 dark:border-gray-700">
                      <figure>
                         <img src={credit.profile} alt={credit.name} className="mt-4 w-64 rounded-2xl" />
                      </figure>

@@ -4,7 +4,7 @@ import data from "../components/data/devices.json";
 const DeviceList = ({ devices }) => (
    <div className="grid md:grid-cols-4 grid-cols-1 gap-2">
       {devices.map(device => (
-         <div className="card bg-base-100 border-1 border-gray-300" key={device.code}>
+         <div className="card bg-base-100 border-1 border-gray-300 dark:border-gray-700" key={device.code}>
             <div className="card-body">
                <h2 className="card-title">{device.name} ({device.code})</h2>
                <p>Maintainer: {device.maintainer}</p>
