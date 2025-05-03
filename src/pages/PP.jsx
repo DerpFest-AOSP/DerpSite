@@ -2,7 +2,7 @@ const PP = () => {
    return (
       <div className="py-6">
          <h1 className="text-4xl text-center font-bold">Privacy Policy</h1>
-         <div className="p-6 md:px-12 px-6 leading-8">
+         <div className="p-6 md:px-12 px-6 leading-7">
             <p className="mb-3">At DerpFest, accessible from https://derpfest.org, one of our main priorities is the privacy of our visitors.
                This Privacy Policy document contains types of information that is collected and recorded by DerpFest and how
                we use it.</p>
@@ -14,11 +14,11 @@ const PP = () => {
                regards to the information that they shared and/or collect in DerpFest. This policy is not applicable to any
                information collected offline or via channels other than this website.</p>
 
-            <h2 className="text-4xl mb-3">Consent</h2>
+            <h2 className="text-3xl mb-3">Consent</h2>
 
             <p className="mb-3">By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
 
-            <h2 className="text-4xl mb-3">Information we collect</h2>
+            <h2 className="text-3xl mb-3">Information we collect</h2>
 
             <p className="mb-3">The personal information that you are asked to provide, and the reasons why you are asked to provide it, will
                be made clear to you at the point we ask you to provide your personal information.</p>
@@ -28,7 +28,7 @@ const PP = () => {
             <p className="mb-3">When you register for an Account, we may ask for your contact information, including items such as name,
                company name, address, email address, and telephone number.</p>
 
-            <h2 className="text-4xl mb-3">How we use your information</h2>
+            <h2 className="text-3xl mb-3">How we use your information</h2>
 
             <p className="mb-3">We use the information we collect in various ways, including to:</p>
 
@@ -44,7 +44,7 @@ const PP = () => {
                <li className="list-disc">Find and prevent fraud</li>
             </ul>
 
-            <h2 className="text-4xl mb-3">Log Files</h2>
+            <h2 className="text-3xl mb-3">Log Files</h2>
 
             <p className="mb-3">DerpFest follows a standard procedure of using log files. These files log visitors when they visit websites.
                All hosting companies do this and a part of hosting services' analytics. The information collected by log
@@ -55,7 +55,7 @@ const PP = () => {
                with the help of the <a href="https://www.privacypolicygenerator.info" target="_blank" className="colored-a">Privacy Policy Generator</a> and the <a
                   href="https://www.privacypolicytemplate.net/" target="_blank" className="colored-a">Privacy Policy Template</a>.</p>
 
-            <h2 className="text-4xl mb-3">Advertising Partners Privacy Policies</h2>
+            <h2 className="text-3xl mb-3">Advertising Partners Privacy Policies</h2>
 
             <p className="mb-3">You may consult this list to find the Privacy Policy for each of the advertising partners of DerpFest.</p>
 
@@ -68,7 +68,7 @@ const PP = () => {
             <p className="mb-3">Note that DerpFest has no access to or control over these cookies that are used by third-party advertisers.
             </p>
 
-            <h2 className="text-4xl mb-3">Third Party Privacy Policies</h2>
+            <h2 className="text-3xl mb-3">Third Party Privacy Policies</h2>
 
             <p className="mb-3">DerpFest's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to
                consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may
@@ -79,7 +79,7 @@ const PP = () => {
                about cookie management with specific web browsers, it can be found at the browsers' respective websites. What
                Are Cookies?</p>
 
-            <h2 className="text-4xl mb-3">CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
+            <h2 className="text-3xl mb-3">CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
 
             <p className="mb-3">Under the CCPA, among other rights, California consumers have the right to:</p>
             <p className="mb-3">Request that a business that collects a consumer's personal data disclose the categories and specific pieces
@@ -89,7 +89,7 @@ const PP = () => {
             <p className="mb-3">If you make a request, we have one month to respond to you. If you would like to exercise any of these
                rights, please contact us.</p>
 
-            <h2 className="text-4xl mb-3">GDPR Data Protection Rights</h2>
+            <h2 className="text-3xl mb-3">GDPR Data Protection Rights</h2>
 
             <p className="mb-3">We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled
                to the following:</p>
@@ -108,7 +108,7 @@ const PP = () => {
             <p className="mb-3">If you make a request, we have one month to respond to you. If you would like to exercise any of these
                rights, please contact us.</p>
 
-            <h2 className="text-4xl mb-3">Children's Information</h2>
+            <h2 className="text-3xl mb-3">Children's Information</h2>
 
             <p className="mb-3">Another part of our priority is adding protection for children while using the internet. We encourage parents
                and guardians to observe, participate in, and/or monitor and guide their online activity.</p>

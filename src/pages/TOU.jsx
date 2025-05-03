@@ -2,7 +2,7 @@ const TOU = () => {
    return (
       <div className="py-6">
          <h1 className="text-4xl text-center font-bold">Terms of Use</h1>
-         <div className="p-6 md:px-12 px-6 leading-8">
+         <div className="p-6 md:px-12 px-6 leading-7">
             <p className="mb-3">The DerpFest website located at https://derpfest.org is a copyrighted work belonging to DerpFest. Certain
                features of the Site may be subject to additional guidelines, terms, or rules, which will be posted on the
                Site in connection with such features.</p>
@@ -20,7 +20,7 @@ const TOU = () => {
                of the <a href="https://www.termsofusegenerator.net" target="_blank" className="colored-a">Terms Of Use Generator</a> and the <a
                   href="https://www.privacy-policy-sample.com" target="_blank" className="colored-a">Privacy Policy Sample</a>.</p>
 
-            <h2 className="text-4xl mb-3">Access to the Site</h2>
+            <h2 className="text-3xl mb-3">Access to the Site</h2>
 
             <p className="mb-3"><strong>Subject to these Terms.</strong> Company grants you a non-transferable, non-exclusive, revocable,
                limited license to access the Site solely for your own personal, noncommercial use.</p>
@@ -48,7 +48,7 @@ const TOU = () => {
                interest in or to any intellectual property rights, except for the limited access rights expressed in Section
                2.1. Company and its suppliers reserve all rights not granted in these Terms.</p>
 
-            <h2 className="text-4xl mb-3">Third-Party Links & Ads; Other Users</h2>
+            <h2 className="text-3xl mb-3">Third-Party Links & Ads; Other Users</h2>
 
             <p className="mb-3"><strong>Third-Party Links & Ads.</strong> The Site may contain links to third-party websites and services,
                and/or display advertisements for third-parties. Such Third-Party Links & Ads are not under the control of
@@ -74,7 +74,7 @@ const TOU = () => {
                suspect to exist in his or her favor at the time of executing the release, which if known by him or her must
                have materially affected his or her settlement with the debtor."</p>
 
-            <h2 className="text-4xl mb-3">Disclaimers</h2>
+            <h2 className="text-3xl mb-3">Disclaimers</h2>
 
             <p className="mb-3">The site is provided on an "as-is" and "as available" basis, and company and our suppliers expressly disclaim
                any and all warranties and conditions of any kind, whether express, implied, or statutory, including all
@@ -89,7 +89,7 @@ const TOU = () => {
                you. Some jurisdictions do not allow limitations on how long an implied warranty lasts, so the above
                limitation may not apply to you.</p>
 
-            <h2 className="text-4xl mb-3">Limitation on Liability</h2>
+            <h2 className="text-3xl mb-3">Limitation on Liability</h2>
 
             <p className="mb-3">To the maximum extent permitted by law, in no event shall company or our suppliers be liable to you or any
                third-party for any lost profits, lost data, costs of procurement of substitute products, or any indirect,
@@ -117,7 +117,7 @@ const TOU = () => {
                terminated, the following provisions of these Terms will remain in effect: Sections 2 through 2.5, Section 3
                and Sections 4 through 10.</p>
 
-            <h2 className="text-4xl mb-3">Copyright Policy</h2>
+            <h2 className="text-3xl mb-3">Copyright Policy</h2>
 
             <p className="mb-3">Company respects the intellectual property of others and asks that users of our Site do the same. In
                connection with our Site, we have adopted and implemented a policy respecting copyright law that provides for
@@ -145,7 +145,7 @@ const TOU = () => {
                notification automatically subjects the complaining party to liability for any damages, costs and attorney’s
                fees incurred by us in connection with the written notification and allegation of copyright infringement.</p>
 
-            <h2 className="text-4xl mb-3">General</h2>
+            <h2 className="text-3xl mb-3">General</h2>
 
             <p className="mb-3">These Terms are subject to occasional revision, and if we make any substantial changes, we may notify you by
                sending you an e-mail to the last e-mail address you provided to us and/or by prominently posting notice of
@@ -301,7 +301,7 @@ const TOU = () => {
                permitted to use these Marks without our prior written consent or the consent of such third party which may
                own the Marks.</p>
 
-            <h2 className="text-4xl mb-3">Contact Information</h2>
+            <h2 className="text-3xl mb-3">Contact Information</h2>
 
             <p className="mb-3">Address: israel / IL</p>
             <p className="mb-3">Email: idobh2@gmail.com</p>

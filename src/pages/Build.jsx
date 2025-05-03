@@ -2,8 +2,8 @@ const Build = () => {
    return (
       <div className="py-6">
          <h1 className="text-4xl text-center font-bold">Build</h1>
-         <div class="p-6 md:px-12 px-6 leading-8">
-            <h2 className="text-4xl mb-3">Before you get excited and rush things up, please read these articles and follow the steps provided here
+         <div class="p-6 md:px-12 px-6 leading-7">
+            <h2 className="text-3xl mb-3">Before you get excited and rush things up, please read these articles and follow the steps provided here
             </h2>
 
             <ul className="mb-3">
@@ -14,7 +14,7 @@ const Build = () => {
                <li className="list-disc"><a href="https://source.android.com/setup/develop/repo" target="_blank" className="colored-a">Setting up repo</a></li>
             </ul>
 
-            <h2 className="text-4xl mb-3">Begin with initialization of your local repository using the DerpFest trees</h2>
+            <h2 className="text-3xl mb-3">Begin with initialization of your local repository using the DerpFest trees</h2>
 
             <div className="code mb-3">
                mkdir derpfest
@@ -23,13 +23,13 @@ const Build = () => {
                <br />repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
             </div>
 
-            <h2 className="text-4xl mb-3">Find your device sources and modify it as described below</h2>
+            <h2 className="text-3xl mb-3">Find your device sources and modify it as described below</h2>
 
             <p className="mb-3">We suggest using Lineage device sources as they are mostly stable and don't require much changes.</p>
 
             <p className="mb-3">The given examples below are for Lineage device sources</p>
 
-            <h2 className="text-4xl mb-3">Adapting device sources for DerpFest</h2>
+            <h2 className="text-3xl mb-3">Adapting device sources for DerpFest</h2>
 
             <p className="mb-3">
                <h5 className="text-2xl mb-3">Rename the file shown below</h5>
@@ -77,7 +77,7 @@ const Build = () => {
             <p className="mb-3">Note: There is a possiblity that some custom packages such as doze etc may have dependency on lineageSDK,
                it is necessary to fix them to avoid complie errors.</p>
 
-            <h2 className="text-4xl mb-3">Start compiling DerpFest from source</h2>
+            <h2 className="text-3xl mb-3">Start compiling DerpFest from source</h2>
 
             <div className="code mb-3">
                . build/envsetup.sh
