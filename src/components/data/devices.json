@@ -1,7 +1,7 @@
 {
   "brands": [
     {
-      "name": "GOOGLE",
+      "name": "Google",
       "devices": [
         {
           "name": "Google Pixel 9 Pro XL",
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "name": "LENOVO",
+      "name": "Lenovo",
       "devices": [
         {
           "name": "LeEco LeMax2",
@@ -142,7 +142,7 @@
       ]
     },
     {
-      "name": "MOTOROLA",
+      "name": "Motorola",
       "devices": [
         {
           "name": "Motorola Edge 40 Pro 2023",
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "name": "NOTHING",
+      "name": "Nothing",
       "devices": [
         {
           "name": "Nothing Phone 1",
@@ -228,7 +228,7 @@
       ]
     },
     {
-      "name": "ONEPLUS",
+      "name": "Oneplus",
       "devices": [
         {
           "name": "Oneplus 7T Pro",
@@ -315,7 +315,7 @@
       ]
     },
     {
-      "name": "POCO",
+      "name": "Poco",
       "devices": [
         {
           "name": "Xiaomi Poco F5",
@@ -374,7 +374,7 @@
       ]
     },
     {
-      "name": "REALME",
+      "name": "Realme",
       "devices": [
         {
           "name": "realme GT Neo 3T",
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "name": "REDMI",
+      "name": "Redmi",
       "devices": [
         {
           "name": "Xiaomi Redmi K20 Pro",
@@ -510,7 +510,7 @@
       ]
     },
     {
-      "name": "XIAOMI",
+      "name": "Xiaomi",
       "devices": [
         {
           "name": "Xiaomi Mi 9T",
@@ -561,7 +561,7 @@
       ]
     },
     {
-      "name": "SAMSUNG",
+      "name": "Samsung",
       "devices": [
         {
           "name": "Samsung Galaxy Tab S6 Lite WIFI (EXYNOS)",

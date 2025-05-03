@@ -5,7 +5,7 @@ const Credit = () => {
       <div className="py-6">
          <h1 className="text-4xl text-center font-bold">Credit</h1>
          <div className="flex p-6 leading-7 justify-center">
-            <div className="grid grid-cols-4 gap-2">
+            <div className="grid md:grid-cols-4 grid-cols-1 gap-2">
                {CreditData.map((credit) => (
                   <div className="card bg-base-100 border-1 border-gray-300">
                      <figure>

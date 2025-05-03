@@ -1,7 +1,8 @@
+import { useState } from "react";
 import data from "../components/data/devices.json";
 
 const DeviceList = ({ devices }) => (
-   <div className="grid grid-cols-4 gap-2">
+   <div className="grid md:grid-cols-4 grid-cols-1 gap-2">
       {devices.map(device => (
          <div className="card bg-base-100 border-1 border-gray-300" key={device.code}>
             <div className="card-body">
@@ -36,10 +37,29 @@ const BrandList = ({ brands }) => (
 );
 
 const Devices = () => {
+   const [searchTerm, setSearchTerm] = useState("");
+
+   const filteredBrands = data.brands.map(brand => ({
+      ...brand,
+      devices: brand.devices.filter(device =>
+         device.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+         device.code.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+   })).filter(brand => brand.devices.length > 0);
+
    return (
       <div className="p-6">
          <h1 className="text-4xl text-center font-bold">Devices</h1>
-         <BrandList brands={data.brands} />
+         <div className="my-4 text-center">
+            <input
+               type="text"
+               placeholder="Search"
+               className="input input-bordered md:w-lg w-full"
+               value={searchTerm}
+               onChange={e => setSearchTerm(e.target.value)}
+            />
+         </div>
+         <BrandList brands={filteredBrands} />
       </div>
    );
 };
