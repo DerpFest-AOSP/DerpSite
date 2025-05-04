@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
    return (
       <div>
-         <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
+         <footer className="footer sm:footer-horizontal bg-base-200 text-base-content md:p-10 p-6">
             <aside>
-               <p className="leading-6">
+               <p className="leading-7">
                   <span className="text-3xl text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#33bbff] to-[#1de099]">DerpFest</span>
                   <br />
                   © 2020 - 2025 DerpFest AOSP. All Rights reserved
@@ -15,7 +15,7 @@ const Footer = () => {
                </p>
             </aside>
             <nav>
-               <h6 className="footer-title">Contents</h6>
+               <h6 className="footer-title">Link</h6>
                <Link to="/build" className="link link-hover">Build</Link>
                <Link to="/changelogs" className="link link-hover">Changelogs</Link>
                <Link to="/credit" className="link link-hover">Credit</Link>
@@ -26,7 +26,7 @@ const Footer = () => {
                <Link to="/tou" className="link link-hover">Terms of Use</Link>
             </nav>
             <nav>
-               <h6 className="footer-title">Links</h6>
+               <h6 className="footer-title">Social</h6>
                <a href="https://t.me/derpfestupdates" target="_blank" className="link link-hover">Release Channel</a>
                <a href="https://t.me/DerpFestAOSP" target="_blank" className="link link-hover">Telegram</a>
                <a href="https://github.com/DerpFest-AOSP" target="_blank" className="link link-hover">GitHub</a>

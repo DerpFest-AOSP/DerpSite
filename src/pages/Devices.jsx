@@ -12,9 +12,11 @@ const DeviceList = ({ devices }) => (
                   <a href={device.links.download} target="_blank">
                      <button className="btn btn-ghost hover:border-0 bg-gradient-to-r from-[#33bbff] to-[#1de099]">Download</button>
                   </a>
-                  <a href={device.links.xda_thread} target="_blank">
-                     <button className="btn btn-white">XDA</button>
-                  </a>
+                  {device.links.xda_thread && (
+                     <a href={device.links.xda_thread} target="_blank">
+                        <button className="btn btn-white">XDA</button>
+                     </a>
+                  )}
                   <a href={device.links.changelogs} target="_blank">
                      <button className="btn btn-white">Changelogs</button>
                   </a>
