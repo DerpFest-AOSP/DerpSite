@@ -16,21 +16,20 @@ const Footer = () => {
             </aside>
             <nav>
                <h6 className="footer-title">Link</h6>
-               <Link to="/build" className="link link-hover">Build</Link>
-               <Link to="/changelogs" className="link link-hover">Changelogs</Link>
-               <Link to="/credit" className="link link-hover">Credit</Link>
-               <Link to="/devices" className="link link-hover">Devices</Link>
-               <Link to="/faq" className="link link-hover">FAQ</Link>
-               <Link to="/pp" className="link link-hover">Privacy Policy</Link>
+               <Link to="/build">Build</Link>
+               <Link to="/changelogs">Changelogs</Link>
+               <Link to="/credit">Credit</Link>
+               <Link to="/devices">Devices</Link>
+               <Link to="/faq">FAQ</Link>
                <Link to="/team">Team</Link>
-               <Link to="/tou" className="link link-hover">Terms of Use</Link>
+               <Link to="/tou">Terms of Use</Link>
             </nav>
             <nav>
                <h6 className="footer-title">Social</h6>
-               <a href="https://t.me/derpfestupdates" target="_blank" className="link link-hover">Release Channel</a>
-               <a href="https://t.me/DerpFestAOSP" target="_blank" className="link link-hover">Telegram</a>
-               <a href="https://github.com/DerpFest-AOSP" target="_blank" className="link link-hover">GitHub</a>
-               <a href="https://github.com/DerpFest-Devices" target="_blank" className="link link-hover">GitHub (Devices)</a>
+               <a href="https://t.me/derpfestupdates" target="_blank">Release Channel</a>
+               <a href="https://t.me/DerpFestAOSP" target="_blank">Telegram</a>
+               <a href="https://github.com/DerpFest-AOSP" target="_blank">GitHub</a>
+               <a href="https://github.com/DerpFest-Devices" target="_blank">GitHub (Devices)</a>
             </nav>
          </footer>
       </div>

@@ -11,8 +11,7 @@ const TOU = () => {
 
             <p className="mb-3">These Terms of Use described the legally binding terms and conditions that oversee your use of the Site.BY
                LOGGING INTO THE SITE, YOU ARE BEING COMPLIANT THAT THESE TERMS and you represent that you have the authority
-               and capacity to enter into these Terms.YOU SHOULD BE AT LEAST 18 YEARS OF AGE TO ACCESS THE SITE. IF YOU
-               DISAGREE WITH ALL OF THE PROVISION OF THESE TERMS, DO NOT LOG INTO AND/OR USE THE SITE.
+               and capacity to enter into these Terms. IF YOU DISAGREE WITH ALL OF THE PROVISION OF THESE TERMS, DO NOT LOG INTO AND/OR USE THE SITE.
             </p>
 
             <p className="mb-3">These terms require the use of arbitration Section 10.2 on an individual basis to resolve disputes and also
@@ -300,11 +299,6 @@ const TOU = () => {
                and service marks displayed on the Site are our property or the property of other third-parties. You are not
                permitted to use these Marks without our prior written consent or the consent of such third party which may
                own the Marks.</p>
-
-            <h2 className="text-3xl mb-3">Contact Information</h2>
-
-            <p className="mb-3">Address: israel / IL</p>
-            <p className="mb-3">Email: idobh2@gmail.com</p>
          </div>
       </div>
    );
