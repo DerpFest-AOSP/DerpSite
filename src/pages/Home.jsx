@@ -15,7 +15,7 @@ const Home = () => {
                         <button className="btn btn-lg btn-ghost hover:border-0 bg-gradient-to-r from-[#33bbff] to-[#1de099]">Download</button>
                      </Link>
                      <Link to="/screenshots">
-                        <button className="btn btn-lg btn-white ml-2">View more</button>
+                        <button className="btn btn-lg ml-2">View more</button>
                      </Link>
                   </div>
                   <div className="flex justify-center pt-6">

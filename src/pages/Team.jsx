@@ -16,7 +16,7 @@ const Team = () => {
                               <button className="btn btn-ghost hover:border-0 bg-gradient-to-r from-[#33bbff] to-[#1de099]">GitHub</button>
                            </a>
                            <a href={team.telegram} target="_blank">
-                              <button className="btn btn-white">Telegram</button>
+                              <button className="btn">Telegram</button>
                            </a>
                         </div>
                      </div>

@@ -14,11 +14,11 @@ const DeviceList = ({ devices }) => (
                   </a>
                   {device.links.xda_thread && (
                      <a href={device.links.xda_thread} target="_blank">
-                        <button className="btn btn-white">XDA</button>
+                        <button className="btn">XDA</button>
                      </a>
                   )}
                   <a href={device.links.changelogs} target="_blank">
-                     <button className="btn btn-white">Changelogs</button>
+                     <button className="btn">Changelogs</button>
                   </a>
                </div>
             </div>
