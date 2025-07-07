@@ -311,6 +311,15 @@
             "download": "https://sourceforge.net/projects/derpfest/files/hotdogb/",
             "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_hotdogb.txt"
           }
+        },
+        {
+          "name": "OnePlus Nord 4",
+          "code": "avalon",
+          "maintainer": "Aman Singh",
+          "links": {
+            "download": "https://sourceforge.net/projects/avalon-builds/files/DerpFest/",
+            "changelogs": "https://raw.githubusercontent.com/amanrajOO7/derpfest_avalon/refs/heads/15.2/changelog_avalon.txt"
+          }
         }
       ]
     },
