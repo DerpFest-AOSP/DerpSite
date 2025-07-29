@@ -15,3 +15,80 @@ body {
    @apply p-1 rounded-lg text-white bg-gray-700;
    font-family: "Jetbrains Mono", Arial, Helvetica, sans-serif;
 }
+
+@keyframes cardAppear {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-appear {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: cardAppear 0.5s ease-out forwards;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.slide-up {
+  animation: slideUp 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+
+.device-image {
+  background: linear-gradient(to bottom, #111, #000);
+}
+
+.device-image img {
+  filter: drop-shadow(0 0 5px rgba(100, 200, 255, 0.1));
+  transition: filter 0.3s ease;
+}
+
+.group:hover .device-image img {
+  filter: drop-shadow(0 0 12px rgba(100, 200, 255, 0.15));
+}
+
+.drop-shadow-glow {
+  filter: drop-shadow(0 0 12px rgba(100, 200, 255, 0.15));
+}
+
+.page-transition {
+  animation: fadeIn 0.4s ease-out;
+}
+
+.bg-radial-gradient {
+  background: radial-gradient(ellipse at 50% 0%, #282828, #111 75%);
+}
+
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.device-image::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(to top, #111 15%, transparent);
+  z-index: 2;
+}
