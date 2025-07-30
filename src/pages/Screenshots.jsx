@@ -2,7 +2,7 @@ import { useRef, useEffect } from 'react';
 
 const Screenshots = () => {
   const carouselRef = useRef(null);
-  const images = Array.from({ length: 11 }, (_, i) => `./img/screens/screen${i + 1}.png`);
+  const images = Array.from({ length: 17 }, (_, i) => `./img/screens/screen${i + 1}.png`);
   
   useEffect(() => {
     const carousel = carouselRef.current;
@@ -59,7 +59,7 @@ const Screenshots = () => {
                       alt={`App screenshot ${index + 1}`}
                       className="w-full h-full object-cover transform transition-transform duration-700 hover:scale-110"
                       loading="lazy"
-                      style={{ aspectRatio: '1000/2224' }}
+                      style={{ aspectRatio: '1080/2412' }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                       <span className="text-white text-sm font-medium bg-black/40 px-2 py-1 rounded-full">
