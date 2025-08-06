@@ -1,0 +1,2094 @@
+{
+  "generated_at": "2025-08-11T18:57:13.133Z",
+  "repo": "DerpFest-AOSP/Updater-Stuff@master",
+  "devices": [
+    {
+      "codename": "Z01R",
+      "aliases": [
+        "Asus Zenfone 5Z"
+      ],
+      "displayName": "Asus Zenfone 5Z",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shinju-Z01R-20220504-0636.zip",
+        "id": "26d176c3205215b951b1ce83746ce40d5dc70249ae0c2d89813dfada3e39f683",
+        "romtype": "Official",
+        "size": 1278933075,
+        "url": "https://sourceforge.net/projects/yograjsingh-cmd/files/derpfest/Z01R/DerpFest-12-Official-Shinju-Z01R-20220504-0636.zip/download",
+        "version": "12",
+        "datetime": 1651601904
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Z01R.txt"
+    },
+    {
+      "codename": "X00TD",
+      "aliases": [
+        "Asus Zenfone Max Pro M1"
+      ],
+      "displayName": "Asus Zenfone Max Pro M1",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shinju-X00TD-20220510-1456.zip",
+        "id": "275fdd6299b8ff720f374d8da4cc7e06700cdc29ac9a0806dc204a1b4b3eea2f",
+        "romtype": "Official",
+        "size": 1579747479,
+        "url": "https://sourceforge.net/projects/derpfest/files/X00TD/DerpFest-12-Official-Shinju-X00TD-20220510-1456.zip/download",
+        "version": "12",
+        "datetime": 1652082112
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_X00TD.txt"
+    },
+    {
+      "codename": "X01BD",
+      "aliases": [
+        "Asus Zenfone Max Pro M2"
+      ],
+      "displayName": "Asus Zenfone Max Pro M2",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shion-X01BD-20220228-1738.zip",
+        "id": "55a2e6ea716a811c37f9c623aa87949fff6505d2f7f97a779061dfa8dbed202f",
+        "romtype": "Official",
+        "size": 1600101477,
+        "url": "https://sourceforge.net/projects/derpfest/files/X01BD/DerpFest-12-Official-Shion-X01BD-20220228-1738.zip/download",
+        "version": "12",
+        "datetime": 1646069692
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_X01BD.txt"
+    },
+    {
+      "codename": "flame",
+      "aliases": [
+        "Google Pixel 4"
+      ],
+      "displayName": "Google Pixel 4",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-15.1-Official-Stable-flame-20250127-1022.zip",
+        "id": "372d3d593c59097c3056b4ae09dba136e40b7a37f7bf093b2e0cc2b27d9b69a2",
+        "romtype": "Official",
+        "size": 2027580527,
+        "url": "https://sourceforge.net/projects/derpfest/files/flame/20250127-1022/DerpFest-15.1-Official-Stable-flame-20250127-1022.zip/download",
+        "version": "15.1",
+        "datetime": 1737944543
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_flame.txt"
+    },
+    {
+      "codename": "coral",
+      "aliases": [
+        "Google Pixel 4 XL"
+      ],
+      "displayName": "Google Pixel 4 XL",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-15.1-Official-Stable-coral-20250127-1454.zip",
+        "id": "6fd9f4b64d023f3eccdb0d18b8d9aef05c5a20471897b1f790a2e1fc25559eec",
+        "romtype": "Official",
+        "size": 2031777244,
+        "url": "https://sourceforge.net/projects/derpfest/files/coral/20250127-1454/DerpFest-15.1-Official-Stable-coral-20250127-1454.zip/download",
+        "version": "15.1",
+        "datetime": 1737960745
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_coral.txt"
+    },
+    {
+      "codename": "sunfish",
+      "aliases": [
+        "Google Pixel 4a"
+      ],
+      "displayName": "Google Pixel 4a",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-sunfish-20231121-0141.zip",
+        "id": "fd02d760f59412f0f5d8a53134b6c6a461ffd29e90b30f2833ce36003d04c8b",
+        "romtype": "Official",
+        "size": 1604616914,
+        "url": "https://sourceforge.net/projects/derpfest/files/sunfish/20231121-0141/DerpFest-13-Official-Tango-sunfish-20231121-0141.zip/download",
+        "version": "13",
+        "datetime": 1700506687
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sunfish.txt"
+    },
+    {
+      "codename": "bramble",
+      "aliases": [
+        "Google Pixel 4a 5G"
+      ],
+      "displayName": "Google Pixel 4a 5G",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-bramble-20240906.zip",
+        "id": "629f093800921e1a0890a5afb67c2d68a47520134f8e33b832815fe4baf74db6",
+        "romtype": "Official",
+        "size": 1990493710,
+        "url": "https://sourceforge.net/projects/derpfest/files/bramble/20240906/DerpFest-14-Official-Stable-bramble-20240906.zip/download",
+        "version": "14",
+        "datetime": 1725603320
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_bramble.txt"
+    },
+    {
+      "codename": "redfin",
+      "aliases": [
+        "Google Pixel 5"
+      ],
+      "displayName": "Google Pixel 5",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-redfin-20240906.zip",
+        "id": "d2a21ce3adf4c5bc43d567abfed9824e7d853dbe703868991006db8e7a158ed2",
+        "romtype": "Official",
+        "size": 1990598936,
+        "url": "https://sourceforge.net/projects/derpfest/files/redfin/20240605/DerpFest-14-Official-Stable-redfin-20240906.zip/download",
+        "version": "14",
+        "datetime": 1725598817
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_redfin.txt"
+    },
+    {
+      "codename": "oriole",
+      "aliases": [
+        "Google Pixel 6"
+      ],
+      "displayName": "Google Pixel 6",
+      "maintainer": "Einar Gednochsson",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250614-oriole-Official-Stable.zip",
+        "id": "1f7fb691938984e081840d788b31869f4dd69870992e1358c7d06917625a0046",
+        "romtype": "Official",
+        "size": 2474497606,
+        "url": "https://sourceforge.net/projects/derpfest/files/oriole/DerpFest-v15.2-20250614-oriole-Official-Stable.zip/download",
+        "version": "v15.2",
+        "datetime": 1749911431
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_oriole.txt"
+    },
+    {
+      "codename": "raven",
+      "aliases": [
+        "Google Pixel 6 Pro"
+      ],
+      "displayName": "Google Pixel 6 Pro",
+      "maintainer": "Einar Gednochsson",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250614-raven-Official-Stable.zip",
+        "id": "6f8409cb72a4dbf66d339e714cd5e5707f24ec1c963b3e21cacd53068e434c60",
+        "romtype": "Official",
+        "size": 2475140108,
+        "url": "https://sourceforge.net/projects/derpfest/files/raven/DerpFest-v15.2-20250614-raven-Official-Stable.zip/download",
+        "version": "v15.2",
+        "datetime": 1749912834
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_raven.txt"
+    },
+    {
+      "codename": "bluejay",
+      "aliases": [
+        "Google Pixel 6a"
+      ],
+      "displayName": "Google Pixel 6a",
+      "maintainer": "Einar Gednochsson",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250614-bluejay-Official-Stable.zip",
+        "id": "9c28443fbfd7e03aefb00fcbb2f82a27bc48b751a699607f7a9d99bded2f3244",
+        "romtype": "Official",
+        "size": 2475329334,
+        "url": "https://sourceforge.net/projects/derpfest/files/bluejay/DerpFest-v15.2-20250614-bluejay-Official-Stable.zip/download",
+        "version": "v15.2",
+        "datetime": 1749911957
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_bluejay.txt"
+    },
+    {
+      "codename": "panther",
+      "aliases": [
+        "Google Pixel 7"
+      ],
+      "displayName": "Google Pixel 7",
+      "maintainer": "Yaznas",
+      "latest": {
+        "filename": "DerpFest-v16.0-20250811-panther-Official-Stable.zip",
+        "id": "108e6987bb8e94f636aabbcef47b527af67bd3da0a1bef48330a449c9f74deba",
+        "romtype": "Official",
+        "size": 2481168940,
+        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-panther/16/20250811/DerpFest-v16.0-20250811-panther-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1754896783
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_panther.txt"
+    },
+    {
+      "codename": "cheetah",
+      "aliases": [
+        "Google Pixel 7 Pro"
+      ],
+      "displayName": "Google Pixel 7 Pro",
+      "maintainer": "Yaznas",
+      "latest": {
+        "filename": "DerpFest-v16.0-20250811-cheetah-Official-Stable.zip",
+        "id": "46565d56f476f443c3c0df344e60a313d7f1aa3a8a79386968313e9dae850c5f",
+        "romtype": "Official",
+        "size": 2481825294,
+        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-cheetah/16/20250811/DerpFest-v16.0-20250811-cheetah-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1754908139
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_cheetah.txt"
+    },
+    {
+      "codename": "lynx",
+      "aliases": [
+        "Google Pixel 7a"
+      ],
+      "displayName": "Google Pixel 7a",
+      "maintainer": "Yaznas",
+      "latest": {
+        "filename": "DerpFest-v16.0-20250811-lynx-Official-Stable.zip",
+        "id": "d5d69b4f79bbe3a0c21527cbcb3ad3454fd55a21fc08152f456b12500ecea518",
+        "romtype": "Official",
+        "size": 2480238357,
+        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-lynx/16/20250811/DerpFest-v16.0-20250811-lynx-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1754909829
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lynx.txt"
+    },
+    {
+      "codename": "caiman",
+      "aliases": [
+        "Google Pixel Tablet"
+      ],
+      "displayName": "Google Pixel Tablet",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250622-caiman-Official-Stable.zip",
+        "id": "7eb9b58a5ad873baad3f824db5d69138a7554b0c4278b3a1cfa9a8b439a25bed",
+        "romtype": "Official",
+        "size": 2981953091,
+        "url": "https://derpfest.rom.lol/?file=caiman/DerpFest-v15.2-20250622-caiman-Official-Stable.zip",
+        "version": "v15.2",
+        "datetime": 1750609939
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_caiman.txt"
+    },
+    {
+      "codename": "rtwo",
+      "aliases": [
+        "LG V20 (T-Mobile H918)"
+      ],
+      "displayName": "LG V20 (T-Mobile H918)",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-15.1-Official-Stable-rtwo-20250416-1601.zip",
+        "id": "af21bfee419af229ff4f93bee39f8f7706b5e66c39a37369b89c1388062fd1f9",
+        "romtype": "Official",
+        "size": 2780815498,
+        "url": "https://sourceforge.net/projects/derpfest/files/rtwo/DerpFest-15.1-Official-Stable-rtwo-20250416-1601.zip/download",
+        "version": "15.1",
+        "datetime": 1744833676
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rtwo.txt"
+    },
+    {
+      "codename": "nio",
+      "aliases": [
+        "Motorola Edge 20 Pro",
+        "Motorola Edge S Pro",
+        "Motorola Moto G200"
+      ],
+      "displayName": "Motorola Edge 20 Pro",
+      "maintainer": "vullk4n",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250731-nio-Official-Stable.zip",
+        "id": "1230162ed19277a6e90de4e44987b37b407838890a209535a0ccf1267635136b",
+        "romtype": "Official",
+        "size": 1737001022,
+        "url": "https://sourceforge.net/projects/derpfest/files/nio/DerpFest-v15.2-20250731-nio-Official-Stable.zip/download",
+        "version": "v15.2",
+        "datetime": 1753993070
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_nio.txt"
+    },
+    {
+      "codename": "hawao",
+      "aliases": [
+        "Motorola Moto G (2022)",
+        "Motorola G Power (2022)"
+      ],
+      "displayName": "Motorola Moto G (2022)",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-hawao-20231010-0025.zip",
+        "id": "0244860e14e20fe22fbad8ff5148de62c02a7d876fa3ad57e7a37cdca361e697",
+        "romtype": "Official",
+        "size": 1352564870,
+        "url": "https://sourceforge.net/projects/derpfest/files/hawao/DerpFest-13-Official-Tango-hawao-20231010-0025.zip/download",
+        "version": "13",
+        "datetime": 1696879920
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_hawao.txt"
+    },
+    {
+      "codename": "beckham",
+      "aliases": [
+        "Motorola Moto G100"
+      ],
+      "displayName": "Motorola Moto G100",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-beckham-20241014-1657.zip",
+        "id": "f4388f882eee62ba1e12d2daa8081de75910a399cefc72a757865c96b323d917",
+        "romtype": "Official",
+        "size": 1286433420,
+        "url": "https://sourceforge.net/projects/derpfest/files/beckham/DerpFest-13-Official-Tango-beckham-20241014-1657.zip/download",
+        "version": "13",
+        "datetime": 1728917785
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beckham.txt"
+    },
+    {
+      "codename": "devon",
+      "aliases": [
+        "Motorola Moto G32"
+      ],
+      "displayName": "Motorola Moto G32",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-devon-20231010-0145.zip",
+        "id": "ebc16179493a079ced3e18be4be4b437e7d8b34604aa1f8ba9ee6fc458ccd153",
+        "romtype": "Official",
+        "size": 1373443904,
+        "url": "https://sourceforge.net/projects/derpfest/files/devon/DerpFest-13-Official-Tango-devon-20231010-0145.zip/download",
+        "version": "13",
+        "datetime": 1696859909
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_devon.txt"
+    },
+    {
+      "codename": "tokay",
+      "aliases": [
+        "Motorola Moto G34"
+      ],
+      "displayName": "Motorola Moto G34",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250622-tokay-Official-Stable.zip",
+        "id": "9eea869c831acb243377fecb623f5bdefcd16fea6650fc191a821cf4b01c33df",
+        "romtype": "Official",
+        "size": 2974202249,
+        "url": "https://derpfest.rom.lol/?file=tokay/DerpFest-v15.2-20250622-tokay-Official-Stable.zip",
+        "version": "v15.2",
+        "datetime": 1750613590
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_tokay.txt"
+    },
+    {
+      "codename": "rhode",
+      "aliases": [
+        "Motorola Moto G52",
+        "G42",
+        "G82"
+      ],
+      "displayName": "Motorola Moto G52",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-rhode-20231010-0350.zip",
+        "id": "922308222435c26c483b783c6f55dbf15aa6853565e91fe6f3c94b11d2c158bc",
+        "romtype": "Official",
+        "size": 1353191828,
+        "url": "https://sourceforge.net/projects/derpfest/files/rhode/DerpFest-13-Official-Tango-rhode-20231010-0350.zip/download",
+        "version": "13",
+        "datetime": 1696909837
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rhode.txt"
+    },
+    {
+      "codename": "evert",
+      "aliases": [
+        "Motorola Moto G6 Plus"
+      ],
+      "displayName": "Motorola Moto G6 Plus",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-evert-20241014-1716.zip",
+        "id": "1eae0dac1c617baac99a882e86caa80dc37418e8fb195c6b23d3a5af4f0b3c69",
+        "romtype": "Official",
+        "size": 1250398808,
+        "url": "https://sourceforge.net/projects/derpfest/files/evert/DerpFest-13-Official-Tango-evert-20241014-1716.zip/download",
+        "version": "13",
+        "datetime": 1728918930
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_evert.txt"
+    },
+    {
+      "codename": "river",
+      "aliases": [
+        "Motorola Moto G7"
+      ],
+      "displayName": "Motorola Moto G7",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-15-Official-Stable-river-20241119-0229.zip",
+        "id": "43898b9c1c45909553337a22c8f664fcab91e6ce709ae9cbe6759754f0c0884b",
+        "romtype": "Official",
+        "size": 1997247208,
+        "url": "https://sourceforge.net/projects/derpfest/files/river/DerpFest-15-Official-Stable-river-20241119-0229.zip/download",
+        "version": "15",
+        "datetime": 1731979785
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_river.txt"
+    },
+    {
+      "codename": "lake",
+      "aliases": [
+        "Motorola Moto G7 Plus"
+      ],
+      "displayName": "Motorola Moto G7 Plus",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-lake-20241014-1732.zip",
+        "id": "f31fa6add467cbc76a351a2bcf8bed677c1a35536f582ca6a645a79185504689",
+        "romtype": "Official",
+        "size": 1241567908,
+        "url": "https://sourceforge.net/projects/derpfest/files/lake/DerpFest-13-Official-Tango-lake-20241014-1732.zip/download",
+        "version": "13",
+        "datetime": 1728919903
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lake.txt"
+    },
+    {
+      "codename": "ocean",
+      "aliases": [
+        "Motorola Moto G7 Power"
+      ],
+      "displayName": "Motorola Moto G7 Power",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-15-Official-Stable-ocean-20241119-0305.zip",
+        "id": "68e5207b155cfec7caa6db37136daa169a6b5d0cf3f3e28a8a5bfba57c4b0a6c",
+        "romtype": "Official",
+        "size": 1995382323,
+        "url": "https://sourceforge.net/projects/derpfest/files/ocean/DerpFest-15-Official-Stable-ocean-20241119-0305.zip/download",
+        "version": "15",
+        "datetime": 1731981834
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_ocean.txt"
+    },
+    {
+      "codename": "lunaa",
+      "aliases": [
+        "Motorola Moto G9",
+        "Motorola G9 Play"
+      ],
+      "displayName": "Motorola Moto G9",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-lunaa-20231022-1623.zip",
+        "id": "9e53e2673a7dad9be02dc22d559be52c75808561b45f0791926f7b2fa787c417",
+        "romtype": "Official",
+        "size": 2384837269,
+        "url": "https://sourceforge.net/projects/derpfest/files/lunaa/DerpFest-13-Official-Tango-lunaa-20231022-1623.zip/download",
+        "version": "13",
+        "datetime": 1697876101
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lunaa.txt"
+    },
+    {
+      "codename": "Spacewar",
+      "aliases": [
+        "Nothing Phone (1)"
+      ],
+      "displayName": "Nothing Phone (1)",
+      "maintainer": "DaViDev985",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250704-Spacewar-Official-Stable.zip",
+        "id": "dae9068335299242d60008c119277bed121394505f609038971ba52c576b237d",
+        "romtype": "Official",
+        "size": 2219245944,
+        "url": "https://sourceforge.net/projects/derpfest/files/Spacewar/20250704/DerpFest-v15.2-20250704-Spacewar-Official-Stable.zip/download",
+        "version": "v15.2",
+        "datetime": 1751628844
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Spacewar.txt"
+    },
+    {
+      "codename": "Pong",
+      "aliases": [
+        "Nothing Phone (2)"
+      ],
+      "displayName": "Nothing Phone (2)",
+      "maintainer": "Semina Alexandru(NeiKos496)",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250622-Pong-Official-Stable.zip",
+        "id": "cad3b663d36b9975ec4d70a09bb789da0cf833a91daeb9a6d407214fa176340c",
+        "romtype": "Official",
+        "size": 2631399941,
+        "url": "https://sourceforge.net/projects/derpfest/files/Pong/DerpFest-v15.2-20250622-Pong-Official-Stable.zip/download",
+        "version": "v15.2",
+        "datetime": 1750614103
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pong.txt"
+    },
+    {
+      "codename": "aston",
+      "aliases": [
+        "Nothing Phone (2a)"
+      ],
+      "displayName": "Nothing Phone (2a)",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-15-Official-Stable-aston-20241229-1833.zip",
+        "id": "141d9badb675ebf6fed877cbf7e07396cf40d2d8782e4e34c5507dcd7b91a586",
+        "romtype": "Official",
+        "size": 3219001487,
+        "url": "https://sourceforge.net/projects/derpfest/files/aston/20241229-1833/DerpFest-15-Official-Stable-aston-20241229-1833.zip/download",
+        "version": "15",
+        "datetime": 1735468428
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_aston.txt"
+    },
+    {
+      "codename": "cheeseburger",
+      "aliases": [
+        "OnePlus 5"
+      ],
+      "displayName": "OnePlus 5",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shinju-cheeseburger-20220814.zip",
+        "id": "c234549a4c400220826aeeffe750edd4a732b8dce891d9eb5fb3b7619cd5859b",
+        "romtype": "Official",
+        "size": 1416663275,
+        "url": "https://sourceforge.net/projects/derpfest/files/cheeseburger/DerpFest-12-Official-Shinju-cheeseburger-20220814.zip/download",
+        "version": "12",
+        "datetime": 1660436808
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_cheeseburger.txt"
+    },
+    {
+      "codename": "dumpling",
+      "aliases": [
+        "OnePlus 5T"
+      ],
+      "displayName": "OnePlus 5T",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shinju-dumpling-20220814.zip",
+        "id": "93608c0e065ae32618b02e00f8f40eb9d78c401aea219099d3f88b954da69c06",
+        "romtype": "Official",
+        "size": 1416629090,
+        "url": "https://sourceforge.net/projects/derpfest/files/dumpling/DerpFest-12-Official-Shinju-dumpling-20220814.zip/download",
+        "version": "12",
+        "datetime": 1660433617
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dumpling.txt"
+    },
+    {
+      "codename": "guacamoleb",
+      "aliases": [
+        "OnePlus 7"
+      ],
+      "displayName": "OnePlus 7",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Beta-guacamoleb-20240110-2233.zip",
+        "id": "7383c928952ae1d1ecfd3b3592ddb7fc9c59934bdb2e2b57ca539dedab08e8af",
+        "romtype": "Official",
+        "size": 1847737344,
+        "url": "https://sourceforge.net/projects/derpfest/files/guacamoleb/DerpFest-14-Official-Beta-guacamoleb-20240110-2233.zip/download",
+        "version": "14",
+        "datetime": 1704925868
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_guacamoleb.txt"
+    },
+    {
+      "codename": "guacamole",
+      "aliases": [
+        "OnePlus 7 Pro"
+      ],
+      "displayName": "OnePlus 7 Pro",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shinju-guacamole-20220502.zip",
+        "id": "5d67a484013fa60af1601d96683598e54a3dab7953d35aa0bccd91b677a892f3",
+        "romtype": "Official",
+        "size": 1437851658,
+        "url": "https://sourceforge.net/projects/derpfest/files/guacamole/DerpFest-12-Official-Shinju-guacamole-20220502.zip/download",
+        "version": "12",
+        "datetime": 1651492182
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_guacamole.txt"
+    },
+    {
+      "codename": "hotdogb",
+      "aliases": [
+        "OnePlus 7T"
+      ],
+      "displayName": "OnePlus 7T",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-hotdogb-20230921-1925.zip",
+        "id": "ed8fa86a8e22e2ce09ebf37309418980a1b801d66cb25f7b08a126052e66821e",
+        "romtype": "Official",
+        "size": 1869222367,
+        "url": "https://sourceforge.net/projects/derpfest/files/hotdogb/DerpFest-13-Official-Tango-hotdogb-20230921-1925.zip/download",
+        "version": "13",
+        "datetime": 1695335042
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_hotdogb.txt"
+    },
+    {
+      "codename": "hotdog",
+      "aliases": [
+        "OnePlus 7T Pro"
+      ],
+      "displayName": "OnePlus 7T Pro",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-hotdog-20221113.zip",
+        "id": "de69d5003961de28d0e862b1b197d373b8cf9f82f75b2fcf4be271c2ce3feb92",
+        "romtype": "Official",
+        "size": 1585287022,
+        "url": "https://sourceforge.net/projects/derpfest/files/hotdog/DerpFest-13-Official-Tango-hotdog-20221113.zip/download",
+        "version": "13",
+        "datetime": 1668359256
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_hotdog.txt"
+    },
+    {
+      "codename": "instantnoodle",
+      "aliases": [
+        "OnePlus 8"
+      ],
+      "displayName": "OnePlus 8",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-instantnoodle-20230520-1627.zip",
+        "id": "d1bb0de4486ed0c319dd37ed5c987a4b84b69abb63a86138b1e6feb524edd2c7",
+        "romtype": "Official",
+        "size": 2198097895,
+        "url": "https://sourceforge.net/projects/derpfest/files/instantnoodle/DerpFest-13-Official-Tango-instantnoodle-20230520-1627.zip/download",
+        "version": "13",
+        "datetime": 1684600043
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_instantnoodle.txt"
+    },
+    {
+      "codename": "instantnoodlep",
+      "aliases": [
+        "OnePlus 8 Pro"
+      ],
+      "displayName": "OnePlus 8 Pro",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-instantnoodlep-20230520-1258.zip",
+        "id": "53393f9a9c7e8b04572ec1992a1d0028ffe8a5bbcc7db0afef0e44fc72cb886f",
+        "romtype": "Official",
+        "size": 2210624154,
+        "url": "https://sourceforge.net/projects/derpfest/files/instantnoodlep/DerpFest-13-Official-Tango-instantnoodlep-20230520-1258.zip/download",
+        "version": "13",
+        "datetime": 1683053562
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_instantnoodlep.txt"
+    },
+    {
+      "codename": "lemonade",
+      "aliases": [
+        "OnePlus 9"
+      ],
+      "displayName": "OnePlus 9",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shinju-lemonade-20220416-1342.zip",
+        "id": "35de83d95fe20e06450c806ad0aa2490753aaa1846606dd24400465c898c283c",
+        "romtype": "Official",
+        "size": 1989994459,
+        "url": "https://sourceforge.net/projects/derpfest/files/lemonade/DerpFest-12-Official-Shinju-lemonade-20220416-1342.zip/download",
+        "version": "12",
+        "datetime": 1650116528
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonade.txt"
+    },
+    {
+      "codename": "lemonadep",
+      "aliases": [
+        "OnePlus 9 Pro"
+      ],
+      "displayName": "OnePlus 9 Pro",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shinju-lemonadep-20220416-1159.zip",
+        "id": "d8b73b2540e4f4e53dc837b4706dd99090d7b5b5a2225c592e364b0eb3afa118",
+        "romtype": "Official",
+        "size": 1991922164,
+        "url": "https://sourceforge.net/projects/derpfest/files/lemonadep/DerpFest-12-Official-Shinju-lemonadep-20220416-1159.zip/download",
+        "version": "12",
+        "datetime": 1650110252
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonadep.txt"
+    },
+    {
+      "codename": "lemonades",
+      "aliases": [
+        "OnePlus 9R"
+      ],
+      "displayName": "OnePlus 9R",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-lemonades-20230812-2052.zip",
+        "id": "34e36dc118f2e02fcf6e04c1f121665c2b26a63ee4d1087115df84ed1e134ec6",
+        "romtype": "Official",
+        "size": 1900418955,
+        "url": "https://sourceforge.net/projects/derpfest/files/lemonades/DerpFest-13-Official-Tango-lemonades-20230812-2052.zip/download",
+        "version": "13",
+        "datetime": 1691853630
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonades.txt"
+    },
+    {
+      "codename": "lemonkebab",
+      "aliases": [
+        "OnePlus 9R"
+      ],
+      "displayName": "OnePlus 9R",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shinju-lemonkebab-20220422-2031.zip",
+        "id": "a67fd7c4a6af12ba9ae8c6e29fe32f1c4cca71f6496da49c166159662bce2e3c",
+        "romtype": "Official",
+        "size": 1995044760,
+        "url": "https://sourceforge.net/projects/derpfest/files/lemonkebab/DerpFest-12-Official-Shinju-lemonkebab-20220422-2031.zip/download",
+        "version": "12",
+        "datetime": 1650728067
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonkebab.txt"
+    },
+    {
+      "codename": "martini",
+      "aliases": [
+        "OnePlus Nord 2 5G"
+      ],
+      "displayName": "OnePlus Nord 2 5G",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-martini-20230709-0728.zip",
+        "id": "ee1000b2e83ce130b4fc96f19155851842f64f5a50494c92d10273097e9d2158",
+        "romtype": "Official",
+        "size": 2095204342,
+        "url": "https://sourceforge.net/projects/derpfest/files/martini/DerpFest-13-Official-Tango-martini-20230709-0728.zip/download",
+        "version": "13",
+        "datetime": 1688847882
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_martini.txt"
+    },
+    {
+      "codename": "corvette",
+      "aliases": [
+        "OnePlus Nord 2T"
+      ],
+      "displayName": "OnePlus Nord 2T",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250606-corvette-Official-Stable.zip",
+        "id": "edaa3c71f9e0b57115d5c901bb52cda36cc95836f8c2b6273b664286008717bf",
+        "romtype": "Official",
+        "size": 3365664016,
+        "url": "https://sourceforge.net/projects/derpfest/files/corvette/DerpFest-v15.2-20250606-corvette-Official-Stable.zip/download",
+        "version": "v15.2",
+        "datetime": 1749169016
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_corvette.txt"
+    },
+    {
+      "codename": "alioth",
+      "aliases": [
+        "POCO F3",
+        "Redmi K40",
+        "Mi 11X"
+      ],
+      "displayName": "POCO F3",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-alioth-20240820.zip",
+        "id": "a87f702eb021d7fc1eb0885b00bd33384ee3a9bfdb76bb6e9d747ce62ae344be",
+        "romtype": "Official",
+        "size": 2269384309,
+        "url": "https://sourceforge.net/projects/derpfest/files/alioth/DerpFest-14-Official-Stable-alioth-20240820.zip/download",
+        "version": "14",
+        "datetime": 1724142515
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_alioth.txt"
+    },
+    {
+      "codename": "marble",
+      "aliases": [
+        "POCO F5",
+        "Redmi Note 12 Turbo"
+      ],
+      "displayName": "POCO F5",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-marble-20240711.zip",
+        "id": "5e7fcc5f522a1fae489b3e7084dd671bcb37289b62f22ac68f8c81a8fd326fc4",
+        "romtype": "Official",
+        "size": 2562026410,
+        "url": "https://sourceforge.net/projects/derpfest/files/marble/DerpFest-14-Official-Stable-marble-20240711.zip/download",
+        "version": "14",
+        "datetime": 1720709034
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_marble.txt"
+    },
+    {
+      "codename": "citrus",
+      "aliases": [
+        "POCO M3",
+        "Redmi 9T",
+        "Redmi 9 Power"
+      ],
+      "displayName": "POCO M3",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-citrus-20240610.zip",
+        "id": "c60b7a79c0a3479523a7b3828d353a936a2ebfe90bc1600ba932f045300d834f",
+        "romtype": "Official",
+        "size": 2214104039,
+        "url": "https://sourceforge.net/projects/derpfest/files/citrus/DerpFest-14-Official-Stable-citrus-20240610.zip/download",
+        "version": "14",
+        "datetime": 1717609675
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_citrus.txt"
+    },
+    {
+      "codename": "bitra",
+      "aliases": [
+        "POCO M5s",
+        "Redmi Note 10S"
+      ],
+      "displayName": "POCO M5s",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-bitra-20240426.zip",
+        "id": "71f725c077cdb9ea7a95277ece63e465a6068bb67d0a06b6b358efad01131f0d",
+        "romtype": "Official",
+        "size": 2992421219,
+        "url": "https://sourceforge.net/projects/derpfest/files/bitra/DerpFest-14-Official-Stable-bitra-20240426.zip/download",
+        "version": "14",
+        "datetime": 1714151856
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_bitra.txt"
+    },
+    {
+      "codename": "sky",
+      "aliases": [
+        "POCO M6 Pro 5G",
+        "Redmi Note 12R",
+        "Redmi 12 5G"
+      ],
+      "displayName": "POCO M6 Pro 5G",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-15.1-Official-Stable-sky-20250222.zip",
+        "id": "43b98ebb8f0823f0a6bd7085f76152190bf21691ad82aa523e5262ac392e904f",
+        "romtype": "Official",
+        "size": 1902718549,
+        "url": "https://sourceforge.net/projects/derpfest/files/sky/DerpFest-15.1-Official-Stable-sky-20250222.zip/download",
+        "version": "15.1",
+        "datetime": 1740249681
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sky.txt"
+    },
+    {
+      "codename": "phoenix",
+      "aliases": [
+        "POCO X2",
+        "Redmi K30"
+      ],
+      "displayName": "POCO X2",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-phoenix-20230211-1431.zip",
+        "id": "82a3b4b6343a7441da6fdab9c3bc336bf570aec4dbb11436a765eb89249e0ea2",
+        "romtype": "Official",
+        "size": 1941073970,
+        "url": "https://sourceforge.net/projects/derpfest/files/phoenix/DerpFest-13-Official-Tango-phoenix-20230211-1431.zip/download",
+        "version": "13",
+        "datetime": 1676125821
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_phoenix.txt"
+    },
+    {
+      "codename": "surya",
+      "aliases": [
+        "POCO X3 NFC"
+      ],
+      "displayName": "POCO X3 NFC",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-surya-20240606.zip",
+        "id": "0d03cdce01535bea516c272e64336f2b20220b9c774e92650dd599a3276636e7",
+        "romtype": "Official",
+        "size": 2981557642,
+        "url": "https://sourceforge.net/projects/derpfest/files/surya/DerpFest-14-Official-Stable-surya-20240606.zip/download",
+        "version": "14",
+        "datetime": 1717518511
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_surya.txt"
+    },
+    {
+      "codename": "vayu",
+      "aliases": [
+        "POCO X3 Pro"
+      ],
+      "displayName": "POCO X3 Pro",
+      "maintainer": "Bagaskara",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-vayu-20231003-0150.zip",
+        "id": "fdfd548e7643e9ac242de6eacd64dd7a86f44f62000b3a837a08e10ac21f35a8",
+        "romtype": "Official",
+        "size": 2023361961,
+        "url": "https://sourceforge.net/projects/derpfest/files/vayu/DerpFest-13-Official-Tango-vayu-20231003-0150.zip/download",
+        "version": "13",
+        "datetime": 1696290313
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_vayu.txt"
+    },
+    {
+      "codename": "redwood",
+      "aliases": [
+        "POCO X5 5G"
+      ],
+      "displayName": "POCO X5 5G",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-redwood-20240819.zip",
+        "id": "d19c8d92c11dfedd9603f2cc0b0c5952f10e8bf072187a33077da8525210f0d0",
+        "romtype": "Official",
+        "size": 2823523156,
+        "url": "https://sourceforge.net/projects/derpfest/files/redwood/DerpFest-14-Official-Stable-redwood-20240819.zip/download",
+        "version": "14",
+        "datetime": 1723129309
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_redwood.txt"
+    },
+    {
+      "codename": "RMX1971",
+      "aliases": [
+        "Realme 5 Pro"
+      ],
+      "displayName": "Realme 5 Pro",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-RMX1971-20231003-1504.zip",
+        "id": "1f7d235f01040b6d5f589f88567090f32ca02b9f20fe25bf2ed905c839ba47d7",
+        "romtype": "Official",
+        "size": 1680121176,
+        "url": "https://sourceforge.net/projects/derpfest/files/RMX1971/DerpFest-13-Official-Tango-RMX1971-20231003-1504.zip/download",
+        "version": "13",
+        "datetime": 1696345292
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_RMX1971.txt"
+    },
+    {
+      "codename": "RMX2061",
+      "aliases": [
+        "Realme 6"
+      ],
+      "displayName": "Realme 6",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shinju-RMX2061-20220528.zip",
+        "id": "52b7d391aac6008fb2be7c0d5011f316fed78a190d8859fe81f67dfb474ddf1a",
+        "romtype": "Official",
+        "size": 1572151575,
+        "url": "https://drive.google.com/file/d/1Gwh6fxdYe73F_l9zuriTRldc54PEsotd/view?usp=sharing",
+        "version": "12",
+        "datetime": 1653676809
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_RMX2061.txt"
+    },
+    {
+      "codename": "RMX2170",
+      "aliases": [
+        "Realme 7 Pro"
+      ],
+      "displayName": "Realme 7 Pro",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-RMX2170-20230912-1814.zip",
+        "id": "3df491b94588db940160a5b935bb6b88da2bd3411acd51014494bc472e61e88c",
+        "romtype": "Official",
+        "size": 1820573365,
+        "url": "https://sourceforge.net/projects/derpfest/files/RMX2170/DerpFest-13-Official-Tango-RMX2170-20230912-1814.zip/download",
+        "version": "13",
+        "datetime": 1694542488
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_RMX2170.txt"
+    },
+    {
+      "codename": "komodo",
+      "aliases": [
+        "Realme GT2"
+      ],
+      "displayName": "Realme GT2",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250622-komodo-Official-Stable.zip",
+        "id": "7aad266c10f3441defd5b93358a2dd9dcdbd565c05bc1dff89b5670075e5e8fe",
+        "romtype": "Official",
+        "size": 2982726665,
+        "url": "https://derpfest.rom.lol/?file=komodo/DerpFest-v15.2-20250622-komodo-Official-Stable.zip",
+        "version": "v15.2",
+        "datetime": 1750604219
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+    },
+    {
+      "codename": "x2",
+      "aliases": [
+        "Realme X2"
+      ],
+      "displayName": "Realme X2",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-x2-20240925-0846.zip",
+        "id": "ac28fa6f40de4bab59ac1f7b6d385c7d2f1fabf91de836ccf5c7befe2b6a5627",
+        "romtype": "Official",
+        "size": 1434276800,
+        "url": "https://sourceforge.net/projects/derpfest/files/x2/DerpFest-13-Official-Tango-x2-20240925-0846.zip/download",
+        "version": "13",
+        "datetime": 1727242442
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_x2.txt"
+    },
+    {
+      "codename": "RMX1921",
+      "aliases": [
+        "Realme XT"
+      ],
+      "displayName": "Realme XT",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-RMX1921-20230909-1212.zip",
+        "id": "872d68e71766a0fe1e31ae9d9dfb57aa89a3b320d4ae5fc9853a1c890a72dbc0",
+        "romtype": "Official",
+        "size": 1870799009,
+        "url": "https://sourceforge.net/projects/derpfest/files/RMX1921/DerpFest-13-Official-Tango-RMX1921-20230909-1212.zip/download",
+        "version": "13",
+        "datetime": 1694261386
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_RMX1921.txt"
+    },
+    {
+      "codename": "sakura",
+      "aliases": [
+        "Redmi 6 Pro"
+      ],
+      "displayName": "Redmi 6 Pro",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shion-sakura-20220318-0627.zip",
+        "id": "3667a61a5fbacae7e7b3e96a27032b6d",
+        "romtype": "Official",
+        "size": 1426457522,
+        "url": "https://tdrive.derpsakura.workers.dev/0:/DerpFest-12-Official-Shion-sakura-20220318-0627.zip",
+        "version": "12",
+        "datetime": 1647512298
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sakura.txt"
+    },
+    {
+      "codename": "onclite",
+      "aliases": [
+        "Redmi 7"
+      ],
+      "displayName": "Redmi 7",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-onclite-20230413-0614.zip",
+        "id": "ecac18bf4c918c70c790127f43558514fab7f6faf4bf3e8fa87c2858d47785a2",
+        "romtype": "Official",
+        "size": 1715532708,
+        "url": "https://sourceforge.net/projects/derpfest/files/onclite/DerpFest-13-Official-Tango-onclite-20230413-0614.zip/download",
+        "version": "13",
+        "datetime": 1681359158
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_onclite.txt"
+    },
+    {
+      "codename": "olivewood",
+      "aliases": [
+        "Redmi 8"
+      ],
+      "displayName": "Redmi 8",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shion-olivewood-20220126-0439.zip",
+        "id": "6bf321653d5168e62f9a7a284fd2b70411a0deac43ee5f8c48c20c1e362823c4",
+        "romtype": "Official",
+        "size": 1531160829,
+        "url": "https://sourceforge.net/projects/derpfest/files/olivewood/DerpFest-12-Official-Shion-olivewood-20220126-0439.zip/download",
+        "version": "12",
+        "datetime": 1643165904
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_olivewood.txt"
+    },
+    {
+      "codename": "lancelot",
+      "aliases": [
+        "Redmi 9",
+        "Redmi 9 Prime"
+      ],
+      "displayName": "Redmi 9",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-lancelot-20230706-1130.zip",
+        "id": "1c12ce9db312790758cd74a4b444bc315aab4c4b37acd11ecbf4c0d26cf41341",
+        "romtype": "Official",
+        "size": 1514174073,
+        "url": "https://sourceforge.net/projects/derpfest/files/lancelot/DerpFest-13-Official-Tango-lancelot-20230706-1130.zip/download",
+        "version": "13",
+        "datetime": 1688632122
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lancelot.txt"
+    },
+    {
+      "codename": "lime",
+      "aliases": [
+        "Redmi 9T",
+        "Redmi Note 9 4G",
+        "POCO M3"
+      ],
+      "displayName": "Redmi 9T",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-lime-20240610.zip",
+        "id": "95d5e7b58c828bf600f8d7d1e77272960553f9642c9d00e7fdfed8e48c20c1f9",
+        "romtype": "Official",
+        "size": 2215780485,
+        "url": "https://sourceforge.net/projects/derpfest/files/lime/DerpFest-14-Official-Stable-lime-20240610.zip/download",
+        "version": "14",
+        "datetime": 1717521835
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lime.txt"
+    },
+    {
+      "codename": "raphael",
+      "aliases": [
+        "Redmi K20 Pro",
+        "Mi 9T Pro"
+      ],
+      "displayName": "Redmi K20 Pro",
+      "maintainer": "Arghaya Mondal (ergdev)",
+      "latest": {
+        "filename": "DerpFest-15.1-Official-Stable-raphael-20250306-1818.zip",
+        "id": "7b2bc154650f818994bbcc3513633bc3921170e0f6faf7647100bd5189824729",
+        "romtype": "Official",
+        "size": 2219083299,
+        "url": "https://sourceforge.net/projects/derpfest/files/raphael/DerpFest-15.1-Official-Stable-raphael-20250306-1818.zip/download",
+        "version": "15.1",
+        "datetime": 1741284983
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_raphael.txt"
+    },
+    {
+      "codename": "picasso",
+      "aliases": [
+        "Redmi K30 5G"
+      ],
+      "displayName": "Redmi K30 5G",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-picasso-20230725-1349.zip",
+        "id": "fe00ae0a95ad3e3a9de86cd2d3e9de310b24ccee137bc7785a819462ce9d59d1",
+        "romtype": "Official",
+        "size": 2222041837,
+        "url": "https://sourceforge.net/projects/derpfest/files/picasso/DerpFest-13-Official-Tango-picasso-20230725-1349.zip/download",
+        "version": "13",
+        "datetime": 1689581092
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_picasso.txt"
+    },
+    {
+      "codename": "sweet",
+      "aliases": [
+        "Redmi Note 10 Pro",
+        "Pro Max"
+      ],
+      "displayName": "Redmi Note 10 Pro",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-sweet-20240526.zip",
+        "id": "bab41910f105116001fbc297f0a6069847c2c78467213a1ca43f00fc6bc587a7",
+        "romtype": "Official",
+        "size": 2533248055,
+        "url": "https://sourceforge.net/projects/derpfest/files/sweet/DerpFest-14-Official-Stable-sweet-20240526.zip/download",
+        "version": "14",
+        "datetime": 1716753997
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sweet.txt"
+    },
+    {
+      "codename": "spes",
+      "aliases": [
+        "Redmi Note 11"
+      ],
+      "displayName": "Redmi Note 11",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shinju-spes-20220710.zip",
+        "id": "857b662c8097837f50c2b04dec3b44d63da874a7c25a559d8db97b2c23cebb7b",
+        "romtype": "Official",
+        "size": 1552577612,
+        "url": "https://sourceforge.net/projects/derpfest/files/spes/DerpFest-12-Official-Shinju-spes-20220710.zip/download",
+        "version": "12",
+        "datetime": 1657298365
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_spes.txt"
+    },
+    {
+      "codename": "veux",
+      "aliases": [
+        "Redmi Note 11 Pro+ 5G",
+        "Xiaomi 11i HyperCharge"
+      ],
+      "displayName": "Redmi Note 11 Pro+ 5G",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.0-20250811-veux-Official-Stable.zip",
+        "id": "7da83df0de1a22c64eb1709b754a641a39deb9132e60f3d6300a7f1e292c2ca9",
+        "romtype": "Official",
+        "size": 2564387431,
+        "url": "https://sourceforge.net/projects/derpfest/files/veux/DerpFest-v16.0-20250811-veux-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1754909519
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_veux.txt"
+    },
+    {
+      "codename": "fleur",
+      "aliases": [
+        "Redmi Note 11S",
+        "POCO M4 Pro 4G"
+      ],
+      "displayName": "Redmi Note 11S",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-fleur-20231003-0952.zip",
+        "id": "59b245c2b72902ff762a4606909a13aeebd297cc53584ab170aa1ee6ec3c9858",
+        "romtype": "Official",
+        "size": 1452008513,
+        "url": "https://sourceforge.net/projects/derpfest/files/fleur/DerpFest-13-Official-Tango-fleur-20231003-0952.zip/download",
+        "version": "13",
+        "datetime": 1696317494
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_fleur.txt"
+    },
+    {
+      "codename": "zippo",
+      "aliases": [
+        "Redmi Note 12 Pro+",
+        "POCO X5 Pro 5G"
+      ],
+      "displayName": "Redmi Note 12 Pro+",
+      "maintainer": "Einar Gednochsson",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250605-zippo-Official-Stable.zip",
+        "id": "6e8316442291652eb6a156a3bb6dbfbf7544685497bde2a42050c68e090bc661",
+        "romtype": "Official",
+        "size": 2174011920,
+        "url": "https://sourceforge.net/projects/derpfest/files/zippo/DerpFest-v15.2-20250605-zippo-Official-Stable.zip/download",
+        "version": "v15.2",
+        "datetime": 1749146962
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_zippo.txt"
+    },
+    {
+      "codename": "garnet",
+      "aliases": [
+        "Redmi Note 13 Pro 5G",
+        "POCO X6 5G"
+      ],
+      "displayName": "Redmi Note 13 Pro 5G",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-garnet-20240913.zip",
+        "id": "3522af7be33a225680584a936d66238ee843e80454bbe0e21c12e1bfaca33caf",
+        "romtype": "Official",
+        "size": 2648915942,
+        "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-14-Official-Stable-garnet-20240913.zip/download",
+        "version": "14",
+        "datetime": 1726242484
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_garnet.txt"
+    },
+    {
+      "codename": "lavender",
+      "aliases": [
+        "Redmi Note 7"
+      ],
+      "displayName": "Redmi Note 7",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-lavender-20230513-1937.zip",
+        "id": "114e5a02078cee66dfd0b27d5194279c76abda61ce228df0ad3bf41dd2118c7d",
+        "romtype": "Official",
+        "size": 1580094905,
+        "url": "https://sourceforge.net/projects/derpfest/files/lavender/DerpFest-13-Official-Tango-lavender-20230513-1937.zip/download",
+        "version": "13",
+        "datetime": 1683995710
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lavender.txt"
+    },
+    {
+      "codename": "violet",
+      "aliases": [
+        "Redmi Note 7 Pro"
+      ],
+      "displayName": "Redmi Note 7 Pro",
+      "maintainer": "Selfmuser",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-violet-20241208.zip",
+        "id": "1031eb5c77a58639f8212081fe548a5ec57c61e2e8525dfe56233edce799bbde",
+        "romtype": "Official",
+        "size": 2319436356,
+        "url": "https://sourceforge.net/projects/derpfest/files/violet/DerpFest-14-Official-Stable-violet-20241208.zip/download",
+        "version": "14",
+        "datetime": 1733651902
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_violet.txt"
+    },
+    {
+      "codename": "ginkgo",
+      "aliases": [
+        "Redmi Note 8",
+        "Redmi Note 8T"
+      ],
+      "displayName": "Redmi Note 8",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-ginkgo-20231006-0459.zip",
+        "id": "3ce06ef8ed05b3e26e268306e1c79523b554603096ade9e52d90bba5552d52fc",
+        "romtype": "Official",
+        "size": 1744536825,
+        "url": "https://sourceforge.net/projects/derpfest/files/ginkgo/DerpFest-13-Official-Tango-ginkgo-20231006-0459.zip/download",
+        "version": "13",
+        "datetime": 1696519521
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_ginkgo.txt"
+    },
+    {
+      "codename": "begonia",
+      "aliases": [
+        "Redmi Note 8 Pro"
+      ],
+      "displayName": "Redmi Note 8 Pro",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-begonia-20240808.zip",
+        "id": "6f7b2f8d3f0970c4006e2a35607407c20a95e70cda4e127e47ef3e400af57447",
+        "romtype": "Official",
+        "size": 2229533991,
+        "url": "https://pixeldrain.com/u/4GRycFHF",
+        "version": "14",
+        "datetime": 1723099541
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_begonia.txt"
+    },
+    {
+      "codename": "merlinx",
+      "aliases": [
+        "Redmi Note 9 (Global)",
+        "Redmi 10X 4G"
+      ],
+      "displayName": "Redmi Note 9 (Global)",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-merlinx-20240501.zip",
+        "id": "be47bbacd68fd7a4e5afebaf03c7e1b17d36267705c79934207b3560e13e1707",
+        "romtype": "Official",
+        "size": 1980231360,
+        "url": "https://sourceforge.net/projects/derpfest/files/merlinx/DerpFest-14-Official-Stable-merlinx-20240501.zip/download",
+        "version": "14",
+        "datetime": 1714555278
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_merlinx.txt"
+    },
+    {
+      "codename": "miatoll",
+      "aliases": [
+        "Redmi Note 9S",
+        "Pro",
+        "Pro Max",
+        "POCO M2 Pro"
+      ],
+      "displayName": "Redmi Note 9S",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-miatoll-20241023.zip",
+        "id": "6e94d0f9f77cb0195858e25625d4fe07a353f5e0ac40a39ed679ab2a10d5eee1",
+        "romtype": "Official",
+        "size": 2110138161,
+        "url": "https://sourceforge.net/projects/derpfest/files/miatoll/DerpFest-14-Official-Stable-miatoll-20241023.zip/download",
+        "version": "14",
+        "datetime": 1729689785
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_miatoll.txt"
+    },
+    {
+      "codename": "ysl",
+      "aliases": [
+        "Redmi S2",
+        "Redmi Y2"
+      ],
+      "displayName": "Redmi S2",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shion-ysl-20220209-0702.zip",
+        "id": "52991c61921fe77bfaf109153b3c0349f16915bec7507ec52326c0a3b5e404b2",
+        "romtype": "Official",
+        "size": 1296562550,
+        "url": "https://sourceforge.net/projects/derpfest/files/ysl/DerpFest-12-Official-Shion-ysl-20220209-0702.zip/download",
+        "version": "12",
+        "datetime": 1644389980
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_ysl.txt"
+    },
+    {
+      "codename": "a10",
+      "aliases": [
+        "Samsung Galaxy A10"
+      ],
+      "displayName": "Samsung Galaxy A10",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-a10-20230505-1208.zip",
+        "id": "69c241429e1b2b058a530da93cb588c7bb1a902ef52edc0a3e7d9992a1e0cf5e",
+        "romtype": "Official",
+        "size": 1494731343,
+        "url": "https://sourceforge.net/projects/derpfest/files/a10/DerpFest-13-Official-Tango-a10-20230505-1208.zip/download",
+        "version": "13",
+        "datetime": 1683288350
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a10.txt"
+    },
+    {
+      "codename": "a20",
+      "aliases": [
+        "Samsung Galaxy A20"
+      ],
+      "displayName": "Samsung Galaxy A20",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-a20-20230505-1354.zip",
+        "id": "9e47d6835cae1ab7ff764efcfa403cbc77dee4572c35801573d508d2d0e783cc",
+        "romtype": "Official",
+        "size": 1496434800,
+        "url": "https://sourceforge.net/projects/derpfest/files/a20/DerpFest-13-Official-Tango-a20-20230505-1354.zip/download",
+        "version": "13",
+        "datetime": 1683294742
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a20.txt"
+    },
+    {
+      "codename": "a20e",
+      "aliases": [
+        "Samsung Galaxy A20e"
+      ],
+      "displayName": "Samsung Galaxy A20e",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-a20e-20230505-1411.zip",
+        "id": "5c74e283852da3d8f4e4cf9e3269f2045d47d533459d03509ecab92cbc34ea49",
+        "romtype": "Official",
+        "size": 1495680165,
+        "url": "https://sourceforge.net/projects/derpfest/files/a20e/DerpFest-13-Official-Tango-a20e-20230505-1411.zip/download",
+        "version": "13",
+        "datetime": 1683295783
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a20e.txt"
+    },
+    {
+      "codename": "a30",
+      "aliases": [
+        "Samsung Galaxy A30"
+      ],
+      "displayName": "Samsung Galaxy A30",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-a30-20230505-1428.zip",
+        "id": "9c5261b3109247459c2158c5ed03f231792f4629635fd4a420e61ae5551431f4",
+        "romtype": "Official",
+        "size": 1501096348,
+        "url": "https://sourceforge.net/projects/derpfest/files/a30/DerpFest-13-Official-Tango-a30-20230505-1428.zip/download",
+        "version": "13",
+        "datetime": 1683296814
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a30.txt"
+    },
+    {
+      "codename": "a40",
+      "aliases": [
+        "Samsung Galaxy A40"
+      ],
+      "displayName": "Samsung Galaxy A40",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-a40-20230505-1444.zip",
+        "id": "3d7df8c4e2d2528e5f37bb1094ca74cea7a04cbe7f8c0a05448f71633944b8ba",
+        "romtype": "Official",
+        "size": 1500630408,
+        "url": "https://sourceforge.net/projects/derpfest/files/a40/DerpFest-13-Official-Tango-a40-20230505-1444.zip/download",
+        "version": "13",
+        "datetime": 1683297769
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a40.txt"
+    },
+    {
+      "codename": "a505fn",
+      "aliases": [
+        "Samsung Galaxy A50"
+      ],
+      "displayName": "Samsung Galaxy A50",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-12-Official-Shinju-a505fn-20220409.zip",
+        "id": "1f78be7f29323f4cec05e4c4bdf9410f204c940635203a6a012e9f77f2850498",
+        "romtype": "Official",
+        "size": "1470062969",
+        "url": "https://github.com/victor4cris/Releases/releases/download/Release/DerpFest-12-Official-Shinju-a505fn-20220409.zip",
+        "version": "12",
+        "datetime": 1649525058
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a505fn.txt"
+    },
+    {
+      "codename": "a52sxq",
+      "aliases": [
+        "Samsung Galaxy A52s 5G"
+      ],
+      "displayName": "Samsung Galaxy A52s 5G",
+      "maintainer": "Genoxci",
+      "latest": {
+        "filename": "DerpFest-v16.0-20250803-a52sxq-Official-Stable.zip",
+        "id": "16ebdd2ad88f75ae274662dfa0606fddac0b6a8d4529c5c7601fdd7ecae4924b",
+        "romtype": "Official",
+        "size": 1982061944,
+        "url": "https://drive.google.com/drive/folders/1e1HSPBmAVy8rgDLs7Cu8zyoRAfjhABzP?usp=sharing",
+        "version": "v16.0",
+        "datetime": 1754225946
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a52sxq.txt"
+    },
+    {
+      "codename": "a71",
+      "aliases": [
+        "Samsung Galaxy A71"
+      ],
+      "displayName": "Samsung Galaxy A71",
+      "maintainer": "DaViDev985",
+      "latest": {
+        "filename": "DerpFest-15.1-Official-Stable-a71-20250205-1958.zip",
+        "id": "832c116ecdf888ee04c9e4820c6f3b52624067c652ee90cb010c23f02e76c7ab",
+        "romtype": "Official",
+        "size": 1921302395,
+        "url": "https://sourceforge.net/projects/derpfest/files/a71/20250205-1958/DerpFest-15.1-Official-Stable-a71-20250205-1958.zip/download",
+        "version": "15.1",
+        "datetime": 1738781843
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a71.txt"
+    },
+    {
+      "codename": "greatlte",
+      "aliases": [
+        "Samsung Galaxy Note 8"
+      ],
+      "displayName": "Samsung Galaxy Note 8",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-greatlte-20231016-1132.zip",
+        "id": "62511b1bdfefafa3fb48b8df4716671e7ba926d7f328869a2a25e545de46863f",
+        "romtype": "Official",
+        "size": 1484356633,
+        "url": "https://sourceforge.net/projects/derpfest/files/greatlte/DerpFest-13-Official-Tango-greatlte-20231016-1132.zip/download",
+        "version": "13",
+        "datetime": 1697455857
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_greatlte.txt"
+    },
+    {
+      "codename": "crownlte",
+      "aliases": [
+        "Samsung Galaxy Note 9"
+      ],
+      "displayName": "Samsung Galaxy Note 9",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-crownlte-20230422.zip",
+        "id": "3c30bd9c7eac0d0c79ac429413cb0b8009133f0e9d2f12c2b9397870b6b269f5",
+        "romtype": "Official",
+        "size": 1512457536,
+        "url": "https://sourceforge.net/projects/derpfest/files/crownlte/DerpFest-13-Official-Tango-crownlte-20230422.zip/download",
+        "version": "13",
+        "datetime": 1682070143
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_crownlte.txt"
+    },
+    {
+      "codename": "beyond1lte",
+      "aliases": [
+        "Samsung Galaxy S10"
+      ],
+      "displayName": "Samsung Galaxy S10",
+      "maintainer": "DaViDev985",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-beyond1lte-20230827-1735.zip",
+        "id": "4351bffcc64fc795622b29f293a185b923a3cec8a3b88477266cf59f50d33d3a",
+        "romtype": "Official",
+        "size": 1712306211,
+        "url": "https://sourceforge.net/projects/derpfest/files/beyond1lte/DerpFest-13-Official-Tango-beyond1lte-20230827-1735.zip/download",
+        "version": "13",
+        "datetime": 1693154066
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyond1lte.txt"
+    },
+    {
+      "codename": "beyondx",
+      "aliases": [
+        "Samsung Galaxy S10 5G"
+      ],
+      "displayName": "Samsung Galaxy S10 5G",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-beyondx-20230827-1915.zip",
+        "id": "8ba4dd2cb298bce01d0c98b0bac7035077fb7b8664223a95acafcb6cd2ca0b14",
+        "romtype": "Official",
+        "size": 1712950464,
+        "url": "https://sourceforge.net/projects/derpfest/files/beyondx/DerpFest-13-Official-Tango-beyondx-20230827-1915.zip/download",
+        "version": "13",
+        "datetime": 1693160053
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyondx.txt"
+    },
+    {
+      "codename": "beyond2lte",
+      "aliases": [
+        "Samsung Galaxy S10+"
+      ],
+      "displayName": "Samsung Galaxy S10+",
+      "maintainer": "DaViDev985",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-beyond2lte-20230827-1839.zip",
+        "id": "dde50bb803d160e62f655df0413246f464d5fb488b9c9210758b5999c1cff39e",
+        "romtype": "Official",
+        "size": 1712734488,
+        "url": "https://sourceforge.net/projects/derpfest/files/beyond2lte/DerpFest-13-Official-Tango-beyond2lte-20230827-1839.zip/download",
+        "version": "13",
+        "datetime": 1693157889
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyond2lte.txt"
+    },
+    {
+      "codename": "beyond0lte",
+      "aliases": [
+        "Samsung Galaxy S10e"
+      ],
+      "displayName": "Samsung Galaxy S10e",
+      "maintainer": "DaViDev985",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-beyond0lte-20230827-1806.zip",
+        "id": "1ca6296af07fae1f3539bce1b141b6f0ffc03acf935ea522470a6702b816d964",
+        "romtype": "Official",
+        "size": 1583301989,
+        "url": "https://sourceforge.net/projects/derpfest/files/beyond0lte/DerpFest-13-Official-Tango-beyond0lte-20230827-1806.zip/download",
+        "version": "13",
+        "datetime": 1693155923
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyond0lte.txt"
+    },
+    {
+      "codename": "pstar",
+      "aliases": [
+        "Samsung Galaxy S21+"
+      ],
+      "displayName": "Samsung Galaxy S21+",
+      "maintainer": "vullk4n",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250731-pstar-Official-Stable.zip",
+        "id": "11423feb114d5ccd53551f8c9ba6e1ee20c945c99bf1246f6d5952f1834f14bd",
+        "romtype": "Official",
+        "size": 1733623753,
+        "url": "https://sourceforge.net/projects/derpfest/files/pstar/DerpFest-v15.2-20250731-pstar-Official-Stable.zip/download",
+        "version": "v15.2",
+        "datetime": 1753936661
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pstar.txt"
+    },
+    {
+      "codename": "d1",
+      "aliases": [
+        "Samsung Galaxy S8"
+      ],
+      "displayName": "Samsung Galaxy S8",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-d1-20230828-0821.zip",
+        "id": "988a0ef55cec60c18ef9d5960e5c43b0dab7b25cd6f1a2acb98c25c387fa3ff1",
+        "romtype": "Official",
+        "size": 1722120852,
+        "url": "https://sourceforge.net/projects/derpfest/files/d1/DerpFest-13-Official-Tango-d1-20230828-0821.zip/download",
+        "version": "13",
+        "datetime": 1693207209
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_d1.txt"
+    },
+    {
+      "codename": "dreamlte",
+      "aliases": [
+        "Samsung Galaxy S8"
+      ],
+      "displayName": "Samsung Galaxy S8",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-dreamlte-20231015-2004.zip",
+        "id": "2c8a793e8219483b9967f839ebbac460811be1095854b08e9d8494b6af52d33c",
+        "romtype": "Official",
+        "size": 1483754355,
+        "url": "https://sourceforge.net/projects/derpfest/files/dreamlte/DerpFest-13-Official-Tango-dreamlte-20231015-2004.zip/download",
+        "version": "13",
+        "datetime": 1697400172
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dreamlte.txt"
+    },
+    {
+      "codename": "dream2lte",
+      "aliases": [
+        "Samsung Galaxy S8+"
+      ],
+      "displayName": "Samsung Galaxy S8+",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-dream2lte-20231015-1852.zip",
+        "id": "67546362a09a78359aaaba0585147f72caf0b900c50b795e674952e78856ee4d",
+        "romtype": "Official",
+        "size": 1483736768,
+        "url": "https://sourceforge.net/projects/derpfest/files/dream2lte/DerpFest-13-Official-Tango-dream2lte-20231015-1852.zip/download",
+        "version": "13",
+        "datetime": 1697395810
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dream2lte.txt"
+    },
+    {
+      "codename": "d2s",
+      "aliases": [
+        "Samsung Galaxy S9"
+      ],
+      "displayName": "Samsung Galaxy S9",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-d2s-20230827-1041.zip",
+        "id": "6497bf67fddd0d7ad6e7d448b4167680aca62fc20c9cd2c4506eb5cc38e30df3",
+        "romtype": "Official",
+        "size": 1723679599,
+        "url": "https://sourceforge.net/projects/derpfest/files/d2s/DerpFest-13-Official-Tango-d2s-20230827-1041.zip/download",
+        "version": "13",
+        "datetime": 1693068260
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_d2s.txt"
+    },
+    {
+      "codename": "starlte",
+      "aliases": [
+        "Samsung Galaxy S9"
+      ],
+      "displayName": "Samsung Galaxy S9",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-starlte-20230423.zip",
+        "id": "8bd79083c826f181ec966140d9ccfae028aad891ef8e8f539fa50b8dff274886",
+        "romtype": "Official",
+        "size": 1511795243,
+        "url": "https://sourceforge.net/projects/derpfest/files/starlte/DerpFest-13-Official-Tango-starlte-20230423.zip/download",
+        "version": "13",
+        "datetime": 1682230943
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_starlte.txt"
+    },
+    {
+      "codename": "d2x",
+      "aliases": [
+        "Samsung Galaxy S9+"
+      ],
+      "displayName": "Samsung Galaxy S9+",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-d2x-20230828-1044.zip",
+        "id": "869b5f6d18ab8f442ac1eea0e37959daf880304e482e15dc82d706b9144a9058",
+        "romtype": "Official",
+        "size": 1724244522,
+        "url": "https://sourceforge.net/projects/derpfest/files/d2x/DerpFest-13-Official-Tango-d2x-20230828-1044.zip/download",
+        "version": "13",
+        "datetime": 1693215756
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_d2x.txt"
+    },
+    {
+      "codename": "star2lte",
+      "aliases": [
+        "Samsung Galaxy S9+"
+      ],
+      "displayName": "Samsung Galaxy S9+",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-star2lte-20230423.zip",
+        "id": "0b306fbdbd0c194601c9a9690cabd708dd52eb3d058d5c20527d8ca653f4bec2",
+        "romtype": "Official",
+        "size": 1511996005,
+        "url": "https://sourceforge.net/projects/derpfest/files/star2lte/DerpFest-13-Official-Tango-star2lte-20230423.zip/download",
+        "version": "13",
+        "datetime": 1682224533
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_star2lte.txt"
+    },
+    {
+      "codename": "spartan",
+      "aliases": [
+        "Samsung Galaxy Tab S8 Ultra"
+      ],
+      "displayName": "Samsung Galaxy Tab S8 Ultra",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-spartan-20240211-1041.zip",
+        "id": "3c00436d8a101aa659ed0f067a5403a95621bf9c6be288a09fa942b120fe16cc",
+        "romtype": "Official",
+        "size": 2275890985,
+        "url": "https://sourceforge.net/projects/yograjsingh-cmd/files/spartan/derpfest/DerpFest-14-Official-Stable-spartan-20240211-1041.zip/download",
+        "version": "14",
+        "datetime": 1707628007
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_spartan.txt"
+    },
+    {
+      "codename": "phone1",
+      "aliases": [
+        "Unknown"
+      ],
+      "displayName": "Unknown",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-phone1-20240225.zip",
+        "id": "c6aac6bddbdc1a7a66f9627bbe623f79639e16c96d8b6285a365f6984d4a3b2a",
+        "romtype": "Official",
+        "size": 2491592324,
+        "url": "https://sourceforge.net/projects/derpfest/files/phone1/DerpFest-14-Official-Stable-phone1-20240225.zip/download",
+        "version": "14",
+        "datetime": 1708853366
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_phone1.txt"
+    },
+    {
+      "codename": "renoir",
+      "aliases": [
+        "Xiaomi 11 Lite 5G NE"
+      ],
+      "displayName": "Xiaomi 11 Lite 5G NE",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-renoir-20240417.zip",
+        "id": "739bf554f577750ee18e576051b991731e90a25a954ffb050dcc20dd35fac854",
+        "romtype": "Official",
+        "size": 2674047198,
+        "url": "https://sourceforge.net/projects/picasso-rom-project/files/renoir/DerpFest-20240417/DerpFest-14-Official-Stable-renoir-20240417.zip/download",
+        "version": "14",
+        "datetime": 1712737829
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_renoir.txt"
+    },
+    {
+      "codename": "vili",
+      "aliases": [
+        "Xiaomi 11T Pro"
+      ],
+      "displayName": "Xiaomi 11T Pro",
+      "maintainer": "0mar",
+      "latest": {
+        "filename": "DerpFest-v16.0-20250805-vili-Official-Stable.zip",
+        "id": "b55bdfe8b70160ce9ac89f2f5c6ebc87095274a93c35b24f8fd776d1ce6581e4",
+        "romtype": "Official",
+        "size": 2680760822,
+        "url": "https://sourceforge.net/projects/derpfest/files/vili/DerpFest-v16.0-20250805-vili-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1754373143
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_vili.txt"
+    },
+    {
+      "codename": "diting",
+      "aliases": [
+        "Xiaomi 12T Pro",
+        "Redmi K50 Ultra"
+      ],
+      "displayName": "Xiaomi 12T Pro",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-diting-20240605.zip",
+        "id": "3e36a043b709373b50b4c150b652c15b03c38c1096574ef0eed1c65b20061462",
+        "romtype": "Official",
+        "size": 2692045010,
+        "url": "https://sourceforge.net/projects/derpfest/files/diting/DerpFest-14-Official-Stable-diting-20240605.zip/download",
+        "version": "14",
+        "datetime": 1717572677
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_diting.txt"
+    },
+    {
+      "codename": "mondrian",
+      "aliases": [
+        "Xiaomi 13 Lite",
+        "Xiaomi Civi 2"
+      ],
+      "displayName": "Xiaomi 13 Lite",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-mondrian-20240601.zip",
+        "id": "66d341e09a0b186689667c369d1c0660b18af6e35af2360ed27713192fb54a71",
+        "romtype": "Official",
+        "size": 2705662506,
+        "url": "https://sourceforge.net/projects/derpfest/files/mondrian/DerpFest-14-Official-Stable-mondrian-20240601.zip/download",
+        "version": "14",
+        "datetime": 1717267558
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_mondrian.txt"
+    },
+    {
+      "codename": "apollo",
+      "aliases": [
+        "Xiaomi Mi 10T",
+        "Mi 10T Pro",
+        "Redmi K30S Ultra"
+      ],
+      "displayName": "Xiaomi Mi 10T",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-apollo-20230817.zip",
+        "id": "7fccd579e6efcfc9f51f12b0325505f8676fad16d84620b1ea03a9ffde8f4dca",
+        "romtype": "Official",
+        "size": 1961250942,
+        "url": "https://sourceforge.net/projects/derpfest/files/apollo/DerpFest-13-Official-Tango-apollo-20230817.zip/download",
+        "version": "13",
+        "datetime": 1692258606
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_apollo.txt"
+    },
+    {
+      "codename": "gauguin",
+      "aliases": [
+        "Xiaomi Mi 10T Lite",
+        "Redmi Note 9 Pro 5G"
+      ],
+      "displayName": "Xiaomi Mi 10T Lite",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-gauguin-20240502.zip",
+        "id": "5d9e59cbfc0f3e6e824bcaeb872e24961eb76ed93a9ceb78a284c5abf0b79fc9",
+        "romtype": "Official",
+        "size": 2554539287,
+        "url": "https://sourceforge.net/projects/derpfest/files/gauguin/DerpFest-14-Official-Stable-gauguin-20240502.zip/download",
+        "version": "14",
+        "datetime": 1714685797
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gauguin.txt"
+    },
+    {
+      "codename": "platina",
+      "aliases": [
+        "Xiaomi Mi 8 Lite"
+      ],
+      "displayName": "Xiaomi Mi 8 Lite",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-platina-20241020.zip",
+        "id": "acb7b86dab82f9e141ff89d62b06ace88da10f30b3041773452a15e7c88e26dc",
+        "romtype": "Official",
+        "size": 1988198923,
+        "url": "https://sourceforge.net/projects/derpfest/files/platina/DerpFest-14-Official-Stable-platina-20241020.zip/download",
+        "version": "14",
+        "datetime": 1729439847
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_platina.txt"
+    },
+    {
+      "codename": "davinci",
+      "aliases": [
+        "Xiaomi Mi 9T",
+        "Redmi K20"
+      ],
+      "displayName": "Xiaomi Mi 9T",
+      "maintainer": "Adrian (adi20_01)",
+      "latest": {
+        "filename": "DerpFest-v16.0-20250802-davinci-Official-Stable.zip",
+        "id": "66ffde49b55add278aafd4347e25230ae67f40aefa8e7f458f30afc4f0548cf1",
+        "romtype": "Official",
+        "size": 2358525472,
+        "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.0-20250802-davinci-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1754098393
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_davinci.txt"
+    },
+    {
+      "codename": "daisy",
+      "aliases": [
+        "Xiaomi Mi A2 Lite"
+      ],
+      "displayName": "Xiaomi Mi A2 Lite",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-13-Official-Tango-daisy-20221117-0052.zip",
+        "id": "00a30d36959d86935e1edc096909b7dbeb3075f5897da37f3c16ecfa6c61d55a",
+        "romtype": "Official",
+        "size": 1097798603,
+        "url": "https://sourceforge.net/projects/derpfest/files/daisy/DerpFest-13-Official-Tango-daisy-20221117-0052.zip/download",
+        "version": "13",
+        "datetime": 1668592773
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_daisy.txt"
+    },
+    {
+      "codename": "toco",
+      "aliases": [
+        "Xiaomi Mi Note 10 Lite"
+      ],
+      "displayName": "Xiaomi Mi Note 10 Lite",
+      "maintainer": "Dennis Murimi (AndroidHQ254)",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250708-toco-Official-Stable.zip",
+        "id": "540087de75c909bc87ef82ca18483d2424240c3427e2a0c9dfed2ec951f504b1",
+        "romtype": "Official",
+        "size": 2543162558,
+        "url": "https://sourceforge.net/projects/derpfest/files/toco/DerpFest-v15.2-20250708-toco-Official-Stable.zip/download",
+        "version": "v15.2",
+        "datetime": 1751925692
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_toco.txt"
+    },
+    {
+      "codename": "pipa",
+      "aliases": [
+        "Xiaomi Pad 6"
+      ],
+      "displayName": "Xiaomi Pad 6",
+      "maintainer": "Glitch Wraith",
+      "latest": {
+        "filename": "DerpFest-v16.0-20250804-pipa-Official-Stable.zip",
+        "id": "2c48be492b6bbee59d1511dd11dbd1f73e99087f35971ddb1032c0d7eb18b1e0",
+        "romtype": "Official",
+        "size": 1992522360,
+        "url": "https://sourceforge.net/projects/derpfest/files/pipa/04aug25/DerpFest-v16.0-20250804-pipa-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1754298692
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pipa.txt"
+    }
+  ]
+}
