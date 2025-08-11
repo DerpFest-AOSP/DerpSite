@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-11T18:57:13.133Z",
+  "generated_at": "2025-08-11T19:01:19.113Z",
   "repo": "DerpFest-AOSP/Updater-Stuff@master",
   "devices": [
     {
@@ -386,11 +386,9 @@
     {
       "codename": "rhode",
       "aliases": [
-        "Motorola Moto G52",
-        "G42",
-        "G82"
+        "Motorola Moto G52 & G42 & G82"
       ],
-      "displayName": "Motorola Moto G52",
+      "displayName": "Motorola Moto G52 & G42 & G82",
       "maintainer": "Unknown",
       "latest": {
         "filename": "DerpFest-13-Official-Tango-rhode-20231010-0350.zip",
@@ -1212,10 +1210,9 @@
     {
       "codename": "sweet",
       "aliases": [
-        "Redmi Note 10 Pro",
-        "Pro Max"
+        "Redmi Note 10 Pro & Pro Max"
       ],
-      "displayName": "Redmi Note 10 Pro",
+      "displayName": "Redmi Note 10 Pro & Pro Max",
       "maintainer": "Unknown",
       "latest": {
         "filename": "DerpFest-14-Official-Stable-sweet-20240526.zip",
@@ -1417,12 +1414,10 @@
     {
       "codename": "miatoll",
       "aliases": [
-        "Redmi Note 9S",
-        "Pro",
-        "Pro Max",
+        "Redmi Note 9S & Pro & Pro Max",
         "POCO M2 Pro"
       ],
-      "displayName": "Redmi Note 9S",
+      "displayName": "Redmi Note 9S & Pro & Pro Max",
       "maintainer": "Unknown",
       "latest": {
         "filename": "DerpFest-14-Official-Stable-miatoll-20241023.zip",
