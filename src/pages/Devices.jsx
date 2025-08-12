@@ -1,286 +1,200 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useMemo, useState } from "react";
 
-const DeviceImage = ({ imageUrl, deviceName }) => {
-  const [hasError, setHasError] = useState(false);
+const PAGE_SIZE = 12;
 
-  useEffect(() => {
-    setHasError(false);
-  }, [imageUrl]);
+function fmtBytes(bytes = 0) {
+  if (!bytes) return "0 B";
+  const units = ["B","KB","MB","GB","TB"];
+  const i = Math.floor(Math.log(bytes)/Math.log(1024));
+  return (bytes/Math.pow(1024,i)).toFixed(i?2:0) + " " + units[i];
+}
+function fmtDate(ts) {
+  if (!ts) return "Unknown";
+  return new Date(ts*1000).toLocaleString();
+}
 
-  return (
-    <div className="device-image h-56 flex items-center justify-center overflow-hidden relative">
-      {!hasError ? (
-        <div className="relative w-full h-full flex items-center justify-center">
-          <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-black/80 to-black z-0"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-800/50 to-transparent z-0"></div>
-          <img
-            src={imageUrl}
-            alt={deviceName}
-            className="w-3/4 h-full object-contain z-10 transition-all duration-500 ease-in-out group-hover:scale-105 group-hover:rotate-2 group-hover:drop-shadow-glow"
-          />
-          <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black to-transparent z-10"></div>
-          <div className="absolute bottom-5 left-5 text-xl font-bold text-white z-20 text-shadow transition-transform duration-300 group-hover:translate-x-1">
-            {deviceName}
-          </div>
-        </div>
-      ) : (
-        <div className='image-placeholder text-5xl text-white/15'>
-          <i className='fas fa-mobile-alt'></i>
-        </div>
-      )}
-    </div>
-  );
-};
-
-const Devices = () => {
-  const GITHUB_REPO = 'DerpFest-AOSP/Updater-Stuff';
-  const GITHUB_BASE_URL = `https://raw.githubusercontent.com/${GITHUB_REPO}/master/`;
-  const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_REPO}/contents/`;
-  const DEVICE_IMAGE_BASE = 'https://wiki.lineageos.org/images/devices/';
-  const DEVICES_PER_PAGE = 15;
-  
-  const [allDevices, setAllDevices] = useState([]);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(1);
-  const [maintainersData, setMaintainersData] = useState({});
-  const [searchTerm, setSearchTerm] = useState('');
+export default function Devices() {
   const [loading, setLoading] = useState(true);
-  const [deviceDetails, setDeviceDetails] = useState([]);
-  const [showModal, setShowModal] = useState(false);
-  const [changelogContent, setChangelogContent] = useState('');
-  const [changelogDevice, setChangelogDevice] = useState('');
-  const [pageChanging, setPageChanging] = useState(false);
-
-  const formatFileSize = (bytes) => {
-    if (bytes === 0) return '0 Bytes';
-    const k = 1024;
-    const sizes = ['Bytes', 'KB', 'MB', 'GB'];
-    const i = Math.floor(Math.log(bytes) / Math.log(k));
-    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
-  };
-
-  const formatDate = (timestamp) => {
-    const date = new Date(timestamp * 1000);
-    return date.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'short',
-      day: 'numeric'
-    });
-  };
-  
-  const getDeviceName = (filename) => filename.replace('.json', '').replace(/_/g, ' ');
-  const getDeviceImageUrl = (deviceName) => `${DEVICE_IMAGE_BASE}${deviceName.replace(/ /g, '_')}.png`;
+  const [error, setError] = useState(null);
+  const [devices, setDevices] = useState([]);
+  const [search, setSearch] = useState("");
+  const [companyFilter, setCompanyFilter] = useState("All");
+  const [page, setPage] = useState(1);
+  const [changelog, setChangelog] = useState({ open: false, codename: null, loading: false, content: "" });
 
   useEffect(() => {
-    const initialize = async () => {
+    let cancelled = false;
+    (async () => {
       setLoading(true);
+      setError(null);
       try {
-        const maintResponse = await fetch(`${GITHUB_BASE_URL}maintainers.json`);
-        if (maintResponse.ok) {
-          const rawData = await maintResponse.json();
-          // Transform keys to match our device name format
-          const transformedData = {};
-          Object.keys(rawData).forEach(key => {
-            const normalizedKey = key.replace(/_/g, ' ');
-            transformedData[normalizedKey] = rawData[key];
-          });
-          setMaintainersData(transformedData);
+        const res = await fetch("/devices-index.json", { cache: "no-cache" });
+        if (!res.ok) throw new Error("devices-index.json not found on site (did build-action run?)");
+        const j = await res.json();
+        const list = Array.isArray(j.devices) ? j.devices : [];
+        if (!cancelled) {
+          setDevices(list);
+          setLoading(false);
         }
-      } catch (error) {
-        console.error('Error fetching maintainers:', error);
+      } catch (err) {
+        if (!cancelled) {
+          setError(err.message || String(err));
+          setLoading(false);
+        }
       }
-      try {
-        const devicesResponse = await fetch(GITHUB_API_URL);
-        if (!devicesResponse.ok) throw new Error(`GitHub API error`);
-        const files = await devicesResponse.json();
-        const jsonFiles = files.filter(file => 
-          file.name.endsWith('.json') && !file.name.includes('changelog') && !file.name.includes('maintainers') && file.type === 'file'
-        );
-        const devices = jsonFiles.map(file => ({
-          filename: file.name,
-          name: getDeviceName(file.name),
-          imageUrl: getDeviceImageUrl(getDeviceName(file.name))
-        }));
-        setAllDevices(devices);
-      } catch (error) {
-        console.error('Error fetching devices:', error);
-      }
-      setLoading(false);
-    };
-    initialize();
+    })();
+    return () => { cancelled = true; };
   }, []);
 
-  useEffect(() => {
-    const fetchPageDetails = async () => {
-      setPageChanging(true);
-      const filtered = allDevices.filter(d => d.name.toLowerCase().includes(searchTerm.toLowerCase()));
-      setTotalPages(Math.ceil(filtered.length / DEVICES_PER_PAGE));
-      
-      const startIndex = (currentPage - 1) * DEVICES_PER_PAGE;
-      const devicesOnPage = filtered.slice(startIndex, startIndex + DEVICES_PER_PAGE);
+  const companies = useMemo(() => {
+    const s = new Set();
+    devices.forEach(d => {
+      (d.aliases || []).forEach(a => {
+        const c = (a.split(" ")[0] || "Unknown").trim();
+        if (c) s.add(c);
+      });
+    });
+    return ["All", ...Array.from(s).sort()];
+  }, [devices]);
 
-      if (devicesOnPage.length === 0) {
-        setDeviceDetails([]);
-        setPageChanging(false);
+  const filtered = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    return devices.filter(d => {
+      if (companyFilter !== "All") {
+        const matchesCompany = (d.aliases || []).some(a => (a.split(" ")[0] || "").trim() === companyFilter);
+        if (!matchesCompany) return false;
+      }
+      if (!q) return true;
+      const aliasMatch = (d.aliases || []).some(a => a.toLowerCase().includes(q));
+      return aliasMatch || (d.displayName && d.displayName.toLowerCase().includes(q)) || (d.codename && d.codename.toLowerCase().includes(q));
+    });
+  }, [devices, companyFilter, search]);
+
+  const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  useEffect(() => { if (page > pageCount) setPage(1); }, [pageCount]);
+
+  const pageItems = useMemo(() => {
+    const start = (page - 1) * PAGE_SIZE;
+    return filtered.slice(start, start + PAGE_SIZE);
+  }, [filtered, page]);
+
+  async function openChangelog(codename, rawUrl) {
+    setChangelog({ open: true, codename, loading: true, content: "" });
+    try {
+      const r = await fetch(rawUrl);
+      if (!r.ok) {
+        setChangelog({ open: true, codename, loading: false, content: `No changelog found for ${codename}.` });
         return;
       }
-      const details = await Promise.all(
-        devicesOnPage.map(async (device) => {
-          try {
-            const res = await fetch(GITHUB_BASE_URL + device.filename);
-            if (!res.ok) return null;
-            const data = await res.json();
-            return (data.response && data.response.length > 0) ? { device, build: data.response[0] } : null;
-          } catch { return null; }
-        })
-      );
-      setDeviceDetails(details.filter(Boolean));
-      setTimeout(() => setPageChanging(false), 300);
-    };
-    if (!loading) fetchPageDetails();
-  }, [allDevices, currentPage, searchTerm, loading]);
-  
-  useEffect(() => { setCurrentPage(1); }, [searchTerm]);
+      const text = await r.text();
+      setChangelog({ open: true, codename, loading: false, content: text });
+    } catch (err) {
+      setChangelog({ open: true, codename, loading: false, content: `Failed to load changelog: ${err.message}` });
+    }
+  }
+  function closeChangelog() { setChangelog({ open: false, codename: null, loading: false, content: "" }); }
 
-  const handleShowChangelog = async (deviceName) => {
-    setChangelogDevice(deviceName);
-    setShowModal(true);
-    setChangelogContent('Loading changelog...');
+  async function copyCurl(url, filename) {
+    const safe = filename || (url && url.split("/").pop()) || "download.bin";
+    const cmd = `curl -L -o "${safe}" "${url}"`;
     try {
-      const res = await fetch(`${GITHUB_BASE_URL}changelog_${deviceName.replace(/ /g, '_')}.txt`);
-      if (!res.ok) throw new Error('Not found');
-      setChangelogContent(await res.text());
+      await navigator.clipboard.writeText(cmd);
+      // replace with toast if you add one
+      alert("Copied curl command to clipboard");
     } catch {
-      setChangelogContent(`Changelog not available for ${deviceName}.`);
+      alert("Failed to copy");
     }
-  };
+  }
 
-  const filteredDevices = allDevices.filter(d => d.name.toLowerCase().includes(searchTerm.toLowerCase()));
+  if (loading) {
+    return (
+      <section className="devices-w devices-page">
+        <div className="devices-loader-wrap">
+          <div className="devices-dotwrap" role="status" aria-label="Loading">
+            <span className="devices-dot devices-dot--a"></span>
+            <span className="devices-dot devices-dot--b"></span>
+            <span className="devices-dot devices-dot--c"></span>
+          </div>
+          <div className="devices-loading-text">Loading device index…</div>
+        </div>
+      </section>
+    );
+  }
 
-  const handlePageChange = (newPage) => {
-    if (newPage >= 1 && newPage <= totalPages && newPage !== currentPage) {
-      setPageChanging(true);
-      setTimeout(() => {
-        setCurrentPage(newPage);
-      }, 300);
-    }
-  };
+  if (error) {
+    return <section className="devices-w devices-page"><div className="devices-error">{error}</div></section>;
+  }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-700 text-slate-100 pb-8">
-      <header className="bg-slate-900/80 backdrop-blur-md p-6 text-center top-0 z-50">
-        <div className="flex items-center justify-center gap-3 mb-2">
-          <i className="fas fa-download text-4xl text-emerald-400"></i>
-          <h1 className="text-4xl font-extrabold bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">DerpFest Downloads</h1>
+    <section className="devices-w devices-page">
+      <header className="devices-hero" aria-hidden>
+        <div className="devices-hero-inner">
+          <h1 className="devices-title"><span className="devices-colored-a">DerpFest Downloads</span></h1>
+          <p className="devices-sub">Find your device and download official builds.</p>
+          <div className="devices-hero-ctas">
+            <input value={search} onChange={(e)=>{ setSearch(e.target.value); setPage(1); }} className="devices-search" placeholder="Search device name, alias, or codename..." />
+          </div>
         </div>
-        <h2 className="text-slate-400 text-lg max-w-2xl mx-auto">Browse and download the latest builds for supported devices</h2>
       </header>
-      <div className="flex justify-center gap-4 my-6 max-w-6xl mx-auto px-4 flex-wrap">
-        <div className="relative flex-1 max-w-lg">
-          <i className="fas fa-search absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400"></i>
-          <input 
-            type="text" 
-            value={searchTerm} 
-            onChange={(e) => setSearchTerm(e.target.value)} 
-            placeholder="Search devices..." 
-            className="w-full pl-12 pr-4 py-3 rounded-full border-2 border-slate-600 bg-slate-900/70 text-slate-100 text-base transition-all focus:outline-none focus:border-cyan-400 focus:ring-4 focus:ring-cyan-400/30"
-          />
-        </div>
-        <div className="flex items-center bg-slate-900/70 px-5 py-2.5 rounded-full text-sm border-2 border-slate-600">
-          <i className="fas fa-mobile-alt mr-2 text-emerald-400"></i>
-          <span>{loading ? 'Loading...' : `${filteredDevices.length} devices found`}</span>
-        </div>
-      </div>
-      
-      <div className="max-w-7xl mx-auto px-4">
-        {loading ? (
-          <div className="text-center py-12 slide-up">
-            <div className="w-12 h-12 border-4 border-slate-600 border-t-cyan-400 rounded-full animate-spin mx-auto mb-4"></div>
-            <p>Fetching device information...</p>
-          </div>
-        ) : (
-          <>
-            <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-4 ${pageChanging ? 'opacity-50 transition-opacity duration-300' : 'opacity-100 transition-opacity duration-300'}`}>
-              {deviceDetails.length > 0 ? (
-                deviceDetails.map(({ device, build }, index) => (
-                  <div 
-                    key={`${device.name}-${currentPage}`}
-                    className="group bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-slate-700 flex flex-col h-full card-appear"
-                    style={{ 
-                      animationDelay: `${index * 50}ms`,
-                      boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.04)'
-                    }}
-                  >
-                    <DeviceImage imageUrl={device.imageUrl} deviceName={device.name} />
-                    <div className="p-5 flex-1 flex flex-col text-gray-800">
-                      <div className="flex items-center mb-6">
-                        <div className="w-12 h-12 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-lg flex items-center justify-center mr-4 text-2xl text-white transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
-                          <i className="fas fa-user-cog"></i>
-                        </div>
-                        <div className="text-lg">Maintainer: <strong className="font-semibold">{maintainersData[device.name] || 'Unknown'}</strong></div>
-                      </div>
-                      <div className="grid grid-cols-2 gap-3 mb-5">
-                        <div className="bg-slate-100 p-3 rounded-lg"><div className="text-xs text-slate-600 mb-1">Version</div><div className="font-semibold text-slate-900">{build.version}</div></div>
-                        <div className="bg-slate-100 p-3 rounded-lg"><div className="text-xs text-slate-600 mb-1">Date</div><div className="font-semibold text-slate-900">{formatDate(build.datetime)}</div></div>
-                        <div className="bg-slate-100 p-3 rounded-lg"><div className="text-xs text-slate-600 mb-1">Size</div><div className="font-semibold text-slate-900">{formatFileSize(build.size)}</div></div>
-                        <div className="bg-slate-100 p-3 rounded-lg"><div className="text-xs text-slate-600 mb-1">Type</div><div className="font-semibold text-slate-900">{build.romtype}</div></div>
-                      </div>
-                      <div className="flex gap-3 mt-auto">
-                        <a href={build.url} target="_blank" rel="noopener noreferrer" className="flex-1 bg-gradient-to-r from-cyan-500 to-blue-500 text-white py-3 rounded-lg font-semibold transition-all hover:opacity-90 hover:-translate-y-1 flex items-center justify-center gap-2 shadow-lg">
-                          <i className="fas fa-download"></i> Download
-                        </a>
-                        <button onClick={() => handleShowChangelog(device.name)} className="flex-1 bg-gradient-to-r from-emerald-500 to-green-500 text-white py-3 rounded-lg font-semibold transition-all hover:opacity-90 hover:-translate-y-1 flex items-center justify-center gap-2 shadow-lg">
-                          <i className="fas fa-file-alt"></i> Changelog
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                ))
-              ) : (
-                <div className="col-span-full text-center py-12 bg-slate-800/50 rounded-xl fade-in">
-                  <i className="fas fa-search-minus text-5xl mb-4 text-slate-400"></i>
-                  <h3 className="text-xl font-semibold mb-2">No Devices Found</h3>
-                  <p className="text-slate-400">Please try adjusting your search term.</p>
-                </div>
-              )}
-            </div>
 
-            <div className="flex justify-center items-center gap-2 mt-8 slide-up">
-              <button 
-                onClick={() => handlePageChange(currentPage - 1)} 
-                disabled={currentPage === 1} 
-                className="bg-cyan-500 text-white border-none rounded-lg px-6 py-3 cursor-pointer transition-all hover:bg-cyan-600 disabled:bg-slate-600 disabled:cursor-not-allowed flex items-center gap-2 shadow-md"
-              >
-                <i className="fas fa-chevron-left"></i> Previous
-              </button>
-              <span className="mx-4 text-lg">Page {currentPage} of {totalPages || 1}</span>
-              <button 
-                onClick={() => handlePageChange(currentPage + 1)} 
-                disabled={currentPage >= totalPages} 
-                className="bg-cyan-500 text-white border-none rounded-lg px-6 py-3 cursor-pointer transition-all hover:bg-cyan-600 disabled:bg-slate-600 disabled:cursor-not-allowed flex items-center gap-2 shadow-md"
-              >
-                Next <i className="fas fa-chevron-right"></i>
-              </button>
-            </div>
-          </>
-        )}
+      <div className="devices-controls">
+        <div className="devices-filters">
+          {companies.map(c => (
+            <button key={c} className={`devices-filter ${companyFilter === c ? "devices-filter--active" : ""}`} onClick={()=>{ setCompanyFilter(c); setPage(1); }}>
+              {c}
+            </button>
+          ))}
+        </div>
+        <div className="devices-stats">{filtered.length} devices • page {page}/{pageCount}</div>
       </div>
 
-      {showModal && (
-        <div className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 fade-in" onClick={() => setShowModal(false)}>
-          <div className="bg-slate-800 w-full max-w-4xl rounded-xl shadow-2xl max-h-[85vh] flex flex-col" onClick={e => e.stopPropagation()}>
-            <div className="p-5 bg-gradient-to-r from-cyan-500 to-blue-500 text-white flex justify-between items-center">
-              <h2 className="text-2xl font-semibold">Changelog: {changelogDevice}</h2>
-              <button onClick={() => setShowModal(false)} className="bg-transparent border-none text-white text-3xl cursor-pointer transition-transform hover:scale-110">&times;</button>
+      <main className="devices-grid">
+        {pageItems.map(d => (
+          <article key={d.codename} className="devices-card">
+            <div className="devices-card-media">
+              <div className="devices-stage">
+                <img className="devices-img" src={`/img/devices/${d.codename}.png`} alt={`${d.displayName} (${d.codename})`} onError={(e)=>{ e.target.onerror=null; e.target.src = "/img/devices/default.png"; }} />
+              </div>
             </div>
-            <div className="p-6 overflow-y-auto bg-slate-900">
-              <pre className="whitespace-pre-wrap font-mono leading-relaxed text-slate-300">{changelogContent}</pre>
+
+            <div className="devices-card-body">
+              <h3 className="devices-name">{d.displayName} <span className="devices-codename">({d.codename})</span></h3>
+              <div className="devices-meta">
+                <div><strong>Maintainer:</strong> {d.maintainer}</div>
+                <div><strong>Aliases:</strong> {(d.aliases||[]).join(" / ")}</div>
+              </div>
+
+              <div className="devices-build">
+                <div><strong>Version:</strong> {d.latest ? d.latest.version || "—" : "—"}</div>
+                <div><strong>Released:</strong> {d.latest ? fmtDate(d.latest.datetime) : "—"}</div>
+                <div><strong>Size:</strong> {d.latest ? fmtBytes(d.latest.size) : "—"}</div>
+              </div>
+
+              <div className="devices-actions">
+                {d.latest && d.latest.url ? <a className="devices-btn devices-btn--primary" href={d.latest.url} target="_blank" rel="noopener noreferrer">Download</a> : <button className="devices-btn devices-btn--primary" disabled>Download</button>}
+                <button className="devices-btn devices-btn--light" onClick={()=>openChangelog(d.codename, d.changelog_raw_url)}>View changelog</button>
+                {d.latest && d.latest.url ? <button className="devices-btn devices-btn--ghost" onClick={()=>copyCurl(d.latest.url, d.latest.filename)}>Copy curl</button> : <button className="devices-btn devices-btn--ghost" disabled>Copy curl</button>}
+              </div>
             </div>
-          </div>
+          </article>
+        ))}
+      </main>
+
+      <div className="devices-pagination">
+        <button className="devices-page-btn" onClick={()=>setPage(p=>Math.max(1,p-1))} disabled={page===1}>Prev</button>
+        {Array.from({ length: pageCount }, (_,i)=>i+1).filter(pn => Math.abs(pn - page) <= 3 || pn === 1 || pn === pageCount).map(pn => (
+          <button key={pn} className={`devices-page-btn ${pn === page ? "devices-page-btn--active" : ""}`} onClick={()=>setPage(pn)}>{pn}</button>
+        ))}
+        <button className="devices-page-btn" onClick={()=>setPage(p=>Math.min(pageCount,p+1))} disabled={page===pageCount}>Next</button>
+      </div>
+
+      <div className={`devices-modal ${changelog.open ? "devices-modal--open" : ""}`} role="dialog" aria-hidden={!changelog.open}>
+        <div className="devices-modal-inner">
+          <button className="devices-modal-close" onClick={closeChangelog} aria-label="Close">✕</button>
+          <h3 className="devices-modal-title">Changelog — {changelog.codename}</h3>
+          {changelog.loading ? <div className="devices-modal-loading">Loading changelog…</div> : <pre className="devices-modal-pre">{changelog.content}</pre>}
         </div>
-      )}
-    </div>
+      </div>
+    </section>
   );
-};
-
-export default Devices;
+}

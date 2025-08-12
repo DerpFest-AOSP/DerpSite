@@ -1,0 +1,40 @@
+name: Build Devices Index
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout site repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout DerpFest repo
+        uses: actions/checkout@v4
+        with:
+          repository: DerpFest-AOSP/Updater-Stuff
+          path: repo_primary
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Run build-index script
+        run: node scripts/build-index.cjs
+
+      - name: Commit devices-index.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/devices-index.json
+          git commit -m "ci: update devices-index.json" || echo "no changes"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
