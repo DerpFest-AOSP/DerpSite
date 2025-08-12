@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-12T12:29:59.793Z",
+  "generated_at": "2025-08-12T12:43:35.015Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -423,42 +423,6 @@
           "filePath": "repo_primary/gsi_vanilla.json"
         }
       ]
-    },
-    {
-      "codename": "gsi_gapps",
-      "aliases": [
-        "GSI Gapps"
-      ],
-      "displayName": "GSI Gapps",
-      "maintainer": "Doze-off",
-      "latest": {
-        "filename": "Derpfest-16_GSI_treble_arm64-ab_GAPPS-Official-20250808.img.xz",
-        "id": "14d81121ea255a9416705275055e3e803543437a3516c87e84470b1114053c0d",
-        "romtype": "Gapps",
-        "size": 1174066240,
-        "url": "https://github.com/Doze-off/Derpfest_treble/releases/download/2025-08-08/Derpfest-16_GSI_treble_arm64-ab_GAPPS-Official-20250808.img.xz",
-        "version": "v16.0",
-        "datetime": 1754675869
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gsi_gapps.txt"
-    },
-    {
-      "codename": "gsi_vanilla",
-      "aliases": [
-        "GSI Vanilla"
-      ],
-      "displayName": "GSI Vanilla",
-      "maintainer": "Doze-off",
-      "latest": {
-        "filename": "Derpfest-16_GSI_treble_arm64-ab_VANILLA-Official-20250808.img.xz",
-        "id": "4d80ff53fe4b7c135a52e6ba3f4ae4eb569e3401405a3d5d4903c1eece75e825",
-        "romtype": "Vanilla",
-        "size": 1017343444,
-        "url": "https://github.com/Doze-off/Derpfest_treble/releases/download/2025-08-08/Derpfest-16_GSI_treble_arm64-ab_VANILLA-Official-20250808.img.xz",
-        "version": "v16.0",
-        "datetime": 1754675869
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gsi_vanilla.txt"
     },
     {
       "codename": "rtwo",
@@ -1041,24 +1005,6 @@
       ]
     },
     {
-      "codename": "lemonkebab",
-      "aliases": [
-        "OnePlus 8T"
-      ],
-      "displayName": "OnePlus 8T",
-      "maintainer": "Unknown",
-      "latest": {
-        "filename": "DerpFest-12-Official-Shinju-lemonkebab-20220422-2031.zip",
-        "id": "a67fd7c4a6af12ba9ae8c6e29fe32f1c4cca71f6496da49c166159662bce2e3c",
-        "romtype": "Official",
-        "size": 1995044760,
-        "url": "https://sourceforge.net/projects/derpfest/files/lemonkebab/DerpFest-12-Official-Shinju-lemonkebab-20220422-2031.zip/download",
-        "version": "12",
-        "datetime": 1650728067
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonkebab.txt"
-    },
-    {
       "codename": "lemonade",
       "aliases": [
         "OnePlus 9"
@@ -1497,24 +1443,6 @@
           "filePath": "repo_primary/bitra.json"
         }
       ]
-    },
-    {
-      "codename": "bitra",
-      "aliases": [
-        "Realme GT Neo 2"
-      ],
-      "displayName": "Realme GT Neo 2",
-      "maintainer": "Unknown",
-      "latest": {
-        "filename": "DerpFest-14-Official-Stable-bitra-20240426.zip",
-        "id": "71f725c077cdb9ea7a95277ece63e465a6068bb67d0a06b6b358efad01131f0d",
-        "romtype": "Official",
-        "size": 2992421219,
-        "url": "https://sourceforge.net/projects/derpfest/files/bitra/DerpFest-14-Official-Stable-bitra-20240426.zip/download",
-        "version": "14",
-        "datetime": 1714151856
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_bitra.txt"
     },
     {
       "codename": "komodo",
