@@ -1,6 +1,20 @@
 {
-  "generated_at": "2025-08-12T12:12:16.509Z",
-  "repo": "DerpFest-AOSP/Updater-Stuff@master",
+  "generated_at": "2025-08-12T12:43:35.015Z",
+  "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
+  "detected_repos": [
+    {
+      "folder": "repo_avalon",
+      "owner": "amanrajOO7",
+      "repo": "derpfest_avalon",
+      "branch": "16.0"
+    },
+    {
+      "folder": "repo_primary",
+      "owner": "DerpFest-AOSP",
+      "repo": "Updater-Stuff",
+      "branch": "master"
+    }
+  ],
   "devices": [
     {
       "codename": "Z01R",
@@ -18,7 +32,13 @@
         "version": "12",
         "datetime": 1651601904
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Z01R.txt"
+      "changelog_raw_url": null,
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/Z01R.json"
+        }
+      ]
     },
     {
       "codename": "X00TD",
@@ -36,7 +56,13 @@
         "version": "12",
         "datetime": 1652082112
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_X00TD.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_X00TD.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/X00TD.json"
+        }
+      ]
     },
     {
       "codename": "X01BD",
@@ -54,7 +80,13 @@
         "version": "12",
         "datetime": 1646069692
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_X01BD.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_X01BD.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/X01BD.json"
+        }
+      ]
     },
     {
       "codename": "flame",
@@ -72,7 +104,13 @@
         "version": "15.1",
         "datetime": 1737944543
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_flame.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_flame.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/flame.json"
+        }
+      ]
     },
     {
       "codename": "coral",
@@ -90,7 +128,13 @@
         "version": "15.1",
         "datetime": 1737960745
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_coral.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_coral.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/coral.json"
+        }
+      ]
     },
     {
       "codename": "sunfish",
@@ -108,7 +152,13 @@
         "version": "13",
         "datetime": 1700506687
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sunfish.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sunfish.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/sunfish.json"
+        }
+      ]
     },
     {
       "codename": "bramble",
@@ -126,7 +176,13 @@
         "version": "14",
         "datetime": 1725603320
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_bramble.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_bramble.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/bramble.json"
+        }
+      ]
     },
     {
       "codename": "redfin",
@@ -144,7 +200,13 @@
         "version": "14",
         "datetime": 1725598817
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_redfin.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_redfin.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/redfin.json"
+        }
+      ]
     },
     {
       "codename": "oriole",
@@ -162,7 +224,13 @@
         "version": "v15.2",
         "datetime": 1749911431
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_oriole.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_oriole.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/oriole.json"
+        }
+      ]
     },
     {
       "codename": "raven",
@@ -180,7 +248,13 @@
         "version": "v15.2",
         "datetime": 1749912834
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_raven.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_raven.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/raven.json"
+        }
+      ]
     },
     {
       "codename": "bluejay",
@@ -198,7 +272,13 @@
         "version": "v15.2",
         "datetime": 1749911957
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_bluejay.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_bluejay.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/bluejay.json"
+        }
+      ]
     },
     {
       "codename": "panther",
@@ -216,7 +296,13 @@
         "version": "v16.0",
         "datetime": 1754896783
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_panther.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_panther.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/panther.json"
+        }
+      ]
     },
     {
       "codename": "cheetah",
@@ -234,7 +320,13 @@
         "version": "v16.0",
         "datetime": 1754908139
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_cheetah.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_cheetah.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/cheetah.json"
+        }
+      ]
     },
     {
       "codename": "lynx",
@@ -252,7 +344,13 @@
         "version": "v16.0",
         "datetime": 1754909829
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lynx.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lynx.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/lynx.json"
+        }
+      ]
     },
     {
       "codename": "caiman",
@@ -270,7 +368,13 @@
         "version": "v15.2",
         "datetime": 1750609939
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_caiman.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_caiman.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/caiman.json"
+        }
+      ]
     },
     {
       "codename": "gsi_gapps",
@@ -288,7 +392,13 @@
         "version": "v16.0",
         "datetime": 1754675869
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gsi_gapps.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gsi_gapps.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/gsi_gapps.json"
+        }
+      ]
     },
     {
       "codename": "gsi_vanilla",
@@ -306,7 +416,13 @@
         "version": "v16.0",
         "datetime": 1754675869
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gsi_vanilla.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gsi_vanilla.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/gsi_vanilla.json"
+        }
+      ]
     },
     {
       "codename": "rtwo",
@@ -324,7 +440,13 @@
         "version": "15.1",
         "datetime": 1744833676
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rtwo.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rtwo.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/rtwo.json"
+        }
+      ]
     },
     {
       "codename": "nio",
@@ -344,7 +466,13 @@
         "version": "v15.2",
         "datetime": 1753993070
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_nio.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_nio.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/nio.json"
+        }
+      ]
     },
     {
       "codename": "hawao",
@@ -363,7 +491,13 @@
         "version": "13",
         "datetime": 1696879920
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_hawao.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_hawao.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/hawao.json"
+        }
+      ]
     },
     {
       "codename": "beckham",
@@ -381,7 +515,13 @@
         "version": "13",
         "datetime": 1728917785
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beckham.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beckham.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/beckham.json"
+        }
+      ]
     },
     {
       "codename": "devon",
@@ -399,7 +539,13 @@
         "version": "13",
         "datetime": 1696859909
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_devon.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_devon.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/devon.json"
+        }
+      ]
     },
     {
       "codename": "tokay",
@@ -417,7 +563,13 @@
         "version": "v15.2",
         "datetime": 1750613590
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_tokay.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_tokay.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/tokay.json"
+        }
+      ]
     },
     {
       "codename": "rhode",
@@ -435,7 +587,13 @@
         "version": "13",
         "datetime": 1696909837
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rhode.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rhode.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/rhode.json"
+        }
+      ]
     },
     {
       "codename": "evert",
@@ -453,7 +611,13 @@
         "version": "13",
         "datetime": 1728918930
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_evert.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_evert.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/evert.json"
+        }
+      ]
     },
     {
       "codename": "river",
@@ -471,7 +635,13 @@
         "version": "15",
         "datetime": 1731979785
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_river.txt"
+      "changelog_raw_url": null,
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/river.json"
+        }
+      ]
     },
     {
       "codename": "lake",
@@ -489,7 +659,13 @@
         "version": "13",
         "datetime": 1728919903
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lake.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lake.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/lake.json"
+        }
+      ]
     },
     {
       "codename": "ocean",
@@ -507,7 +683,13 @@
         "version": "15",
         "datetime": 1731981834
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_ocean.txt"
+      "changelog_raw_url": null,
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/ocean.json"
+        }
+      ]
     },
     {
       "codename": "lunaa",
@@ -526,7 +708,13 @@
         "version": "13",
         "datetime": 1697876101
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lunaa.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lunaa.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/lunaa.json"
+        }
+      ]
     },
     {
       "codename": "Spacewar",
@@ -544,7 +732,13 @@
         "version": "v15.2",
         "datetime": 1751628844
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Spacewar.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Spacewar.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/Spacewar.json"
+        }
+      ]
     },
     {
       "codename": "Pong",
@@ -562,7 +756,13 @@
         "version": "v15.2",
         "datetime": 1750614103
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pong.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pong.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/Pong.json"
+        }
+      ]
     },
     {
       "codename": "aston",
@@ -580,7 +780,13 @@
         "version": "15",
         "datetime": 1735468428
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_aston.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_aston.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/aston.json"
+        }
+      ]
     },
     {
       "codename": "cheeseburger",
@@ -598,7 +804,13 @@
         "version": "12",
         "datetime": 1660436808
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_cheeseburger.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_cheeseburger.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/cheeseburger.json"
+        }
+      ]
     },
     {
       "codename": "dumpling",
@@ -616,7 +828,13 @@
         "version": "12",
         "datetime": 1660433617
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dumpling.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dumpling.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/dumpling.json"
+        }
+      ]
     },
     {
       "codename": "guacamoleb",
@@ -634,7 +852,13 @@
         "version": "14",
         "datetime": 1704925868
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_guacamoleb.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_guacamoleb.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/guacamoleb.json"
+        }
+      ]
     },
     {
       "codename": "guacamole",
@@ -652,7 +876,13 @@
         "version": "12",
         "datetime": 1651492182
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_guacamole.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_guacamole.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/guacamole.json"
+        }
+      ]
     },
     {
       "codename": "hotdogb",
@@ -670,7 +900,13 @@
         "version": "13",
         "datetime": 1695335042
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_hotdogb.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_hotdogb.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/hotdogb.json"
+        }
+      ]
     },
     {
       "codename": "hotdog",
@@ -688,7 +924,13 @@
         "version": "13",
         "datetime": 1668359256
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_hotdog.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_hotdog.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/hotdog.json"
+        }
+      ]
     },
     {
       "codename": "instantnoodle",
@@ -706,7 +948,13 @@
         "version": "13",
         "datetime": 1684600043
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_instantnoodle.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_instantnoodle.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/instantnoodle.json"
+        }
+      ]
     },
     {
       "codename": "instantnoodlep",
@@ -724,7 +972,13 @@
         "version": "13",
         "datetime": 1683053562
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_instantnoodlep.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_instantnoodlep.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/instantnoodlep.json"
+        }
+      ]
     },
     {
       "codename": "lemonkebab",
@@ -742,7 +996,13 @@
         "version": "12",
         "datetime": 1650728067
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonkebab.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonkebab.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/lemonkebab.json"
+        }
+      ]
     },
     {
       "codename": "lemonade",
@@ -760,7 +1020,13 @@
         "version": "12",
         "datetime": 1650116528
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonade.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonade.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/lemonade.json"
+        }
+      ]
     },
     {
       "codename": "lemonadep",
@@ -778,7 +1044,13 @@
         "version": "12",
         "datetime": 1650110252
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonadep.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonadep.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/lemonadep.json"
+        }
+      ]
     },
     {
       "codename": "lemonades",
@@ -796,7 +1068,13 @@
         "version": "13",
         "datetime": 1691853630
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonades.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lemonades.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/lemonades.json"
+        }
+      ]
     },
     {
       "codename": "martini",
@@ -814,7 +1092,13 @@
         "version": "13",
         "datetime": 1688847882
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_martini.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_martini.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/martini.json"
+        }
+      ]
     },
     {
       "codename": "corvette",
@@ -832,7 +1116,37 @@
         "version": "v15.2",
         "datetime": 1749169016
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_corvette.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_corvette.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/corvette.json"
+        }
+      ]
+    },
+    {
+      "codename": "avalon",
+      "aliases": [
+        "OnePlus Nord 4"
+      ],
+      "displayName": "OnePlus Nord 4",
+      "maintainer": "Aman Singh (iamansingh)",
+      "latest": {
+        "filename": "DerpFest-16.0-Official-Stable-avalon-20250805-1752.zip",
+        "id": "d813d2cad20c9df3936a0d1cbe505e0e507b04edeab4568e4a49c63be49bdb4a",
+        "romtype": "Official",
+        "size": 3202585766,
+        "url": "https://sourceforge.net/projects/avalon-builds/files/DerpFest/DerpFest-16.0-Official-Stable-avalon-20250805-1752.zip/download",
+        "version": "16.0",
+        "datetime": 1754396358
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/amanrajOO7/derpfest_avalon/16.0/changelog_avalon.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_avalon",
+          "filePath": "repo_avalon/avalon.json"
+        }
+      ]
     },
     {
       "codename": "alioth",
@@ -852,7 +1166,13 @@
         "version": "14",
         "datetime": 1724142515
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_alioth.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_alioth.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/alioth.json"
+        }
+      ]
     },
     {
       "codename": "marble",
@@ -871,7 +1191,13 @@
         "version": "14",
         "datetime": 1720709034
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_marble.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_marble.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/marble.json"
+        }
+      ]
     },
     {
       "codename": "citrus",
@@ -891,7 +1217,13 @@
         "version": "14",
         "datetime": 1717609675
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_citrus.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_citrus.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/citrus.json"
+        }
+      ]
     },
     {
       "codename": "sky",
@@ -911,7 +1243,13 @@
         "version": "15.1",
         "datetime": 1740249681
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sky.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sky.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/sky.json"
+        }
+      ]
     },
     {
       "codename": "phoenix",
@@ -930,7 +1268,13 @@
         "version": "13",
         "datetime": 1676125821
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_phoenix.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_phoenix.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/phoenix.json"
+        }
+      ]
     },
     {
       "codename": "surya",
@@ -948,7 +1292,13 @@
         "version": "14",
         "datetime": 1717518511
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_surya.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_surya.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/surya.json"
+        }
+      ]
     },
     {
       "codename": "vayu",
@@ -966,7 +1316,13 @@
         "version": "13",
         "datetime": 1696290313
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_vayu.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_vayu.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/vayu.json"
+        }
+      ]
     },
     {
       "codename": "redwood",
@@ -984,7 +1340,13 @@
         "version": "14",
         "datetime": 1723129309
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_redwood.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_redwood.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/redwood.json"
+        }
+      ]
     },
     {
       "codename": "RMX1971",
@@ -1002,7 +1364,13 @@
         "version": "13",
         "datetime": 1696345292
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_RMX1971.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_RMX1971.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/RMX1971.json"
+        }
+      ]
     },
     {
       "codename": "RMX2061",
@@ -1020,7 +1388,13 @@
         "version": "12",
         "datetime": 1653676809
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_RMX2061.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_RMX2061.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/RMX2061.json"
+        }
+      ]
     },
     {
       "codename": "RMX2170",
@@ -1038,7 +1412,13 @@
         "version": "13",
         "datetime": 1694542488
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_RMX2170.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_RMX2170.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/RMX2170.json"
+        }
+      ]
     },
     {
       "codename": "bitra",
@@ -1056,7 +1436,13 @@
         "version": "14",
         "datetime": 1714151856
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_bitra.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_bitra.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/bitra.json"
+        }
+      ]
     },
     {
       "codename": "komodo",
@@ -1074,7 +1460,13 @@
         "version": "v15.2",
         "datetime": 1750604219
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/komodo.json"
+        }
+      ]
     },
     {
       "codename": "x2",
@@ -1092,7 +1484,13 @@
         "version": "13",
         "datetime": 1727242442
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_x2.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_x2.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/x2.json"
+        }
+      ]
     },
     {
       "codename": "RMX1921",
@@ -1110,7 +1508,13 @@
         "version": "13",
         "datetime": 1694261386
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_RMX1921.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_RMX1921.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/RMX1921.json"
+        }
+      ]
     },
     {
       "codename": "sakura",
@@ -1128,7 +1532,13 @@
         "version": "12",
         "datetime": 1647512298
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sakura.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sakura.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/sakura.json"
+        }
+      ]
     },
     {
       "codename": "onclite",
@@ -1146,14 +1556,20 @@
         "version": "13",
         "datetime": 1681359158
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_onclite.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_onclite.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/onclite.json"
+        }
+      ]
     },
     {
       "codename": "olivewood",
       "aliases": [
-        "Redmi 8"
+        "Redmi 8A Dual"
       ],
-      "displayName": "Redmi 8",
+      "displayName": "Redmi 8A Dual",
       "maintainer": "Unknown",
       "latest": {
         "filename": "DerpFest-12-Official-Shion-olivewood-20220126-0439.zip",
@@ -1164,7 +1580,13 @@
         "version": "12",
         "datetime": 1643165904
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_olivewood.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_olivewood.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/olivewood.json"
+        }
+      ]
     },
     {
       "codename": "lancelot",
@@ -1183,7 +1605,13 @@
         "version": "13",
         "datetime": 1688632122
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lancelot.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lancelot.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/lancelot.json"
+        }
+      ]
     },
     {
       "codename": "lime",
@@ -1203,7 +1631,13 @@
         "version": "14",
         "datetime": 1717521835
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lime.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lime.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/lime.json"
+        }
+      ]
     },
     {
       "codename": "raphael",
@@ -1222,7 +1656,13 @@
         "version": "15.1",
         "datetime": 1741284983
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_raphael.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_raphael.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/raphael.json"
+        }
+      ]
     },
     {
       "codename": "picasso",
@@ -1240,7 +1680,13 @@
         "version": "13",
         "datetime": 1689581092
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_picasso.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_picasso.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/picasso.json"
+        }
+      ]
     },
     {
       "codename": "sweet",
@@ -1258,7 +1704,13 @@
         "version": "14",
         "datetime": 1716753997
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sweet.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sweet.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/sweet.json"
+        }
+      ]
     },
     {
       "codename": "spes",
@@ -1276,7 +1728,13 @@
         "version": "12",
         "datetime": 1657298365
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_spes.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_spes.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/spes.json"
+        }
+      ]
     },
     {
       "codename": "veux",
@@ -1295,7 +1753,13 @@
         "version": "v16.0",
         "datetime": 1754909519
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_veux.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_veux.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/veux.json"
+        }
+      ]
     },
     {
       "codename": "fleur",
@@ -1314,7 +1778,13 @@
         "version": "13",
         "datetime": 1696317494
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_fleur.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_fleur.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/fleur.json"
+        }
+      ]
     },
     {
       "codename": "zippo",
@@ -1333,7 +1803,13 @@
         "version": "v15.2",
         "datetime": 1749146962
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_zippo.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_zippo.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/zippo.json"
+        }
+      ]
     },
     {
       "codename": "garnet",
@@ -1352,7 +1828,13 @@
         "version": "14",
         "datetime": 1726242484
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_garnet.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_garnet.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/garnet.json"
+        }
+      ]
     },
     {
       "codename": "lavender",
@@ -1370,7 +1852,13 @@
         "version": "13",
         "datetime": 1683995710
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lavender.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lavender.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/lavender.json"
+        }
+      ]
     },
     {
       "codename": "violet",
@@ -1388,7 +1876,13 @@
         "version": "v16.0",
         "datetime": 1754950629
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_violet.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_violet.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/violet.json"
+        }
+      ]
     },
     {
       "codename": "ginkgo",
@@ -1407,7 +1901,13 @@
         "version": "13",
         "datetime": 1696519521
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_ginkgo.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_ginkgo.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/ginkgo.json"
+        }
+      ]
     },
     {
       "codename": "begonia",
@@ -1425,7 +1925,13 @@
         "version": "14",
         "datetime": 1723099541
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_begonia.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_begonia.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/begonia.json"
+        }
+      ]
     },
     {
       "codename": "merlinx",
@@ -1444,7 +1950,13 @@
         "version": "14",
         "datetime": 1714555278
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_merlinx.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_merlinx.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/merlinx.json"
+        }
+      ]
     },
     {
       "codename": "miatoll",
@@ -1463,7 +1975,13 @@
         "version": "14",
         "datetime": 1729689785
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_miatoll.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_miatoll.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/miatoll.json"
+        }
+      ]
     },
     {
       "codename": "ysl",
@@ -1482,7 +2000,13 @@
         "version": "12",
         "datetime": 1644389980
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_ysl.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_ysl.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/ysl.json"
+        }
+      ]
     },
     {
       "codename": "a10",
@@ -1500,7 +2024,13 @@
         "version": "13",
         "datetime": 1683288350
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a10.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a10.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/a10.json"
+        }
+      ]
     },
     {
       "codename": "a20",
@@ -1518,7 +2048,13 @@
         "version": "13",
         "datetime": 1683294742
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a20.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a20.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/a20.json"
+        }
+      ]
     },
     {
       "codename": "a20e",
@@ -1536,7 +2072,13 @@
         "version": "13",
         "datetime": 1683295783
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a20e.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a20e.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/a20e.json"
+        }
+      ]
     },
     {
       "codename": "a30",
@@ -1554,7 +2096,13 @@
         "version": "13",
         "datetime": 1683296814
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a30.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a30.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/a30.json"
+        }
+      ]
     },
     {
       "codename": "a40",
@@ -1572,7 +2120,13 @@
         "version": "13",
         "datetime": 1683297769
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a40.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a40.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/a40.json"
+        }
+      ]
     },
     {
       "codename": "a505fn",
@@ -1590,7 +2144,13 @@
         "version": "12",
         "datetime": 1649525058
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a505fn.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a505fn.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/a505fn.json"
+        }
+      ]
     },
     {
       "codename": "a52sxq",
@@ -1608,7 +2168,13 @@
         "version": "v16.0",
         "datetime": 1754225946
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a52sxq.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a52sxq.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/a52sxq.json"
+        }
+      ]
     },
     {
       "codename": "a71",
@@ -1626,7 +2192,13 @@
         "version": "15.1",
         "datetime": 1738781843
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a71.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a71.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/a71.json"
+        }
+      ]
     },
     {
       "codename": "greatlte",
@@ -1644,7 +2216,13 @@
         "version": "13",
         "datetime": 1697455857
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_greatlte.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_greatlte.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/greatlte.json"
+        }
+      ]
     },
     {
       "codename": "crownlte",
@@ -1662,7 +2240,13 @@
         "version": "13",
         "datetime": 1682070143
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_crownlte.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_crownlte.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/crownlte.json"
+        }
+      ]
     },
     {
       "codename": "beyond1lte",
@@ -1680,7 +2264,13 @@
         "version": "13",
         "datetime": 1693154066
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyond1lte.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyond1lte.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/beyond1lte.json"
+        }
+      ]
     },
     {
       "codename": "beyondx",
@@ -1698,7 +2288,13 @@
         "version": "13",
         "datetime": 1693160053
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyondx.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyondx.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/beyondx.json"
+        }
+      ]
     },
     {
       "codename": "beyond2lte",
@@ -1716,7 +2312,13 @@
         "version": "13",
         "datetime": 1693157889
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyond2lte.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyond2lte.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/beyond2lte.json"
+        }
+      ]
     },
     {
       "codename": "beyond0lte",
@@ -1734,7 +2336,13 @@
         "version": "13",
         "datetime": 1693155923
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyond0lte.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyond0lte.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/beyond0lte.json"
+        }
+      ]
     },
     {
       "codename": "pstar",
@@ -1752,7 +2360,13 @@
         "version": "v15.2",
         "datetime": 1753936661
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pstar.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pstar.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/pstar.json"
+        }
+      ]
     },
     {
       "codename": "d1",
@@ -1770,7 +2384,13 @@
         "version": "13",
         "datetime": 1693207209
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_d1.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_d1.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/d1.json"
+        }
+      ]
     },
     {
       "codename": "dreamlte",
@@ -1788,7 +2408,13 @@
         "version": "13",
         "datetime": 1697400172
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dreamlte.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dreamlte.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/dreamlte.json"
+        }
+      ]
     },
     {
       "codename": "dream2lte",
@@ -1806,7 +2432,13 @@
         "version": "13",
         "datetime": 1697395810
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dream2lte.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dream2lte.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/dream2lte.json"
+        }
+      ]
     },
     {
       "codename": "d2s",
@@ -1824,7 +2456,13 @@
         "version": "13",
         "datetime": 1693068260
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_d2s.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_d2s.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/d2s.json"
+        }
+      ]
     },
     {
       "codename": "starlte",
@@ -1842,7 +2480,13 @@
         "version": "13",
         "datetime": 1682230943
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_starlte.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_starlte.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/starlte.json"
+        }
+      ]
     },
     {
       "codename": "d2x",
@@ -1860,7 +2504,13 @@
         "version": "13",
         "datetime": 1693215756
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_d2x.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_d2x.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/d2x.json"
+        }
+      ]
     },
     {
       "codename": "star2lte",
@@ -1878,7 +2528,13 @@
         "version": "13",
         "datetime": 1682224533
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_star2lte.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_star2lte.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/star2lte.json"
+        }
+      ]
     },
     {
       "codename": "spartan",
@@ -1896,7 +2552,13 @@
         "version": "14",
         "datetime": 1707628007
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_spartan.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_spartan.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/spartan.json"
+        }
+      ]
     },
     {
       "codename": "phone1",
@@ -1914,7 +2576,13 @@
         "version": "14",
         "datetime": 1708853366
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_phone1.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_phone1.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/phone1.json"
+        }
+      ]
     },
     {
       "codename": "renoir",
@@ -1932,7 +2600,13 @@
         "version": "14",
         "datetime": 1712737829
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_renoir.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_renoir.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/renoir.json"
+        }
+      ]
     },
     {
       "codename": "vili",
@@ -1950,7 +2624,13 @@
         "version": "v16.0",
         "datetime": 1754373143
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_vili.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_vili.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/vili.json"
+        }
+      ]
     },
     {
       "codename": "diting",
@@ -1969,7 +2649,13 @@
         "version": "14",
         "datetime": 1717572677
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_diting.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_diting.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/diting.json"
+        }
+      ]
     },
     {
       "codename": "mondrian",
@@ -1988,7 +2674,13 @@
         "version": "14",
         "datetime": 1717267558
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_mondrian.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_mondrian.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/mondrian.json"
+        }
+      ]
     },
     {
       "codename": "apollo",
@@ -2008,7 +2700,13 @@
         "version": "13",
         "datetime": 1692258606
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_apollo.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_apollo.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/apollo.json"
+        }
+      ]
     },
     {
       "codename": "gauguin",
@@ -2027,7 +2725,13 @@
         "version": "14",
         "datetime": 1714685797
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gauguin.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gauguin.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/gauguin.json"
+        }
+      ]
     },
     {
       "codename": "platina",
@@ -2045,7 +2749,13 @@
         "version": "14",
         "datetime": 1729439847
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_platina.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_platina.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/platina.json"
+        }
+      ]
     },
     {
       "codename": "davinci",
@@ -2064,7 +2774,13 @@
         "version": "v16.0",
         "datetime": 1754098393
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_davinci.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_davinci.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/davinci.json"
+        }
+      ]
     },
     {
       "codename": "daisy",
@@ -2082,7 +2798,13 @@
         "version": "13",
         "datetime": 1668592773
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_daisy.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_daisy.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/daisy.json"
+        }
+      ]
     },
     {
       "codename": "toco",
@@ -2100,7 +2822,13 @@
         "version": "v15.2",
         "datetime": 1751925692
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_toco.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_toco.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/toco.json"
+        }
+      ]
     },
     {
       "codename": "pipa",
@@ -2118,7 +2846,13 @@
         "version": "v16.0",
         "datetime": 1754298692
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pipa.txt"
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pipa.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/pipa.json"
+        }
+      ]
     }
   ]
 }
