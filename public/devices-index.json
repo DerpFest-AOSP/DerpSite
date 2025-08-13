@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-13T12:05:07.193Z",
+  "generated_at": "2025-08-13T18:04:26.296Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1739,10 +1739,12 @@
     {
       "codename": "veux",
       "aliases": [
-        "Redmi Note 11 Pro+ 5G",
-        "Xiaomi 11i HyperCharge"
+        "Redmi Note 11 Pro 5G",
+        "POCO X4 Pro 5G",
+        "Redmi Note 11 Pro+ 5G (India)",
+        "Redmi Note 11e Pro (China)"
       ],
-      "displayName": "Redmi Note 11 Pro+ 5G",
+      "displayName": "Redmi Note 11 Pro 5G",
       "maintainer": "Unknown",
       "latest": {
         "filename": "DerpFest-v16.0-20250811-veux-Official-Stable.zip",
