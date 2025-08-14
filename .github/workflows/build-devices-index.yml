@@ -2,7 +2,7 @@ name: Build Devices Index
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # every 6 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
           path: repo_avalon
           fetch-depth: 0
 
-      # To add another repo do like this
+      # To add another repo in future:
       # - name: Checkout SomeOtherRepo
       #   uses: actions/checkout@v4
       #   with:
