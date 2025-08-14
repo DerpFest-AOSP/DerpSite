@@ -11,6 +11,10 @@ function readJsonSafe(p) {
   try { return JSON.parse(fs.readFileSync(p, "utf8") || "{}"); } catch { return {}; }
 }
 
+function writeJsonSafe(p, obj) {
+  try { fs.writeFileSync(p, JSON.stringify(obj, null, 2), "utf8"); } catch (e) { /* ignore */ }
+}
+
 function walkDir(dir) {
   if (!fs.existsSync(dir)) return [];
   const results = [];
@@ -89,7 +93,6 @@ function findFileAnywhere(repoRoot, targetFilename) {
 function build() {
   const repoMap = loadRepoMap();
   const repoFolders = detectRepoFolders();
-
   const repoDescriptors = repoFolders.map(r => {
     const base = path.basename(r.full);
     if (repoMap && repoMap[base]) {
@@ -105,7 +108,7 @@ function build() {
   });
 
   if (repoDescriptors.length === 0) {
-    console.error("No repo_* folders found. Make sure your workflow checks out repos with path: repo_<name>.");
+    console.error("No repo_* folders found. Ensure workflow checks out repos with path: repo_<name>.");
     process.exit(1);
   }
 
@@ -113,10 +116,13 @@ function build() {
   if (!primaryDescriptor) primaryDescriptor = repoDescriptors[0];
 
   const primaryPath = primaryDescriptor.path;
-  const codenameMap = fs.existsSync(path.join(primaryPath, "codename.json")) ? readJsonSafe(path.join(primaryPath, "codename.json")) : {};
-  const maint1 = fs.existsSync(path.join(primaryPath, "maintainer.json")) ? readJsonSafe(path.join(primaryPath, "maintainer.json")) : {};
-  const maint2 = fs.existsSync(path.join(primaryPath, "maintainers.json")) ? readJsonSafe(path.join(primaryPath, "maintainers.json")) : {};
-  const maintMap = Object.assign({}, maint1, maint2);
+  const codenamePath = path.join(primaryPath, "codename.json");
+  const codenameMap = fs.existsSync(codenamePath) ? readJsonSafe(codenamePath) : {};
+  const maint1 = path.join(primaryPath, "maintainer.json");
+  const maint2 = path.join(primaryPath, "maintainers.json");
+  const maintMap1 = fs.existsSync(maint1) ? readJsonSafe(maint1) : {};
+  const maintMap2 = fs.existsSync(maint2) ? readJsonSafe(maint2) : {};
+  const maintMap = Object.assign({}, maintMap1, maintMap2);
 
   const devicesMap = {};
 
@@ -209,12 +215,12 @@ function build() {
   devices.sort((a,b) => a.displayName.localeCompare(b.displayName, undefined, { sensitivity: "base" }));
 
   ensureDir(OUT_PATH);
-  fs.writeFileSync(OUT_PATH, JSON.stringify({
+  writeJsonSafe(OUT_PATH, {
     generated_at: new Date().toISOString(),
     primary_repo: `${PRIMARY_REPO_OWNER}/${PRIMARY_REPO_NAME}@${PRIMARY_REPO_BRANCH}`,
     detected_repos: repoDescriptors.map(r => ({ folder: r.folderName, owner: r.owner, repo: r.repo, branch: r.branch })),
     devices
-  }, null, 2), "utf8");
+  });
 
   console.log(`Wrote ${OUT_PATH} with ${devices.length} devices (repos: ${repoDescriptors.map(r=>r.folderName).join(", ")})`);
 }
