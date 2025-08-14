@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-14T03:42:29.527Z",
+  "generated_at": "2025-08-14T12:09:06.629Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -353,11 +353,35 @@
       ]
     },
     {
+      "codename": "tokay",
+      "aliases": [
+        "Google Pixel 9"
+      ],
+      "displayName": "Google Pixel 9",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250622-tokay-Official-Stable.zip",
+        "id": "9eea869c831acb243377fecb623f5bdefcd16fea6650fc191a821cf4b01c33df",
+        "romtype": "Official",
+        "size": 2974202249,
+        "url": "https://derpfest.rom.lol/?file=tokay/DerpFest-v15.2-20250622-tokay-Official-Stable.zip",
+        "version": "v15.2",
+        "datetime": 1750613590
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_tokay.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/tokay.json"
+        }
+      ]
+    },
+    {
       "codename": "caiman",
       "aliases": [
-        "Google Pixel Tablet"
+        "Google Pixel 9 Pro"
       ],
-      "displayName": "Google Pixel Tablet",
+      "displayName": "Google Pixel 9 Pro",
       "maintainer": "Unknown",
       "latest": {
         "filename": "DerpFest-v15.2-20250622-caiman-Official-Stable.zip",
@@ -373,6 +397,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/caiman.json"
+        }
+      ]
+    },
+    {
+      "codename": "komodo",
+      "aliases": [
+        "Google Pixel 9 Pro XL"
+      ],
+      "displayName": "Google Pixel 9 Pro XL",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250622-komodo-Official-Stable.zip",
+        "id": "7aad266c10f3441defd5b93358a2dd9dcdbd565c05bc1dff89b5670075e5e8fe",
+        "romtype": "Official",
+        "size": 2982726665,
+        "url": "https://derpfest.rom.lol/?file=komodo/DerpFest-v15.2-20250622-komodo-Official-Stable.zip",
+        "version": "v15.2",
+        "datetime": 1750604219
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/komodo.json"
         }
       ]
     },
@@ -544,30 +592,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/devon.json"
-        }
-      ]
-    },
-    {
-      "codename": "tokay",
-      "aliases": [
-        "Motorola Moto G34"
-      ],
-      "displayName": "Motorola Moto G34",
-      "maintainer": "Unknown",
-      "latest": {
-        "filename": "DerpFest-v15.2-20250622-tokay-Official-Stable.zip",
-        "id": "9eea869c831acb243377fecb623f5bdefcd16fea6650fc191a821cf4b01c33df",
-        "romtype": "Official",
-        "size": 2974202249,
-        "url": "https://derpfest.rom.lol/?file=tokay/DerpFest-v15.2-20250622-tokay-Official-Stable.zip",
-        "version": "v15.2",
-        "datetime": 1750613590
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_tokay.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/tokay.json"
         }
       ]
     },
@@ -767,9 +791,10 @@
     {
       "codename": "aston",
       "aliases": [
-        "Nothing Phone (2a)"
+        "OnePlus 12R",
+        "OnePlus Ace 3 5G"
       ],
-      "displayName": "Nothing Phone (2a)",
+      "displayName": "OnePlus 12R",
       "maintainer": "Unknown",
       "latest": {
         "filename": "DerpFest-15-Official-Stable-aston-20241229-1833.zip",
@@ -1441,30 +1466,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/bitra.json"
-        }
-      ]
-    },
-    {
-      "codename": "komodo",
-      "aliases": [
-        "Realme GT2"
-      ],
-      "displayName": "Realme GT2",
-      "maintainer": "Unknown",
-      "latest": {
-        "filename": "DerpFest-v15.2-20250622-komodo-Official-Stable.zip",
-        "id": "7aad266c10f3441defd5b93358a2dd9dcdbd565c05bc1dff89b5670075e5e8fe",
-        "romtype": "Official",
-        "size": 2982726665,
-        "url": "https://derpfest.rom.lol/?file=komodo/DerpFest-v15.2-20250622-komodo-Official-Stable.zip",
-        "version": "v15.2",
-        "datetime": 1750604219
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/komodo.json"
         }
       ]
     },
