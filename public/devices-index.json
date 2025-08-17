@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-16T12:08:00.157Z",
+  "generated_at": "2025-08-17T00:24:17.816Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -2769,13 +2769,13 @@
       "displayName": "Xiaomi Mi 9T",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20250802-davinci-Official-Stable.zip",
-        "id": "66ffde49b55add278aafd4347e25230ae67f40aefa8e7f458f30afc4f0548cf1",
+        "filename": "DerpFest-v16.0-20250816-davinci-Official-Stable.zip",
+        "id": "302336e2892298d4ea268206423255952e5b1ebc989bbd6a9b626d0e3594a1eb",
         "romtype": "Official",
-        "size": 2358525472,
-        "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.0-20250802-davinci-Official-Stable.zip/download",
+        "size": 2450051642,
+        "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.0-20250816-davinci-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1754098393
+        "datetime": 1755380133
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_davinci.txt",
       "sources": [
