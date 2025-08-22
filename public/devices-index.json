@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-21T12:08:30.144Z",
+  "generated_at": "2025-08-22T00:20:57.204Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1943,13 +1943,13 @@
       "displayName": "Redmi Note 7 Pro",
       "maintainer": "Selfmuser",
       "latest": {
-        "filename": "DerpFest-v16.0-20250811-violet-Official-Stable.zip",
-        "id": "9bc6734d4d035c1293b0a880dd9db9d6fa11a0d72f49aeb8756860b61ea6115f",
+        "filename": "DerpFest-v16.0-20250820-violet-Official-Stable.zip",
+        "id": "dc277a8e475ada661fc8a5a3adf54c5e435a90e758a0e4c9778e59db3c08831d",
         "romtype": "Official",
-        "size": 2297578577,
-        "url": "https://sourceforge.net/projects/derpfest/files/violet/DerpFest-v16.0-20250811-violet-Official-Stable.zip/download",
+        "size": 2312657213,
+        "url": "https://sourceforge.net/projects/derpfest/files/violet/DerpFest-v16.0-20250820-violet-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1754950629
+        "datetime": 1755717875
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_violet.txt",
       "sources": [
