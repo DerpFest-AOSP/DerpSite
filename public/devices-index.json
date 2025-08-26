@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-25T12:08:35.398Z",
+  "generated_at": "2025-08-26T00:20:59.898Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -432,13 +432,13 @@
       "displayName": "Google Pixel 9",
       "maintainer": "Unknown",
       "latest": {
-        "filename": "DerpFest-v15.2-20250622-tokay-Official-Stable.zip",
-        "id": "9eea869c831acb243377fecb623f5bdefcd16fea6650fc191a821cf4b01c33df",
+        "filename": "DerpFest-v16.0-20250824-tokay-Official-Stable.zip",
+        "id": "fc0280c75f463e0b1e045538c48c9972240e2ea32c4514943092036aaec3c560",
         "romtype": "Official",
-        "size": 2974202249,
-        "url": "https://derpfest.rom.lol/?file=tokay/DerpFest-v15.2-20250622-tokay-Official-Stable.zip",
-        "version": "v15.2",
-        "datetime": 1750613590
+        "size": 3045089819,
+        "url": "https://derpfest.rom.lol/?file=tokay/DerpFest-v16.0-20250824-tokay-Official-Stable.zip",
+        "version": "v16.0",
+        "datetime": 1756072015
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_tokay.txt",
       "sources": [
@@ -460,7 +460,7 @@
         "id": "59257c23619ad4743a773735ffa6766d45ce9d4b0e52248607f21c6de68a808e",
         "romtype": "Official",
         "size": 3050941809,
-        "url": "https://sourceforge.net/projects/derpfest/files/caiman/DerpFest-v16.0-20250824-caiman-Official-Stable.zip/download",
+        "url": "https://derpfest.rom.lol/?file=caiman/DerpFest-v16.0-20250824-caiman-Official-Stable.zip",
         "version": "v16.0",
         "datetime": 1756070426
       },
@@ -484,7 +484,7 @@
         "id": "fefb59da239ea8c83873e39802312182782fd6c541a05b089aad4279db4d9469",
         "romtype": "Official",
         "size": 3053338868,
-        "url": "https://sourceforge.net/projects/derpfest/files/komodo/DerpFest-v16.0-20250824-komodo-Official-Stable.zip/download",
+        "url": "https://derpfest.rom.lol/?file=komodo/DerpFest-v16.0-20250824-komodo-Official-Stable.zip",
         "version": "v16.0",
         "datetime": 1756066832
       },
