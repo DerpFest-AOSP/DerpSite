@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-31T00:22:59.124Z",
+  "generated_at": "2025-08-31T12:07:34.999Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1332,13 +1332,13 @@
       "displayName": "POCO M6 Pro 5G",
       "maintainer": "Unknown",
       "latest": {
-        "filename": "DerpFest-15.1-Official-Stable-sky-20250222.zip",
-        "id": "43b98ebb8f0823f0a6bd7085f76152190bf21691ad82aa523e5262ac392e904f",
+        "filename": "DerpFest-v16.0-20250829-sky-Official-Stable.zip",
+        "id": "6a9599f1dcd15769141a8e2d36f2e1b936420191600e0459ebc959fad40c1682",
         "romtype": "Official",
-        "size": 1902718549,
-        "url": "https://sourceforge.net/projects/derpfest/files/sky/DerpFest-15.1-Official-Stable-sky-20250222.zip/download",
-        "version": "15.1",
-        "datetime": 1740249681
+        "size": 2116710251,
+        "url": "https://sourceforge.net/projects/derpfest/files/sky/DerpFest-v16.0-20250829-sky-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1756480197
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sky.txt",
       "sources": [
