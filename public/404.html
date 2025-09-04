@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Animated 404 Page</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./404-assets/style.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>404 Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="./404-assets/style.css" />
+
+    <!-- GSAP core + MorphSVG -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/MorphSVGPlugin.min.js"></script>
+  </head>
+  <body>
 <svg id="yetiSVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 470">
 	<linearGradient id="flashlightGrad" x1="126.5842" x2="90.5842" y1="176.5625" y2="213.5625" gradientUnits="userSpaceOnUse">
 		<stop offset="0" stop-color="#333"/>
@@ -216,23 +223,14 @@
 	<h3>Hello?? Is somebody there?!?</h3>
 	<p>We know it’s scary, but the page you’re trying to reach can’t be found. Perhaps it was just a bad <span>link</span> dream?</p>
 </div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js'></script>
-<script src='//s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js'></script>
-<script src='//s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CustomEase.min.js?r=2'></script>
-<script  src="./404-assets/script.js"></script>
 
-<script>
-  (function() {
-    try {
-      setTimeout(function() {
+    <script src="./404-assets/script.js"></script>
+
+    <!-- Redirect after 3 seconds -->
+    <script>
+      setTimeout(() => {
         window.location.replace("/" + location.search + location.hash);
       }, 3000);
-    } catch (e) {
-      window.location.replace("/" + location.search + location.hash);
-    }
-  })();
-</script>
-
-</body>
+    </script>
+  </body>
 </html>
