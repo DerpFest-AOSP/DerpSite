@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-04T00:19:41.327Z",
+  "generated_at": "2025-09-04T12:08:11.146Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -545,30 +545,6 @@
       ]
     },
     {
-      "codename": "rtwo",
-      "aliases": [
-        "LG V20 (T-Mobile H918)"
-      ],
-      "displayName": "LG V20 (T-Mobile H918)",
-      "maintainer": "Unknown",
-      "latest": {
-        "filename": "DerpFest-15.1-Official-Stable-rtwo-20250416-1601.zip",
-        "id": "af21bfee419af229ff4f93bee39f8f7706b5e66c39a37369b89c1388062fd1f9",
-        "romtype": "Official",
-        "size": 2780815498,
-        "url": "https://sourceforge.net/projects/derpfest/files/rtwo/DerpFest-15.1-Official-Stable-rtwo-20250416-1601.zip/download",
-        "version": "15.1",
-        "datetime": 1744833676
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rtwo.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/rtwo.json"
-        }
-      ]
-    },
-    {
       "codename": "nio",
       "aliases": [
         "Motorola Edge 20 Pro",
@@ -809,6 +785,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/lunaa.json"
+        }
+      ]
+    },
+    {
+      "codename": "rtwo",
+      "aliases": [
+        "Motorola Moto X40"
+      ],
+      "displayName": "Motorola Moto X40",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-15.1-Official-Stable-rtwo-20250416-1601.zip",
+        "id": "af21bfee419af229ff4f93bee39f8f7706b5e66c39a37369b89c1388062fd1f9",
+        "romtype": "Official",
+        "size": 2780815498,
+        "url": "https://sourceforge.net/projects/derpfest/files/rtwo/DerpFest-15.1-Official-Stable-rtwo-20250416-1601.zip/download",
+        "version": "15.1",
+        "datetime": 1744833676
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rtwo.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/rtwo.json"
         }
       ]
     },
@@ -1250,7 +1250,7 @@
       "aliases": [
         "POCO F3",
         "Redmi K40",
-        "Mi 11X"
+        "Xiaomi MI 11X"
       ],
       "displayName": "POCO F3",
       "maintainer": "Unknown",
@@ -1716,7 +1716,7 @@
       "codename": "raphael",
       "aliases": [
         "Redmi K20 Pro",
-        "Mi 9T Pro"
+        "Xiaomi Mi 9T Pro"
       ],
       "displayName": "Redmi K20 Pro",
       "maintainer": "Arghaya Mondal (ergdev)",
@@ -2660,30 +2660,6 @@
       ]
     },
     {
-      "codename": "renoir",
-      "aliases": [
-        "Xiaomi 11 Lite 5G NE"
-      ],
-      "displayName": "Xiaomi 11 Lite 5G NE",
-      "maintainer": "Unknown",
-      "latest": {
-        "filename": "DerpFest-14-Official-Stable-renoir-20240417.zip",
-        "id": "739bf554f577750ee18e576051b991731e90a25a954ffb050dcc20dd35fac854",
-        "romtype": "Official",
-        "size": 2674047198,
-        "url": "https://sourceforge.net/projects/picasso-rom-project/files/renoir/DerpFest-20240417/DerpFest-14-Official-Stable-renoir-20240417.zip/download",
-        "version": "14",
-        "datetime": 1712737829
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_renoir.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/renoir.json"
-        }
-      ]
-    },
-    {
       "codename": "vili",
       "aliases": [
         "Xiaomi 11T Pro"
@@ -2761,7 +2737,7 @@
       "codename": "apollo",
       "aliases": [
         "Xiaomi Mi 10T",
-        "Mi 10T Pro",
+        "Xiaomi MI 10T Pro",
         "Redmi K30S Ultra"
       ],
       "displayName": "Xiaomi Mi 10T",
@@ -2805,6 +2781,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/gauguin.json"
+        }
+      ]
+    },
+    {
+      "codename": "renoir",
+      "aliases": [
+        "Xiaomi MI 11 Lite 5G"
+      ],
+      "displayName": "Xiaomi MI 11 Lite 5G",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-renoir-20240417.zip",
+        "id": "739bf554f577750ee18e576051b991731e90a25a954ffb050dcc20dd35fac854",
+        "romtype": "Official",
+        "size": 2674047198,
+        "url": "https://sourceforge.net/projects/picasso-rom-project/files/renoir/DerpFest-20240417/DerpFest-14-Official-Stable-renoir-20240417.zip/download",
+        "version": "14",
+        "datetime": 1712737829
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_renoir.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/renoir.json"
         }
       ]
     },
