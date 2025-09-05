@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0;url=/" />
-    <script>window.location.replace("/" + location.search + location.hash)</script>
-    <title>Redirecting…</title>
+    <meta charset="utf-8">
+    <title>DerpFest | Redirecting...</title>
+    <script type="text/javascript">
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+
+      var redirectUrl = '/?path=' + path.substring(1) +
+                        (search ? '&' + search.substring(1) : '') +
+                        (hash ? hash : '');
+      
+      window.location.replace(redirectUrl);
+    </script>
   </head>
-  <body>Redirecting…</body>
+  <body>
+    If you are not redirected automatically, please <a href="/">click here</a>.
+  </body>
 </html>
