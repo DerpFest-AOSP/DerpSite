@@ -1,5 +1,6 @@
 import './components/css/App.css'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation, useNavigate } from 'react-router-dom'
+import { useEffect } from 'react'
 import Navbar from './components/js/Navbar'
 import Footer from './components/js/Footer'
 import Build from './pages/Build'
@@ -14,6 +15,25 @@ import Team from './pages/Team'
 import TOU from './pages/TOU'
 
 function App() {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const path = params.get('path');
+
+    if (path) {
+      params.delete('path');
+      const newSearch = params.toString() ? `?${params.toString()}` : '';
+      
+      navigate({
+        pathname: `/${path}`,
+        search: newSearch,
+        hash: location.hash
+      }, { replace: true });
+    }
+  }, [location, navigate]);
+
   return (
     <>
       <Navbar />
