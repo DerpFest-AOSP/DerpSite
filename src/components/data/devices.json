@@ -228,6 +228,15 @@
       ]
     },
     {
+          "name": "Nothing Phone(2)",
+          "code": "Pong",
+          "maintainer": "Ҝ卄卂丂ㄥ卂几卂(neikos496)",
+          "links": {
+            "download": "https://sourceforge.net/projects/derpfest/files/Pong/",
+            "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pong.txt"
+          }
+    },
+    {
       "name": "Oneplus",
       "devices": [
         {
@@ -356,7 +365,7 @@
         {
           "name": "Xiaomi Poco X4 Pro 5G",
           "code": "veux",
-          "maintainer": "Alexandru Semina",
+          "maintainer": "Ҝ卄卂丂ㄥ卂几卂",
           "links": {
             "download": "https://sourceforge.net/projects/derpfest/files/veux/",
             "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_veux.txt"
