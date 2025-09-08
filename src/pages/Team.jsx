@@ -12,6 +12,15 @@ const Team = () => {
       }
    };
 
+   const formatRole = (role) => {
+      return role.split('\n').map((line, index) => (
+         <span key={index} className={index === 0 ? "font-semibold text-base-content" : "text-base-content/70"}>
+            {line}
+            {index < role.split('\n').length - 1 && <br />}
+         </span>
+      ));
+   };
+
    return (
       <div className="py-12 min-h-screen bg-base-100">
          <div className="text-center mb-12">
@@ -145,10 +154,10 @@ const Team = () => {
                            {team.name}
                         </h2>
                         
-                        <div className="text-center mb-6 min-h-[3rem] flex items-center justify-center">
-                           <p className="text-sm text-base-content/70 leading-relaxed">
-                              {team.role}
-                           </p>
+                        <div className="text-center mb-6 min-h-[4rem] flex items-center justify-center">
+                           <div className="text-sm leading-relaxed">
+                              {formatRole(team.role)}
+                           </div>
                         </div>
 
                         <div className="flex justify-center gap-3">
