@@ -1,105 +1,15 @@
 [
    {
-      "name": "Alexander Brunswig",
-      "role": "Founder & Lead Developer\nGoogle Pixel 9 Pro XL (komodo)\nOnePlus 5T (dumpling)\nOnePlus 7T Pro (hotdog)\nXiaomi Mi A2 (jasmine_sprout)",
-      "github": "https://github.com/NurKeinNeid",
-      "telegram": "https://t.me/NurKeinNeid"
-   },
-   {
-      "name": "Aman Singh",
-      "role": "Device Maintainer\nXiaomi Poco F1 (beryllium)",
-      "github": "https://github.com/amanrajOO7",
-      "telegram": "https://t.me/iamansingh"
-   },
-   {
       "name": "Adrian Szymański",
       "role": "Device Maintainer\nXiaomi Mi 9T (davinci)\nRedmi K20 (davinci)",
       "github": "https://github.com/adi8900",
       "telegram": "https://t.me/Adi20_01"
    },
    {
-      "name": "Matheus Vieira",
-      "role": "Device Maintainer\nOnePlus 7T (hotdogb)",
-      "github": "https://github.com/matt0301",
-      "telegram": "https://t.me/matheus_vieira"
-   },
-   {
-      "name": "Joboy Jhem Francisco",
-      "role": "Device Maintainer\nXiaomi Poco X5 Pro (redwood)\nRedmi Note 12 Pro (redwood)",
-      "github": "https://github.com/hijemu",
-      "telegram": "https://t.me/mofieee"
-   },
-   {
-      "name": "Kader Bava",
-      "role": "Device Maintainer\nRealme XT (RMX1921)\nRealme 5 Pro (RMX1971)",
-      "github": "https://github.com/kaderbava",
-      "telegram": "https://t.me/Bava7325"
-   },
-   {
-      "name": "Einar Gednochsson",
-      "role": "Device Maintainer\nLenovo Z6 Pro (zippo)\nGoogle Pixel 6 Series",
-      "github": "https://github.com/wilmabumsson",
-      "telegram": "https://t.me/kanstmablason"
-   },
-   {
-      "name": "Arghaya Mondal",
-      "role": "Device Maintainer\nXiaomi Redmi K20 Pro (raphael)",
-      "github": "https://github.com/ergdevops",
-      "telegram": "https://t.me/ergdev"
-   },
-   {
-      "name": "Wahid Khan",
-      "role": "Device Maintainer\nXiaomi Redmi Note 8 Pro (begonia)",
-      "github": "https://github.com/Wahid7852",
-      "telegram": "https://telegram.me/Abdul7852"
-   },
-   {
-      "name": "Selfmuser",
-      "role": "Device Maintainer\nXiaomi Redmi Note 7 Pro (violet)",
-      "github": "https://github.com/selfmusing",
-      "telegram": "https://telegram.me/selfmuser"
-   },
-   {
-      "name": "Yograj Singh",
-      "role": "Device Maintainer\nRealme GT Neo 3T (spartan)",
-      "github": "https://github.com/yograjfire18",
-      "telegram": "https://t.me/yograjfire18"
-   },
-   {
-      "name": "Ash",
-      "role": "Device Maintainer\nRedmi 9T (lime)\nRedmi 9 Power (lime)\nRedmi Note 9 4G (lime)",
-      "github": "https://github.com/hac4us06",
-      "telegram": "https://t.me/hac4us"
-   },
-   {
-      "name": "Vulkan",
-      "role": "Device Maintainer\nMotorola Edge 20 PRO (pstar)",
-      "github": "https://github.com/vullk4n",
-      "telegram": "https://t.me/vullk4n"
-   },
-   {
-      "name": "Emal0n",
-      "role": "Device Maintainer\nMotorola Moto G7 (river)\nMotorola Moto G7 Power (ocean)",
-      "github": "https://github.com/emal0n",
-      "telegram": "https://t.me/emal0n"
-   },
-   {
-      "name": "Victor Hugo",
-      "role": "Device Maintainer\nMotorola Moto Z3 Play (beckham)\nMotorola Moto G6 Plus (evert)\nMotorola Moto G7 Plus (lake)",
-      "github": "https://github.com/Vhmit",
-      "telegram": "https://t.me/Vhmit"
-   },
-   {
-      "name": "Omar Aguilar",
-      "role": "Device Maintainer\nXiaomi 11T Pro (vili)",
-      "github": "https://github.com/0mar99",
-      "telegram": "https://t.me/Omar99A"
-   },
-   {
-      "name": "Aminuddin Ihsan",
-      "role": "Device Maintainer\nXiaomi Poco X3 NFC (surya/karna)",
-      "github": "https://github.com/aminuddinihsan20",
-      "telegram": "https://t.me/Inuo02"
+      "name": "Alexander Brunswig",
+      "role": "Founder & Lead Developer\nGoogle Pixel 9 Pro XL (komodo)\nOnePlus 5T (dumpling)\nOnePlus 7T Pro (hotdog)\nXiaomi Mi A2 (jasmine_sprout)",
+      "github": "https://github.com/NurKeinNeid",
+      "telegram": "https://t.me/NurKeinNeid"
    },
    {
       "name": "Allan D'Souza",
@@ -108,16 +18,22 @@
       "telegram": "https://t.me/alanpdk"
    },
    {
-      "name": "Carlos 'Klozz' Jesus",
-      "role": "Device Maintainer\nXiaomi Poco F5 PRO (mondorian)\nRedmi K60 (mondrian)\nXiaomi 12T Pro (diting)\nRedmi K50 Ultra (diting)",
-      "github": "https://github.com/Klozz",
-      "telegram": "https://t.me/TeamMEX_XDA"
+      "name": "Aman Singh",
+      "role": "Device Maintainer\nXiaomi Poco F1 (beryllium)",
+      "github": "https://github.com/amanrajOO7",
+      "telegram": "https://t.me/iamansingh"
    },
    {
-      "name": "Dennis Murimi",
-      "role": "Device Maintainer\nXiaomi Mi Note 10 Lite (toco)",
-      "github": "https://github.com/AndroidHQ254",
-      "telegram": "https://t.me/DennisMurimiWachira"
+      "name": "Aminuddin Ihsan",
+      "role": "Device Maintainer\nXiaomi Poco X3 NFC (surya/karna)",
+      "github": "https://github.com/aminuddinihsan20",
+      "telegram": "https://t.me/Inuo02"
+   },
+   {
+      "name": "Arghaya Mondal",
+      "role": "Device Maintainer\nXiaomi Redmi K20 Pro (raphael)",
+      "github": "https://github.com/ergdevops",
+      "telegram": "https://t.me/ergdev"
    },
    {
       "name": "Arpon Sarkar",
@@ -126,16 +42,64 @@
       "telegram": "https://t.me/FireFly09"
    },
    {
-      "name": "Syrkles Hernandez",
-      "role": "Device Maintainer\nMotorola Edge 40 Pro (rtwo)\nMotorola Edge X40 (rtwo)\nMotorola Edge+ 2023 (rtwo)",
-      "github": "https://github.com/syrkles217",
-      "telegram": "https://t.me/Syrkles420"
+      "name": "Ash",
+      "role": "Device Maintainer\nRedmi 9T (lime)\nRedmi 9 Power (lime)\nRedmi Note 9 4G (lime)",
+      "github": "https://github.com/hac4us06",
+      "telegram": "https://t.me/hac4us"
    },
    {
-      "name": "Samba Siva Rao K",
-      "role": "Device Maintainer\nXiaomi Poco F5 (marble)",
-      "github": "https://github.com/kssrao13882",
-      "telegram": "https://t.me/kssrao13882"
+      "name": "Bagaskara",
+      "role": "Device Maintainer\nXiaomi Poco X3 Pro (vayu)",
+      "github": "https://github.com/Bagaskara815",
+      "telegram": "https://t.me/Bagaskara815"
+   },
+   {
+      "name": "Black Lu",
+      "role": "Device Maintainer\nGoogle Pixel 4 Series\nGoogle Pixel 5 Series",
+      "github": "https://github.com/Lucasblacklu",
+      "telegram": "https://t.me/BlackLu_Me"
+   },
+   {
+      "name": "Blackmanx",
+      "role": "Device Maintainer\nRealme GT Neo 2 (bitra)",
+      "github": "https://github.com/Blackmanx",
+      "telegram": "https://t.me/Bl4ckpeter"
+   },
+   {
+      "name": "Carlos 'Klozz' Jesus",
+      "role": "Device Maintainer\nXiaomi Poco F5 PRO (mondorian)\nRedmi K60 (mondrian)\nXiaomi 12T Pro (diting)\nRedmi K50 Ultra (diting)",
+      "github": "https://github.com/Klozz",
+      "telegram": "https://t.me/TeamMEX_XDA"
+   },
+   {
+      "name": "CrisBal",
+      "role": "Device Maintainer\nLeEco LeMax2 (x2)",
+      "github": "https://github.com/CrisBalGreece",
+      "telegram": "https://t.me/CrisBalGreece"
+   },
+   {
+      "name": "DaViDev",
+      "role": "Device Maintainer\nNothing Phone 1 (Spacewar)\nSamsung Galaxy A71 4G (a71naxx)",
+      "github": "https://github.com/DaViDev985",
+      "telegram": "https://t.me/davidev985"
+   },
+   {
+      "name": "Dennis Murimi",
+      "role": "Device Maintainer\nXiaomi Mi Note 10 Lite (toco)",
+      "github": "https://github.com/AndroidHQ254",
+      "telegram": "https://t.me/DennisMurimiWachira"
+   },
+   {
+      "name": "Einar Gednochsson",
+      "role": "Device Maintainer\nLenovo Z6 Pro (zippo)\nGoogle Pixel 6 Series",
+      "github": "https://github.com/wilmabumsson",
+      "telegram": "https://t.me/kanstmablason"
+   },
+   {
+      "name": "Emal0n",
+      "role": "Device Maintainer\nMotorola Moto G7 (river)\nMotorola Moto G7 Power (ocean)",
+      "github": "https://github.com/emal0n",
+      "telegram": "https://t.me/emal0n"
    },
    {
       "name": "EndCredits",
@@ -150,58 +114,10 @@
       "telegram": "https://t.me/Yuu_ak12"
    },
    {
-      "name": "DaViDev",
-      "role": "Device Maintainer\nNothing Phone 1 (Spacewar)\nSamsung Galaxy A71 4G (a71naxx)",
-      "github": "https://github.com/DaViDev985",
-      "telegram": "https://t.me/davidev985"
-   },
-   {
-      "name": "P. A. N. Z.",
-      "role": "Senior Device Maintainer\nGoogle Pixel 8 Pro (husky)\nGoogle Pixel 8 (shiba)\nGoogle Pixel 8a (akita)\nXiaomi Pad 5 (nabu)\nOnePlus 6 (enchilada)\nOnePlus 6T (fajita)\nOnePlus 8 (instantnoodle)\nOnePlus 8 Pro (instantnoodlep)\nOnePlus 8T (kebab)\nSamsung Galaxy Tab S6 Lite EXYNOS WIFI (gta4xlwifi) &  LTE (gta4xl)\nNothing Phone 1 (Spacewar) Co-Maintainer",
-      "github": "https://github.com/ppanzenboeck",
-      "telegram": "https://t.me/jakobBokaj1"
-   },
-   {
-      "name": "Neikos",
-      "role": "Device Maintainer\nNothing Phone (2) (Pong)",
-      "github": "https://github.com/neikos4962",
-      "telegram": "https://t.me/neikos4962"
-   },
-   {
-      "name": "REDGROUL",
-      "role": "Device Maintainer\nXiaomi Poco X5 5G (stone)\nRedmi Note 12 5G (stone)\nRedmi Note 12R Pro (stone)",
-      "github": "https://github.com/REDGROUL",
-      "telegram": "https://t.me/REDGROULMAN"
-   },
-   {
-      "name": "Black Lu",
-      "role": "Device Maintainer\nGoogle Pixel 4 Series\nGoogle Pixel 5 Series",
-      "github": "https://github.com/Lucasblacklu",
-      "telegram": "https://t.me/BlackLu_Me"
-   },
-   {
-      "name": "Bagaskara",
-      "role": "Device Maintainer\nXiaomi Poco X3 Pro (vayu)",
-      "github": "https://github.com/Bagaskara815",
-      "telegram": "https://t.me/Bagaskara815"
-   },
-   {
-      "name": "CrisBal",
-      "role": "Device Maintainer\nLeEco LeMax2 (x2)",
-      "github": "https://github.com/CrisBalGreece",
-      "telegram": "https://t.me/CrisBalGreece"
-   },
-   {
-      "name": "Blackmanx",
-      "role": "Device Maintainer\nRealme GT Neo 2 (bitra)",
-      "github": "https://github.com/Blackmanx",
-      "telegram": "https://t.me/Bl4ckpeter"
-   },
-   {
-      "name": "UnmoveD",
-      "role": "Device Maintainer\nXiaomi Redmi Note 13 Pro 5G (garnet)",
-      "github": "https://github.com/unmoved21",
-      "telegram": "https://t.me/unmoved21"
+      "name": "Joboy Jhem Francisco",
+      "role": "Device Maintainer\nXiaomi Poco X5 Pro (redwood)\nRedmi Note 12 Pro (redwood)",
+      "github": "https://github.com/hijemu",
+      "telegram": "https://t.me/mofieee"
    },
    {
       "name": "Just Inntime",
@@ -210,9 +126,93 @@
       "telegram": "https://t.me/just_inntime"
    },
    {
+      "name": "Kader Bava",
+      "role": "Device Maintainer\nRealme XT (RMX1921)\nRealme 5 Pro (RMX1971)",
+      "github": "https://github.com/kaderbava",
+      "telegram": "https://t.me/Bava7325"
+   },
+   {
+      "name": "Matheus Vieira",
+      "role": "Device Maintainer\nOnePlus 7T (hotdogb)",
+      "github": "https://github.com/matt0301",
+      "telegram": "https://t.me/matheus_vieira"
+   },
+   {
+      "name": "Neikos",
+      "role": "Device Maintainer\nNothing Phone (2) (Pong)",
+      "github": "https://github.com/neikos4962",
+      "telegram": "https://t.me/neikos4962"
+   },
+   {
+      "name": "Omar Aguilar",
+      "role": "Device Maintainer\nXiaomi 11T Pro (vili)",
+      "github": "https://github.com/0mar99",
+      "telegram": "https://t.me/Omar99A"
+   },
+   {
+      "name": "P. A. N. Z.",
+      "role": "Senior Device Maintainer\nGoogle Pixel 8 Pro (husky)\nGoogle Pixel 8 (shiba)\nGoogle Pixel 8a (akita)\nXiaomi Pad 5 (nabu)\nOnePlus 6 (enchilada)\nOnePlus 6T (fajita)\nOnePlus 8 (instantnoodle)\nOnePlus 8 Pro (instantnoodlep)\nOnePlus 8T (kebab)\nSamsung Galaxy Tab S6 Lite EXYNOS WIFI (gta4xlwifi) &  LTE (gta4xl)\nNothing Phone 1 (Spacewar) Co-Maintainer",
+      "github": "https://github.com/ppanzenboeck",
+      "telegram": "https://t.me/jakobBokaj1"
+   },
+   {
       "name": "Pranshu Sheoran",
       "role": "Web Developer & Device Maintainer\nXiaomi Pad 6 (pipa)",
       "github": "https://github.com/sheoranpranshu",
       "telegram": "https://t.me/glitch_wraith"
+   },
+   {
+      "name": "REDGROUL",
+      "role": "Device Maintainer\nXiaomi Poco X5 5G (stone)\nRedmi Note 12 5G (stone)\nRedmi Note 12R Pro (stone)",
+      "github": "https://github.com/REDGROUL",
+      "telegram": "https://t.me/REDGROULMAN"
+   },
+   {
+      "name": "Samba Siva Rao K",
+      "role": "Device Maintainer\nXiaomi Poco F5 (marble)",
+      "github": "https://github.com/kssrao13882",
+      "telegram": "https://t.me/kssrao13882"
+   },
+   {
+      "name": "Selfmuser",
+      "role": "Device Maintainer\nXiaomi Redmi Note 7 Pro (violet)",
+      "github": "https://github.com/selfmusing",
+      "telegram": "https://telegram.me/selfmuser"
+   },
+   {
+      "name": "Syrkles Hernandez",
+      "role": "Device Maintainer\nMotorola Edge 40 Pro (rtwo)\nMotorola Edge X40 (rtwo)\nMotorola Edge+ 2023 (rtwo)",
+      "github": "https://github.com/syrkles217",
+      "telegram": "https://t.me/Syrkles420"
+   },
+   {
+      "name": "UnmoveD",
+      "role": "Device Maintainer\nXiaomi Redmi Note 13 Pro 5G (garnet)",
+      "github": "https://github.com/unmoved21",
+      "telegram": "https://t.me/unmoved21"
+   },
+   {
+      "name": "Victor Hugo",
+      "role": "Device Maintainer\nMotorola Moto Z3 Play (beckham)\nMotorola Moto G6 Plus (evert)\nMotorola Moto G7 Plus (lake)",
+      "github": "https://github.com/Vhmit",
+      "telegram": "https://t.me/Vhmit"
+   },
+   {
+      "name": "Vulkan",
+      "role": "Device Maintainer\nMotorola Edge 20 PRO (pstar)",
+      "github": "https://github.com/vullk4n",
+      "telegram": "https://t.me/vullk4n"
+   },
+   {
+      "name": "Wahid Khan",
+      "role": "Device Maintainer\nXiaomi Redmi Note 8 Pro (begonia)",
+      "github": "https://github.com/Wahid7852",
+      "telegram": "https://telegram.me/Abdul7852"
+   },
+   {
+      "name": "Yograj Singh",
+      "role": "Device Maintainer\nRealme GT Neo 3T (spartan)",
+      "github": "https://github.com/yograjfire18",
+      "telegram": "https://t.me/yograjfire18"
    }
 ]
