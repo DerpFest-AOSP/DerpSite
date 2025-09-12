@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-11T12:08:34.425Z",
+  "generated_at": "2025-09-12T00:20:34.169Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -567,6 +567,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/nio.json"
+        }
+      ]
+    },
+    {
+      "codename": "pstar",
+      "aliases": [
+        "Motorola Edge 20 Pro"
+      ],
+      "displayName": "Motorola Edge 20 Pro",
+      "maintainer": "vullk4n",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250731-pstar-Official-Stable.zip",
+        "id": "11423feb114d5ccd53551f8c9ba6e1ee20c945c99bf1246f6d5952f1834f14bd",
+        "romtype": "Official",
+        "size": 1733623753,
+        "url": "https://sourceforge.net/projects/derpfest/files/pstar/DerpFest-v15.2-20250731-pstar-Official-Stable.zip/download",
+        "version": "v15.2",
+        "datetime": 1753936661
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pstar.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/pstar.json"
         }
       ]
     },
@@ -1895,13 +1919,13 @@
       "displayName": "Redmi Note 13 Pro 5G",
       "maintainer": "Unknown",
       "latest": {
-        "filename": "DerpFest-v16.0-20250829-garnet-Official-Stable.zip",
-        "id": "1776493727b8b71b082e3f614ad93bc7f52bedde33df7d3facc8596f67f81091",
+        "filename": "DerpFest-v16.0-20250911-garnet-Official-Stable.zip",
+        "id": "a12373d705081fd0081c519ca3a7056a378d9df871e32879612d5900d9d71342",
         "romtype": "Official",
-        "size": 2583180868,
-        "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-v16.0-20250829-garnet-Official-Stable.zip/download",
+        "size": 2579156559,
+        "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-v16.0-20250911-garnet-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1756463289
+        "datetime": 1757593723
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_garnet.txt",
       "sources": [
@@ -2416,30 +2440,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/beyond0lte.json"
-        }
-      ]
-    },
-    {
-      "codename": "pstar",
-      "aliases": [
-        "Samsung Galaxy S21+"
-      ],
-      "displayName": "Samsung Galaxy S21+",
-      "maintainer": "vullk4n",
-      "latest": {
-        "filename": "DerpFest-v15.2-20250731-pstar-Official-Stable.zip",
-        "id": "11423feb114d5ccd53551f8c9ba6e1ee20c945c99bf1246f6d5952f1834f14bd",
-        "romtype": "Official",
-        "size": 1733623753,
-        "url": "https://sourceforge.net/projects/derpfest/files/pstar/DerpFest-v15.2-20250731-pstar-Official-Stable.zip/download",
-        "version": "v15.2",
-        "datetime": 1753936661
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pstar.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/pstar.json"
         }
       ]
     },
