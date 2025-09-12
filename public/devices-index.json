@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-12T00:20:34.169Z",
+  "generated_at": "2025-09-12T12:08:35.695Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -545,32 +545,6 @@
       ]
     },
     {
-      "codename": "nio",
-      "aliases": [
-        "Motorola Edge 20 Pro",
-        "Motorola Edge S Pro",
-        "Motorola Moto G200"
-      ],
-      "displayName": "Motorola Edge 20 Pro",
-      "maintainer": "vullk4n",
-      "latest": {
-        "filename": "DerpFest-v15.2-20250731-nio-Official-Stable.zip",
-        "id": "1230162ed19277a6e90de4e44987b37b407838890a209535a0ccf1267635136b",
-        "romtype": "Official",
-        "size": 1737001022,
-        "url": "https://sourceforge.net/projects/derpfest/files/nio/DerpFest-v15.2-20250731-nio-Official-Stable.zip/download",
-        "version": "v15.2",
-        "datetime": 1753993070
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_nio.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/nio.json"
-        }
-      ]
-    },
-    {
       "codename": "pstar",
       "aliases": [
         "Motorola Edge 20 Pro"
@@ -591,6 +565,31 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/pstar.json"
+        }
+      ]
+    },
+    {
+      "codename": "nio",
+      "aliases": [
+        "Motorola Edge S",
+        "Motorola Moto G100"
+      ],
+      "displayName": "Motorola Edge S",
+      "maintainer": "vullk4n",
+      "latest": {
+        "filename": "DerpFest-v15.2-20250731-nio-Official-Stable.zip",
+        "id": "1230162ed19277a6e90de4e44987b37b407838890a209535a0ccf1267635136b",
+        "romtype": "Official",
+        "size": 1737001022,
+        "url": "https://sourceforge.net/projects/derpfest/files/nio/DerpFest-v15.2-20250731-nio-Official-Stable.zip/download",
+        "version": "v15.2",
+        "datetime": 1753993070
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_nio.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/nio.json"
         }
       ]
     },
