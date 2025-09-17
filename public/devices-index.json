@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-16T12:08:48.422Z",
+  "generated_at": "2025-09-17T00:20:56.159Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1252,13 +1252,13 @@
       "displayName": "OnePlus Nord 4",
       "maintainer": "Aman Singh (iamansingh)",
       "latest": {
-        "filename": "DerpFest-16.0-Official-Stable-avalon-20250903-1730.zip",
-        "id": "3c3bcf02aa3db46b8c07a88cca655895437f571e0aa2c06737bc14b7e3a96d78",
+        "filename": "DerpFest-16.0-Official-Stable-avalon-20250916-2002.zip",
+        "id": "401691265a33061256e08ebb6e6241a79ba626d0c7caf3e36e82cfea38a058e2",
         "romtype": "Official",
-        "size": 3217292236,
-        "url": "https://sourceforge.net/projects/avalon-builds/files/DerpFest/DerpFest-16.0-Official-Stable-avalon-20250903-1730.zip/download",
+        "size": 3216368993,
+        "url": "https://sourceforge.net/projects/avalon-builds/files/DerpFest/DerpFest-16.0-Official-Stable-avalon-20250916-2002.zip/download",
         "version": "16.0",
-        "datetime": 1756900626
+        "datetime": 1758032965
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/amanrajOO7/derpfest_avalon/16.0/changelog_avalon.txt",
       "sources": [
@@ -1966,13 +1966,13 @@
       "displayName": "Redmi Note 7 Pro",
       "maintainer": "Selfmuser",
       "latest": {
-        "filename": "DerpFest-v16.0-20250820-violet-Official-Stable.zip",
-        "id": "dc277a8e475ada661fc8a5a3adf54c5e435a90e758a0e4c9778e59db3c08831d",
+        "filename": "DerpFest-v16.0-20250916-violet-Official-Stable.zip",
+        "id": "3333ab48cca318ee379fd00a65116ac899766e0bb44c715731255927b2800a26",
         "romtype": "Official",
-        "size": 2312657213,
-        "url": "https://sourceforge.net/projects/derpfest/files/violet/DerpFest-v16.0-20250820-violet-Official-Stable.zip/download",
+        "size": 2311667658,
+        "url": "https://sourceforge.net/projects/derpfest/files/violet/DerpFest-v16.0-20250916-violet-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1755717875
+        "datetime": 1757993249
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_violet.txt",
       "sources": [
@@ -2840,13 +2840,13 @@
       "displayName": "Xiaomi Mi 9T",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20250816-davinci-Official-Stable.zip",
-        "id": "302336e2892298d4ea268206423255952e5b1ebc989bbd6a9b626d0e3594a1eb",
+        "filename": "DerpFest-v16.0-20250916-davinci-Official-Stable.zip",
+        "id": "565dcba90a80eb9b54d8b1e93469c2d7d882a3c50195b7ea21e4945f17ba3788",
         "romtype": "Official",
-        "size": 2450051642,
-        "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.0-20250816-davinci-Official-Stable.zip/download",
+        "size": 2674124790,
+        "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.0-20250916-davinci-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1755380133
+        "datetime": 1758045188
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_davinci.txt",
       "sources": [
