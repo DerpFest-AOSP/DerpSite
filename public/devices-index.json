@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-17T12:08:51.412Z",
+  "generated_at": "2025-09-18T00:20:11.525Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -216,13 +216,13 @@
       "displayName": "Google Pixel 6",
       "maintainer": "Einar Gednochsson",
       "latest": {
-        "filename": "DerpFest-v15.2-20250614-oriole-Official-Stable.zip",
-        "id": "1f7fb691938984e081840d788b31869f4dd69870992e1358c7d06917625a0046",
+        "filename": "DerpFest-v16.0-20250917-oriole-Official-Stable.zip",
+        "id": "df1bf749902161bd4f3ec3d43795cb098816fd446071e9805c11135a0219ed0a",
         "romtype": "Official",
-        "size": 2474497606,
-        "url": "https://sourceforge.net/projects/derpfest/files/oriole/DerpFest-v15.2-20250614-oriole-Official-Stable.zip/download",
-        "version": "v15.2",
-        "datetime": 1749911431
+        "size": 2547667281,
+        "url": "https://sourceforge.net/projects/derpfest/files/oriole/DerpFest-v16.0-20250917-oriole-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1758126382
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_oriole.txt",
       "sources": [
@@ -240,13 +240,13 @@
       "displayName": "Google Pixel 6 Pro",
       "maintainer": "Einar Gednochsson",
       "latest": {
-        "filename": "DerpFest-v15.2-20250614-raven-Official-Stable.zip",
-        "id": "6f8409cb72a4dbf66d339e714cd5e5707f24ec1c963b3e21cacd53068e434c60",
+        "filename": "DerpFest-v16.0-20250917-raven-Official-Stable.zip",
+        "id": "43e68aeb6501f29abc628b2b5fdaa22c63b0f3bcf80232f0f0a79485936e0698",
         "romtype": "Official",
-        "size": 2475140108,
-        "url": "https://sourceforge.net/projects/derpfest/files/raven/DerpFest-v15.2-20250614-raven-Official-Stable.zip/download",
-        "version": "v15.2",
-        "datetime": 1749912834
+        "size": 2548326932,
+        "url": "https://sourceforge.net/projects/derpfest/files/raven/DerpFest-v16.0-20250917-raven-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1758129982
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_raven.txt",
       "sources": [
@@ -264,13 +264,13 @@
       "displayName": "Google Pixel 6a",
       "maintainer": "Einar Gednochsson",
       "latest": {
-        "filename": "DerpFest-v15.2-20250614-bluejay-Official-Stable.zip",
-        "id": "9c28443fbfd7e03aefb00fcbb2f82a27bc48b751a699607f7a9d99bded2f3244",
+        "filename": "DerpFest-v16.0-20250917-bluejay-Official-Stable.zip",
+        "id": "953afaa96da6406ea5d26cccd2b9c6fccd08e26db48173c3e337062fbf7e7a02",
         "romtype": "Official",
-        "size": 2475329334,
-        "url": "https://sourceforge.net/projects/derpfest/files/bluejay/DerpFest-v15.2-20250614-bluejay-Official-Stable.zip/download",
-        "version": "v15.2",
-        "datetime": 1749911957
+        "size": 2549065061,
+        "url": "https://sourceforge.net/projects/derpfest/files/bluejay/DerpFest-v16.0-20250917-bluejay-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1758124579
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_bluejay.txt",
       "sources": [
@@ -360,13 +360,13 @@
       "displayName": "Google Pixel 8",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20250816-shiba-Official-Stable.zip",
-        "id": "a618d66c4e4baad760b62ce16bb6ebfc4a446b4611690fca82b76f4345f6efc6",
+        "filename": "DerpFest-v16.0-20250916-shiba-Official-Stable.zip",
+        "id": "b57b5e6169671fe96c641b107cae874e08307ec8ddca91b786302ef89a3018bc",
         "romtype": "Official",
-        "size": 2538125708,
-        "url": "https://sourceforge.net/projects/derpfest/files/shiba/DerpFest-v16.0-20250816-shiba-Official-Stable.zip/download",
+        "size": 2344280913,
+        "url": "https://sourceforge.net/projects/derpfest/files/shiba/DerpFest-v16.0-20250916-shiba-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1755376819
+        "datetime": 1758029740
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_shiba.txt",
       "sources": [
@@ -384,13 +384,13 @@
       "displayName": "Google Pixel 8 Pro",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20250816-husky-Official-Stable.zip",
-        "id": "32f04cdb69fd05fa292cd5cbd956cbfb7a0b24bcda8e882d0dbd5224f5ad9e47",
+        "filename": "DerpFest-v16.0-20250916-husky-Official-Stable.zip",
+        "id": "1dfe2a5944688fed7eba4bd403c8c5b31e2566b3e0a92afa9e787a03621ec643",
         "romtype": "Official",
-        "size": 2547889571,
-        "url": "https://sourceforge.net/projects/derpfest/files/husky/DerpFest-v16.0-20250816-husky-Official-Stable.zip/download",
+        "size": 2353530571,
+        "url": "https://sourceforge.net/projects/derpfest/files/husky/DerpFest-v16.0-20250916-husky-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1755378321
+        "datetime": 1758030588
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_husky.txt",
       "sources": [
@@ -408,13 +408,13 @@
       "displayName": "Google Pixel 8a",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20250816-akita-Official-Stable.zip",
-        "id": "75c5d3b0ac9ccaa0782449f30136d51023444d9559e578653ddeeb64163f0556",
+        "filename": "DerpFest-v16.0-20250916-akita-Official-Stable.zip",
+        "id": "20efd9ffb713d40346fdb29e2a8400504055c4a24285d6b03439ba8112f821b0",
         "romtype": "Official",
-        "size": 2530817439,
-        "url": "https://sourceforge.net/projects/derpfest/files/akita/DerpFest-v16.0-20250816-akita-Official-Stable.zip/download",
+        "size": 2336755612,
+        "url": "https://sourceforge.net/projects/derpfest/files/akita/DerpFest-v16.0-20250916-akita-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1755374178
+        "datetime": 1758027684
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_akita.txt",
       "sources": [
@@ -867,13 +867,13 @@
       "displayName": "Nothing Phone (2)",
       "maintainer": "Semina Alexandru(NeiKos496)",
       "latest": {
-        "filename": "DerpFest-v16.0-20250817-Pong-Official-Stable.zip",
-        "id": "3b8491759bb1947444567ba9ddf735effe20868e55bffcf178e7cfb1e1ef1ac8",
+        "filename": "DerpFest-v16.0-20250917-Pong-Official-Stable.zip",
+        "id": "2f9c0cd3536b19f7eb00715b4a300873f0cb4bd3a9132f42d36027d224a9650e",
         "romtype": "Official",
-        "size": 2724666663,
-        "url": "https://sourceforge.net/projects/derpfest/files/Pong/DerpFest-v16.0-20250817-Pong-Official-Stable.zip/download",
+        "size": 2723399293,
+        "url": "https://sourceforge.net/projects/derpfest/files/Pong/DerpFest-v16.0-20250917-Pong-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1755419032
+        "datetime": 1758139533
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pong.txt",
       "sources": [
