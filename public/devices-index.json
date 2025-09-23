@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-22T12:08:49.464Z",
+  "generated_at": "2025-09-23T00:20:37.591Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1918,13 +1918,13 @@
       "displayName": "Redmi Note 13 Pro 5G",
       "maintainer": "Unknown",
       "latest": {
-        "filename": "DerpFest-v16.0-20250911-garnet-Official-Stable.zip",
-        "id": "a12373d705081fd0081c519ca3a7056a378d9df871e32879612d5900d9d71342",
+        "filename": "DerpFest-v16.0-20250921-garnet-Official-Stable.zip",
+        "id": "6474c424af6dd858fee41cee0d710ce3d4cd01623f1f3c7981e5cec40389e4e8",
         "romtype": "Official",
-        "size": 2579156559,
-        "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-v16.0-20250911-garnet-Official-Stable.zip/download",
+        "size": 2579248490,
+        "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-v16.0-20250921-garnet-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1757593723
+        "datetime": 1758448619
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_garnet.txt",
       "sources": [
@@ -2912,13 +2912,13 @@
       "displayName": "Xiaomi Pad 6",
       "maintainer": "Glitch Wraith",
       "latest": {
-        "filename": "DerpFest-v16.0-20250910-pipa-Official-Stable.zip",
-        "id": "56750ae87e40d85197cf71e6776ebe336559876258f74a67ee3bab2120af58ea",
+        "filename": "DerpFest-v16.0-20250922-pipa-Official-Stable.zip",
+        "id": "4aad44e502bdfa49f2ea9c60e52e75cb92deb4f250c20368c09ffc3580d7f4ff",
         "romtype": "Official",
-        "size": 2143064826,
-        "url": "https://sourceforge.net/projects/derpfest/files/pipa/DerpFest-v16.0-20250910-pipa-Official-Stable.zip/download",
+        "size": 1759868698,
+        "url": "https://sourceforge.net/projects/derpfest/files/pipa/DerpFest-v16.0-20250922-pipa-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1757521904
+        "datetime": 1758533311
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pipa.txt",
       "sources": [
