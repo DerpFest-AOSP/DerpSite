@@ -36,7 +36,7 @@ export default function Devices() {
         var modifiedList = [];
         var overrideFailed = false;
         
-        const res2 = await fetch("/src/components/data/devices-override.json", { cache: "no-cache" });
+        const res2 = await fetch("/devices-override.json", { cache: "no-cache" });
         try {
           const k = await res2.json();
           const overrideMap = new Map(k.map(item => [item.codename, item]));

@@ -311,5 +311,54 @@
             "filePath": "repo_primary/komodo.json"
         }
     ]
+   },
+   {
+    "codename": "cupid",
+    "aliases": [
+        "Xiaomi 12"
+    ],
+    "displayName": "Xiaomi 12",
+    "maintainer": "Bomboozler & P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://sourceforge.net/projects/derpfest-cupid/files/cupid/derpfest/",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "diting",
+    "aliases": [
+        "Xiaomi 12T Pro",
+        "Redmi K50 Ultra"
+    ],
+    "displayName": "Xiaomi 12T Pro | Redmi K50 Ultra",
+    "maintainer": "Bomboozler & P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://sourceforge.net/projects/derpfest-diting/files/diting/derpfest/",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
    }
 ]
