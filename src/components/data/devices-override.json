@@ -10,16 +10,209 @@
         "filename": "DerpFest 16",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
-        "size": "1",
+        "size": "1024",
         "url": "https://t.me/+iArCVx0Ly2YwMDM1",
         "version": "16",
-        "datetime": 0
+        "datetime": 1
     },
-    "changelog_raw_url": null,
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
     "sources": [
         {
-            "repoFolder": "",
-            "filePath": ""
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "instantnoodle",
+    "aliases": [
+        "OnePlus 8"
+    ],
+    "displayName": "OnePlus 8",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+iArCVx0Ly2YwMDM1",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "_comment": "actually codename is just \"kebab\"",
+    "codename": "lemonkebab", 
+    "aliases": [
+        "OnePlus 8T"
+    ],
+    "displayName": "OnePlus 8T",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+Q63yzL3pOyswNDZk",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "nabu", 
+    "aliases": [
+        "Xiaomi Pad 5"
+    ],
+    "displayName": "Xiaomi Pad 5",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+Zsuj5CErroUzNzhk",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "waffle", 
+    "aliases": [
+        "OnePlus 12"
+    ],
+    "displayName": "OnePlus 12",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+lFmFwuv9tms5ZDRk",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "gta4xlwifi", 
+    "aliases": [
+        "Samsung Galaxy Tab S6 Lite Exynos Wi-Fi"
+    ],
+    "displayName": "Samsung Galaxy Tab S6 Lite Exynos Wi-Fi",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+2x_c7EzzhlI5ZDY0",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "gta4xl", 
+    "aliases": [
+        "Samsung Galaxy Tab S6 Lite Exynos LTE"
+    ],
+    "displayName": "Samsung Galaxy Tab S6 Lite Exynos LTE",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+2x_c7EzzhlI5ZDY0",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "fajita", 
+    "aliases": [
+        "OnePlus 6T"
+    ],
+    "displayName": "OnePlus 6T",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+EZs6t2jBM7Q1NTg0",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "enchilada", 
+    "aliases": [
+        "OnePlus 6"
+    ],
+    "displayName": "OnePlus 6",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+L84wpssTQR5iYTY0",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
         }
     ]
    }
