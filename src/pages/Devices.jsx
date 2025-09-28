@@ -28,20 +28,20 @@ export default function Devices() {
       setLoading(true);
       setError(null);
       try {
-        const overrideFailed = false;
-
         const res = await fetch("/devices-index.json", { cache: "no-cache" });
         if (!res.ok) throw new Error("devices-index.json not found on site (did build-action run?)");
         const j = await res.json();
 
-        const res2 = await fetch("/src/components/data/devices-override.json", { cache: "no-cache" });
-        if (!res2.ok) overrideFailed = true;
-        const k = await res2.json();
-
         const list = Array.isArray(j.devices) ? j.devices : [];
-        const overrideMap = new Map(k.map(item => [item.codename, item]));
+        var modifiedList = [];
+        var overrideFailed = false;
+        
+        const res2 = await fetch("/src/components/data/devices-override.json", { cache: "no-cache" });
+        try {
+          const k = await res2.json();
+          const overrideMap = new Map(k.map(item => [item.codename, item]));
 
-        const modifiedList = list.map(entry => {
+          modifiedList = list.map(entry => {
             const override = overrideMap.get(entry.codename);
             if(override) {
               //delete from map to have only new ones later
@@ -49,12 +49,15 @@ export default function Devices() {
               return {...entry, ...override}
             }
             return entry;
-          }
-        );
+          });
 
-        //add new overrides if they didn't exist
-        for (const newEntry of overrideMap.values()) {
-          modifiedList.push(newEntry);
+          //add new overrides if they didn't exist
+          for (const newEntry of overrideMap.values()) {
+            modifiedList.push(newEntry);
+          }
+        }
+        catch(_) {
+          overrideFailed = true;
         }
 
         if (!cancelled) {
