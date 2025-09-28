@@ -215,5 +215,101 @@
             "filePath": "repo_primary/komodo.json"
         }
     ]
+   },
+   {
+    "codename": "guacamoleb", 
+    "aliases": [
+        "OnePlus 7"
+    ],
+    "displayName": "OnePlus 7",
+    "maintainer": "Bomboozler & P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://sourceforge.net/projects/derpfest-guacamoleb/files/guacamoleb/derpfest/",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "guacamole", 
+    "aliases": [
+        "OnePlus 7 Pro"
+    ],
+    "displayName": "OnePlus 7 Pro",
+    "maintainer": "Bomboozler & P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://sourceforge.net/projects/derpfest-guacamole/files/guacamole/derpfest/",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "hotdogb", 
+    "aliases": [
+        "OnePlus 7T"
+    ],
+    "displayName": "OnePlus 7T",
+    "maintainer": "Bomboozler & P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://sourceforge.net/projects/derpfest-hotdogb/files/hotdogb/derpfest/",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "hotdog", 
+    "aliases": [
+        "OnePlus 7T Pro"
+    ],
+    "displayName": "OnePlus 7T Pro",
+    "maintainer": "Bomboozler & P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://sourceforge.net/projects/derpfest-hotdog/files/hotdog/derpfest/",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
    }
 ]
