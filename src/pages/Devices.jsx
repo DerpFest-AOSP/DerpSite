@@ -28,12 +28,29 @@ export default function Devices() {
       setLoading(true);
       setError(null);
       try {
+        const overrideFailed = false;
+
         const res = await fetch("/devices-index.json", { cache: "no-cache" });
         if (!res.ok) throw new Error("devices-index.json not found on site (did build-action run?)");
         const j = await res.json();
+
+        const res2 = await fetch("/src/components/data/devices-override.json", { cache: "no-cache" });
+        if (!res2.ok) overrideFailed = true;
+        const k = await res2.json();
+
         const list = Array.isArray(j.devices) ? j.devices : [];
+        const overrideMap = new Map(k.map(item => [item.codename, item]));
         if (!cancelled) {
-          setDevices(list);
+          setDevices(
+            overrideFailed
+              ? list
+              : list.map(entry => {
+                const override = overrideMap.get(entry.codename);
+                  return override
+                    ? {...entry, ...override}
+                    : entry
+                })
+          );
           setLoading(false);
         }
       } catch (err) {

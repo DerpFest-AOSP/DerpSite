@@ -1,0 +1,26 @@
+[
+   {
+    "codename": "instantnoodlep",
+    "aliases": [
+        "OnePlus 8 Pro"
+    ],
+    "displayName": "OnePlus 8 Pro",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1",
+        "url": "https://t.me/+iArCVx0Ly2YwMDM1",
+        "version": "16",
+        "datetime": 0
+    },
+    "changelog_raw_url": null,
+    "sources": [
+        {
+            "repoFolder": "",
+            "filePath": ""
+        }
+    ]
+   }
+]
