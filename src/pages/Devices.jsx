@@ -51,7 +51,7 @@ export default function Devices() {
             return entry;
           });
 
-          //add new overrides if they didn't exist
+          //append defined overrides that didn't exist in original list
           for (const newEntry of overrideMap.values()) {
             modifiedList.push(newEntry);
           }
