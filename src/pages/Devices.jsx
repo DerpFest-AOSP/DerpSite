@@ -31,9 +31,41 @@ export default function Devices() {
         const res = await fetch("/devices-index.json", { cache: "no-cache" });
         if (!res.ok) throw new Error("devices-index.json not found on site (did build-action run?)");
         const j = await res.json();
+
         const list = Array.isArray(j.devices) ? j.devices : [];
+        var modifiedList = [];
+        var overrideFailed = false;
+        
+        const res2 = await fetch("/src/components/data/devices-override.json", { cache: "no-cache" });
+        try {
+          const k = await res2.json();
+          const overrideMap = new Map(k.map(item => [item.codename, item]));
+
+          modifiedList = list.map(entry => {
+            const override = overrideMap.get(entry.codename);
+            if(override) {
+              //delete from map to have only new ones later
+              overrideMap.delete(override.codename);
+              return {...entry, ...override}
+            }
+            return entry;
+          });
+
+          //append defined overrides that didn't exist in original list
+          for (const newEntry of overrideMap.values()) {
+            modifiedList.push(newEntry);
+          }
+        }
+        catch(_) {
+          overrideFailed = true;
+        }
+
         if (!cancelled) {
-          setDevices(list);
+          setDevices(
+            overrideFailed
+              ? list
+              : modifiedList
+          );
           setLoading(false);
         }
       } catch (err) {
@@ -153,12 +185,12 @@ export default function Devices() {
           <article key={d.codename} className="devices-card">
             <div className="devices-card-media">
               <div className="devices-stage">
-                <img className="devices-img" src={`/img/devices/${d.codename}.png`} alt={`${d.displayName} (${d.codename})`} onError={(e)=>{ e.target.onerror=null; e.target.src = "/img/devices/default.png"; }} />
+                <img className="devices-img" src={`/img/devices/${d.codename}.png`} alt={`${d.displayName} (${d.codename})`} onError={(e)=>{ e.target.onerror=null; e.target.src = "/img/logo.png"; }} />
               </div>
             </div>
 
             <div className="devices-card-body">
-              <h3 className="devices-name">{d.displayName} <span className="devices-codename">({d.codename})</span></h3>
+              <h3 className="devices-name">{d.displayName} <span className="devices-codename">({d.codename === "lemonkebab" ? "kebab" : d.codename})</span></h3>
               <div className="devices-meta">
                 <div><strong>Maintainer:</strong> {d.maintainer}</div>
                 <div><strong>Aliases:</strong> {(d.aliases||[]).join(" / ")}</div>

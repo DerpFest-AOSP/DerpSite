@@ -1,13 +1,13 @@
 [
    {
       "name": "Adrian Szymański",
-      "role": "Device Maintainer\nXiaomi Mi 9T (davinci)\nRedmi K20 (davinci)",
+      "role": "Device Maintainer\nGoogle Pixel 8 Pro (husky)\nGoogle Pixel 8 (shiba)\nGoogle Pixel 8a (akita)\nXiaomi Mi 9T (davinci)\nRedmi K20 (davinci)",
       "github": "https://github.com/adi8900",
       "telegram": "https://t.me/Adi20_01"
    },
    {
       "name": "Alexander Brunswig",
-      "role": "Founder & Lead Developer\nGoogle Pixel 9 Pro XL (komodo)\nOnePlus 5T (dumpling)\nOnePlus 7T Pro (hotdog)\nXiaomi Mi A2 (jasmine_sprout)",
+      "role": "Founder & Lead Developer\nGoogle Pixel 9 Pro XL (komodo)\nOnePlus 5T (dumpling)\nXiaomi Mi A2 (jasmine_sprout)",
       "github": "https://github.com/NurKeinNeid",
       "telegram": "https://t.me/NurKeinNeid"
    },
@@ -66,8 +66,14 @@
       "telegram": "https://t.me/Bl4ckpeter"
    },
    {
+      "name": "Bomboozler",
+      "role": "Device Maintainer\nOnePlus 7 (guacamoleb)\nOnePlus 7 Pro (guacamole)\nOnePlus 7T (hotdogb)\nOnePlus 7T Pro (hotdog)\nXiaomi 12 (cupid)\nXiaomi 12T Pro | K50 Ultra (diting)",
+      "github": "https://github.com/bomboozler",
+      "telegram": "https://t.me/bomboozler"
+   },
+   {
       "name": "Carlos 'Klozz' Jesus",
-      "role": "Device Maintainer\nXiaomi Poco F5 PRO (mondorian)\nRedmi K60 (mondrian)\nXiaomi 12T Pro (diting)\nRedmi K50 Ultra (diting)",
+      "role": "Device Maintainer\nXiaomi Poco F5 PRO (mondorian)\nRedmi K60 (mondrian)",
       "github": "https://github.com/Klozz",
       "telegram": "https://t.me/TeamMEX_XDA"
    },
@@ -120,10 +126,10 @@
       "telegram": "https://t.me/mofieee"
    },
    {
-      "name": "Just Inntime",
+      "name": "Genoxci",
       "role": "Device Maintainer\nSamsung Galaxy A52s 5G (a52sxq)",
-      "github": "https://github.com/justinntime",
-      "telegram": "https://t.me/just_inntime"
+      "github": "https://github.com/genoxci-dev",
+      "telegram": "https://t.me/genoxci"
    },
    {
       "name": "Kader Bava",
@@ -151,7 +157,7 @@
    },
    {
       "name": "P. A. N. Z.",
-      "role": "Senior Device Maintainer\nGoogle Pixel 8 Pro (husky)\nGoogle Pixel 8 (shiba)\nGoogle Pixel 8a (akita)\nXiaomi Pad 5 (nabu)\nOnePlus 6 (enchilada)\nOnePlus 6T (fajita)\nOnePlus 8 (instantnoodle)\nOnePlus 8 Pro (instantnoodlep)\nOnePlus 8T (kebab)\nSamsung Galaxy Tab S6 Lite EXYNOS WIFI (gta4xlwifi) &  LTE (gta4xl)\nNothing Phone 1 (Spacewar) Co-Maintainer",
+      "role": "Senior Device Maintainer\nOnePlus 12 (waffle)\nXiaomi Pad 5 (nabu)\nOnePlus 6 (enchilada)\nOnePlus 6T (fajita)\nOnePlus 8 (instantnoodle)\nOnePlus 8 Pro (instantnoodlep)\nOnePlus 8T (kebab)\nSamsung Galaxy Tab S6 Lite EXYNOS Wi-Fi (gta4xlwifi)\nSamsung Galaxy Tab S6 Lite EXYNOS LTE (gta4xl)\n\nCo-Maintainer of:\nXiaomi 12 (cupid)\nXiaomi 12T Pro | K50 Ultra (diting)\nOnePlus 7 (hotdog)\nOnePlus 7 Pro (guacamole)\nOnePlus 7T (hotdogb)\nOnePlus 7T Pro (hotdog)",
       "github": "https://github.com/ppanzenboeck",
       "telegram": "https://t.me/jakobBokaj1"
    },
