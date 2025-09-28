@@ -40,16 +40,28 @@ export default function Devices() {
 
         const list = Array.isArray(j.devices) ? j.devices : [];
         const overrideMap = new Map(k.map(item => [item.codename, item]));
+
+        const modifiedList = list.map(entry => {
+            const override = overrideMap.get(entry.codename);
+            if(override) {
+              //delete from map to have only new ones later
+              overrideMap.delete(override.codename);
+              return {...entry, ...override}
+            }
+            return entry;
+          }
+        );
+
+        //add new overrides if they didn't exist
+        for (const newEntry of overrideMap.values()) {
+          modifiedList.push(newEntry);
+        }
+
         if (!cancelled) {
           setDevices(
             overrideFailed
               ? list
-              : list.map(entry => {
-                const override = overrideMap.get(entry.codename);
-                  return override
-                    ? {...entry, ...override}
-                    : entry
-                })
+              : modifiedList
           );
           setLoading(false);
         }
@@ -170,7 +182,7 @@ export default function Devices() {
           <article key={d.codename} className="devices-card">
             <div className="devices-card-media">
               <div className="devices-stage">
-                <img className="devices-img" src={`/img/devices/${d.codename}.png`} alt={`${d.displayName} (${d.codename})`} onError={(e)=>{ e.target.onerror=null; e.target.src = "/img/devices/default.png"; }} />
+                <img className="devices-img" src={`/img/devices/${d.codename}.png`} alt={`${d.displayName} (${d.codename})`} onError={(e)=>{ e.target.onerror=null; e.target.src = "/img/logo.png"; }} />
               </div>
             </div>
 
