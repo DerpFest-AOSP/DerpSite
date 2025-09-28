@@ -175,7 +175,7 @@ export default function Devices() {
             </div>
 
             <div className="devices-card-body">
-              <h3 className="devices-name">{d.displayName} <span className="devices-codename">({d.codename})</span></h3>
+              <h3 className="devices-name">{d.displayName} <span className="devices-codename">({d.codename === "lemonkebab" ? "kebab" : d.codename})</span></h3>
               <div className="devices-meta">
                 <div><strong>Maintainer:</strong> {d.maintainer}</div>
                 <div><strong>Aliases:</strong> {(d.aliases||[]).join(" / ")}</div>
