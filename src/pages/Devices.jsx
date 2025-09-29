@@ -51,10 +51,12 @@ export default function Devices() {
             return entry;
           });
 
-          //append defined overrides that didn't exist in original list
-          for (const newEntry of overrideMap.values()) {
-            modifiedList.push(newEntry);
-          }
+          //prepend defined overrides that didn't exist in original list
+          //in intended alphabetical order, ascending.
+          modifiedList =
+            [...overrideMap.values(), ...modifiedList]
+            .sort((a, b) => a.displayName.localeCompare(b.displayName));
+
         }
         catch(_) {
           overrideFailed = true;
