@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-29T00:21:40.872Z",
+  "generated_at": "2025-09-29T12:21:41.862Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -541,6 +541,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/gsi_vanilla.json"
+        }
+      ]
+    },
+    {
+      "codename": "zippo",
+      "aliases": [
+        "Lenovo Z6 Pro"
+      ],
+      "displayName": "Lenovo Z6 Pro",
+      "maintainer": "Einar Gednochsson",
+      "latest": {
+        "filename": "DerpFest-v16.0-20250928-zippo-Official-Stable.zip",
+        "id": "7b6f05c927447af05018fe043ecc782965e2209ab2bc50a8a9b5829b0eb0ae0c",
+        "romtype": "Official",
+        "size": 2191234602,
+        "url": "https://sourceforge.net/projects/derpfest/files/zippo/DerpFest-v16.0-20250928-zippo-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1759072559
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_zippo.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/zippo.json"
         }
       ]
     },
@@ -1881,31 +1905,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/fleur.json"
-        }
-      ]
-    },
-    {
-      "codename": "zippo",
-      "aliases": [
-        "Redmi Note 12 Pro+",
-        "POCO X5 Pro 5G"
-      ],
-      "displayName": "Redmi Note 12 Pro+",
-      "maintainer": "Einar Gednochsson",
-      "latest": {
-        "filename": "DerpFest-v16.0-20250928-zippo-Official-Stable.zip",
-        "id": "7b6f05c927447af05018fe043ecc782965e2209ab2bc50a8a9b5829b0eb0ae0c",
-        "romtype": "Official",
-        "size": 2191234602,
-        "url": "https://sourceforge.net/projects/derpfest/files/zippo/DerpFest-v16.0-20250928-zippo-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1759072559
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_zippo.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/zippo.json"
         }
       ]
     },
