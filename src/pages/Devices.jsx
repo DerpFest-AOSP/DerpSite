@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from 'react-router-dom';
 
 const PAGE_SIZE = 12;
 
@@ -17,11 +18,23 @@ export default function Devices() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [devices, setDevices] = useState([]);
-  const [search, setSearch] = useState("");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const initialSearch = searchParams.get('s') || "";
+  const [search, setSearch] = useState(initialSearch);
   const [companyFilter, setCompanyFilter] = useState("All");
   const [page, setPage] = useState(1);
   const [changelog, setChangelog] = useState({ open: false, codename: null, loading: false, content: "" });
 
+  // Use this effect to keep the internal state in sync with the URL's 's' parameter.
+  // This is primarily for when the user navigates back/forward.
+  useEffect(() => {
+    const urlSearchValue = searchParams.get('s') || '';
+    if (search !== urlSearchValue) {
+        setSearch(urlSearchValue);
+    }
+  }, [searchParams]); // Re-run when the URL's search params object changes
+
+  // Existing data fetching useEffect
   useEffect(() => {
     let cancelled = false;
     (async () => {
@@ -39,7 +52,7 @@ export default function Devices() {
         const res2 = await fetch("/devices-override.json", { cache: "no-cache" });
         try {
           const k = await res2.json();
-          const overrideMap = new Map(k.map(item => [item.codename, item]));
+          const overrideMap = new Map(k.map(item => [item.codename, {...item, isOverride: true}]));
 
           modifiedList = list.map(entry => {
             const override = overrideMap.get(entry.codename);
@@ -51,10 +64,12 @@ export default function Devices() {
             return entry;
           });
 
-          //append defined overrides that didn't exist in original list
-          for (const newEntry of overrideMap.values()) {
-            modifiedList.push(newEntry);
-          }
+          //prepend defined overrides that didn't exist in original list
+          //in intended alphabetical order, ascending.
+          modifiedList =
+            [...overrideMap.values(), ...modifiedList]
+            .sort((a, b) => a.displayName.localeCompare(b.displayName));
+
         }
         catch(_) {
           overrideFailed = true;
@@ -89,6 +104,7 @@ export default function Devices() {
     return ["All", ...Array.from(s).sort()];
   }, [devices]);
 
+  // filtered depends on local 'search' state, which is now synced from URL
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
     return devices.filter(d => {
@@ -164,7 +180,23 @@ export default function Devices() {
           <h1 className="devices-title"><span className="devices-colored-a">DerpFest Downloads</span></h1>
           <p className="devices-sub">Find your device and download official builds.</p>
           <div className="devices-hero-ctas">
-            <input value={search} onChange={(e)=>{ setSearch(e.target.value); setPage(1); }} className="devices-search" placeholder="Search device name, alias, or codename..." />
+            <input
+              value={search}
+              onChange={(e)=>{
+                const newValue = e.target.value;
+                setSearch(newValue);
+                setPage(1); // Reset page on new search
+
+                // Update URL search parameter
+                setSearchParams(
+                  newValue
+                    ? { s: newValue }
+                    : {}
+                );
+              }}
+              className="devices-search"
+              placeholder="Search device name, alias, or codename..."
+            />
           </div>
         </div>
       </header>
@@ -198,8 +230,12 @@ export default function Devices() {
 
               <div className="devices-build">
                 <div><strong>Version:</strong> {d.latest ? d.latest.version || "—" : "—"}</div>
-                <div><strong>Released:</strong> {d.latest ? fmtDate(d.latest.datetime) : "—"}</div>
-                <div><strong>Size:</strong> {d.latest ? fmtBytes(d.latest.size) : "—"}</div>
+                {!d.isOverride && (
+                  <div>
+                    <div><strong>Released:</strong> {d.latest ? fmtDate(d.latest.datetime) : "—"}</div>
+                    <div><strong>Size:</strong> {d.latest ? fmtBytes(d.latest.size) : "—"}</div>
+                  </div>
+                )}
               </div>
 
               <div className="devices-actions">

@@ -42,6 +42,7 @@ const Team = () => {
                   return (
                   <div 
                      key={index}
+                     id={team.name.toLowerCase().replace(/[^a-z0-9]/g, '')}
                      className="card bg-base-100 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-base-300 hover:border-[#33bbff]/30"
                   >
                      <div className="h-1 bg-gradient-to-r from-[#33bbff] to-[#1de099]"></div>
