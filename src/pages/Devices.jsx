@@ -52,7 +52,7 @@ export default function Devices() {
         const res2 = await fetch("/devices-override.json", { cache: "no-cache" });
         try {
           const k = await res2.json();
-          const overrideMap = new Map(k.map(item => [item.codename, item]));
+          const overrideMap = new Map(k.map(item => [item.codename, {...item, isOverride: true}]));
 
           modifiedList = list.map(entry => {
             const override = overrideMap.get(entry.codename);
@@ -230,8 +230,12 @@ export default function Devices() {
 
               <div className="devices-build">
                 <div><strong>Version:</strong> {d.latest ? d.latest.version || "—" : "—"}</div>
-                <div><strong>Released:</strong> {d.latest ? fmtDate(d.latest.datetime) : "—"}</div>
-                <div><strong>Size:</strong> {d.latest ? fmtBytes(d.latest.size) : "—"}</div>
+                {!d.isOverride && (
+                  <div>
+                    <div><strong>Released:</strong> {d.latest ? fmtDate(d.latest.datetime) : "—"}</div>
+                    <div><strong>Size:</strong> {d.latest ? fmtBytes(d.latest.size) : "—"}</div>
+                  </div>
+                )}
               </div>
 
               <div className="devices-actions">
