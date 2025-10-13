@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-12T12:07:56.299Z",
+  "generated_at": "2025-10-13T00:22:20.709Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -576,13 +576,13 @@
       "displayName": "Motorola Edge 20 Pro",
       "maintainer": "vullk4n",
       "latest": {
-        "filename": "DerpFest-v15.2-20250731-pstar-Official-Stable.zip",
-        "id": "11423feb114d5ccd53551f8c9ba6e1ee20c945c99bf1246f6d5952f1834f14bd",
+        "filename": "DerpFest-v16.0-20251012-pstar-Official-Stable.zip",
+        "id": "f1d5d3e0d4b334f2783015ad3a2dab47f35de5f8f39ebc79da7c9ecc8de2bc2c",
         "romtype": "Official",
-        "size": 1733623753,
-        "url": "https://sourceforge.net/projects/derpfest/files/pstar/DerpFest-v15.2-20250731-pstar-Official-Stable.zip/download",
-        "version": "v15.2",
-        "datetime": 1753936661
+        "size": 1732242241,
+        "url": "https://sourceforge.net/projects/derpfest/files/pstar/DerpFest-v16.0-20251012-pstar-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1760309735
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pstar.txt",
       "sources": [
@@ -601,13 +601,13 @@
       "displayName": "Motorola Edge S",
       "maintainer": "vullk4n",
       "latest": {
-        "filename": "DerpFest-v15.2-20250731-nio-Official-Stable.zip",
-        "id": "1230162ed19277a6e90de4e44987b37b407838890a209535a0ccf1267635136b",
+        "filename": "DerpFest-v16.0-20251012-nio-Official-Stable.zip",
+        "id": "89a74dca2d9fcf0b70d0e9e27928c5aa4c8148c7ff1f67ee3a0d84c9b2583300",
         "romtype": "Official",
-        "size": 1737001022,
-        "url": "https://sourceforge.net/projects/derpfest/files/nio/DerpFest-v15.2-20250731-nio-Official-Stable.zip/download",
-        "version": "v15.2",
-        "datetime": 1753993070
+        "size": 1735433125,
+        "url": "https://sourceforge.net/projects/derpfest/files/nio/DerpFest-v16.0-20251012-nio-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1760305170
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_nio.txt",
       "sources": [
@@ -1965,13 +1965,13 @@
       "displayName": "Redmi Note 7 Pro",
       "maintainer": "Selfmuser",
       "latest": {
-        "filename": "DerpFest-v16.0-20250916-violet-Official-Stable.zip",
-        "id": "3333ab48cca318ee379fd00a65116ac899766e0bb44c715731255927b2800a26",
+        "filename": "DerpFest-v16.0-20251012-violet-Official-Stable.zip",
+        "id": "37b02ccff52a3a1f3716f9312539d8f4b18d410e377502f9ba27df9d11ddba96",
         "romtype": "Official",
-        "size": 2311667658,
-        "url": "https://sourceforge.net/projects/derpfest/files/violet/DerpFest-v16.0-20250916-violet-Official-Stable.zip/download",
+        "size": 2321614609,
+        "url": "https://sourceforge.net/projects/derpfest/files/violet/DerpFest-v16.0-20251012-violet-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1757993249
+        "datetime": 1760253602
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_violet.txt",
       "sources": [
