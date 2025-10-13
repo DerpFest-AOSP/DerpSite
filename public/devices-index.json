@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-13T00:22:20.709Z",
+  "generated_at": "2025-10-13T12:08:43.453Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -288,13 +288,13 @@
       "displayName": "Google Pixel 7",
       "maintainer": "Yaznas",
       "latest": {
-        "filename": "DerpFest-v16.0-20250828-panther-Official-Stable.zip",
-        "id": "1f6ef0a9b8c3061978a1f7c6b24cd4e9407f8cdf5d7a9fbbdaf5e2eaa3f1024e",
+        "filename": "DerpFest-v16.0-20251013-panther-Official-Stable.zip",
+        "id": "7df9ff58de61961598df8d466de84d02af5c6d61f95ed359225d59f2b3eb2585",
         "romtype": "Official",
-        "size": 2468829863,
-        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-panther/16/20250828/DerpFest-v16.0-20250828-panther-Official-Stable.zip/download",
+        "size": 2475399754,
+        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-panther/16/20251013/DerpFest-v16.0-20251013-panther-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1756364922
+        "datetime": 1760350713
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_panther.txt",
       "sources": [
@@ -312,13 +312,13 @@
       "displayName": "Google Pixel 7 Pro",
       "maintainer": "Yaznas",
       "latest": {
-        "filename": "DerpFest-v16.0-20250828-cheetah-Official-Stable.zip",
-        "id": "6507676a41afdfab1f556eeaed67dbda60ad69b8fe5f02aafcc67e2d820f4a5d",
+        "filename": "DerpFest-v16.0-20251013-cheetah-Official-Stable.zip",
+        "id": "54b0073df71141cc1505b6905685432da961facebb30c58a3d7df51442fa3166",
         "romtype": "Official",
-        "size": 2469600099,
-        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-cheetah/16/20250828/DerpFest-v16.0-20250828-cheetah-Official-Stable.zip/download",
+        "size": 2477868337,
+        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-cheetah/16/20251013/DerpFest-v16.0-20251013-cheetah-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1756371433
+        "datetime": 1760342872
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_cheetah.txt",
       "sources": [
@@ -336,13 +336,13 @@
       "displayName": "Google Pixel 7a",
       "maintainer": "Yaznas",
       "latest": {
-        "filename": "DerpFest-v16.0-20250828-lynx-Official-Stable.zip",
-        "id": "2ecae62a45626677bd39a63de4373f5aa826a297114dd99e3d6c6a3dc4b1ad1e",
+        "filename": "DerpFest-v16.0-20251013-lynx-Official-Stable.zip",
+        "id": "dfa625da7356be862010509a9d78deb60e7758e77a148400e0744e4e61edc740",
         "romtype": "Official",
-        "size": 2468052373,
-        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-lynx/16/20250828/DerpFest-v16.0-20250828-lynx-Official-Stable.zip/download",
+        "size": 2476475788,
+        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-lynx/16/20251013/DerpFest-v16.0-20251013-lynx-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1756372347
+        "datetime": 1760349437
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lynx.txt",
       "sources": [
