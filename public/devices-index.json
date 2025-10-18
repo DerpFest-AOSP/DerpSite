@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-18T00:19:42.786Z",
+  "generated_at": "2025-10-18T12:08:06.914Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -216,13 +216,13 @@
       "displayName": "Google Pixel 6",
       "maintainer": "Einar Gednochsson",
       "latest": {
-        "filename": "DerpFest-v16.0-20250917-oriole-Official-Stable.zip",
-        "id": "df1bf749902161bd4f3ec3d43795cb098816fd446071e9805c11135a0219ed0a",
+        "filename": "DerpFest-v16.0-20251017-oriole-Official-Stable.zip",
+        "id": "4e930d2e216e6260f1159d62c32db1b747a576a4e3449417ad6632e46d5e3eb4",
         "romtype": "Official",
-        "size": 2547667281,
-        "url": "https://sourceforge.net/projects/derpfest/files/oriole/DerpFest-v16.0-20250917-oriole-Official-Stable.zip/download",
+        "size": 2552853662,
+        "url": "https://sourceforge.net/projects/derpfest/files/oriole/DerpFest-v16.0-20251017-oriole-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1758126382
+        "datetime": 1760722710
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_oriole.txt",
       "sources": [
@@ -240,13 +240,13 @@
       "displayName": "Google Pixel 6 Pro",
       "maintainer": "Einar Gednochsson",
       "latest": {
-        "filename": "DerpFest-v16.0-20250917-raven-Official-Stable.zip",
-        "id": "43e68aeb6501f29abc628b2b5fdaa22c63b0f3bcf80232f0f0a79485936e0698",
+        "filename": "DerpFest-v16.0-20251017-raven-Official-Stable.zip",
+        "id": "9a2a2a06253dcde29f4a15e087ff8408ab4c8b03f2357a4ff900505f29bc007f",
         "romtype": "Official",
-        "size": 2548326932,
-        "url": "https://sourceforge.net/projects/derpfest/files/raven/DerpFest-v16.0-20250917-raven-Official-Stable.zip/download",
+        "size": 2553662033,
+        "url": "https://sourceforge.net/projects/derpfest/files/raven/DerpFest-v16.0-20251017-raven-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1758129982
+        "datetime": 1760723338
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_raven.txt",
       "sources": [
@@ -264,13 +264,13 @@
       "displayName": "Google Pixel 6a",
       "maintainer": "Einar Gednochsson",
       "latest": {
-        "filename": "DerpFest-v16.0-20250917-bluejay-Official-Stable.zip",
-        "id": "953afaa96da6406ea5d26cccd2b9c6fccd08e26db48173c3e337062fbf7e7a02",
+        "filename": "DerpFest-v16.0-20251017-bluejay-Official-Stable.zip",
+        "id": "88f1fd434636649d50d760df951f3d8e58b7f83b39694e39932c116edc289bff",
         "romtype": "Official",
-        "size": 2549065061,
-        "url": "https://sourceforge.net/projects/derpfest/files/bluejay/DerpFest-v16.0-20250917-bluejay-Official-Stable.zip/download",
+        "size": 2553746453,
+        "url": "https://sourceforge.net/projects/derpfest/files/bluejay/DerpFest-v16.0-20251017-bluejay-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1758124579
+        "datetime": 1760721064
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_bluejay.txt",
       "sources": [
@@ -552,13 +552,13 @@
       "displayName": "Lenovo Z6 Pro",
       "maintainer": "Einar Gednochsson",
       "latest": {
-        "filename": "DerpFest-v16.0-20250928-zippo-Official-Stable.zip",
-        "id": "7b6f05c927447af05018fe043ecc782965e2209ab2bc50a8a9b5829b0eb0ae0c",
+        "filename": "DerpFest-v16.0-20251017-zippo-Official-Stable.zip",
+        "id": "a685f6177041b88f025710d19d966e487b69e5a9bb1d9857ffc65bafeb92b26a",
         "romtype": "Official",
-        "size": 2191234602,
-        "url": "https://sourceforge.net/projects/derpfest/files/zippo/DerpFest-v16.0-20250928-zippo-Official-Stable.zip/download",
+        "size": 2197360445,
+        "url": "https://sourceforge.net/projects/derpfest/files/zippo/DerpFest-v16.0-20251017-zippo-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1759072559
+        "datetime": 1760723839
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_zippo.txt",
       "sources": [
