@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-23T00:21:05.632Z",
+  "generated_at": "2025-10-23T12:09:02.559Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -541,6 +541,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/gsi_vanilla.json"
+        }
+      ]
+    },
+    {
+      "codename": "gta4xlveu",
+      "aliases": [
+        "gta4xlveu"
+      ],
+      "displayName": "gta4xlveu",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.0-20251019-gta4xlveu-Official-Stable.zip",
+        "id": "f71eb388af9a6958541f0a8796db565fd109a845ceb5192e7f6520c98e51172f",
+        "romtype": "Official",
+        "size": 1957925517,
+        "url": "https://sourceforge.net/projects/derpfest/files/gta4xlveu/20251019/DerpFest-v16.0-20251019-gta4xlveu-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1760899310
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gta4xlveu.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/gta4xlveu.json"
         }
       ]
     },
@@ -2281,13 +2305,13 @@
       "displayName": "Samsung Galaxy A71",
       "maintainer": "DaViDev985",
       "latest": {
-        "filename": "DerpFest-15.1-Official-Stable-a71-20250205-1958.zip",
-        "id": "832c116ecdf888ee04c9e4820c6f3b52624067c652ee90cb010c23f02e76c7ab",
+        "filename": "DerpFest-v16.0-20251008-a71-Official-Stable.zip",
+        "id": "b7ae8473ca332d821376029a2cb7fe3bfc2cde23411be833f7405accfc2c0a07",
         "romtype": "Official",
-        "size": 1921302395,
-        "url": "https://sourceforge.net/projects/derpfest/files/a71/20250205-1958/DerpFest-15.1-Official-Stable-a71-20250205-1958.zip/download",
-        "version": "15.1",
-        "datetime": 1738781843
+        "size": 2029622141,
+        "url": "https://sourceforge.net/projects/derpfest/files/a71/20251008/DerpFest-v16.0-20251008-a71-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1759917414
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a71.txt",
       "sources": [
@@ -2353,13 +2377,13 @@
       "displayName": "Samsung Galaxy S10",
       "maintainer": "DaViDev985",
       "latest": {
-        "filename": "DerpFest-13-Official-Tango-beyond1lte-20230827-1735.zip",
-        "id": "4351bffcc64fc795622b29f293a185b923a3cec8a3b88477266cf59f50d33d3a",
+        "filename": "DerpFest-v16.0-20251012-beyond1lte-Official-Stable.zip",
+        "id": "8ee6af000467a97f425168e02bb816c78d8ff96e4dd064f6a2ede47b1df4d88d",
         "romtype": "Official",
-        "size": 1712306211,
-        "url": "https://sourceforge.net/projects/derpfest/files/beyond1lte/DerpFest-13-Official-Tango-beyond1lte-20230827-1735.zip/download",
-        "version": "13",
-        "datetime": 1693154066
+        "size": 1941861976,
+        "url": "https://sourceforge.net/projects/derpfest/files/beyond1lte/20251012/DerpFest-v16.0-20251012-beyond1lte-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1760293241
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyond1lte.txt",
       "sources": [
@@ -2401,13 +2425,13 @@
       "displayName": "Samsung Galaxy S10+",
       "maintainer": "DaViDev985",
       "latest": {
-        "filename": "DerpFest-13-Official-Tango-beyond2lte-20230827-1839.zip",
-        "id": "dde50bb803d160e62f655df0413246f464d5fb488b9c9210758b5999c1cff39e",
+        "filename": "DerpFest-v16.0-20251012-beyond2lte-Official-Stable.zip",
+        "id": "16676c984a009a5e8ba78a420b157ab4ffc6f3734fffb74d017f263441ebe2d2",
         "romtype": "Official",
-        "size": 1712734488,
-        "url": "https://sourceforge.net/projects/derpfest/files/beyond2lte/DerpFest-13-Official-Tango-beyond2lte-20230827-1839.zip/download",
-        "version": "13",
-        "datetime": 1693157889
+        "size": 1943654726,
+        "url": "https://sourceforge.net/projects/derpfest/files/beyond2lte/20251012/DerpFest-v16.0-20251012-beyond2lte-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1760296068
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyond2lte.txt",
       "sources": [
@@ -2425,13 +2449,13 @@
       "displayName": "Samsung Galaxy S10e",
       "maintainer": "DaViDev985",
       "latest": {
-        "filename": "DerpFest-13-Official-Tango-beyond0lte-20230827-1806.zip",
-        "id": "1ca6296af07fae1f3539bce1b141b6f0ffc03acf935ea522470a6702b816d964",
+        "filename": "DerpFest-v16.0-20251012-beyond0lte-Official-Stable.zip",
+        "id": "7c3d350f1d45c701b169deef3ce62a6928c882f16f62b5d6743324bff759d187",
         "romtype": "Official",
-        "size": 1583301989,
-        "url": "https://sourceforge.net/projects/derpfest/files/beyond0lte/DerpFest-13-Official-Tango-beyond0lte-20230827-1806.zip/download",
-        "version": "13",
-        "datetime": 1693155923
+        "size": 1938757523,
+        "url": "https://sourceforge.net/projects/derpfest/files/beyond0lte/20251012/DerpFest-v16.0-20251012-beyond0lte-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1760294994
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_beyond0lte.txt",
       "sources": [
