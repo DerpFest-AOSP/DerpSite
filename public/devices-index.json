@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-23T12:09:02.559Z",
+  "generated_at": "2025-10-24T00:19:29.750Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -541,30 +541,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/gsi_vanilla.json"
-        }
-      ]
-    },
-    {
-      "codename": "gta4xlveu",
-      "aliases": [
-        "gta4xlveu"
-      ],
-      "displayName": "gta4xlveu",
-      "maintainer": "Unknown",
-      "latest": {
-        "filename": "DerpFest-v16.0-20251019-gta4xlveu-Official-Stable.zip",
-        "id": "f71eb388af9a6958541f0a8796db565fd109a845ceb5192e7f6520c98e51172f",
-        "romtype": "Official",
-        "size": 1957925517,
-        "url": "https://sourceforge.net/projects/derpfest/files/gta4xlveu/20251019/DerpFest-v16.0-20251019-gta4xlveu-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1760899310
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gta4xlveu.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/gta4xlveu.json"
         }
       ]
     },
@@ -1941,13 +1917,13 @@
       "displayName": "Redmi Note 13 Pro 5G",
       "maintainer": "Mohammad Kibria",
       "latest": {
-        "filename": "DerpFest-v16.0-20251016-garnet-Official-Stable.zip",
-        "id": "bbb97dd32bc3fccb7f81079e1db06b5af2dc289df57fc65d68edf7bf377ecdda",
+        "filename": "DerpFest-v16.0-20251023-garnet-Official-Stable.zip",
+        "id": "fa3d05361be0596a07907d0a14d8637e4cfc35d264cffd257a5d3a475e6837d4",
         "romtype": "Official",
-        "size": 2582131354,
-        "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-v16.0-20251016-garnet-Official-Stable.zip/download",
+        "size": 2582137896,
+        "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-v16.0-20251023-garnet-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1760635116
+        "datetime": 1761240388
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_garnet.txt",
       "sources": [
@@ -2630,6 +2606,31 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/star2lte.json"
+        }
+      ]
+    },
+    {
+      "codename": "gta4xlveu",
+      "aliases": [
+        "Samsung Galaxy Tab S6 Lite 2022 Wi-Fi",
+        "LTE (Qualcomm)"
+      ],
+      "displayName": "Samsung Galaxy Tab S6 Lite 2022 Wi-Fi",
+      "maintainer": "DaViDev985",
+      "latest": {
+        "filename": "DerpFest-v16.0-20251019-gta4xlveu-Official-Stable.zip",
+        "id": "f71eb388af9a6958541f0a8796db565fd109a845ceb5192e7f6520c98e51172f",
+        "romtype": "Official",
+        "size": 1957925517,
+        "url": "https://sourceforge.net/projects/derpfest/files/gta4xlveu/20251019/DerpFest-v16.0-20251019-gta4xlveu-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1760899310
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gta4xlveu.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/gta4xlveu.json"
         }
       ]
     },
