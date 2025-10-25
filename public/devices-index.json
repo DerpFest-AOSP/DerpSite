@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-24T12:09:12.299Z",
+  "generated_at": "2025-10-25T00:20:55.126Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1276,13 +1276,13 @@
       "displayName": "OnePlus Nord 4",
       "maintainer": "Aman Singh (iamansingh)",
       "latest": {
-        "filename": "DerpFest-16.0-Official-Stable-avalon-20251013-1908.zip",
-        "id": "07ac7e22ac52978c263249e87b4d9049d511c16329436a502ce522340ce466e0",
+        "filename": "DerpFest-16.0-Official-Stable-avalon-20251024-1846.zip",
+        "id": "049108e66865138966f433e1e1c189163a516160e0b8131313ad7531f19a069e",
         "romtype": "Official",
-        "size": 3252131601,
-        "url": "https://sourceforge.net/projects/avalon-builds/files/DerpFest/DerpFest-16.0-Official-Stable-avalon-20251013-1908.zip/download",
+        "size": 3251251310,
+        "url": "https://sourceforge.net/projects/avalon-builds/files/DerpFest/DerpFest-16.0-Official-Stable-avalon-20251024-1846.zip/download",
         "version": "16.0",
-        "datetime": 1760362533
+        "datetime": 1761311529
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/amanrajOO7/derpfest_avalon/16.0/changelog_avalon.txt",
       "sources": [
@@ -2612,10 +2612,9 @@
     {
       "codename": "gta4xlveu",
       "aliases": [
-        "Samsung Galaxy Tab S6 Lite 2022 Wi-Fi",
-        "LTE (Qualcomm)"
+        "Samsung Galaxy Tab S6 Lite 2022 Wi-Fi & LTE (Qualcomm)"
       ],
-      "displayName": "Samsung Galaxy Tab S6 Lite 2022 Wi-Fi",
+      "displayName": "Samsung Galaxy Tab S6 Lite 2022 Wi-Fi & LTE (Qualcomm)",
       "maintainer": "DaViDev985",
       "latest": {
         "filename": "DerpFest-v16.0-20251019-gta4xlveu-Official-Stable.zip",
