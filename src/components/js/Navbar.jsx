@@ -14,11 +14,17 @@ const Navbar = () => {
   useEffect(() => {
     if (isMobileMenuOpen) {
       document.body.style.overflow = 'hidden';
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%';
     } else {
       document.body.style.overflow = 'auto';
+      document.body.style.position = 'static';
+      document.body.style.width = 'auto';
     }
     return () => {
       document.body.style.overflow = 'auto';
+      document.body.style.position = 'static';
+      document.body.style.width = 'auto';
     };
   }, [isMobileMenuOpen]);
 
@@ -33,7 +39,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="navbar shadow-md">
+    <div className="navbar shadow-md relative z-[70]">
       <div className="flex-1">
         <Link to="/" className="btn btn-ghost text-xl">
           <img 
@@ -60,7 +66,7 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden block ml-2">
+        <div className="md:hidden block ml-2 relative z-[70]">
           <button 
             className={`hamburger ${isMobileMenuOpen ? 'hamburger-open' : ''}`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -85,16 +91,17 @@ const Navbar = () => {
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
         <div 
-          className="fixed inset-0 z-40 backdrop"
+          className="fixed inset-0 z-[50] backdrop"
           onClick={() => setIsMobileMenuOpen(false)}
         ></div>
       )}
 
       {/* Mobile Menu Content */}
       <div 
-        className={`mobile-menu fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-[#33bbff] to-[#1de099] shadow-2xl pt-20 pb-10 ${
+        className={`mobile-menu fixed top-0 left-0 right-0 bottom-0 z-[60] bg-gradient-to-b from-[#33bbff] to-[#1de099] shadow-2xl pt-20 pb-10 ${
           isMobileMenuOpen ? 'mobile-menu-open' : ''
         }`}
+        style={{ height: '100vh', width: '100vw' }}
       >
         <div className="container mx-auto px-4">
           <ul className="menu text-center">
