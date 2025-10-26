@@ -3,7 +3,7 @@
 @plugin "daisyui";
 
 html, body {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   background: #1a1a1a;
   color: #e6eef6;
 }
@@ -38,7 +38,7 @@ html, body {
 }
 
 .devices-w {
-  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
 .devices-hero {
