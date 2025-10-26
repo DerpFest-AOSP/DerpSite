@@ -1,6 +1,51 @@
 import TeamData from '../components/data/team.json'
+import { useState, useEffect } from 'react'
 
 const Team = () => {
+   const [profilePics, setProfilePics] = useState({})
+   const [loading, setLoading] = useState(true)
+
+   // Extract GitHub usernames from URLs
+   const getGitHubUsername = (githubUrl) => {
+      return githubUrl.split('/').pop()
+   }
+
+   // Fetch GitHub profile pictures
+   useEffect(() => {
+      const fetchProfilePics = async () => {
+         const picPromises = TeamData.map(async (member) => {
+            const username = getGitHubUsername(member.github)
+            try {
+               const response = await fetch(`https://api.github.com/users/${username}`)
+               if (response.ok) {
+                  const data = await response.json()
+                  return { username, avatar: data.avatar_url }
+               }
+            } catch (error) {
+               console.warn(`Failed to fetch profile for ${username}:`, error)
+            }
+            return { username, avatar: null }
+         })
+
+         const results = await Promise.all(picPromises)
+         const picMap = {}
+         results.forEach(({ username, avatar }) => {
+            if (avatar) {
+               picMap[username] = avatar
+            }
+         })
+         
+         setProfilePics(picMap)
+         setLoading(false)
+      }
+
+      fetchProfilePics()
+   }, [])
+
+   const getProfilePic = (githubUrl) => {
+      const username = getGitHubUsername(githubUrl)
+      return profilePics[username] || null
+   }
    const getShape = (index) => {
       const shapeIndex = index % 4;
       switch(shapeIndex) {
@@ -50,104 +95,127 @@ const Team = () => {
                      <div className="card-body p-6">
                         <div className="flex justify-center mb-4">
                            <div className="avatar relative w-20 h-20 mx-auto">
-                              <svg 
-                                 width="80" 
-                                 height="80" 
-                                 viewBox="0 0 80 80"
-                                 className="drop-shadow-md"
+                              {loading ? (
+                                 <div className="w-20 h-20 rounded-full bg-gradient-to-r from-[#33bbff] to-[#1de099] flex items-center justify-center">
+                                    <div className="loading loading-spinner loading-md text-white"></div>
+                                 </div>
+                              ) : getProfilePic(team.github) ? (
+                                 <img 
+                                    src={getProfilePic(team.github)} 
+                                    alt={`${team.name}'s profile`}
+                                    className="w-20 h-20 rounded-full object-cover border-2 border-white/20 shadow-lg"
+                                    onError={(e) => {
+                                       // Fallback to initials if image fails to load
+                                       e.target.style.display = 'none'
+                                       e.target.nextSibling.style.display = 'block'
+                                    }}
+                                 />
+                              ) : null}
+                              
+                              {/* Fallback SVG with initials */}
+                              <div 
+                                 className={`w-20 h-20 rounded-full ${getProfilePic(team.github) ? 'hidden' : 'block'}`}
+                                 style={{ display: getProfilePic(team.github) ? 'none' : 'block' }}
                               >
-                                 <defs>
-                                    <linearGradient id={`gradient-${index}`} x1="0%" y1="0%" x2="100%" y2="100%">
-                                       <stop offset="0%" stopColor="#33bbff" />
-                                       <stop offset="50%" stopColor="#2dd4bf" />
-                                       <stop offset="100%" stopColor="#1de099" />
-                                    </linearGradient>
-                                    <pattern 
-                                       id={`dots-${index}`} 
-                                       width="20" 
-                                       height="20" 
-                                       patternUnits="userSpaceOnUse"
-                                    >
-                                       <circle cx="10" cy="10" r="2" fill="white" opacity="0.2" />
-                                    </pattern>
-                                 </defs>
-                                 
-                                 {shape === "circle" && (
-                                    <>
-                                       <circle cx="40" cy="40" r="36" fill={`url(#gradient-${index})`} />
-                                       <circle cx="40" cy="40" r="36" fill={`url(#dots-${index})`} />
-                                       <circle cx="40" cy="40" r="35" fill="none" stroke="white" strokeWidth="1" opacity="0.3" />
-                                       <text 
-                                          x="40" 
-                                          y="45" 
-                                          textAnchor="middle" 
-                                          fill="white" 
-                                          fontSize="20" 
-                                          fontWeight="600"
-                                          fontFamily="system-ui, sans-serif"
+                                 <svg 
+                                    width="80" 
+                                    height="80" 
+                                    viewBox="0 0 80 80"
+                                    className="drop-shadow-md"
+                                 >
+                                    <defs>
+                                       <linearGradient id={`gradient-${index}`} x1="0%" y1="0%" x2="100%" y2="100%">
+                                          <stop offset="0%" stopColor="#33bbff" />
+                                          <stop offset="50%" stopColor="#2dd4bf" />
+                                          <stop offset="100%" stopColor="#1de099" />
+                                       </linearGradient>
+                                       <pattern 
+                                          id={`dots-${index}`} 
+                                          width="20" 
+                                          height="20" 
+                                          patternUnits="userSpaceOnUse"
                                        >
-                                          {initials}
-                                       </text>
-                                    </>
-                                 )}
-                                 
-                                 {shape === "tilted-square" && (
-                                    <>
-                                       <path d="M40,10 L70,40 L40,70 L10,40 Z" fill={`url(#gradient-${index})`} />
-                                       <path d="M40,10 L70,40 L40,70 L10,40 Z" fill={`url(#dots-${index})`} />
-                                       <path d="M40,10 L70,40 L40,70 L10,40 Z" fill="none" stroke="white" strokeWidth="1" opacity="0.3" />
-                                       <text 
-                                          x="40" 
-                                          y="45" 
-                                          textAnchor="middle" 
-                                          fill="white" 
-                                          fontSize="20" 
-                                          fontWeight="600"
-                                          fontFamily="system-ui, sans-serif"
-                                       >
-                                          {initials}
-                                       </text>
-                                    </>
-                                 )}
-                                 
-                                 {shape === "square" && (
-                                    <>
-                                       <rect x="10" y="10" width="60" height="60" fill={`url(#gradient-${index})`} />
-                                       <rect x="10" y="10" width="60" height="60" fill={`url(#dots-${index})`} />
-                                       <rect x="10" y="10" width="60" height="60" fill="none" stroke="white" strokeWidth="1" opacity="0.3" />
-                                       <text 
-                                          x="40" 
-                                          y="45" 
-                                          textAnchor="middle" 
-                                          fill="white" 
-                                          fontSize="20" 
-                                          fontWeight="600"
-                                          fontFamily="system-ui, sans-serif"
-                                       >
-                                          {initials}
-                                       </text>
-                                    </>
-                                 )}
-                                 
-                                 {shape === "triangle" && (
-                                    <>
-                                       <path d="M40,10 L70,70 L10,70 Z" fill={`url(#gradient-${index})`} />
-                                       <path d="M40,10 L70,70 L10,70 Z" fill={`url(#dots-${index})`} />
-                                       <path d="M40,10 L70,70 L10,70 Z" fill="none" stroke="white" strokeWidth="1" opacity="0.3" />
-                                       <text 
-                                          x="40" 
-                                          y="50" 
-                                          textAnchor="middle" 
-                                          fill="white" 
-                                          fontSize="18" 
-                                          fontWeight="600"
-                                          fontFamily="system-ui, sans-serif"
-                                       >
-                                          {initials}
-                                       </text>
-                                    </>
-                                 )}
-                              </svg>
+                                          <circle cx="10" cy="10" r="2" fill="white" opacity="0.2" />
+                                       </pattern>
+                                    </defs>
+                                    
+                                    {shape === "circle" && (
+                                       <>
+                                          <circle cx="40" cy="40" r="36" fill={`url(#gradient-${index})`} />
+                                          <circle cx="40" cy="40" r="36" fill={`url(#dots-${index})`} />
+                                          <circle cx="40" cy="40" r="35" fill="none" stroke="white" strokeWidth="1" opacity="0.3" />
+                                          <text 
+                                             x="40" 
+                                             y="45" 
+                                             textAnchor="middle" 
+                                             fill="white" 
+                                             fontSize="20" 
+                                             fontWeight="600"
+                                             fontFamily="system-ui, sans-serif"
+                                          >
+                                             {initials}
+                                          </text>
+                                       </>
+                                    )}
+                                    
+                                    {shape === "tilted-square" && (
+                                       <>
+                                          <path d="M40,10 L70,40 L40,70 L10,40 Z" fill={`url(#gradient-${index})`} />
+                                          <path d="M40,10 L70,40 L40,70 L10,40 Z" fill={`url(#dots-${index})`} />
+                                          <path d="M40,10 L70,40 L40,70 L10,40 Z" fill="none" stroke="white" strokeWidth="1" opacity="0.3" />
+                                          <text 
+                                             x="40" 
+                                             y="45" 
+                                             textAnchor="middle" 
+                                             fill="white" 
+                                             fontSize="20" 
+                                             fontWeight="600"
+                                             fontFamily="system-ui, sans-serif"
+                                          >
+                                             {initials}
+                                          </text>
+                                       </>
+                                    )}
+                                    
+                                    {shape === "square" && (
+                                       <>
+                                          <rect x="10" y="10" width="60" height="60" fill={`url(#gradient-${index})`} />
+                                          <rect x="10" y="10" width="60" height="60" fill={`url(#dots-${index})`} />
+                                          <rect x="10" y="10" width="60" height="60" fill="none" stroke="white" strokeWidth="1" opacity="0.3" />
+                                          <text 
+                                             x="40" 
+                                             y="45" 
+                                             textAnchor="middle" 
+                                             fill="white" 
+                                             fontSize="20" 
+                                             fontWeight="600"
+                                             fontFamily="system-ui, sans-serif"
+                                          >
+                                             {initials}
+                                          </text>
+                                       </>
+                                    )}
+                                    
+                                    {shape === "triangle" && (
+                                       <>
+                                          <path d="M40,10 L70,70 L10,70 Z" fill={`url(#gradient-${index})`} />
+                                          <path d="M40,10 L70,70 L10,70 Z" fill={`url(#dots-${index})`} />
+                                          <path d="M40,10 L70,70 L10,70 Z" fill="none" stroke="white" strokeWidth="1" opacity="0.3" />
+                                          <text 
+                                             x="40" 
+                                             y="50" 
+                                             textAnchor="middle" 
+                                             fill="white" 
+                                             fontSize="18" 
+                                             fontWeight="600"
+                                             fontFamily="system-ui, sans-serif"
+                                          >
+                                             {initials}
+                                          </text>
+                                       </>
+                                    )}
+                                 </svg>
+                              </div>
                            </div>
                         </div>
 
