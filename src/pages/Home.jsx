@@ -36,20 +36,20 @@ const Home = () => {
                   
                   {/* Enhanced product screens with better animations */}
                   <div className="flex justify-center pt-12 relative gap-8">
-                     <div className="relative select-none">
+                     <div className="relative select-none hidden md:block">
                         <img 
                            src="./img/product-screen-1.png" 
                            alt="Derpfest Wallpapers" 
-                           className="mt-24 w-80 h-fit rounded-3xl shadow-2xl hover:shadow-[#33bbff]/20 transition-all duration-500 hover:scale-105 float-animation md:block hidden pointer-events-none" 
+                           className="mt-24 w-80 h-fit rounded-3xl shadow-2xl hover:shadow-[#33bbff]/20 transition-all duration-500 hover:scale-105 float-animation pointer-events-none" 
                            draggable="false"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-[#33bbff]/20 to-transparent rounded-3xl opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
                      </div>
-                     <div className="relative select-none">
+                     <div className="relative select-none hidden md:block">
                         <img 
                            src="./img/product-screen-2.png" 
                            alt="Derpfest Customizations" 
-                           className="mt-12 w-80 h-fit rounded-3xl shadow-2xl hover:shadow-[#1de099]/20 transition-all duration-500 hover:scale-105 float-animation md:block hidden pointer-events-none" 
+                           className="mt-12 w-80 h-fit rounded-3xl shadow-2xl hover:shadow-[#1de099]/20 transition-all duration-500 hover:scale-105 float-animation pointer-events-none" 
                            style={{animationDelay: '1s'}}
                            draggable="false"
                         />
