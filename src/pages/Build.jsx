@@ -127,15 +127,18 @@ const Build = () => {
                <p className="mb-4 text-gray-300 leading-relaxed">Once your device.xml is written and placed in the correct directory, sync the sources:</p>
 
                <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4 mb-6">
-                  <pre className="text-sm text-gray-300 font-mono">
-                     <code>repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags</code>
+                  <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
+                     <code>
+{`repo sync -c -j$(nproc --all) \\
+    --force-sync --no-clone-bundle --no-tags`}
+                     </code>
                   </pre>
                </div>
 
                <p className="mb-4 text-gray-300 leading-relaxed">This will retrieve all the necessary sources. Then you need to:</p>
 
                <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4 mb-6">
-                  <pre className="text-sm text-gray-300 font-mono">
+                  <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
                      <code>lunch lineage_$device-bp2a-user</code>
                   </pre>
                </div>
@@ -145,7 +148,7 @@ const Build = () => {
                <p className="mb-4 text-gray-300 leading-relaxed">For Polaris, it would look like:</p>
 
                <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4 mb-6">
-                  <pre className="text-sm text-gray-300 font-mono">
+                  <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
                      <code>lunch lineage_polaris-bp2a-user</code>
                   </pre>
                </div>
@@ -157,11 +160,12 @@ const Build = () => {
                <h2 className="text-3xl mb-6 text-[#33bbff] font-semibold">Initializing DerpFest Repository</h2>
 
                <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4 mb-6">
-                  <pre className="text-sm text-gray-300 font-mono">
+                  <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
                      <code>
 {`mkdir derpfest
 cd derpfest
-repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16 --git-lfs
+repo init -u https://github.com/DerpFest-AOSP/android_manifest.git \\
+    -b 16 --git-lfs
 repo sync`}
                      </code>
                   </pre>
@@ -177,7 +181,7 @@ repo sync`}
                   <div>
                      <p className="mb-3 text-[#1de099] font-semibold">Initiate the build with:</p>
                      <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4">
-                        <pre className="text-sm text-gray-300 font-mono">
+                        <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
                            <code>. build/envsetup.sh</code>
                         </pre>
                      </div>
@@ -186,7 +190,7 @@ repo sync`}
                   <div>
                      <p className="mb-3 text-[#1de099] font-semibold">Prepare your device with:</p>
                      <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4">
-                        <pre className="text-sm text-gray-300 font-mono">
+                        <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
                            <code>lunch lineage_$device-bp2a-user</code>
                         </pre>
                      </div>
@@ -195,7 +199,7 @@ repo sync`}
                   <div>
                      <p className="mb-3 text-[#1de099] font-semibold">Then fire it off with:</p>
                      <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4">
-                        <pre className="text-sm text-gray-300 font-mono">
+                        <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
                            <code>mka derp</code>
                         </pre>
                      </div>
@@ -204,7 +208,7 @@ repo sync`}
                   <div>
                      <p className="mb-3 text-[#1de099] font-semibold">Alternatively, you can use our custom build script that handles everything for you with this format:</p>
                      <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4">
-                        <pre className="text-sm text-gray-300 font-mono">
+                        <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
                            <code>derpfest (device codename)</code>
                         </pre>
                      </div>
