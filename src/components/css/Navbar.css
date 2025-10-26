@@ -1,7 +1,10 @@
 .navbar {
-  background: linear-gradient(45deg, #33bbff, #1de099);
+  background: linear-gradient(135deg, #33bbff, #1de099);
   color: white;
   transition: all 0.3s ease;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px rgba(51, 187, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .navbar .btn:hover {
