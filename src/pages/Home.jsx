@@ -18,7 +18,7 @@ const Home = () => {
                         Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#33bbff] to-[#1de099] gradient-shift">DerpFest!</span>
                      </h1>
                      <p className="text-xl md:text-2xl py-8 leading-relaxed text-gray-300 max-w-3xl mx-auto">
-                        We are an AOSP based custom ROM, twisted with the latest features from all over the Android development community. Quality and stability is our first priority as we are dedicated to bringing you the best Android has to offer.
+                        We are an AOSP based custom ROM, twisted with the latest features from all over the Android development community. Quality and stability are our first priority as we are dedicated to bringing you the best Android has to offer.
                      </p>
                      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-10">
                         <Link to="/devices">
