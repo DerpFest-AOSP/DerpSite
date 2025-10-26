@@ -116,7 +116,9 @@ const Build = () => {
                   </pre>
                </div>
 
-               <p className="mb-6 text-gray-300 leading-relaxed">This tells the repo sync command to clone https://github.com/lineageos/android_device_xiaomi_polaris into the device/xiaomi/polaris folder.</p>
+               <p className="mb-6 text-gray-300 leading-relaxed">This tells the repo sync command to clone<br/>
+                  <span className="text-[#33bbff]">https://github.com/lineageos/android_device_xiaomi_polaris</span><br/>
+                  into the <span className="text-[#1de099]">device/xiaomi/polaris</span> folder.</p>
             </div>
 
             <div className="bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-sm border border-white/10 rounded-2xl shadow-xl p-8 mb-8">
