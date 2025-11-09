@@ -1,5 +1,32 @@
 import { Link } from 'react-router-dom'
 
+const featureShowcase = [
+   {
+      title: 'Game Space',
+      subtitle: 'Performance & focus controls',
+      description: 'Curated by DerpFest for gamers: tweak GPU profiles, silence distractions, and surface critical stats without leaving your match.',
+      accent: 'from-[#33bbff] to-[#1de099]',
+      image: './img/5226475742240116555.jpg',
+      imageAlt: 'DerpFest Game Space dashboard',
+   },
+   {
+      title: 'QS Layout Studio',
+      subtitle: 'Quick Settings, your way',
+      description: 'Define exact rows and columns for portrait and landscape quick settings. Our layout tools keep your toggles structured no matter how you hold the device.',
+      accent: 'from-[#1de099] to-[#33bbff]',
+      image: './img/5226475742240116575.jpg',
+      imageAlt: 'DerpFest quick settings layout customizations',
+   },
+   {
+      title: 'Gradient QS Tiles',
+      subtitle: 'Dynamic color theming',
+      description: 'Blend dual-tone gradients across quick settings tiles with styles crafted by the DerpFest design team.',
+      accent: 'from-[#33bbff] to-[#1de099]',
+      image: './img/5226475742240116573.jpg',
+      imageAlt: 'DerpFest gradient quick settings tiles',
+   },
+];
+
 const Home = () => {
    return (
       <div className="relative overflow-hidden">
@@ -34,36 +61,43 @@ const Home = () => {
                      </div>
                   </div>
                   
-                  {/* Enhanced product screens with better animations */}
-                  <div className="flex justify-center pt-12 relative gap-8">
-                     <div className="relative select-none hidden md:block">
-                        <img 
-                           src="./img/product-screen-1.png" 
-                           alt="Derpfest Wallpapers" 
-                           className="mt-24 w-80 h-fit rounded-3xl shadow-2xl hover:shadow-[#33bbff]/20 transition-all duration-500 hover:scale-105 float-animation pointer-events-none" 
-                           draggable="false"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-[#33bbff]/20 to-transparent rounded-3xl opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+                  <div className="pt-16">
+                     <div className="text-center mb-8">
+                        <p className="uppercase tracking-widest text-sm text-white/50 mb-2">DerpFest Originals</p>
+                        <h2 className="text-3xl md:text-4xl font-semibold text-white">Features we shipped for the Android community</h2>
+                        <p className="mt-4 text-white/70 max-w-2xl mx-auto">
+                           These innovations come straight from the DerpFest team. Here’s what sets our build apart.
+                        </p>
                      </div>
-                     <div className="relative select-none hidden md:block">
-                        <img 
-                           src="./img/product-screen-2.png" 
-                           alt="Derpfest Customizations" 
-                           className="mt-12 w-80 h-fit rounded-3xl shadow-2xl hover:shadow-[#1de099]/20 transition-all duration-500 hover:scale-105 float-animation pointer-events-none" 
-                           style={{animationDelay: '1s'}}
-                           draggable="false"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-[#1de099]/20 to-transparent rounded-3xl opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
-                     </div>
-                     <div className="relative select-none">
-                        <img 
-                           src="./img/product-screen-3.png" 
-                           alt="Derpfest About Phone" 
-                           className="w-80 h-fit rounded-3xl shadow-2xl hover:shadow-[#33bbff]/20 transition-all duration-500 hover:scale-105 float-animation pointer-events-none" 
-                           style={{animationDelay: '2s'}}
-                           draggable="false"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-[#33bbff]/20 to-transparent rounded-3xl opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        {featureShowcase.map((feature, index) => (
+                           <div
+                              key={feature.title}
+                              className="relative p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md shadow-2xl hover:shadow-[#33bbff]/20 transition-all duration-500 hover:-translate-y-1"
+                              style={{animationDelay: `${index * 150}ms`}}
+                           >
+                              {feature.image && (
+                                 <div className="relative overflow-hidden rounded-2xl border border-white/10 mb-6 bg-black/40">
+                                    <img
+                                       src={feature.image}
+                                       alt={feature.imageAlt ?? feature.title}
+                                       className="w-full h-auto object-cover"
+                                       draggable="false"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                                 </div>
+                              )}
+                              <div className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium bg-gradient-to-r ${feature.accent} text-white/90 shadow-lg shadow-black/10`}>
+                                 DerpFest
+                              </div>
+                              <h3 className="mt-6 text-2xl font-semibold text-white">{feature.title}</h3>
+                              <p className="text-[#1de099] uppercase tracking-widest text-xs font-semibold mt-2">{feature.subtitle}</p>
+                              <p className="mt-4 text-white/70 leading-relaxed">{feature.description}</p>
+                              <div className="mt-8 pt-6 border-t border-white/10 text-sm text-white/50">
+                                 Crafted in-house, open for everyone.
+                              </div>
+                           </div>
+                        ))}
                      </div>
                   </div>
                </div>
