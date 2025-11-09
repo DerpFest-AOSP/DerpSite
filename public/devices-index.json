@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-08T12:08:00.301Z",
+  "generated_at": "2025-11-09T00:23:51.414Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -360,13 +360,13 @@
       "displayName": "Google Pixel 8",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20251014-shiba-Official-Stable.zip",
-        "id": "f939ff588c87e27fb761c376ca75b3b7ae016bdcbd853f89710caecde4242a67",
+        "filename": "DerpFest-v16.0-20251108-shiba-Official-Stable.zip",
+        "id": "ded4f27a3b1c822f13bc4be7c588bbad8b0c8cd0157e385c9869c825e11f8ed2",
         "romtype": "Official",
-        "size": 2349359838,
-        "url": "https://sourceforge.net/projects/derpfest/files/shiba/DerpFest-v16.0-20251014-shiba-Official-Stable.zip/download",
+        "size": 2356359462,
+        "url": "https://sourceforge.net/projects/derpfest/files/shiba/DerpFest-v16.0-20251108-shiba-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1760468465
+        "datetime": 1762606457
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_shiba.txt",
       "sources": [
@@ -384,13 +384,13 @@
       "displayName": "Google Pixel 8 Pro",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20251014-husky-Official-Stable.zip",
-        "id": "7abde1107ad4b6904a1318165b8e532cbcbab01a316af4636347804518c4f390",
+        "filename": "DerpFest-v16.0-20251108-husky-Official-Stable.zip",
+        "id": "9d59bb69e8f6242ae64ec00303d628ccaae1ea74b8c95b6223c632577ede118a",
         "romtype": "Official",
-        "size": 2358467565,
-        "url": "https://sourceforge.net/projects/derpfest/files/husky/DerpFest-v16.0-20251014-husky-Official-Stable.zip/download",
+        "size": 2365482136,
+        "url": "https://sourceforge.net/projects/derpfest/files/husky/DerpFest-v16.0-20251108-husky-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1760469885
+        "datetime": 1762607617
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_husky.txt",
       "sources": [
@@ -408,13 +408,13 @@
       "displayName": "Google Pixel 8a",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20251014-akita-Official-Stable.zip",
-        "id": "8a00d263d165cedd0132bac6bc0d7206b9a90ec647f078aacb3120f4d5ecebc8",
+        "filename": "DerpFest-v16.0-20251108-akita-Official-Stable.zip",
+        "id": "8e010c67fd6207b25c0a1c92d997606a5d73245a2b46b9bcc5fed347d2850e56",
         "romtype": "Official",
-        "size": 2342093368,
-        "url": "https://sourceforge.net/projects/derpfest/files/akita/DerpFest-v16.0-20251014-akita-Official-Stable.zip/download",
+        "size": 2349049249,
+        "url": "https://sourceforge.net/projects/derpfest/files/akita/DerpFest-v16.0-20251108-akita-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1760465265
+        "datetime": 1762604637
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_akita.txt",
       "sources": [
@@ -2863,13 +2863,13 @@
       "displayName": "Xiaomi Mi 9T",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20251014-davinci-Official-Stable.zip",
-        "id": "76f42de44fe521d639e4f9cd080740341ef99e3d4a3db800defc261c68d5d078",
+        "filename": "DerpFest-v16.0-20251108-davinci-Official-Stable.zip",
+        "id": "0599a81f1a869e7ea8aa684eb9fc7bf81d56c905d3b247424b5b9290312bf50b",
         "romtype": "Official",
-        "size": 2640454575,
-        "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.0-20251014-davinci-Official-Stable.zip/download",
+        "size": 2424412465,
+        "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.0-20251108-davinci-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1760467260
+        "datetime": 1762608799
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_davinci.txt",
       "sources": [
