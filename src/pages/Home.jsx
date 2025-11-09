@@ -25,6 +25,30 @@ const featureShowcase = [
       image: './img/5226475742240116573.jpg',
       imageAlt: 'DerpFest gradient quick settings tiles',
    },
+   {
+      title: 'Accent Status Bar',
+      subtitle: 'Material You, actually shipped',
+      description: 'Google teased it in their Material You mock-ups; we made it real. Flip the toggle and let system accents flow right into your status bar chrome.',
+      accent: 'from-[#1de099] to-[#33bbff]',
+      image: './img/5226475742240116596.jpg',
+      imageAlt: 'DerpFest accent colored status bar toggle',
+      imageWrapperClass: 'relative flex justify-center mb-6',
+      imageClass: 'w-48 md:w-56 h-auto rounded-2xl border border-white/20 shadow-lg shadow-black/20 bg-black/40 p-4',
+      imageOverlay: false,
+      layout: 'landscape',
+   },
+   {
+      title: 'Pixel Launcher Hotseat',
+      subtitle: 'Android 16 QPR1 search style',
+      description: 'We ported the closed-source Android 16 QPR1 Pixel Launcher hotseat search bar look into our open implementation.',
+      accent: 'from-[#1de099] to-[#33bbff]',
+      image: './img/5226475742240116599.jpg',
+      imageAlt: 'DerpFest Pixel Launcher hotseat styles',
+      imageWrapperClass: 'relative flex justify-center mb-6',
+      imageClass: 'w-56 md:w-64 h-auto rounded-2xl border border-white/20 shadow-lg shadow-black/20 bg-black/40 p-3',
+      imageOverlay: false,
+      layout: 'landscape'
+   },
 ];
 
 const Home = () => {
@@ -73,28 +97,42 @@ const Home = () => {
                         {featureShowcase.map((feature, index) => (
                            <div
                               key={feature.title}
-                              className="relative p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md shadow-2xl hover:shadow-[#33bbff]/20 transition-all duration-500 hover:-translate-y-1"
+                              className={`relative rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md shadow-2xl hover:shadow-[#33bbff]/20 transition-all duration-500 hover:-translate-y-1 ${
+                                 feature.layout === 'landscape'
+                                    ? 'md:col-span-2 lg:col-span-3 p-8 md:p-10 flex flex-col md:flex-row md:items-center md:gap-10'
+                                    : 'p-8'
+                              }`}
                               style={{animationDelay: `${index * 150}ms`}}
                            >
                               {feature.image && (
-                                 <div className="relative overflow-hidden rounded-2xl border border-white/10 mb-6 bg-black/40">
+                                 <div
+                                    className={`${
+                                       feature.layout === 'landscape'
+                                          ? 'md:w-2/5 lg:w-1/3 md:mb-0 mb-6'
+                                          : 'mb-6'
+                                    } ${feature.imageWrapperClass ?? 'relative overflow-hidden rounded-2xl border border-white/10 bg-black/40'}`}
+                                 >
                                     <img
                                        src={feature.image}
                                        alt={feature.imageAlt ?? feature.title}
-                                       className="w-full h-auto object-cover"
+                                       className={feature.imageClass ?? 'w-full h-auto object-cover'}
                                        draggable="false"
                                     />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                                    {(feature.imageOverlay ?? true) && (
+                                       <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                                    )}
                                  </div>
                               )}
-                              <div className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium bg-gradient-to-r ${feature.accent} text-white/90 shadow-lg shadow-black/10`}>
-                                 DerpFest
-                              </div>
-                              <h3 className="mt-6 text-2xl font-semibold text-white">{feature.title}</h3>
-                              <p className="text-[#1de099] uppercase tracking-widest text-xs font-semibold mt-2">{feature.subtitle}</p>
-                              <p className="mt-4 text-white/70 leading-relaxed">{feature.description}</p>
-                              <div className="mt-8 pt-6 border-t border-white/10 text-sm text-white/50">
-                                 Crafted in-house, open for everyone.
+                              <div className={feature.layout === 'landscape' ? 'md:flex-1 text-left' : 'text-left'}>
+                                 <div className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium bg-gradient-to-r ${feature.accent} text-white/90 shadow-lg shadow-black/10`}>
+                                    DerpFest
+                                 </div>
+                                 <h3 className="mt-6 text-2xl font-semibold text-white">{feature.title}</h3>
+                                 <p className="text-[#1de099] uppercase tracking-widest text-xs font-semibold mt-2">{feature.subtitle}</p>
+                                 <p className="mt-4 text-white/70 leading-relaxed">{feature.description}</p>
+                                 <div className="mt-8 pt-6 border-t border-white/10 text-sm text-white/50">
+                                    Crafted in-house, open for everyone.
+                                 </div>
                               </div>
                            </div>
                         ))}
