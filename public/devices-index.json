@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-10T00:23:25.031Z",
+  "generated_at": "2025-11-10T12:09:09.519Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -504,13 +504,13 @@
       "displayName": "GSI Gapps",
       "maintainer": "Doze-off",
       "latest": {
-        "filename": "Derpfest-16_GSI_treble_arm64-ab_GAPPS-Official-20250808.img.xz",
-        "id": "14d81121ea255a9416705275055e3e803543437a3516c87e84470b1114053c0d",
+        "filename": "Derpfest-16_GSI_treble_arm64-ab_GAPPS-Official-20251109.img.xz",
+        "id": "f795e46017bec5efcf6c9d432fffd3c4d0f05bfb7c0ca145ff2b2fa42f1a94aa",
         "romtype": "Gapps",
-        "size": 1174066240,
-        "url": "https://github.com/Doze-off/Derpfest_treble/releases/download/2025-08-08/Derpfest-16_GSI_treble_arm64-ab_GAPPS-Official-20250808.img.xz",
+        "size": 1223547820,
+        "url": "https://github.com/Doze-off/Derpfest_treble/releases/download/2025-11-09/Derpfest-16_GSI_treble_arm64-ab_GAPPS-Official-20251109.img.xz",
         "version": "v16.0",
-        "datetime": 1754675869
+        "datetime": 1762736362
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_gsi_gapps.txt",
       "sources": [
