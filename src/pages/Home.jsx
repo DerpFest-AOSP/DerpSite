@@ -20,7 +20,7 @@ const featureShowcase = [
    {
       title: 'Gradient QS Tiles',
       subtitle: 'Dynamic color theming',
-      description: 'Blend dual-tone gradients across quick settings tiles with styles crafted by the DerpFest design team.',
+         description: 'Blend dual-tone gradients across quick settings tiles and the brightness slider for a unified look.',
       accent: 'from-[#33bbff] to-[#1de099]',
       image: './img/5226475742240116573.jpg',
       imageAlt: 'DerpFest gradient quick settings tiles',
