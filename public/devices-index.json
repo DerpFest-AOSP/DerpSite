@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-11T12:08:51.803Z",
+  "generated_at": "2025-11-12T00:22:20.463Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1276,13 +1276,13 @@
       "displayName": "OnePlus Nord 4",
       "maintainer": "Aman Singh (iamansingh)",
       "latest": {
-        "filename": "DerpFest-16.0-Official-Stable-avalon-20251024-1846.zip",
-        "id": "049108e66865138966f433e1e1c189163a516160e0b8131313ad7531f19a069e",
+        "filename": "DerpFest-16.0-Official-Stable-avalon-20251111-2031.zip",
+        "id": "d6f20d00a1736ab6999176c302bc0080dcde9e42607e881373fd3dda37557901",
         "romtype": "Official",
-        "size": 3251251310,
-        "url": "https://sourceforge.net/projects/avalon-builds/files/DerpFest/DerpFest-16.0-Official-Stable-avalon-20251024-1846.zip/download",
+        "size": 3379938926,
+        "url": "https://sourceforge.net/projects/avalon-builds/files/DerpFest/DerpFest-16.0-Official-Stable-avalon-20251111-2031.zip/download",
         "version": "16.0",
-        "datetime": 1761311529
+        "datetime": 1762873132
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/amanrajOO7/derpfest_avalon/16.0/changelog_avalon.txt",
       "sources": [
@@ -1917,13 +1917,13 @@
       "displayName": "Redmi Note 13 Pro 5G",
       "maintainer": "Mohammad Kibria",
       "latest": {
-        "filename": "DerpFest-v16.0-20251030-garnet-Official-Stable.zip",
-        "id": "c310a11c5f72088121a08ea068cc7bd5bf931f8e1398bb0c16e8b60efe5fcf3f",
+        "filename": "DerpFest-v16.0-20251111-garnet-Official-Stable.zip",
+        "id": "5565e8709e67aed352f303ee1df0e7d3588e5253948391f899394f778079e274",
         "romtype": "Official",
-        "size": 2587171443,
-        "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-v16.0-20251030-garnet-Official-Stable.zip/download",
+        "size": 2600481592,
+        "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-v16.0-20251111-garnet-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1761799387
+        "datetime": 1762880492
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_garnet.txt",
       "sources": [
