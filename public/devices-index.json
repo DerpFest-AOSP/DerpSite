@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-13T00:22:15.255Z",
+  "generated_at": "2025-11-13T12:09:03.657Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -2713,13 +2713,13 @@
       "displayName": "Xiaomi 11T Pro",
       "maintainer": "0mar",
       "latest": {
-        "filename": "DerpFest-v16.0-20250805-vili-Official-Stable.zip",
-        "id": "b55bdfe8b70160ce9ac89f2f5c6ebc87095274a93c35b24f8fd776d1ce6581e4",
+        "filename": "DerpFest-v16.0-20251109-vili-Official-Stable.zip",
+        "id": "bbf096ee86cb7ea0d8df35ee6a8594b2c870d1cb2fcce630cce55d7a8c70e325",
         "romtype": "Official",
-        "size": 2680760822,
-        "url": "https://sourceforge.net/projects/derpfest/files/vili/DerpFest-v16.0-20250805-vili-Official-Stable.zip/download",
+        "size": 2739917583,
+        "url": "https://sourceforge.net/projects/derpfest/files/vili/DerpFest-v16.0-20251109-vili-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1754373143
+        "datetime": 1762659096
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_vili.txt",
       "sources": [
