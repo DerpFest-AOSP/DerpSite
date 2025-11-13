@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-12T12:09:29.632Z",
+  "generated_at": "2025-11-13T00:22:15.255Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -85,6 +85,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/X01BD.json"
+        }
+      ]
+    },
+    {
+      "codename": "dodge",
+      "aliases": [
+        "dodge"
+      ],
+      "displayName": "dodge",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.0-20251112-dodge-Official-Stable.zip",
+        "id": "6d22e2448ce69697675bb5faf0a13e993c54bb2d951df8035837b388d5a5e139",
+        "romtype": "Official",
+        "size": 3936884886,
+        "url": "https://sourceforge.net/projects/derpfest/files/dodge/DerpFest-v16.0-20251112-dodge-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1762965917
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dodge.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/dodge.json"
         }
       ]
     },
@@ -867,13 +891,13 @@
       "displayName": "Nothing Phone (1)",
       "maintainer": "DaViDev985",
       "latest": {
-        "filename": "DerpFest-v16.0-20251006-Spacewar-Official-Stable.zip",
-        "id": "3f2da733892f56d8e7c26963607552adfd8f31082ff47127fd92636cdde762ca",
+        "filename": "DerpFest-v16.0-20251111-Spacewar-Official-Stable.zip",
+        "id": "3114f38ef95ff1b8f44670334adaf00a0aaefb1819b3e406c5f96b667e53e390",
         "romtype": "Official",
-        "size": 2230817474,
-        "url": "https://sourceforge.net/projects/derpfest/files/Spacewar/20251006/DerpFest-v16.0-20251006-Spacewar-Official-Stable.zip/download",
+        "size": 2236764962,
+        "url": "https://sourceforge.net/projects/derpfest/files/Spacewar/20251111/DerpFest-v16.0-20251111-Spacewar-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1759779975
+        "datetime": 1762886914
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Spacewar.txt",
       "sources": [
@@ -2281,13 +2305,13 @@
       "displayName": "Samsung Galaxy A71",
       "maintainer": "DaViDev985",
       "latest": {
-        "filename": "DerpFest-v16.0-20251008-a71-Official-Stable.zip",
-        "id": "b7ae8473ca332d821376029a2cb7fe3bfc2cde23411be833f7405accfc2c0a07",
+        "filename": "DerpFest-v16.0-20251110-a71-Official-Stable.zip",
+        "id": "ae3e3e6f2d8245769e145950616afaba18d83d9f1b51d0bffbe55254ec38b918",
         "romtype": "Official",
-        "size": 2029622141,
-        "url": "https://sourceforge.net/projects/derpfest/files/a71/20251008/DerpFest-v16.0-20251008-a71-Official-Stable.zip/download",
+        "size": 2037462029,
+        "url": "https://sourceforge.net/projects/derpfest/files/a71/20251110/DerpFest-v16.0-20251110-a71-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1759917414
+        "datetime": 1762804162
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a71.txt",
       "sources": [
