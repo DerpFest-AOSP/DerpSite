@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-14T12:08:56.459Z",
+  "generated_at": "2025-11-15T00:21:33.329Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -96,13 +96,13 @@
       "displayName": "dodge",
       "maintainer": "Unknown",
       "latest": {
-        "filename": "DerpFest-v16.0-20251112-dodge-Official-Stable.zip",
-        "id": "6d22e2448ce69697675bb5faf0a13e993c54bb2d951df8035837b388d5a5e139",
+        "filename": "DerpFest-v16.0-20251114-dodge-Official-Stable.zip",
+        "id": "7432950ac9b2f7aec2b7ffb39c38119254367706877f9a95945d0bb59acb09e7",
         "romtype": "Official",
-        "size": 3936884886,
-        "url": "https://sourceforge.net/projects/derpfest/files/dodge/DerpFest-v16.0-20251112-dodge-Official-Stable.zip/download",
+        "size": 3936986357,
+        "url": "https://sourceforge.net/projects/derpfest/files/dodge/DerpFest-v16.0-20251114-dodge-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1762965917
+        "datetime": 1763129509
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dodge.txt",
       "sources": [
@@ -576,13 +576,13 @@
       "displayName": "Lenovo Z6 Pro",
       "maintainer": "Einar Gednochsson",
       "latest": {
-        "filename": "DerpFest-v16.0-20251017-zippo-Official-Stable.zip",
-        "id": "a685f6177041b88f025710d19d966e487b69e5a9bb1d9857ffc65bafeb92b26a",
+        "filename": "DerpFest-v16.0-20251114-zippo-Official-Stable.zip",
+        "id": "37dcf2a3fff12b9faed951c3c242ac4078296d717571b5c37ac2dc0b87e673fa",
         "romtype": "Official",
-        "size": 2197360445,
-        "url": "https://sourceforge.net/projects/derpfest/files/zippo/DerpFest-v16.0-20251017-zippo-Official-Stable.zip/download",
+        "size": 2203924981,
+        "url": "https://sourceforge.net/projects/derpfest/files/zippo/DerpFest-v16.0-20251114-zippo-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1760723839
+        "datetime": 1763141796
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_zippo.txt",
       "sources": [
