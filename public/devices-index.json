@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-15T12:07:52.665Z",
+  "generated_at": "2025-11-16T00:23:55.964Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1276,13 +1276,13 @@
       "displayName": "OnePlus Nord 2T",
       "maintainer": "Unknown",
       "latest": {
-        "filename": "DerpFest-v16.0-20251029-corvette-Official-Stable.zip",
-        "id": "912f8ab254a047219b4484d428f216eb6da7354581556d03e9763abfa6076bfb",
+        "filename": "DerpFest-v16.0-20251115-corvette-Official-Stable.zip",
+        "id": "9f58290207048938fde0c11be93f3bc82f3990283f1a1cc618bff36ef1e910aa",
         "romtype": "Official",
-        "size": 3796563919,
-        "url": "https://sourceforge.net/projects/derpfest/files/corvette/DerpFest-v16.0-20251029-corvette-Official-Stable.zip/download",
+        "size": 3525594978,
+        "url": "https://sourceforge.net/projects/derpfest/files/corvette/DerpFest-v16.0-20251115-corvette-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1761676923
+        "datetime": 1763206987
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_corvette.txt",
       "sources": [
@@ -2959,13 +2959,13 @@
       "displayName": "Xiaomi Pad 6",
       "maintainer": "Glitch Wraith",
       "latest": {
-        "filename": "DerpFest-v16.0-20251111-pipa-Official-Stable.zip",
-        "id": "103ba79cb687034251efaaaf40efd3c441bc9cf83ada2f5a72561de7305d6262",
+        "filename": "DerpFest-v16.0-20251115-pipa-Official-Stable.zip",
+        "id": "bef49b04608000c8880a57b97d339e34bae1d2493113e6c3cca3f50d15b86922",
         "romtype": "Official",
-        "size": 1768700254,
-        "url": "https://sourceforge.net/projects/derpfest/files/pipa/DerpFest-v16.0-20251111-pipa-Official-Stable.zip/download",
+        "size": 1768698022,
+        "url": "https://sourceforge.net/projects/derpfest/files/pipa/DerpFest-v16.0-20251115-pipa-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1762887373
+        "datetime": 1763211783
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pipa.txt",
       "sources": [
