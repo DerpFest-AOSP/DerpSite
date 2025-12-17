@@ -360,5 +360,77 @@
             "filePath": "repo_primary/komodo.json"
         }
     ]
+   },
+   {
+    "codename": "panther",
+    "aliases": [
+        "Pixel 7"
+    ],
+    "displayName": "Google Pixel 7",
+    "maintainer": "Sean Dabes",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3ARGJv5DBd9Oyv8lZUbbsAaI?e=Yy3MuG",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "cheetah",
+    "aliases": [
+        "Pixel 7 Pro"
+    ],
+    "displayName": "Google Pixel 7 Pro",
+    "maintainer": "Sean Dabes",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3ARGJv5DBd9Oyv8lZUbbsAaI?e=Yy3MuG",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "lynx",
+    "aliases": [
+        "Pixel 7a"
+    ],
+    "displayName": "Google Pixel 7a",
+    "maintainer": "Sean Dabes",
+    "latest": {
+        "filename": "DerpFest 16",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3ARGJv5DBd9Oyv8lZUbbsAaI?e=Yy3MuG",
+        "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
    }
 ]
