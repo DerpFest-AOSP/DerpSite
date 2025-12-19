@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-19T00:23:47.778Z",
+  "generated_at": "2025-12-19T12:09:33.809Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1941,13 +1941,13 @@
       "displayName": "Redmi Note 13 Pro 5G",
       "maintainer": "Mohammad Kibria",
       "latest": {
-        "filename": "DerpFest-v16.0-20251128-garnet-Official-Stable.zip",
-        "id": "ae36e8b9d2546215bd3567e2041c274bfa1bc2f33f7e8bc47a9ffacdba83652e",
+        "filename": "DerpFest-v16.0-20251219-garnet-Official-Stable.zip",
+        "id": "8a19d60261df3c61f3625f6a12dfc71f6c36a1adb6bf08d3e28514a5c859a938",
         "romtype": "Official",
-        "size": 2676751331,
-        "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-v16.0-20251128-garnet-Official-Stable.zip/download",
+        "size": 2679442099,
+        "url": "https://sourceforge.net/projects/derpfest/files/garnet/DerpFest-v16.0-20251219-garnet-Official-Stable.zip/download",
         "version": "v16.0",
-        "datetime": 1764304998
+        "datetime": 1766142044
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_garnet.txt",
       "sources": [
