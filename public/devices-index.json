@@ -91,10 +91,10 @@
     {
       "codename": "comet",
       "aliases": [
-        "comet"
+        "Google Pixel 9 Pro Fold"
       ],
-      "displayName": "comet",
-      "maintainer": "Unknown",
+      "displayName": "Google Pixel 9 Pro Fold",
+      "maintainer": "c_smith",
       "latest": {
         "filename": "DerpFest-v16.0-20251222-comet-Official-Stable.zip",
         "id": "0bf1af5cfef6e86cb51936df624ca634fd841f4defd69bfc07db6f9625ab9556",
