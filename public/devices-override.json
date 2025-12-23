@@ -364,7 +364,7 @@
    {
     "codename": "panther",
     "aliases": [
-        "Pixel 7"
+        "Google Pixel 7"
     ],
     "displayName": "Google Pixel 7",
     "maintainer": "Sean Dabes",
@@ -388,7 +388,7 @@
    {
     "codename": "cheetah",
     "aliases": [
-        "Pixel 7 Pro"
+        "Google Pixel 7 Pro"
     ],
     "displayName": "Google Pixel 7 Pro",
     "maintainer": "Sean Dabes",
@@ -412,7 +412,7 @@
    {
     "codename": "lynx",
     "aliases": [
-        "Pixel 7a"
+        "Google Pixel 7a"
     ],
     "displayName": "Google Pixel 7a",
     "maintainer": "Sean Dabes",
