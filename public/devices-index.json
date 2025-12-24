@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-23T12:09:48.715Z",
+  "generated_at": "2025-12-24T00:23:18.875Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -85,30 +85,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/X01BD.json"
-        }
-      ]
-    },
-    {
-      "codename": "comet",
-      "aliases": [
-        "comet"
-      ],
-      "displayName": "comet",
-      "maintainer": "Unknown",
-      "latest": {
-        "filename": "DerpFest-v16.0-20251222-comet-Official-Stable.zip",
-        "id": "0bf1af5cfef6e86cb51936df624ca634fd841f4defd69bfc07db6f9625ab9556",
-        "romtype": "Official",
-        "size": 2513632957,
-        "url": "https://sourceforge.net/projects/derpfest/files/comet/DerpFest-v16.0-20251222-comet-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1766383308
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_comet.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/comet.json"
         }
       ]
     },
@@ -517,6 +493,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/caiman.json"
+        }
+      ]
+    },
+    {
+      "codename": "comet",
+      "aliases": [
+        "Google Pixel 9 Pro Fold"
+      ],
+      "displayName": "Google Pixel 9 Pro Fold",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.0-20251222-comet-Official-Stable.zip",
+        "id": "0bf1af5cfef6e86cb51936df624ca634fd841f4defd69bfc07db6f9625ab9556",
+        "romtype": "Official",
+        "size": 2513632957,
+        "url": "https://sourceforge.net/projects/derpfest/files/comet/DerpFest-v16.0-20251222-comet-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1766383308
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_comet.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/comet.json"
         }
       ]
     },
