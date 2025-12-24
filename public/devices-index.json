@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-24T00:23:18.875Z",
+  "generated_at": "2025-12-24T12:09:40.354Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -502,7 +502,7 @@
         "Google Pixel 9 Pro Fold"
       ],
       "displayName": "Google Pixel 9 Pro Fold",
-      "maintainer": "Unknown",
+      "maintainer": "Cody Smith(c_smith)",
       "latest": {
         "filename": "DerpFest-v16.0-20251222-comet-Official-Stable.zip",
         "id": "0bf1af5cfef6e86cb51936df624ca634fd841f4defd69bfc07db6f9625ab9556",
