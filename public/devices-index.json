@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-10T00:23:26.677Z",
+  "generated_at": "2026-01-10T12:08:23.099Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -613,6 +613,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/zippo.json"
+        }
+      ]
+    },
+    {
+      "codename": "lexus",
+      "aliases": [
+        "lexus"
+      ],
+      "displayName": "lexus",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.0-20260110-lexus-Official-Stable.zip",
+        "id": "63f109171cc99de3a5747884bf2091aae77064cfaf99ca6e52916426cb251370",
+        "romtype": "Official",
+        "size": 3561043837,
+        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-lexus/16/20260110/DerpFest-v16.0-20260110-lexus-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1768032384
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lexus.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/lexus.json"
         }
       ]
     },
