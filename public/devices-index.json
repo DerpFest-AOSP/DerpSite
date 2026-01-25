@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-25T00:26:53.220Z",
+  "generated_at": "2026-01-25T12:09:28.823Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -981,6 +981,30 @@
       ]
     },
     {
+      "codename": "giulia",
+      "aliases": [
+        "OnePlus 13R"
+      ],
+      "displayName": "OnePlus 13R",
+      "maintainer": "0mar",
+      "latest": {
+        "filename": "DerpFest-v16.0-20260124-giulia-Official-Stable.zip",
+        "id": "aad097f030ed2bc434768261714266f93901a17c8208a76a427562156ebe8c64",
+        "romtype": "Official",
+        "size": 3826009246,
+        "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.0-20260124-giulia-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1769284659
+      },
+      "changelog_raw_url": null,
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/giulia.json"
+        }
+      ]
+    },
+    {
       "codename": "cheeseburger",
       "aliases": [
         "OnePlus 5"
@@ -1265,6 +1289,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/lemonades.json"
+        }
+      ]
+    },
+    {
+      "codename": "giuliac",
+      "aliases": [
+        "OnePlus Ace 5"
+      ],
+      "displayName": "OnePlus Ace 5",
+      "maintainer": "0mar",
+      "latest": {
+        "filename": "DerpFest-v16.0-20260124-giuliac-Official-Stable.zip",
+        "id": "4bdb1d4ba6988fbd826ba8dc3b74b212c84b273f17a980fef34c3741d25c444f",
+        "romtype": "Official",
+        "size": 3856475373,
+        "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.0-20260124-giuliac-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1769287221
+      },
+      "changelog_raw_url": null,
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/giuliac.json"
         }
       ]
     },
