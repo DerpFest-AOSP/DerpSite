@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-06T12:14:27.267Z",
+  "generated_at": "2026-02-07T00:28:05.966Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -988,15 +988,15 @@
       "displayName": "OnePlus 13R",
       "maintainer": "0mar",
       "latest": {
-        "filename": "DerpFest-v16.0-20260124-giulia-Official-Stable.zip",
-        "id": "aad097f030ed2bc434768261714266f93901a17c8208a76a427562156ebe8c64",
+        "filename": "DerpFest-v16.2-20260207-giulia-Official-Beta.zip",
+        "id": "07ea926382b46960dc558b5a7eada2a1c52f78f55a1fb43b8823a90dc178cd05",
         "romtype": "Official",
-        "size": 3826009246,
-        "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.0-20260124-giulia-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1769284659
+        "size": 4048368037,
+        "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.2-20260207-giulia-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1770401827
       },
-      "changelog_raw_url": null,
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_giulia.txt",
       "sources": [
         {
           "repoFolder": "repo_primary",
@@ -1300,15 +1300,15 @@
       "displayName": "OnePlus Ace 5",
       "maintainer": "0mar",
       "latest": {
-        "filename": "DerpFest-v16.0-20260124-giuliac-Official-Stable.zip",
-        "id": "4bdb1d4ba6988fbd826ba8dc3b74b212c84b273f17a980fef34c3741d25c444f",
+        "filename": "DerpFest-v16.2-20260207-giuliac-Official-Beta.zip",
+        "id": "6d9083b92011f16ae395c4aa00ca9376047c4c39dbf05d5391704a94253c8129",
         "romtype": "Official",
-        "size": 3856475373,
-        "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.0-20260124-giuliac-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1769287221
+        "size": 4076765616,
+        "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.2-20260207-giuliac-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1770407817
       },
-      "changelog_raw_url": null,
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_giuliac.txt",
       "sources": [
         {
           "repoFolder": "repo_primary",
@@ -2983,13 +2983,13 @@
       "displayName": "Xiaomi Mi 9T",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20251108-davinci-Official-Stable.zip",
-        "id": "0599a81f1a869e7ea8aa684eb9fc7bf81d56c905d3b247424b5b9290312bf50b",
+        "filename": "DerpFest-v16.2-20260206-davinci-Official-Beta.zip",
+        "id": "8f34cccf2575267989ab2b6fd25dfdedb513d1a2dbbbc4d45f22d9c3fa4f6529",
         "romtype": "Official",
-        "size": 2424412465,
-        "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.0-20251108-davinci-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1762608799
+        "size": 2660092805,
+        "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.2-20260206-davinci-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1770413731
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_davinci.txt",
       "sources": [
