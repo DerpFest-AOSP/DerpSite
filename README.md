@@ -6,20 +6,33 @@ URL: [derpfest.org](https://derpfest.org/)
 
 ## Setup
 
-- Clone the fork your local machine.
-- Fork this repo (If you want to push changes).
+- Clone the repo on your local machine.
 
-## Local Development
+```
+git clone https://github.com/DerpFest-AOSP/DerpSite.git
+cd DerpSite
+```
+
+### Local Development
+
+To run the website on your local machine, you need to:
 
 - Install nodejs.
 - Install the project's dependencies:
 
 ```
 npm i
-```
-
-Run the project locally:
-
-```
 npm run dev
 ```
+
+### Contribution
+
+- Fork the clone on your github.
+
+```
+https://github.com/DerpFest-AOSP/DerpSite/fork
+```
+
+- Make your changes locally and push to your git.
+
+- Send a pull request and we'll review it.
