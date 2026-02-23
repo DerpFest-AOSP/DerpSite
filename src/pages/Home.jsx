@@ -97,12 +97,12 @@ const Home = () => {
                      </p>
                      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-10">
                         <Link to="/devices">
-                           <button className="btn btn-lg px-8 py-4 text-lg font-semibold bg-gradient-to-r from-[#33bbff] to-[#1de099] hover:from-[#1de099] hover:to-[#33bbff] border-0 text-white shadow-2xl hover:shadow-[#33bbff]/25 transition-all duration-300 hover:scale-105 pulse-glow">
+                           <button className="btn btn-lg px-8 py-4 text-lg font-semibold rounded-full bg-gradient-to-r from-[#33bbff] to-[#1de099] hover:from-[#1de099] hover:to-[#33bbff] border-0 text-white shadow-2xl hover:shadow-[#33bbff]/25 transition-all duration-300 hover:scale-105 pulse-glow">
                               Download Now
                            </button>
                         </Link>
                         <Link to="/screenshots">
-                           <button className="btn btn-lg px-8 py-4 text-lg font-semibold bg-transparent border-2 border-white/20 text-white hover:bg-white/10 hover:border-white/40 transition-all duration-300 hover:scale-105 backdrop-blur-sm">
+                           <button className="btn btn-lg px-8 py-4 text-lg font-semibold rounded-full bg-transparent border-2 border-white/20 text-white hover:bg-white/10 hover:border-white/40 transition-all duration-300 hover:scale-105 backdrop-blur-sm">
                               View Screenshots
                            </button>
                         </Link>
