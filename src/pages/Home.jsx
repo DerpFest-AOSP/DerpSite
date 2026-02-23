@@ -49,6 +49,30 @@ const featureShowcase = [
       imageOverlay: false,
       layout: 'landscape'
    },
+   {
+      title: 'Gradient Volume Slider',
+      subtitle: 'Volume controls, gradient tinted',
+      description: 'Volume slider styled with gradient tint for a cohesive Material You look. One of the features we shipped for the Android community.',
+      accent: 'from-[#33bbff] to-[#1de099]',
+      image: './img/5190896052771427113.jpg',
+      imageAlt: 'DerpFest volume slider in gradient tinted style',
+   },
+   {
+      title: 'Caddy',
+      subtitle: 'App drawer grouping',
+      description: 'Group applications in the app drawer. Ported from Lawnchair launcher into DerpFest launcher, based on AOSP Launcher3.',
+      accent: 'from-[#1de099] to-[#33bbff]',
+      image: './img/5467634951864913145.jpg',
+      imageAlt: 'DerpFest Caddy app drawer grouping',
+   },
+   {
+      title: 'Status Bar Clock Background',
+      subtitle: 'Clock chip styles',
+      description: 'Choose status bar clock background chip styles from a dedicated picker. Forward ported from Rising OS source with improved colors and settings preferences.',
+      accent: 'from-[#1de099] to-[#33bbff]',
+      image: './img/5233574769129625083.jpg',
+      imageAlt: 'DerpFest status bar clock background chip style picker',
+   },
 ];
 
 const Home = () => {
