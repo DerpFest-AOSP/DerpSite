@@ -17,7 +17,6 @@ const Footer = () => {
             <nav>
                <h6 className="footer-title">Link</h6>
                <Link to="/build">Build</Link>
-               <Link to="/changelogs">Changelogs</Link>
                <Link to="/credit">Credit</Link>
                <Link to="/devices">Devices</Link>
                <Link to="/faq">FAQ</Link>

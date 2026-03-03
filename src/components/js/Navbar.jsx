@@ -31,7 +31,6 @@ const Navbar = () => {
   // Animation delays for menu items
   const menuItems = [
     { title: 'Build', path: '/build' },
-    { title: 'Changelogs', path: '/changelogs' },
     { title: 'Devices', path: '/devices' },
     { title: 'FAQ', path: '/faq' },
     { title: 'Screenshots', path: '/screenshots' },
