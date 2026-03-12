@@ -45,7 +45,7 @@ const FAQ = () => {
                      <p className="mb-3">
                         Contact us on our <a href="https://t.me/DerpFestAOSP" target="_blank" className="text-[#33bbff] hover:text-[#1de099] transition-colors duration-300 font-semibold underline decoration-[#1de099] hover:decoration-[#33bbff]">Telegram</a> group.
                      </p>
-                     <p>Our team will verify your device tree and other requirements and then, if they decide to, they will add you (no MTK chip based devices are eligible for maintainership)</p>
+                     <p>Our team will verify your device tree and other requirements and then, if they decide to, they will add you</p>
                   </div>
                </div>
             </div>
