@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T00:34:21.258Z",
+  "generated_at": "2026-03-15T12:12:21.311Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -988,13 +988,13 @@
       "displayName": "OnePlus 13R",
       "maintainer": "0mar",
       "latest": {
-        "filename": "DerpFest-v16.2-20260311-giulia-Official-Beta.zip",
-        "id": "ba08efa810cd2b540da4ff1a6300ebfc7d9ba6ab2abe22af3f4ed7b91a9b4cf6",
+        "filename": "DerpFest-v16.2-20260314-giulia-Official-Beta.zip",
+        "id": "9a74bfa17c1d162ea291c29ee93233268cc58fd2e8b83f4aeb3914ba4ace5e10",
         "romtype": "Official",
-        "size": 4052641980,
-        "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.2-20260311-giulia-Official-Beta.zip/download",
+        "size": 4052600833,
+        "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.2-20260314-giulia-Official-Beta.zip/download",
         "version": "v16.2",
-        "datetime": 1773178688
+        "datetime": 1773469823
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_giulia.txt",
       "sources": [
@@ -1300,13 +1300,13 @@
       "displayName": "OnePlus Ace 5",
       "maintainer": "0mar",
       "latest": {
-        "filename": "DerpFest-v16.2-20260311-giuliac-Official-Beta.zip",
-        "id": "c96c911dbfa4d3dd1bdb1c95da8337d1f8c998afbec454838630c1b58e3bc464",
+        "filename": "DerpFest-v16.2-20260315-giuliac-Official-Beta.zip",
+        "id": "bc6e42b3ebb6817d234e46a3f3c79305bb2af64ad28346d660101938134e15be",
         "romtype": "Official",
-        "size": 4080831458,
-        "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.2-20260311-giuliac-Official-Beta.zip/download",
+        "size": 4080831259,
+        "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.2-20260315-giuliac-Official-Beta.zip/download",
         "version": "v16.2",
-        "datetime": 1773183049
+        "datetime": 1773493146
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_giuliac.txt",
       "sources": [
@@ -1348,13 +1348,13 @@
       "displayName": "OnePlus Nord 2T",
       "maintainer": "Unknown",
       "latest": {
-        "filename": "DerpFest-v16.2-20260212-corvette-Official-Beta.zip",
-        "id": "02d0164996445a1a3b1932a12ded1d9066f0be2c9d1ce900997096e7db4a67b4",
+        "filename": "DerpFest-v16.2-20260315-corvette-Official-Beta.zip",
+        "id": "293f5765a98d451ccfd2a453b9a0ed18b8543bab840d3fcc74b7e4f94b80af84",
         "romtype": "Official",
-        "size": 4243669165,
-        "url": "https://sourceforge.net/projects/derpfest/files/corvette/DerpFest-v16.2-20260212-corvette-Official-Beta.zip/download",
+        "size": 4251407968,
+        "url": "https://sourceforge.net/projects/derpfest/files/corvette/DerpFest-v16.2-20260315-corvette-Official-Beta.zip/download",
         "version": "v16.2",
-        "datetime": 1770827815
+        "datetime": 1773554145
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_corvette.txt",
       "sources": [
