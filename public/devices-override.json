@@ -432,5 +432,34 @@
             "filePath": "repo_primary/komodo.json"
         }
     ]
+   },
+   {
+    "codename": "RM6785",
+    "aliases": [
+        "Realme 6",
+        "Realme 6i (Indian)",
+        "Realme 6s",
+        "Realme 7",
+        "Narzo 20 Pro",
+        "Narzo 30 4G"
+    ],
+    "displayName": "RM6785",
+    "maintainer": "MeowDroider",
+    "latest": {
+        "filename": "DerpFest 16.2",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/derprm6785",
+        "version": "16.2",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
    }
 ]
