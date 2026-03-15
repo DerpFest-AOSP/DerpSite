@@ -237,6 +237,29 @@
           }
     },
     {
+      "name": "Nothing Phone(2a)",
+      "devices": [
+        {
+          "name": "Nothing Phone (2a)",
+          "code": "Pacman",
+          "maintainer": "EdwardWu(bluehomewu)",
+          "links": {
+            "download": "https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgD0VhJifLArSqSX6u5gaHxGAZA91fAqpKpoAWsXCWJQwi4?e=f7zySR",
+            "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pacman.txt"
+          }
+        },
+        {
+          "name": "Nothing Phone (2a) Plus",
+          "code": "PacmanPro",
+          "maintainer": "EdwardWu(bluehomewu)",
+          "links": {
+            "download": "https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgATa2kkIyQbT7Ol42WcExa5AdeOsG9r_Cxqsg8-shsuHig?e=QRXDe3",
+            "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_PacmanPro.txt"
+          }
+        }
+      ]
+    },
+    {
       "name": "Oneplus",
       "devices": [
         {
