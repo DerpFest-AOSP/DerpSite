@@ -1415,10 +1415,10 @@
     {
       "codename": "Pacman",
       "aliases": [
-        "Pacman"
+        "Nothing Phone (2a)"
       ],
       "displayName": "Pacman",
-      "maintainer": "Unknown",
+      "maintainer": "EdwardWu (@bluehomewu)",
       "latest": {
         "filename": "DerpFest-v16.2-20260316-Pacman-Official-Beta.zip",
         "id": "285f8e23231b6ec384a20256ef352805096f8c3b82e4cac08ac7f90d8020818f",
@@ -1439,10 +1439,10 @@
     {
       "codename": "PacmanPro",
       "aliases": [
-        "PacmanPro"
+        "Nothing Phone (2a) Plus"
       ],
       "displayName": "PacmanPro",
-      "maintainer": "Unknown",
+      "maintainer": "EdwardWu (@bluehomewu)",
       "latest": {
         "filename": "DerpFest-v16.2-20260316-PacmanPro-Official-Beta.zip",
         "id": "cf42bd96fa58e4943bd402432cdc2b38c413d80db77b36c57a06fc84e3cb2978",
