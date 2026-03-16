@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T12:12:21.311Z",
+  "generated_at": "2026-03-16T00:34:05.965Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -85,30 +85,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/X01BD.json"
-        }
-      ]
-    },
-    {
-      "codename": "dodge",
-      "aliases": [
-        "dodge"
-      ],
-      "displayName": "dodge",
-      "maintainer": "Unknown",
-      "latest": {
-        "filename": "DerpFest-v16.0-20251114-dodge-Official-Stable.zip",
-        "id": "7432950ac9b2f7aec2b7ffb39c38119254367706877f9a95945d0bb59acb09e7",
-        "romtype": "Official",
-        "size": 3936986357,
-        "url": "https://sourceforge.net/projects/derpfest/files/dodge/DerpFest-v16.0-20251114-dodge-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1763129509
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dodge.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/dodge.json"
         }
       ]
     },
@@ -504,13 +480,13 @@
       "displayName": "Google Pixel 9 Pro Fold",
       "maintainer": "Cody Smith(c_smith)",
       "latest": {
-        "filename": "DerpFest-v16.0-20251222-comet-Official-Stable.zip",
-        "id": "0bf1af5cfef6e86cb51936df624ca634fd841f4defd69bfc07db6f9625ab9556",
+        "filename": "DerpFest-v16.2-20260313-comet-Official-Beta.zip",
+        "id": "a06fb891e45f3bbe8839ff1799deab668a1b6c5b6fae5406f0acd6ae68f58df8",
         "romtype": "Official",
-        "size": 2513632957,
-        "url": "https://sourceforge.net/projects/derpfest/files/comet/DerpFest-v16.0-20251222-comet-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1766383308
+        "size": 2540256550,
+        "url": "https://sourceforge.net/projects/derpfest/files/comet/DerpFest-v16.2-20260313-comet-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1773413783
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_comet.txt",
       "sources": [
@@ -956,54 +932,6 @@
       ]
     },
     {
-      "codename": "Pacman",
-      "aliases": [
-        "Nothing Phone (2a)"
-      ],
-      "displayName": "Nothing Phone (2a)",
-      "maintainer": "EdwardWu(bluehomewu)",
-      "latest": {
-        "filename": "DerpFest-v16.2-20260316-Pacman-Official-Beta.zip",
-        "id": "285f8e23231b6ec384a20256ef352805096f8c3b82e4cac08ac7f90d8020818f",
-        "romtype": "Official",
-        "size": 2589813973,
-        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQD3oct2fWIiSavZq_BJ4ApTAVvop6a9jeAVXxA4yYUNV_0?e=rH4O02",
-        "version": "v16.2",
-        "datetime": 1773594913
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pacman.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/Pacman.json"
-        }
-      ]
-    },
-    {
-      "codename": "PacmanPro",
-      "aliases": [
-        "Nothing Phone (2a) Plus"
-      ],
-      "displayName": "Nothing Phone (2a) Plus",
-      "maintainer": "EdwardWu(bluehomewu)",
-      "latest": {
-        "filename": "DerpFest-v16.2-20260316-PacmanPro-Official-Beta.zip",
-        "id": "cf42bd96fa58e4943bd402432cdc2b38c413d80db77b36c57a06fc84e3cb2978",
-        "romtype": "Official",
-        "size": 2589864973,
-        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQBYrN-EicUaQqaEDuRJ07u6AVPQFH0B0sky5w0df3IKesY?e=qyWcJy",
-        "version": "v16.2",
-        "datetime": 1773596587
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_PacmanPro.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/PacmanPro.json"
-        }
-      ]
-    },
-    {
       "codename": "aston",
       "aliases": [
         "OnePlus 12R",
@@ -1025,6 +953,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/aston.json"
+        }
+      ]
+    },
+    {
+      "codename": "dodge",
+      "aliases": [
+        "OnePlus 13"
+      ],
+      "displayName": "OnePlus 13",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.0-20251114-dodge-Official-Stable.zip",
+        "id": "7432950ac9b2f7aec2b7ffb39c38119254367706877f9a95945d0bb59acb09e7",
+        "romtype": "Official",
+        "size": 3936986357,
+        "url": "https://sourceforge.net/projects/derpfest/files/dodge/DerpFest-v16.0-20251114-dodge-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1763129509
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dodge.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/dodge.json"
         }
       ]
     },
@@ -1457,6 +1409,54 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/lexus.json"
+        }
+      ]
+    },
+    {
+      "codename": "Pacman",
+      "aliases": [
+        "Pacman"
+      ],
+      "displayName": "Pacman",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260316-Pacman-Official-Beta.zip",
+        "id": "285f8e23231b6ec384a20256ef352805096f8c3b82e4cac08ac7f90d8020818f",
+        "romtype": "Official",
+        "size": 2589813973,
+        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQD3oct2fWIiSavZq_BJ4ApTAVvop6a9jeAVXxA4yYUNV_0?e=rH4O02",
+        "version": "v16.2",
+        "datetime": 1773594913
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pacman.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/Pacman.json"
+        }
+      ]
+    },
+    {
+      "codename": "PacmanPro",
+      "aliases": [
+        "PacmanPro"
+      ],
+      "displayName": "PacmanPro",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260316-PacmanPro-Official-Beta.zip",
+        "id": "cf42bd96fa58e4943bd402432cdc2b38c413d80db77b36c57a06fc84e3cb2978",
+        "romtype": "Official",
+        "size": 2589864973,
+        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQBYrN-EicUaQqaEDuRJ07u6AVPQFH0B0sky5w0df3IKesY?e=qyWcJy",
+        "version": "v16.2",
+        "datetime": 1773596587
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_PacmanPro.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/PacmanPro.json"
         }
       ]
     },
