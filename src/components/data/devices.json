@@ -14,6 +14,15 @@
           }
         },
         {
+          "name": "Google Pixel 9 Pro Fold",
+          "code": "comet",
+          "maintainer": "Cody Smith",
+          "links": {
+            "download": "https://sourceforge.net/projects/derpfest/files/comet/",
+            "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_comettxt"
+          }
+        },
+        {
           "name": "Google Pixel 9 Pro",
           "code": "caiman",
           "maintainer": "Alexander Brunswig",
