@@ -233,21 +233,16 @@
             "download": "https://drive.google.com/drive/folders/1LqmVHO5dtVnmkXvrnmYM1uoSTSgyPrGQ?usp=sharing",
             "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Spacewar.txt"
           }
-        }
-      ]
-    },
-    {
-          "name": "Nothing Phone(2)",
+        },
+        {
+          "name": "Nothing Phone (2)",
           "code": "Pong",
           "maintainer": "Ҝ卄卂丂ㄥ卂几卂(neikos496)",
           "links": {
             "download": "https://sourceforge.net/projects/derpfest/files/Pong/",
             "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pong.txt"
           }
-    },
-    {
-      "name": "Nothing Phone(2a)",
-      "devices": [
+        },
         {
           "name": "Nothing Phone (2a)",
           "code": "Pacman",
