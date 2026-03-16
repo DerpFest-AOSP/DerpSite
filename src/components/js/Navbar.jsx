@@ -28,12 +28,11 @@ const Navbar = () => {
     };
   }, [isMobileMenuOpen]);
 
-  // Animation delays for menu items
   const menuItems = [
     { title: 'Build', path: '/build' },
+    { title: 'Screenshots', path: '/screenshots' },
     { title: 'Devices', path: '/devices' },
     { title: 'FAQ', path: '/faq' },
-    { title: 'Screenshots', path: '/screenshots' },
     { title: 'Team', path: '/team' }
   ];
 
