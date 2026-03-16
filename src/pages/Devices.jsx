@@ -3,120 +3,91 @@ import { useSearchParams } from 'react-router-dom';
 
 const PAGE_SIZE = 12;
 
-function fmtBytes(bytes = 0) {
-  if (!bytes) return "0 B";
-  const units = ["B","KB","MB","GB","TB"];
-  const i = Math.floor(Math.log(bytes)/Math.log(1024));
-  return (bytes/Math.pow(1024,i)).toFixed(i?2:0) + " " + units[i];
+function fmtDateShort(ts) {
+  if (!ts) return null;
+  return new Date(ts * 1000).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
 }
-function fmtDate(ts) {
-  if (!ts) return "Unknown";
-  return new Date(ts*1000).toLocaleString();
+
+function getPageNumbers(page, pageCount) {
+  if (pageCount <= 5) return Array.from({ length: pageCount }, (_, i) => i + 1);
+  const set = new Set([1, pageCount]);
+  for (let i = Math.max(2, page - 1); i <= Math.min(pageCount - 1, page + 1); i++) set.add(i);
+  return Array.from(set).sort((a, b) => a - b);
+}
+
+const fileCache = {};
+
+async function fetchDeviceFile(status) {
+  const url = status === "Active" ? "/active-devices.json" : "/discontinued-devices.json";
+  if (fileCache[url]) return fileCache[url];
+  const res = await fetch(url, { cache: "no-cache" });
+  if (!res.ok) throw new Error(`${url} not found (did build-action run?)`);
+  const data = await res.json();
+  fileCache[url] = data;
+  return data;
 }
 
 export default function Devices() {
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [devices, setDevices] = useState([]);
   const [searchParams, setSearchParams] = useSearchParams();
-  const initialSearch = searchParams.get('s') || "";
-  const [search, setSearch] = useState(initialSearch);
-  const [companyFilter, setCompanyFilter] = useState("All");
-  const [page, setPage] = useState(1);
-  const [changelog, setChangelog] = useState({ open: false, codename: null, loading: false, content: "" });
+  const [search, setSearch]             = useState(searchParams.get('s') || "");
+  const [statusFilter, setStatusFilter] = useState("Active");
+  const [oemFilter, setOemFilter]       = useState("All");
+  const [page, setPage]                 = useState(1);
+  const [changelog, setChangelog]       = useState({ open: false, codename: null, loading: false, content: "" });
 
-  // Use this effect to keep the internal state in sync with the URL's 's' parameter.
-  // This is primarily for when the user navigates back/forward.
+  const [activeData, setActiveData]     = useState(null);
+  const [discData, setDiscData]         = useState(null);
+  const [loadingStatus, setLoadingStatus] = useState({ Active: true, Discontinued: false });
+  const [errors, setErrors]             = useState({});
+
   useEffect(() => {
-    const urlSearchValue = searchParams.get('s') || '';
-    if (search !== urlSearchValue) {
-        setSearch(urlSearchValue);
-    }
-  }, [searchParams]); // Re-run when the URL's search params object changes
+    const urlVal = searchParams.get('s') || '';
+    if (search !== urlVal) setSearch(urlVal);
+  }, [searchParams]);
 
-  // Existing data fetching useEffect
   useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      setLoading(true);
-      setError(null);
-      try {
-        const res = await fetch("/devices-index.json", { cache: "no-cache" });
-        if (!res.ok) throw new Error("devices-index.json not found on site (did build-action run?)");
-        const j = await res.json();
-
-        const list = Array.isArray(j.devices) ? j.devices : [];
-        var modifiedList = [];
-        var overrideFailed = false;
-        
-        const res2 = await fetch("/devices-override.json", { cache: "no-cache" });
-        try {
-          const k = await res2.json();
-          const overrideMap = new Map(k.map(item => [item.codename, {...item, isOverride: true}]));
-
-          modifiedList = list.map(entry => {
-            const override = overrideMap.get(entry.codename);
-            if(override) {
-              //delete from map to have only new ones later
-              overrideMap.delete(override.codename);
-              return {...entry, ...override}
-            }
-            return entry;
-          });
-
-          //prepend defined overrides that didn't exist in original list
-          //in intended alphabetical order, ascending.
-          modifiedList =
-            [...overrideMap.values(), ...modifiedList]
-            .sort((a, b) => a.displayName.localeCompare(b.displayName));
-
-        }
-        catch(_) {
-          overrideFailed = true;
-        }
-
-        if (!cancelled) {
-          setDevices(
-            overrideFailed
-              ? list
-              : modifiedList
-          );
-          setLoading(false);
-        }
-      } catch (err) {
-        if (!cancelled) {
-          setError(err.message || String(err));
-          setLoading(false);
-        }
-      }
-    })();
-    return () => { cancelled = true; };
+    fetchDeviceFile("Active")
+      .then(data => setActiveData(data))
+      .catch(err => setErrors(e => ({ ...e, Active: err.message })))
+      .finally(() => setLoadingStatus(s => ({ ...s, Active: false })));
   }, []);
 
-  const companies = useMemo(() => {
-    const s = new Set();
-    devices.forEach(d => {
-      (d.aliases || []).forEach(a => {
-        const c = (a.split(" ")[0] || "Unknown").trim();
-        if (c) s.add(c);
-      });
-    });
-    return ["All", ...Array.from(s).sort()];
-  }, [devices]);
+  useEffect(() => {
+    if (statusFilter !== "Discontinued" || discData !== null) return;
+    setLoadingStatus(s => ({ ...s, Discontinued: true }));
+    fetchDeviceFile("Discontinued")
+      .then(data => setDiscData(data))
+      .catch(err => setErrors(e => ({ ...e, Discontinued: err.message })))
+      .finally(() => setLoadingStatus(s => ({ ...s, Discontinued: false })));
+  }, [statusFilter]);
 
-  // filtered depends on local 'search' state, which is now synced from URL
+  const currentRaw   = statusFilter === "Active" ? activeData : discData;
+  const isLoading    = loadingStatus[statusFilter];
+  const currentError = errors[statusFilter];
+
+  const oems = useMemo(() => {
+    if (!currentRaw?.oems) return ["All"];
+    return ["All", ...currentRaw.oems];
+  }, [currentRaw]);
+
+  useEffect(() => { setOemFilter("All"); }, [statusFilter]);
+
+  const devices = useMemo(() => {
+    return currentRaw?.devices ?? [];
+  }, [currentRaw]);
+
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
     return devices.filter(d => {
-      if (companyFilter !== "All") {
-        const matchesCompany = (d.aliases || []).some(a => (a.split(" ")[0] || "").trim() === companyFilter);
-        if (!matchesCompany) return false;
-      }
+      if (oemFilter !== "All" && (!Array.isArray(d.oem) || !d.oem.includes(oemFilter))) return false;
       if (!q) return true;
-      const aliasMatch = (d.aliases || []).some(a => a.toLowerCase().includes(q));
-      return aliasMatch || (d.displayName && d.displayName.toLowerCase().includes(q)) || (d.codename && d.codename.toLowerCase().includes(q));
+      return (
+        (d.aliases || []).some(a => a.toLowerCase().includes(q)) ||
+        (d.displayName || "").toLowerCase().includes(q) ||
+        (d.codename || "").toLowerCase().includes(q)
+      );
     });
-  }, [devices, companyFilter, search]);
+  }, [devices, oemFilter, search]);
 
   const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   useEffect(() => { if (page > pageCount) setPage(1); }, [pageCount]);
@@ -134,135 +105,227 @@ export default function Devices() {
         setChangelog({ open: true, codename, loading: false, content: `No changelog found for ${codename}.` });
         return;
       }
-      const text = await r.text();
-      setChangelog({ open: true, codename, loading: false, content: text });
+      setChangelog({ open: true, codename, loading: false, content: await r.text() });
     } catch (err) {
       setChangelog({ open: true, codename, loading: false, content: `Failed to load changelog: ${err.message}` });
     }
   }
-  function closeChangelog() { setChangelog({ open: false, codename: null, loading: false, content: "" }); }
 
-  async function copyCurl(url, filename) {
-    const safe = filename || (url && url.split("/").pop()) || "download.bin";
-    const cmd = `curl -L -o "${safe}" "${url}"`;
-    try {
-      await navigator.clipboard.writeText(cmd);
-      // replace with toast if you add one
-      alert("Copied curl command to clipboard");
-    } catch {
-      alert("Failed to copy");
-    }
+  function closeChangelog() {
+    setChangelog({ open: false, codename: null, loading: false, content: "" });
   }
 
-  if (loading) {
+  function StatusBadge({ status }) {
+    if (!status) return null;
     return (
-      <section className="devices-w devices-page">
-        <div className="devices-loader-wrap">
-          <div className="devices-dotwrap" role="status" aria-label="Loading">
-            <span className="devices-dot devices-dot--a"></span>
-            <span className="devices-dot devices-dot--b"></span>
-            <span className="devices-dot devices-dot--c"></span>
-          </div>
-          <div className="devices-loading-text">Loading device index…</div>
-        </div>
-      </section>
+      <span className={`dc-badge dc-badge--${status === "Active" ? "active" : "disc"}`}>
+        {status}
+      </span>
     );
   }
 
-  if (error) {
-    return <section className="devices-w devices-page"><div className="devices-error">{error}</div></section>;
-  }
+  const pageNumbers = getPageNumbers(page, pageCount);
 
   return (
-    <section className="devices-w devices-page">
-      <header className="devices-hero" aria-hidden>
-        <div className="devices-hero-inner">
-          <h1 className="devices-title"><span className="devices-colored-a">DerpFest Downloads</span></h1>
-          <p className="devices-sub">Find your device and download official builds.</p>
-          <div className="devices-hero-ctas">
-            <input
-              value={search}
-              onChange={(e)=>{
-                const newValue = e.target.value;
-                setSearch(newValue);
-                setPage(1); // Reset page on new search
+    <section className="dc-page">
 
-                // Update URL search parameter
-                setSearchParams(
-                  newValue
-                    ? { s: newValue }
-                    : {}
-                );
-              }}
-              className="devices-search"
-              placeholder="Search device name, alias, or codename..."
-            />
-          </div>
+      {/* Hero */}
+      <header className="dc-hero">
+        <div className="dc-hero-inner">
+          <h1 className="dc-title"><span className="devices-colored-a">DerpFest Downloads</span></h1>
         </div>
       </header>
 
-      <div className="devices-controls">
-        <div className="devices-filters">
-          {companies.map(c => (
-            <button key={c} className={`devices-filter ${companyFilter === c ? "devices-filter--active" : ""}`} onClick={()=>{ setCompanyFilter(c); setPage(1); }}>
-              {c}
+      {/* Status tabs */}
+      <div className="dc-status-bar">
+        <div className="dc-status-bar-inner">
+          {["Active", "Discontinued"].map(s => (
+            <button
+              key={s}
+              className={`dc-status-tab dc-status-tab--${s.toLowerCase()}${statusFilter === s ? " dc-status-tab--selected" : ""}`}
+              onClick={() => { setStatusFilter(s); setPage(1); }}
+            >
+              <span className="dc-status-dot"></span>
+              {s}
             </button>
           ))}
         </div>
-        <div className="devices-stats">{filtered.length} devices • page {page}/{pageCount}</div>
       </div>
 
-      <main className="devices-grid">
-        {pageItems.map(d => (
-          <article key={d.codename} className="devices-card">
-            <div className="devices-card-media">
-              <div className="devices-stage">
-                <img className="devices-img" src={`/img/devices/${d.codename}.png`} alt={`${d.displayName} (${d.codename})`} onError={(e)=>{ e.target.onerror=null; e.target.src = "/img/logo.png"; }} />
-              </div>
-            </div>
+      {/* Search */}
+      <div className="dc-search-wrap">
+        <input
+          value={search}
+          onChange={e => {
+            const v = e.target.value;
+            setSearch(v);
+            setPage(1);
+            setSearchParams(v ? { s: v } : {});
+          }}
+          className="dc-search"
+          placeholder="Search by device name, alias, or codename…"
+        />
+      </div>
 
-            <div className="devices-card-body">
-              <h3 className="devices-name">{d.displayName} <span className="devices-codename">({d.codename === "lemonkebab" ? "kebab" : d.codename})</span></h3>
-              <div className="devices-meta">
-                <div><strong>Maintainer:</strong> {d.maintainer}</div>
-                <div><strong>Aliases:</strong> {(d.aliases||[]).join(" / ")}</div>
-              </div>
+      {/* OEM filters */}
+      <div className="dc-oem-section">
+        <div className="dc-oem-filters">
+          {oems.map(o => (
+            <button
+              key={o}
+              className={`dc-oem-btn${oemFilter === o ? " dc-oem-btn--active" : ""}`}
+              onClick={() => { setOemFilter(o); setPage(1); }}
+            >
+              {o}
+            </button>
+          ))}
+        </div>
+        <p className="dc-stats">{filtered.length} device{filtered.length !== 1 ? "s" : ""} &bull; page {page}/{pageCount}</p>
+      </div>
 
-              <div className="devices-build">
-                <div><strong>Version:</strong> {d.latest ? d.latest.version || "—" : "—"}</div>
-                {!d.isOverride && (
-                  <div>
-                    <div><strong>Released:</strong> {d.latest ? fmtDate(d.latest.datetime) : "—"}</div>
-                    <div><strong>Size:</strong> {d.latest ? fmtBytes(d.latest.size) : "—"}</div>
+      {/* Loading */}
+      {isLoading && (
+        <div className="dc-loader-wrap">
+          <div className="dc-dotwrap" role="status" aria-label="Loading">
+            <span className="dc-dot dc-dot--a"></span>
+            <span className="dc-dot dc-dot--b"></span>
+            <span className="dc-dot dc-dot--c"></span>
+          </div>
+          <p className="dc-loading-text">Loading device index…</p>
+        </div>
+      )}
+
+      {!isLoading && currentError && (
+        <p className="dc-error">{currentError}</p>
+      )}
+
+      {/* Device grid */}
+      {!isLoading && !currentError && (
+        <main className="dc-grid">
+          {pageItems.map(d => {
+            const displayCodename = d.codename === "lemonkebab" ? "kebab" : d.codename;
+            const dateStr         = fmtDateShort(d.latest?.datetime);
+
+            return (
+              <article key={d.codename} className="dc-card">
+
+                {/* Image */}
+                <div className="dc-img-wrap">
+                  <img
+                    loading="lazy"
+                    className="dc-img"
+                    src={`/img/devices/${d.codename}.png`}
+                    alt={(d.aliases || [d.codename]).join(" / ")}
+                    onError={e => { e.target.onerror = null; e.target.src = "/img/logo.png"; }}
+                  />
+                  <StatusBadge status={d.status} />
+                </div>
+
+                {/* Body */}
+                <div className="dc-body">
+                  <div className="dc-body-top">
+                    <div className="dc-codename">{displayCodename}</div>
+                    <div className="dc-devnames hide-scrollbar">
+                      {(d.aliases || [d.codename]).map((name, i, arr) => (
+                        <span key={i} className="dc-devname-item">
+                          {name}
+                          {i < arr.length - 1 && <span className="dc-devname-sep">/</span>}
+                        </span>
+                      ))}
+                    </div>
+
+                    <div className="dc-info-row">
+                      <span className="dc-info-label">Version</span>
+                      <span className="dc-info-val">{d.latest?.version || "—"}</span>
+                    </div>
+
+                    {dateStr && (
+                      <div className="dc-info-row">
+                        <span className="dc-info-label">Released</span>
+                        <span className="dc-info-val">{dateStr}</span>
+                      </div>
+                    )}
+
+                    <div className="dc-info-row">
+                      <span className="dc-info-label">Maintainer</span>
+                      <span className="dc-info-val">{d.maintainer}</span>
+                    </div>
                   </div>
-                )}
-              </div>
 
-              <div className="devices-actions">
-                {d.latest && d.latest.url ? <a className="devices-btn devices-btn--primary" href={d.latest.url} target="_blank" rel="noopener noreferrer">Download</a> : <button className="devices-btn devices-btn--primary" disabled>Download</button>}
-                <button className="devices-btn devices-btn--light" onClick={()=>openChangelog(d.codename, d.changelog_raw_url)}>View changelog</button>
-                {d.latest && d.latest.url ? <button className="devices-btn devices-btn--ghost" onClick={()=>copyCurl(d.latest.url, d.latest.filename)}>Copy curl</button> : <button className="devices-btn devices-btn--ghost" disabled>Copy curl</button>}
-              </div>
-            </div>
-          </article>
-        ))}
-      </main>
+                  {/* Actions */}
+                  <div className="dc-body-bottom">
+                    <div className="dc-actions-row">
+                      {d.latest?.url
+                        ? <a className="dc-btn dc-btn--primary" href={d.latest.url} target="_blank" rel="noopener noreferrer">Download</a>
+                        : <button className="dc-btn dc-btn--primary" disabled>Download</button>
+                      }
+                      <button
+                        className="dc-btn dc-btn--secondary"
+                        disabled={!d.changelog_raw_url}
+                        onClick={() => openChangelog(d.codename, d.changelog_raw_url)}
+                      >
+                        Changelog
+                      </button>
+                    </div>
+                    {d.support_group
+                      ? (
+                        <a
+                          className="dc-btn dc-btn--support"
+                          href={d.support_group}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Support Group
+                        </a>
+                      )
+                      : <span className="dc-btn dc-btn--support dc-btn--support-none">No support group</span>
+                    }
+                  </div>
+                </div>
 
-      <div className="devices-pagination">
-        <button className="devices-page-btn" onClick={()=>setPage(p=>Math.max(1,p-1))} disabled={page===1}>Prev</button>
-        {Array.from({ length: pageCount }, (_,i)=>i+1).filter(pn => Math.abs(pn - page) <= 3 || pn === 1 || pn === pageCount).map(pn => (
-          <button key={pn} className={`devices-page-btn ${pn === page ? "devices-page-btn--active" : ""}`} onClick={()=>setPage(pn)}>{pn}</button>
-        ))}
-        <button className="devices-page-btn" onClick={()=>setPage(p=>Math.min(pageCount,p+1))} disabled={page===pageCount}>Next</button>
-      </div>
+              </article>
+            );
+          })}
+        </main>
+      )}
 
-      <div className={`devices-modal ${changelog.open ? "devices-modal--open" : ""}`} role="dialog" aria-hidden={!changelog.open}>
-        <div className="devices-modal-inner">
-          <button className="devices-modal-close" onClick={closeChangelog} aria-label="Close">✕</button>
-          <h3 className="devices-modal-title">Changelog — {changelog.codename}</h3>
-          {changelog.loading ? <div className="devices-modal-loading">Loading changelog…</div> : <pre className="devices-modal-pre">{changelog.content}</pre>}
+      {/* Pagination */}
+      {!isLoading && !currentError && pageCount > 1 && (
+        <div className="dc-pagination">
+          {pageNumbers.map((pn, idx) => {
+            const prev = pageNumbers[idx - 1];
+            return (
+              <React.Fragment key={pn}>
+                {prev && pn - prev > 1 && <span className="dc-page-ellipsis">…</span>}
+                <button
+                  className={`dc-page-btn${pn === page ? " dc-page-btn--active" : ""}`}
+                  onClick={() => setPage(pn)}
+                >
+                  {pn}
+                </button>
+              </React.Fragment>
+            );
+          })}
+        </div>
+      )}
+
+      {/* Changelog modal */}
+      <div
+        className={`dc-modal${changelog.open ? " dc-modal--open" : ""}`}
+        role="dialog"
+        aria-hidden={!changelog.open}
+        onClick={closeChangelog}
+      >
+        <div className="dc-modal-inner" onClick={e => e.stopPropagation()}>
+          <button className="dc-modal-close" onClick={closeChangelog} aria-label="Close">✕</button>
+          <h3 className="dc-modal-title">Changelog — {changelog.codename}</h3>
+          {changelog.loading
+            ? <p className="dc-modal-loading">Loading changelog…</p>
+            : <pre className="dc-modal-pre">{changelog.content}</pre>
+          }
         </div>
       </div>
+
     </section>
   );
 }
