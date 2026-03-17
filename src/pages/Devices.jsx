@@ -214,7 +214,7 @@ export default function Devices() {
                   <img
                     loading="lazy"
                     className="dc-img"
-                    src={`/img/devices/${d.codename}.png`}
+                    src={`/img/devices/${d.codename}.webp`}
                     alt={(d.aliases || [d.codename]).join(" / ")}
                     onError={e => { e.target.onerror = null; e.target.src = "/img/logo.png"; }}
                   />
