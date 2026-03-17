@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T12:21:07.444Z",
+  "generated_at": "2026-03-17T00:29:04.502Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -85,6 +85,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/X01BD.json"
+        }
+      ]
+    },
+    {
+      "codename": "device-info",
+      "aliases": [
+        "device-info"
+      ],
+      "displayName": "device-info",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "",
+        "id": "",
+        "romtype": "",
+        "size": 0,
+        "url": "",
+        "version": "",
+        "datetime": 0
+      },
+      "changelog_raw_url": null,
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/info/device-info.json"
         }
       ]
     },
@@ -932,6 +956,54 @@
       ]
     },
     {
+      "codename": "Pacman",
+      "aliases": [
+        "Nothing Phone (2a)"
+      ],
+      "displayName": "Nothing Phone (2a)",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260316-Pacman-Official-Beta.zip",
+        "id": "285f8e23231b6ec384a20256ef352805096f8c3b82e4cac08ac7f90d8020818f",
+        "romtype": "Official",
+        "size": 2589813973,
+        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQD3oct2fWIiSavZq_BJ4ApTAVvop6a9jeAVXxA4yYUNV_0?e=rH4O02",
+        "version": "v16.2",
+        "datetime": 1773594913
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pacman.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/Pacman.json"
+        }
+      ]
+    },
+    {
+      "codename": "PacmanPro",
+      "aliases": [
+        "Nothing Phone (2a) Plus"
+      ],
+      "displayName": "Nothing Phone (2a) Plus",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260316-PacmanPro-Official-Beta.zip",
+        "id": "cf42bd96fa58e4943bd402432cdc2b38c413d80db77b36c57a06fc84e3cb2978",
+        "romtype": "Official",
+        "size": 2589864973,
+        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQBYrN-EicUaQqaEDuRJ07u6AVPQFH0B0sky5w0df3IKesY?e=qyWcJy",
+        "version": "v16.2",
+        "datetime": 1773596587
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_PacmanPro.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/PacmanPro.json"
+        }
+      ]
+    },
+    {
       "codename": "aston",
       "aliases": [
         "OnePlus 12R",
@@ -1409,54 +1481,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/lexus.json"
-        }
-      ]
-    },
-    {
-      "codename": "Pacman",
-      "aliases": [
-        "Nothing Phone (2a)"
-      ],
-      "displayName": "Pacman",
-      "maintainer": "EdwardWu (@bluehomewu)",
-      "latest": {
-        "filename": "DerpFest-v16.2-20260316-Pacman-Official-Beta.zip",
-        "id": "285f8e23231b6ec384a20256ef352805096f8c3b82e4cac08ac7f90d8020818f",
-        "romtype": "Official",
-        "size": 2589813973,
-        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQD3oct2fWIiSavZq_BJ4ApTAVvop6a9jeAVXxA4yYUNV_0?e=rH4O02",
-        "version": "v16.2",
-        "datetime": 1773594913
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pacman.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/Pacman.json"
-        }
-      ]
-    },
-    {
-      "codename": "PacmanPro",
-      "aliases": [
-        "Nothing Phone (2a) Plus"
-      ],
-      "displayName": "PacmanPro",
-      "maintainer": "EdwardWu (@bluehomewu)",
-      "latest": {
-        "filename": "DerpFest-v16.2-20260316-PacmanPro-Official-Beta.zip",
-        "id": "cf42bd96fa58e4943bd402432cdc2b38c413d80db77b36c57a06fc84e3cb2978",
-        "romtype": "Official",
-        "size": 2589864973,
-        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQBYrN-EicUaQqaEDuRJ07u6AVPQFH0B0sky5w0df3IKesY?e=qyWcJy",
-        "version": "v16.2",
-        "datetime": 1773596587
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_PacmanPro.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/PacmanPro.json"
         }
       ]
     },
@@ -2157,13 +2181,13 @@
       "displayName": "Redmi Note 7 Pro",
       "maintainer": "Selfmuser",
       "latest": {
-        "filename": "DerpFest-v16.0-20251012-violet-Official-Stable.zip",
-        "id": "37b02ccff52a3a1f3716f9312539d8f4b18d410e377502f9ba27df9d11ddba96",
+        "filename": "DerpFest-v16.2-20260315-violet-Official-Beta.zip",
+        "id": "75672af505e409c3b30802a6912c65f1390564efb407dfdda3ee7adae5575e76",
         "romtype": "Official",
-        "size": 2321614609,
-        "url": "https://sourceforge.net/projects/derpfest/files/violet/DerpFest-v16.0-20251012-violet-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1760253602
+        "size": 2333049448,
+        "url": "https://sourceforge.net/projects/derpfest/files/violet/DerpFest-v16.2-20260315-violet-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1773544753
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_violet.txt",
       "sources": [
