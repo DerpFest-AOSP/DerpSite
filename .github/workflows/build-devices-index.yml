@@ -2,7 +2,7 @@ name: Build Devices Index
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -22,12 +22,20 @@ jobs:
           path: repo_primary
           fetch-depth: 0
 
-      - name: Checkout Avalon extras (secondary)
+      - name: Checkout DerpFest repo (no-ota)
+        uses: actions/checkout@v4
+        with:
+          repository: DerpFest-AOSP/Updater-Stuff
+          ref: no-ota
+          path: repo_no-ota
+          fetch-depth: 0
+
+      - name: Checkout Aman's Avalon
         uses: actions/checkout@v4
         with:
           repository: amanrajOO7/derpfest_avalon
           ref: "16.0"
-          path: repo_avalon
+          path: repo_amanraj007
           fetch-depth: 0
 
       # To add another repo in future:
@@ -46,7 +54,8 @@ jobs:
           cat > repo_map.json <<'JSON'
           [
             {"path":"repo_primary","owner":"DerpFest-AOSP","repo":"Updater-Stuff","branch":"master"},
-            {"path":"repo_avalon","owner":"amanrajOO7","repo":"derpfest_avalon","branch":"16.0"}
+            {"path":"repo_no-ota","owner":"DerpFest-AOSP","repo":"Updater-Stuff","branch":"no-ota"},
+            {"path":"repo_amanraj007","owner":"amanrajOO7","repo":"derpfest_avalon","branch":"16.0"}
           ]
           JSON
 
