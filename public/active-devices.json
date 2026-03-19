@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T03:38:20.500Z",
+  "generated_at": "2026-03-19T01:01:20.788Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -234,7 +234,7 @@
       "oem": [
         "Nothing"
       ],
-      "maintainer": "EdwardWu",
+      "maintainer": "EdwardWu (@edwardwu0223)",
       "support_group": null,
       "status": "Active",
       "latest": {
@@ -262,7 +262,7 @@
       "oem": [
         "Nothing"
       ],
-      "maintainer": "EdwardWu",
+      "maintainer": "EdwardWu (@edwardwu0223)",
       "support_group": null,
       "status": "Active",
       "latest": {
@@ -313,8 +313,8 @@
       "oem": [
         "OnePlus"
       ],
-      "maintainer": "0mar99",
-      "support_group": null,
+      "maintainer": "Omar Aguilar (@Omar99A)",
+      "support_group": "https://t.me/Derp13R",
       "status": "Active",
       "latest": {
         "filename": "DerpFest-v16.2-20260314-giulia-Official-Beta.zip",
@@ -583,8 +583,8 @@
       "oem": [
         "OnePlus"
       ],
-      "maintainer": "0mar99",
-      "support_group": null,
+      "maintainer": "Omar Aguilar (@Omar99A)",
+      "support_group": "https://t.me/Derp13R",
       "status": "Active",
       "latest": {
         "filename": "DerpFest-v16.2-20260315-giuliac-Official-Beta.zip",
@@ -770,7 +770,7 @@
         "Xiaomi"
       ],
       "maintainer": "Omar Aguilar (@Omar99A)",
-      "support_group": null,
+      "support_group": "https://t.me/ViliSupport",
       "status": "Active",
       "latest": {
         "filename": "DerpFest-v16.2-20260305-vili-Official-Beta.zip",
