@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T12:20:44.161Z",
+  "generated_at": "2026-03-19T00:31:16.434Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -961,7 +961,7 @@
         "Nothing Phone (2a)"
       ],
       "displayName": "Nothing Phone (2a)",
-      "maintainer": "Unknown",
+      "maintainer": "EdwardWu (@bluehomewu)",
       "latest": {
         "filename": "DerpFest-v16.2-20260316-Pacman-Official-Beta.zip",
         "id": "285f8e23231b6ec384a20256ef352805096f8c3b82e4cac08ac7f90d8020818f",
@@ -985,7 +985,7 @@
         "Nothing Phone (2a) Plus"
       ],
       "displayName": "Nothing Phone (2a) Plus",
-      "maintainer": "Unknown",
+      "maintainer": "EdwardWu (@bluehomewu)",
       "latest": {
         "filename": "DerpFest-v16.2-20260316-PacmanPro-Official-Beta.zip",
         "id": "cf42bd96fa58e4943bd402432cdc2b38c413d80db77b36c57a06fc84e3cb2978",
