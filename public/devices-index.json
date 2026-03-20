@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T00:30:13.852Z",
+  "generated_at": "2026-03-20T12:14:23.677Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -3155,7 +3155,7 @@
         "id": "fe0f36cf68049c1649ac9fef94279549791ca6541094a8738f766bbe877cce1b",
         "romtype": "Official",
         "size": 2315614525,
-        "url": "https://sourceforge.net/projects/pipa/files/derpfest/DerpFest-v16.2-20260318-pipa-Official-Beta.zip/download",
+        "url": "https://sourceforge.net/projects/pipa/files/DerpFest/DerpFest-v16.2-20260318-pipa-Official-Beta.zip/download",
         "version": "v16.2",
         "datetime": 1773838968
       },
