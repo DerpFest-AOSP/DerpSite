@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T00:58:02.229Z",
+  "generated_at": "2026-03-21T00:54:22.785Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -773,13 +773,13 @@
       "support_group": "https://t.me/ViliSupport",
       "status": "Active",
       "latest": {
-        "filename": "DerpFest-v16.2-20260305-vili-Official-Beta.zip",
-        "id": "2e1a9efeaa09f6e661eda39f8899a5858504794700f7de2dbabe7ee31762b36d",
+        "filename": "DerpFest-v16.2-20260320-vili-Official-Beta.zip",
+        "id": "389dc92fba464757b7bbc1a621c0afcafde3308c266b802b6da5ff2177dc8b28",
         "romtype": "Official",
-        "size": 3005361661,
-        "url": "https://sourceforge.net/projects/derpfest/files/vili/DerpFest-v16.2-20260305-vili-Official-Beta.zip/download",
+        "size": 3012983716,
+        "url": "https://sourceforge.net/projects/derpfest/files/vili/DerpFest-v16.2-20260320-vili-Official-Beta.zip/download",
         "version": "16.2",
-        "datetime": 1772666919
+        "datetime": 1773978731
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_vili.txt",
       "sources": [
@@ -911,7 +911,7 @@
         "id": "fe0f36cf68049c1649ac9fef94279549791ca6541094a8738f766bbe877cce1b",
         "romtype": "Official",
         "size": 2315614525,
-        "url": "https://sourceforge.net/projects/pipa/files/derpfest/DerpFest-v16.2-20260318-pipa-Official-Beta.zip/download",
+        "url": "https://sourceforge.net/projects/pipa/files/DerpFest/DerpFest-v16.2-20260318-pipa-Official-Beta.zip/download",
         "version": "16.2",
         "datetime": 1773838968
       },
