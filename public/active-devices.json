@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T01:06:07.422Z",
+  "generated_at": "2026-04-04T01:00:51.865Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -317,13 +317,13 @@
       "support_group": "https://t.me/Derp13R",
       "status": "Active",
       "latest": {
-        "filename": "DerpFest-v16.2-20260321-giulia-Official-Beta.zip",
-        "id": "dfa4b64c4501d8aa65297803520045e44c82138352714ee76c3efb88d61d52d2",
+        "filename": "DerpFest-v16.2-20260403-giulia-Official-Beta.zip",
+        "id": "f501141093df83fcf04afda35e7f3df343ec1d1cf6720942766a7f799960f07a",
         "romtype": "Official",
-        "size": 4056353470,
-        "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.2-20260321-giulia-Official-Beta.zip/download",
+        "size": 4057328823,
+        "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.2-20260403-giulia-Official-Beta.zip/download",
         "version": "16.2",
-        "datetime": 1774036370
+        "datetime": 1775180216
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_giulia.txt",
       "sources": [
@@ -587,13 +587,13 @@
       "support_group": "https://t.me/Derp13R",
       "status": "Active",
       "latest": {
-        "filename": "DerpFest-v16.2-20260321-giuliac-Official-Beta.zip",
-        "id": "b6791952e55692a0ea9c7d0c7006dfcac873839501260bb42f41319c62684fd2",
+        "filename": "DerpFest-v16.2-20260403-giuliac-Official-Beta.zip",
+        "id": "2adb423f6c89024e732101b7eee19136aafb3d7ac08e313226c0ef8626ecbfbc",
         "romtype": "Official",
-        "size": 4084658851,
-        "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.2-20260321-giuliac-Official-Beta.zip/download",
+        "size": 4085444694,
+        "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.2-20260403-giuliac-Official-Beta.zip/download",
         "version": "16.2",
-        "datetime": 1774045690
+        "datetime": 1775184020
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_giuliac.txt",
       "sources": [
@@ -773,13 +773,13 @@
       "support_group": "https://t.me/ViliSupport",
       "status": "Active",
       "latest": {
-        "filename": "DerpFest-v16.2-20260320-vili-Official-Beta.zip",
-        "id": "389dc92fba464757b7bbc1a621c0afcafde3308c266b802b6da5ff2177dc8b28",
+        "filename": "DerpFest-v16.2-20260404-vili-Official-Beta.zip",
+        "id": "e87e5bea1661add289d43f3d44db9b050b7b5d3d6fad24af4939ea201a482ed4",
         "romtype": "Official",
-        "size": 3012983716,
-        "url": "https://sourceforge.net/projects/derpfest/files/vili/DerpFest-v16.2-20260320-vili-Official-Beta.zip/download",
+        "size": 3021872558,
+        "url": "https://sourceforge.net/projects/derpfest/files/vili/DerpFest-v16.2-20260404-vili-Official-Beta.zip/download",
         "version": "16.2",
-        "datetime": 1773978731
+        "datetime": 1775236565
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_vili.txt",
       "sources": [
