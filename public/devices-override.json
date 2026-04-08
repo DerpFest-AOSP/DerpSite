@@ -7,12 +7,12 @@
     "displayName": "OnePlus 8 Pro",
     "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 16.2",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+iArCVx0Ly2YwMDM1",
-        "version": "16",
+        "version": "16.2",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -31,12 +31,12 @@
     "displayName": "OnePlus 8",
     "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 16.2",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+iArCVx0Ly2YwMDM1",
-        "version": "16",
+        "version": "16.2",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -56,12 +56,12 @@
     "displayName": "OnePlus 8T",
     "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 16.2",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+Q63yzL3pOyswNDZk",
-        "version": "16",
+        "version": "16.2",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -104,12 +104,12 @@
     "displayName": "OnePlus 12",
     "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 16.2",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+lFmFwuv9tms5ZDRk",
-        "version": "16",
+        "version": "16.2",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -222,14 +222,14 @@
         "OnePlus 7"
     ],
     "displayName": "OnePlus 7",
-    "maintainer": "Bomboozler & P.A.N.Z.",
+    "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 16.2",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
-        "url": "https://sourceforge.net/projects/derpfest-guacamoleb/files/guacamoleb/derpfest/",
-        "version": "16",
+        "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
+        "version": "16.2",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -246,14 +246,14 @@
         "OnePlus 7 Pro"
     ],
     "displayName": "OnePlus 7 Pro",
-    "maintainer": "Bomboozler & P.A.N.Z.",
+    "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 16.2",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
-        "url": "https://sourceforge.net/projects/derpfest-guacamole/files/guacamole/derpfest/",
-        "version": "16",
+        "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
+        "version": "16.2",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -270,14 +270,14 @@
         "OnePlus 7T"
     ],
     "displayName": "OnePlus 7T",
-    "maintainer": "Bomboozler & P.A.N.Z.",
+    "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 16.2",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
-        "url": "https://sourceforge.net/projects/derpfest-hotdogb/files/hotdogb/derpfest/",
-        "version": "16",
+        "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
+        "version": "16.2",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -294,14 +294,14 @@
         "OnePlus 7T Pro"
     ],
     "displayName": "OnePlus 7T Pro",
-    "maintainer": "Bomboozler & P.A.N.Z.",
+    "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 16.2",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
-        "url": "https://sourceforge.net/projects/derpfest-hotdog/files/hotdog/derpfest/",
-        "version": "16",
+        "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
+        "version": "16.2",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -318,14 +318,14 @@
         "Xiaomi 12"
     ],
     "displayName": "Xiaomi 12",
-    "maintainer": "Bomboozler & P.A.N.Z.",
+    "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 16.2",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
-        "url": "https://sourceforge.net/projects/derpfest-cupid/files/cupid/derpfest/",
-        "version": "16",
+        "url": "https://t.me/+nEq4vgkUTGxiOTA0",
+        "version": "16.2",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -343,14 +343,14 @@
         "Redmi K50 Ultra"
     ],
     "displayName": "Xiaomi 12T Pro | Redmi K50 Ultra",
-    "maintainer": "Bomboozler & P.A.N.Z.",
+    "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 16.2",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
-        "url": "https://sourceforge.net/projects/derpfest-diting/files/diting/derpfest/",
-        "version": "16",
+        "url": "https://t.me/+nEq4vgkUTGxiOTA0",
+        "version": "16.2",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -364,7 +364,7 @@
    {
     "codename": "panther",
     "aliases": [
-        "Pixel 7"
+        "Google Pixel 7"
     ],
     "displayName": "Google Pixel 7",
     "maintainer": "Sean Dabes",
@@ -373,7 +373,7 @@
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
-        "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3ARGJv5DBd9Oyv8lZUbbsAaI?e=Yy3MuG",
+        "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3AQF1Tl0hb2kvIiKo_60sAYY?e=Awcg8C",
         "version": "16",
         "datetime": 1
     },
@@ -388,7 +388,7 @@
    {
     "codename": "cheetah",
     "aliases": [
-        "Pixel 7 Pro"
+        "Google Pixel 7 Pro"
     ],
     "displayName": "Google Pixel 7 Pro",
     "maintainer": "Sean Dabes",
@@ -397,7 +397,7 @@
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
-        "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3ARGJv5DBd9Oyv8lZUbbsAaI?e=Yy3MuG",
+        "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3AQF1Tl0hb2kvIiKo_60sAYY?e=Awcg8C",
         "version": "16",
         "datetime": 1
     },
@@ -412,7 +412,7 @@
    {
     "codename": "lynx",
     "aliases": [
-        "Pixel 7a"
+        "Google Pixel 7a"
     ],
     "displayName": "Google Pixel 7a",
     "maintainer": "Sean Dabes",
@@ -421,8 +421,37 @@
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
-        "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3ARGJv5DBd9Oyv8lZUbbsAaI?e=Yy3MuG",
+        "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3AQF1Tl0hb2kvIiKo_60sAYY?e=Awcg8C",
         "version": "16",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "RM6785",
+    "aliases": [
+        "Realme 6",
+        "Realme 6i (Indian)",
+        "Realme 6s",
+        "Realme 7",
+        "Narzo 20 Pro",
+        "Narzo 30 4G"
+    ],
+    "displayName": "RM6785",
+    "maintainer": "MeowDroider",
+    "latest": {
+        "filename": "DerpFest 16.2",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/derprm6785",
+        "version": "16.2",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",

@@ -4,7 +4,6 @@ import { useEffect } from 'react'
 import Navbar from './components/js/Navbar'
 import Footer from './components/js/Footer'
 import Build from './pages/Build'
-import Changelogs from './pages/Changelogs'
 import Credit from './pages/Credit'
 import Devices from './pages/Devices'
 import FAQ from './pages/FAQ'
@@ -40,7 +39,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/build" element={<Build />} />
-        <Route path="/changelogs" element={<Changelogs />} />
         <Route path="/credit" element={<Credit />} />
         <Route path="/devices" element={<Devices />} />
         <Route path="/faq" element={<FAQ />} />

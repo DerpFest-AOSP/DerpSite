@@ -9,7 +9,7 @@ const Footer = () => {
                <p className="leading-7">
                   <span className="text-3xl text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#33bbff] to-[#1de099]">DerpFest</span>
                   <br />
-                  © 2020 - 2025 DerpFest AOSP. All Rights reserved
+                  © 2020 - {new Date().getFullYear()} DerpFest AOSP. All Rights reserved
                   <br />
                   Website Designed By <Link to="/credit">DerpFest Team</Link>
                </p>
@@ -17,7 +17,6 @@ const Footer = () => {
             <nav>
                <h6 className="footer-title">Link</h6>
                <Link to="/build">Build</Link>
-               <Link to="/changelogs">Changelogs</Link>
                <Link to="/credit">Credit</Link>
                <Link to="/devices">Devices</Link>
                <Link to="/faq">FAQ</Link>

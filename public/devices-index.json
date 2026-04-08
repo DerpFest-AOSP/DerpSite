@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-23T12:09:48.715Z",
+  "generated_at": "2026-04-08T00:35:08.242Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -89,50 +89,26 @@
       ]
     },
     {
-      "codename": "comet",
+      "codename": "device-info",
       "aliases": [
-        "comet"
+        "device-info"
       ],
-      "displayName": "comet",
+      "displayName": "device-info",
       "maintainer": "Unknown",
       "latest": {
-        "filename": "DerpFest-v16.0-20251222-comet-Official-Stable.zip",
-        "id": "0bf1af5cfef6e86cb51936df624ca634fd841f4defd69bfc07db6f9625ab9556",
-        "romtype": "Official",
-        "size": 2513632957,
-        "url": "https://sourceforge.net/projects/derpfest/files/comet/DerpFest-v16.0-20251222-comet-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1766383308
+        "filename": "",
+        "id": "",
+        "romtype": "",
+        "size": 0,
+        "url": "",
+        "version": "",
+        "datetime": 0
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_comet.txt",
+      "changelog_raw_url": null,
       "sources": [
         {
           "repoFolder": "repo_primary",
-          "filePath": "repo_primary/comet.json"
-        }
-      ]
-    },
-    {
-      "codename": "dodge",
-      "aliases": [
-        "dodge"
-      ],
-      "displayName": "dodge",
-      "maintainer": "Unknown",
-      "latest": {
-        "filename": "DerpFest-v16.0-20251114-dodge-Official-Stable.zip",
-        "id": "7432950ac9b2f7aec2b7ffb39c38119254367706877f9a95945d0bb59acb09e7",
-        "romtype": "Official",
-        "size": 3936986357,
-        "url": "https://sourceforge.net/projects/derpfest/files/dodge/DerpFest-v16.0-20251114-dodge-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1763129509
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dodge.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/dodge.json"
+          "filePath": "repo_primary/info/device-info.json"
         }
       ]
     },
@@ -408,13 +384,13 @@
       "displayName": "Google Pixel 8",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20251108-shiba-Official-Stable.zip",
-        "id": "ded4f27a3b1c822f13bc4be7c588bbad8b0c8cd0157e385c9869c825e11f8ed2",
+        "filename": "DerpFest-v16.2-20260407-shiba-Official-Beta.zip",
+        "id": "6997b94c4e6d744c006fa87819a055195d3cd060f3b365e36ea414ecfed59443",
         "romtype": "Official",
-        "size": 2356359462,
-        "url": "https://sourceforge.net/projects/derpfest/files/shiba/DerpFest-v16.0-20251108-shiba-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1762606457
+        "size": 2644600752,
+        "url": "https://sourceforge.net/projects/derpfest/files/shiba/DerpFest-v16.2-20260407-shiba-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1775524439
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_shiba.txt",
       "sources": [
@@ -432,13 +408,13 @@
       "displayName": "Google Pixel 8 Pro",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20251108-husky-Official-Stable.zip",
-        "id": "9d59bb69e8f6242ae64ec00303d628ccaae1ea74b8c95b6223c632577ede118a",
+        "filename": "DerpFest-v16.2-20260407-husky-Official-Beta.zip",
+        "id": "2f8d6e72f14f34af8d7e5681b51e0bb95b64131fb806694f650530d2d5de2a27",
         "romtype": "Official",
-        "size": 2365482136,
-        "url": "https://sourceforge.net/projects/derpfest/files/husky/DerpFest-v16.0-20251108-husky-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1762607617
+        "size": 2651578691,
+        "url": "https://sourceforge.net/projects/derpfest/files/husky/DerpFest-v16.2-20260407-husky-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1775525289
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_husky.txt",
       "sources": [
@@ -456,13 +432,13 @@
       "displayName": "Google Pixel 8a",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20251108-akita-Official-Stable.zip",
-        "id": "8e010c67fd6207b25c0a1c92d997606a5d73245a2b46b9bcc5fed347d2850e56",
+        "filename": "DerpFest-v16.2-20260407-akita-Official-Beta.zip",
+        "id": "1f039b296043d9266e120784d1cfb7a9002faba956a8d1f3d2a6c65c04cf7e3d",
         "romtype": "Official",
-        "size": 2349049249,
-        "url": "https://sourceforge.net/projects/derpfest/files/akita/DerpFest-v16.0-20251108-akita-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1762604637
+        "size": 2635993040,
+        "url": "https://sourceforge.net/projects/derpfest/files/akita/DerpFest-v16.2-20260407-akita-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1775521978
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_akita.txt",
       "sources": [
@@ -517,6 +493,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/caiman.json"
+        }
+      ]
+    },
+    {
+      "codename": "comet",
+      "aliases": [
+        "Google Pixel 9 Pro Fold"
+      ],
+      "displayName": "Google Pixel 9 Pro Fold",
+      "maintainer": "Cody Smith(c_smith)",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260313-comet-Official-Beta.zip",
+        "id": "a06fb891e45f3bbe8839ff1799deab668a1b6c5b6fae5406f0acd6ae68f58df8",
+        "romtype": "Official",
+        "size": 2540256550,
+        "url": "https://sourceforge.net/projects/derpfest/files/comet/DerpFest-v16.2-20260313-comet-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1773413783
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_comet.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/comet.json"
         }
       ]
     },
@@ -939,19 +939,67 @@
       "displayName": "Nothing Phone (2)",
       "maintainer": "Semina Alexandru(NeiKos496)",
       "latest": {
-        "filename": "DerpFest-v16.0-20251019-Pong-Official-Stable.zip",
-        "id": "f7d9086a52e1200a4d31ea2a4c456f9fa3cf47fa554c0bef1b790e8da3c8772b",
+        "filename": "DerpFest-v16.2-20260324-Pong-Official-Beta.zip",
+        "id": "1a6ae86d900d318b9ab262a74cc996d7bf2bef5e14dd499f74b32ddaa780b7c1",
         "romtype": "Official",
-        "size": 2728611070,
-        "url": "https://sourceforge.net/projects/derpfest/files/Pong/DerpFest-v16.0-20251019-Pong-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1760877786
+        "size": 3020053510,
+        "url": "https://sourceforge.net/projects/pong-dev/files/DerpFest/16.2/Month_of_Evernight%28March%29/DerpFest-v16.2-20260324-Pong-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1774346504
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pong.txt",
       "sources": [
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/Pong.json"
+        }
+      ]
+    },
+    {
+      "codename": "Pacman",
+      "aliases": [
+        "Nothing Phone (2a)"
+      ],
+      "displayName": "Nothing Phone (2a)",
+      "maintainer": "EdwardWu (@bluehomewu)",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260316-Pacman-Official-Beta.zip",
+        "id": "285f8e23231b6ec384a20256ef352805096f8c3b82e4cac08ac7f90d8020818f",
+        "romtype": "Official",
+        "size": 2589813973,
+        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQD3oct2fWIiSavZq_BJ4ApTAVvop6a9jeAVXxA4yYUNV_0?e=rH4O02",
+        "version": "v16.2",
+        "datetime": 1773594913
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pacman.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/Pacman.json"
+        }
+      ]
+    },
+    {
+      "codename": "PacmanPro",
+      "aliases": [
+        "Nothing Phone (2a) Plus"
+      ],
+      "displayName": "Nothing Phone (2a) Plus",
+      "maintainer": "EdwardWu (@bluehomewu)",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260316-PacmanPro-Official-Beta.zip",
+        "id": "cf42bd96fa58e4943bd402432cdc2b38c413d80db77b36c57a06fc84e3cb2978",
+        "romtype": "Official",
+        "size": 2589864973,
+        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQBYrN-EicUaQqaEDuRJ07u6AVPQFH0B0sky5w0df3IKesY?e=qyWcJy",
+        "version": "v16.2",
+        "datetime": 1773596587
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_PacmanPro.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/PacmanPro.json"
         }
       ]
     },
@@ -977,6 +1025,54 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/aston.json"
+        }
+      ]
+    },
+    {
+      "codename": "dodge",
+      "aliases": [
+        "OnePlus 13"
+      ],
+      "displayName": "OnePlus 13",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.0-20251114-dodge-Official-Stable.zip",
+        "id": "7432950ac9b2f7aec2b7ffb39c38119254367706877f9a95945d0bb59acb09e7",
+        "romtype": "Official",
+        "size": 3936986357,
+        "url": "https://sourceforge.net/projects/derpfest/files/dodge/DerpFest-v16.0-20251114-dodge-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1763129509
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_dodge.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/dodge.json"
+        }
+      ]
+    },
+    {
+      "codename": "giulia",
+      "aliases": [
+        "OnePlus 13R"
+      ],
+      "displayName": "OnePlus 13R",
+      "maintainer": "0mar",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260403-giulia-Official-Beta.zip",
+        "id": "f501141093df83fcf04afda35e7f3df343ec1d1cf6720942766a7f799960f07a",
+        "romtype": "Official",
+        "size": 4057328823,
+        "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.2-20260403-giulia-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1775180216
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_giulia.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/giulia.json"
         }
       ]
     },
@@ -1269,6 +1365,30 @@
       ]
     },
     {
+      "codename": "giuliac",
+      "aliases": [
+        "OnePlus Ace 5"
+      ],
+      "displayName": "OnePlus Ace 5",
+      "maintainer": "0mar",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260403-giuliac-Official-Beta.zip",
+        "id": "2adb423f6c89024e732101b7eee19136aafb3d7ac08e313226c0ef8626ecbfbc",
+        "romtype": "Official",
+        "size": 4085444694,
+        "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.2-20260403-giuliac-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1775184020
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_giuliac.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/giuliac.json"
+        }
+      ]
+    },
+    {
       "codename": "martini",
       "aliases": [
         "OnePlus Nord 2 5G"
@@ -1300,13 +1420,13 @@
       "displayName": "OnePlus Nord 2T",
       "maintainer": "Unknown",
       "latest": {
-        "filename": "DerpFest-v16.0-20251115-corvette-Official-Stable.zip",
-        "id": "9f58290207048938fde0c11be93f3bc82f3990283f1a1cc618bff36ef1e910aa",
+        "filename": "DerpFest-v16.2-20260315-corvette-Official-Beta.zip",
+        "id": "293f5765a98d451ccfd2a453b9a0ed18b8543bab840d3fcc74b7e4f94b80af84",
         "romtype": "Official",
-        "size": 3525594978,
-        "url": "https://sourceforge.net/projects/derpfest/files/corvette/DerpFest-v16.0-20251115-corvette-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1763206987
+        "size": 4251407968,
+        "url": "https://sourceforge.net/projects/derpfest/files/corvette/DerpFest-v16.2-20260315-corvette-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1773554145
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_corvette.txt",
       "sources": [
@@ -1324,19 +1444,43 @@
       "displayName": "OnePlus Nord 4",
       "maintainer": "Aman Singh (iamansingh)",
       "latest": {
-        "filename": "DerpFest-16.0-Official-Stable-avalon-20251216-1833.zip",
-        "id": "7bb7ecfd3e68602366739d073b8c068d0a8a3e53cf531af4ceeeaf81bcdee4d5",
+        "filename": "DerpFest-16.2-Official-Stable-avalon-20260407-2126.zip",
+        "id": "6b04b9f095a6ffc6fae96286fe4d701266e8c576a6ccf5b1e50c9cf1afbe0ba2",
         "romtype": "Official",
-        "size": 3406676857,
-        "url": "https://sourceforge.net/projects/avalon-builds/files/DerpFest/DerpFest-16.0-Official-Stable-avalon-20251216-1833.zip/download",
-        "version": "16.0",
-        "datetime": 1765890010
+        "size": 3762831679,
+        "url": "https://sourceforge.net/projects/avalon-builds/files/DerpFest/DerpFest-16.2-Official-Stable-avalon-20260407-2126.zip/download",
+        "version": "16.2",
+        "datetime": 1775577327
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/amanrajOO7/derpfest_avalon/16.0/changelog_avalon.txt",
       "sources": [
         {
           "repoFolder": "repo_avalon",
           "filePath": "repo_avalon/avalon.json"
+        }
+      ]
+    },
+    {
+      "codename": "lexus",
+      "aliases": [
+        "OnePlus Nord 5"
+      ],
+      "displayName": "OnePlus Nord 5",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.0-20260110-lexus-Official-Stable.zip",
+        "id": "63f109171cc99de3a5747884bf2091aae77064cfaf99ca6e52916426cb251370",
+        "romtype": "Official",
+        "size": 3561043837,
+        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-lexus/16/20260110/DerpFest-v16.0-20260110-lexus-Official-Stable.zip/download",
+        "version": "v16.0",
+        "datetime": 1768032384
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lexus.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/lexus.json"
         }
       ]
     },
@@ -1388,6 +1532,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/marble.json"
+        }
+      ]
+    },
+    {
+      "codename": "onyx",
+      "aliases": [
+        "Poco F7"
+      ],
+      "displayName": "Poco F7",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260215-onyx-Official-Beta.zip",
+        "id": "5ee150dc28e5fc0d8e6624e6e6eccbb0602e027f9fb7ea3fcc3549d8c3350189",
+        "romtype": "Official",
+        "size": 4514534970,
+        "url": "https://sourceforge.net/projects/derpfest/files/onyx/DerpFest-v16.2-20260215-onyx-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1771145752
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_onyx.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/onyx.json"
         }
       ]
     },
@@ -1864,13 +2032,13 @@
       "displayName": "Redmi Note 10 Pro & Pro Max",
       "maintainer": "Unknown",
       "latest": {
-        "filename": "DerpFest-14-Official-Stable-sweet-20240526.zip",
-        "id": "bab41910f105116001fbc297f0a6069847c2c78467213a1ca43f00fc6bc587a7",
+        "filename": "DerpFest-v16.0-20260101-sweet-Official-Stable.zip",
+        "id": "62f1bf3024af7ec8295e9ff5ab839a8c6f07531f7f8dc0339e9e51701dbff7f0",
         "romtype": "Official",
-        "size": 2533248055,
-        "url": "https://sourceforge.net/projects/derpfest/files/sweet/DerpFest-14-Official-Stable-sweet-20240526.zip/download",
-        "version": "14",
-        "datetime": 1716753997
+        "size": 2448131359,
+        "url": "https://drive.google.com/drive/folders/1Kz7f5xlro9WBfuotXxvp8bVNDSO-dHh0?usp=drive_link",
+        "version": "16",
+        "datetime": 1767247920
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_sweet.txt",
       "sources": [
@@ -2013,13 +2181,13 @@
       "displayName": "Redmi Note 7 Pro",
       "maintainer": "Selfmuser",
       "latest": {
-        "filename": "DerpFest-v16.0-20251012-violet-Official-Stable.zip",
-        "id": "37b02ccff52a3a1f3716f9312539d8f4b18d410e377502f9ba27df9d11ddba96",
+        "filename": "DerpFest-v16.2-20260315-violet-Official-Beta.zip",
+        "id": "75672af505e409c3b30802a6912c65f1390564efb407dfdda3ee7adae5575e76",
         "romtype": "Official",
-        "size": 2321614609,
-        "url": "https://sourceforge.net/projects/derpfest/files/violet/DerpFest-v16.0-20251012-violet-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1760253602
+        "size": 2333049448,
+        "url": "https://sourceforge.net/projects/derpfest/files/violet/DerpFest-v16.2-20260315-violet-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1773544753
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_violet.txt",
       "sources": [
@@ -2737,13 +2905,13 @@
       "displayName": "Xiaomi 11T Pro",
       "maintainer": "0mar",
       "latest": {
-        "filename": "DerpFest-v16.0-20251217-vili-Official-Stable.zip",
-        "id": "7ee51e8479c510331f96542e1d81cc01e220bababc9584e554cdfb0aa34904ad",
+        "filename": "DerpFest-v16.2-20260404-vili-Official-Beta.zip",
+        "id": "e87e5bea1661add289d43f3d44db9b050b7b5d3d6fad24af4939ea201a482ed4",
         "romtype": "Official",
-        "size": 2738447309,
-        "url": "https://sourceforge.net/projects/derpfest/files/vili/DerpFest-v16.0-20251217-vili-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1765931068
+        "size": 3021872558,
+        "url": "https://sourceforge.net/projects/derpfest/files/vili/DerpFest-v16.2-20260404-vili-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1775236565
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_vili.txt",
       "sources": [
@@ -2911,13 +3079,13 @@
       "displayName": "Xiaomi Mi 9T",
       "maintainer": "Adrian (adi20_01)",
       "latest": {
-        "filename": "DerpFest-v16.0-20251108-davinci-Official-Stable.zip",
-        "id": "0599a81f1a869e7ea8aa684eb9fc7bf81d56c905d3b247424b5b9290312bf50b",
+        "filename": "DerpFest-v16.2-20260407-davinci-Official-Beta.zip",
+        "id": "f98b1c1b89d4500d735968b3dddae72da1ed14a3e987cee76f6a1c2191169283",
         "romtype": "Official",
-        "size": 2424412465,
-        "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.0-20251108-davinci-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1762608799
+        "size": 2673681739,
+        "url": "https://sourceforge.net/projects/derpfest/files/davinci/DerpFest-v16.2-20260407-davinci-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1775518070
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_davinci.txt",
       "sources": [
@@ -2983,13 +3151,13 @@
       "displayName": "Xiaomi Pad 6",
       "maintainer": "Glitch Wraith",
       "latest": {
-        "filename": "DerpFest-v16.0-20251115-pipa-Official-Stable.zip",
-        "id": "bef49b04608000c8880a57b97d339e34bae1d2493113e6c3cca3f50d15b86922",
+        "filename": "DerpFest-v16.2-20260318-pipa-Official-Beta.zip",
+        "id": "fe0f36cf68049c1649ac9fef94279549791ca6541094a8738f766bbe877cce1b",
         "romtype": "Official",
-        "size": 1768698022,
-        "url": "https://sourceforge.net/projects/derpfest/files/pipa/DerpFest-v16.0-20251115-pipa-Official-Stable.zip/download",
-        "version": "v16.0",
-        "datetime": 1763211783
+        "size": 2315614525,
+        "url": "https://sourceforge.net/projects/pipa/files/DerpFest/DerpFest-v16.2-20260318-pipa-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1773838968
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pipa.txt",
       "sources": [

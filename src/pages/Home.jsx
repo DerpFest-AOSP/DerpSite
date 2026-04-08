@@ -49,6 +49,30 @@ const featureShowcase = [
       imageOverlay: false,
       layout: 'landscape'
    },
+   {
+      title: 'Gradient Volume Slider',
+      subtitle: 'Volume controls, gradient tinted',
+      description: 'Volume slider styled with gradient tint for a cohesive Material You look. One of the features we shipped for the Android community.',
+      accent: 'from-[#33bbff] to-[#1de099]',
+      image: './img/5190896052771427113.jpg',
+      imageAlt: 'DerpFest volume slider in gradient tinted style',
+   },
+   {
+      title: 'Caddy',
+      subtitle: 'App drawer grouping',
+      description: 'Group applications in the app drawer. Ported from Lawnchair launcher into DerpFest launcher, based on AOSP Launcher3.',
+      accent: 'from-[#1de099] to-[#33bbff]',
+      image: './img/5467634951864913145.jpg',
+      imageAlt: 'DerpFest Caddy app drawer grouping',
+   },
+   {
+      title: 'Status Bar Clock Background',
+      subtitle: 'Clock chip styles',
+      description: 'Choose status bar clock background chip styles from a dedicated picker. Forward ported from Rising OS source with improved colors and settings preferences.',
+      accent: 'from-[#1de099] to-[#33bbff]',
+      image: './img/5233574769129625083.jpg',
+      imageAlt: 'DerpFest status bar clock background chip style picker',
+   },
 ];
 
 const Home = () => {
@@ -73,12 +97,12 @@ const Home = () => {
                      </p>
                      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-10">
                         <Link to="/devices">
-                           <button className="btn btn-lg px-8 py-4 text-lg font-semibold bg-gradient-to-r from-[#33bbff] to-[#1de099] hover:from-[#1de099] hover:to-[#33bbff] border-0 text-white shadow-2xl hover:shadow-[#33bbff]/25 transition-all duration-300 hover:scale-105 pulse-glow">
+                           <button className="btn btn-lg px-8 py-4 text-lg font-semibold rounded-full bg-gradient-to-r from-[#33bbff] to-[#1de099] hover:from-[#1de099] hover:to-[#33bbff] border-0 text-white shadow-2xl hover:shadow-[#33bbff]/25 transition-all duration-300 hover:scale-105 pulse-glow">
                               Download Now
                            </button>
                         </Link>
                         <Link to="/screenshots">
-                           <button className="btn btn-lg px-8 py-4 text-lg font-semibold bg-transparent border-2 border-white/20 text-white hover:bg-white/10 hover:border-white/40 transition-all duration-300 hover:scale-105 backdrop-blur-sm">
+                           <button className="btn btn-lg px-8 py-4 text-lg font-semibold rounded-full bg-transparent border-2 border-white/20 text-white hover:bg-white/10 hover:border-white/40 transition-all duration-300 hover:scale-105 backdrop-blur-sm">
                               View Screenshots
                            </button>
                         </Link>
