@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T01:08:27.325Z",
+  "generated_at": "2026-04-09T00:58:25.464Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -30,6 +30,34 @@
     "Xiaomi"
   ],
   "devices": [
+    {
+      "codename": "rango",
+      "aliases": [
+        "Google Pixel 10 Pro Fold"
+      ],
+      "oem": [
+        "Google"
+      ],
+      "maintainer": "Cody Smith",
+      "support_group": "https://t.me/+R2JofWfo_6RjODE7",
+      "status": "Active",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260408-rango-Official-Stable.zip",
+        "id": "126ea6497f8322fcb917b2d6ac56e353eb9001aa5432af96c6982ef62d9918dd",
+        "romtype": "Official",
+        "size": 2493498075,
+        "url": "https://sourceforge.net/projects/derpfest/files/rango/DerpFest-v16.2-20260408-rango-Official-Stable.zip/download",
+        "version": "16.2",
+        "datetime": 1775629691
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rango.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/rango.json"
+        }
+      ]
+    },
     {
       "codename": "panther",
       "aliases": [
@@ -195,34 +223,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/akita.json"
-        }
-      ]
-    },
-    {
-      "codename": "comet",
-      "aliases": [
-        "Google Pixel 9 Pro Fold"
-      ],
-      "oem": [
-        "Google"
-      ],
-      "maintainer": "Cody Smith",
-      "support_group": null,
-      "status": "Active",
-      "latest": {
-        "filename": "DerpFest-v16.2-20260313-comet-Official-Beta.zip",
-        "id": "a06fb891e45f3bbe8839ff1799deab668a1b6c5b6fae5406f0acd6ae68f58df8",
-        "romtype": "Official",
-        "size": 2540256550,
-        "url": "https://sourceforge.net/projects/derpfest/files/comet/DerpFest-v16.2-20260313-comet-Official-Beta.zip/download",
-        "version": "16.2",
-        "datetime": 1773413783
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_comet.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/comet.json"
         }
       ]
     },
