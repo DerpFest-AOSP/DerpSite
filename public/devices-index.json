@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T12:36:49.909Z",
+  "generated_at": "2026-04-30T16:50:37.209Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1466,15 +1466,15 @@
         "OnePlus Nord 5"
       ],
       "displayName": "OnePlus Nord 5",
-      "maintainer": "Unknown",
+      "maintainer": "DaViDev985",
       "latest": {
-        "filename": "DerpFest-v16.2-20260407-lexus-Official-Stable.zip",
-        "id": "86550f556b452b1dcc281f33b61f73a2f82b74e9d7f22679d6d13e7e3dc86f8a",
+        "filename": "DerpFest-v16.2-20260427-lexus-Official-Stable.zip",
+        "id": "573a35025ce33dfdc614be413f7118c192715c93340fae66012cadeb4c1a6f2f",
         "romtype": "Official",
-        "size": 3968107829,
-        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-lexus/16/20260408/DerpFest-v16.2-20260407-lexus-Official-Stable.zip/download",
+        "size": 4055598041,
+        "url": "https://sourceforge.net/projects/derpfest/files/lexus/20260427/DerpFest-v16.2-20260427-lexus-Official-Stable.zip/download",
         "version": "v16.2",
-        "datetime": 1775584924
+        "datetime": 1777271615
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lexus.txt",
       "sources": [
