@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T01:27:10.292Z",
+  "generated_at": "2026-05-01T01:30:05.993Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -513,34 +513,6 @@
       ]
     },
     {
-      "codename": "pstar",
-      "aliases": [
-        "Motorola Edge 20 Pro"
-      ],
-      "oem": [
-        "Motorola"
-      ],
-      "maintainer": "Vulkan (@vullk4n)",
-      "support_group": null,
-      "status": "Discontinued",
-      "latest": {
-        "filename": "DerpFest-v16.2-20260418-pstar-Official-Stable.zip",
-        "id": "cce03835a513a78271d16241684a3f71bfd5fa06b681c3cec52bf4fe05138d20",
-        "romtype": "Official",
-        "size": 2203785160,
-        "url": "https://sourceforge.net/projects/derpfest/files/pstar/DerpFest-v16.2-20260418-pstar-Official-Stable.zip/download",
-        "version": "16.2",
-        "datetime": 1776559878
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pstar.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/pstar.json"
-        }
-      ]
-    },
-    {
       "codename": "rtwo",
       "aliases": [
         "Motorola Edge 40 Pro",
@@ -567,35 +539,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/rtwo.json"
-        }
-      ]
-    },
-    {
-      "codename": "nio",
-      "aliases": [
-        "Motorola Edge S",
-        "Motorola Moto G100"
-      ],
-      "oem": [
-        "Motorola"
-      ],
-      "maintainer": "Vulkan (@vullk4n)",
-      "support_group": null,
-      "status": "Discontinued",
-      "latest": {
-        "filename": "DerpFest-v16.2-20260419-nio-Official-Stable.zip",
-        "id": "52154854d87f8855a6b66603bf6b4089fc1ab4aaf7c7295d56161e00aec18b2e",
-        "romtype": "Official",
-        "size": 2207177667,
-        "url": "https://sourceforge.net/projects/derpfest/files/nio/DerpFest-v16.2-20260419-nio-Official-Stable.zip/download",
-        "version": "16.2",
-        "datetime": 1776570820
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_nio.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/nio.json"
         }
       ]
     },
@@ -1154,34 +1097,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/martini.json"
-        }
-      ]
-    },
-    {
-      "codename": "lexus",
-      "aliases": [
-        "OnePlus Nord 5"
-      ],
-      "oem": [
-        "OnePlus"
-      ],
-      "maintainer": "Yaznas",
-      "support_group": null,
-      "status": "Discontinued",
-      "latest": {
-        "filename": "DerpFest-v16.2-20260407-lexus-Official-Stable.zip",
-        "id": "86550f556b452b1dcc281f33b61f73a2f82b74e9d7f22679d6d13e7e3dc86f8a",
-        "romtype": "Official",
-        "size": 3968107829,
-        "url": "https://sourceforge.net/projects/yaz-a15-builds/files/derpfest-lexus/16/20260408/DerpFest-v16.2-20260407-lexus-Official-Stable.zip/download",
-        "version": "16.2",
-        "datetime": 1775584924
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lexus.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/lexus.json"
         }
       ]
     },
