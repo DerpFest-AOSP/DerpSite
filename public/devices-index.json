@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T12:24:56.196Z",
+  "generated_at": "2026-05-02T00:42:55.448Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1444,13 +1444,13 @@
       "displayName": "OnePlus Nord 4",
       "maintainer": "Aman Singh (iamansingh)",
       "latest": {
-        "filename": "DerpFest-16.2-Official-Stable-avalon-20260407-2126.zip",
-        "id": "6b04b9f095a6ffc6fae96286fe4d701266e8c576a6ccf5b1e50c9cf1afbe0ba2",
+        "filename": "DerpFest-16.2-Official-Stable-avalon-20260501-2127.zip",
+        "id": "57a29390b70e4f58b9c19eafb7f0a750b7ed8e74461de99fc776fb3b7f65e32c",
         "romtype": "Official",
-        "size": 3762831679,
-        "url": "https://sourceforge.net/projects/avalon-builds/files/DerpFest/DerpFest-16.2-Official-Stable-avalon-20260407-2126.zip/download",
+        "size": 3767965015,
+        "url": "https://sourceforge.net/projects/avalon-builds/files/DerpFest/DerpFest-16.2-Official-Stable-avalon-20260501-2127.zip/download",
         "version": "16.2",
-        "datetime": 1775577327
+        "datetime": 1777651022
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/amanrajOO7/derpfest_avalon/16.0/changelog_avalon.txt",
       "sources": [
