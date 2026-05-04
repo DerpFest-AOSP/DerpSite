@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T12:21:14.578Z",
+  "generated_at": "2026-05-04T00:44:10.579Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -2486,30 +2486,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/a505fn.json"
-        }
-      ]
-    },
-    {
-      "codename": "a52sxq",
-      "aliases": [
-        "Samsung Galaxy A52s 5G"
-      ],
-      "displayName": "Samsung Galaxy A52s 5G",
-      "maintainer": "Genoxci",
-      "latest": {
-        "filename": "DerpFest-v16.0-20250820-a52sxq-Official-Stable.zip",
-        "id": "b19359492eb2f7ea1d7cdd9ffc0b7343ccc7d305275c06caec2277bf8e94a67f",
-        "romtype": "Official",
-        "size": 2000743311,
-        "url": "https://drive.google.com/drive/folders/1e1HSPBmAVy8rgDLs7Cu8zyoRAfjhABzP?usp=sharing",
-        "version": "v16.0",
-        "datetime": 1755700598
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_a52sxq.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/a52sxq.json"
         }
       ]
     },
