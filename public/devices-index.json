@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T00:44:05.536Z",
+  "generated_at": "2026-05-07T12:42:53.067Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -85,6 +85,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/X01BD.json"
+        }
+      ]
+    },
+    {
+      "codename": "chime",
+      "aliases": [
+        "chime"
+      ],
+      "displayName": "chime",
+      "maintainer": "Unknown",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260506-chime-Official-Beta.zip",
+        "id": "b4015ee7ffc471727172afb1b6ea5942903535c70f378c8cb700049c82bbc47a",
+        "romtype": "Official",
+        "size": 2638188576,
+        "url": "https://sourceforge.net/projects/derpfest/files/chime/DerpFest-v16.2-20260506-chime-Official-Beta.zip/download",
+        "version": "v16.2",
+        "datetime": 1778099009
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_chime.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/chime.json"
         }
       ]
     },
