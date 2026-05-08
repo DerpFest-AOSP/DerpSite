@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T01:26:55.740Z",
+  "generated_at": "2026-05-08T01:29:22.822Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -26,6 +26,7 @@
     "Motorola",
     "Nothing",
     "OnePlus",
+    "POCO",
     "Redmi",
     "Samsung",
     "Xiaomi"
@@ -770,6 +771,65 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/onyx.json"
+        }
+      ]
+    },
+    {
+      "codename": "chime",
+      "aliases": [
+        "POCO M3",
+        "Redmi 9T",
+        "Redmi 9 Power"
+      ],
+      "oem": [
+        "POCO",
+        "Redmi"
+      ],
+      "maintainer": "hac4us06",
+      "support_group": "t.me/ashhcafe",
+      "status": "Active",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260506-chime-Official-Beta.zip",
+        "id": "b4015ee7ffc471727172afb1b6ea5942903535c70f378c8cb700049c82bbc47a",
+        "romtype": "Official",
+        "size": 2638188576,
+        "url": "https://sourceforge.net/projects/derpfest/files/chime/DerpFest-v16.2-20260506-chime-Official-Beta.zip/download",
+        "version": "16.2",
+        "datetime": 1778099009
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_chime.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/chime.json"
+        }
+      ]
+    },
+    {
+      "codename": "citrus",
+      "aliases": [
+        "POCO M3",
+        "Redmi 9T",
+        "Redmi 9 Power"
+      ],
+      "oem": [],
+      "maintainer": "Unknown",
+      "support_group": null,
+      "status": "Active",
+      "latest": {
+        "filename": "DerpFest-14-Official-Stable-citrus-20240610.zip",
+        "id": "c60b7a79c0a3479523a7b3828d353a936a2ebfe90bc1600ba932f045300d834f",
+        "romtype": "Official",
+        "size": 2214104039,
+        "url": "https://sourceforge.net/projects/derpfest/files/citrus/DerpFest-14-Official-Stable-citrus-20240610.zip/download",
+        "version": "14",
+        "datetime": 1717609675
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_citrus.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/citrus.json"
         }
       ]
     },

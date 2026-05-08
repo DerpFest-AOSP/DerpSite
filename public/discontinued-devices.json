@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T01:26:55.740Z",
+  "generated_at": "2026-05-08T01:29:22.822Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1159,37 +1159,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/marble.json"
-        }
-      ]
-    },
-    {
-      "codename": "citrus",
-      "aliases": [
-        "POCO M3",
-        "Redmi 9T",
-        "Redmi 9 Power"
-      ],
-      "oem": [
-        "POCO",
-        "Redmi"
-      ],
-      "maintainer": "hac4us06",
-      "support_group": null,
-      "status": "Discontinued",
-      "latest": {
-        "filename": "DerpFest-14-Official-Stable-citrus-20240610.zip",
-        "id": "c60b7a79c0a3479523a7b3828d353a936a2ebfe90bc1600ba932f045300d834f",
-        "romtype": "Official",
-        "size": 2214104039,
-        "url": "https://sourceforge.net/projects/derpfest/files/citrus/DerpFest-14-Official-Stable-citrus-20240610.zip/download",
-        "version": "14",
-        "datetime": 1717609675
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_citrus.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/citrus.json"
         }
       ]
     },
