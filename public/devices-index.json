@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T12:41:30.459Z",
+  "generated_at": "2026-05-16T00:43:54.454Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -648,13 +648,13 @@
       "displayName": "Motorola Edge 20 Pro",
       "maintainer": "vullk4n",
       "latest": {
-        "filename": "DerpFest-v16.2-20260430-pstar-Official-Stable.zip",
-        "id": "143a46f136606286fae285dddafb11eef7299bd58ecc5614a0f58c8efed01fe0",
+        "filename": "DerpFest-v16.2-20260514-pstar-Official-Stable.zip",
+        "id": "284c2fe45365b3d1604ee187522430aa9082727008ad4b1be8b5b3fdc2007680",
         "romtype": "Official",
-        "size": 2220679515,
-        "url": "https://sourceforge.net/projects/derpfest/files/pstar/DerpFest-v16.2-20260430-pstar-Official-Stable.zip/download",
+        "size": 2208680918,
+        "url": "https://sourceforge.net/projects/derpfest/files/pstar/DerpFest-v16.2-20260514-pstar-Official-Stable.zip/download",
         "version": "v16.2",
-        "datetime": 1777518635
+        "datetime": 1778810534
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_pstar.txt",
       "sources": [
@@ -673,13 +673,13 @@
       "displayName": "Motorola Edge S",
       "maintainer": "vullk4n",
       "latest": {
-        "filename": "DerpFest-v16.2-20260430-nio-Official-Stable.zip",
-        "id": "58daee4b14fafdbb43150ab5b5384aed43cd8d7fee5516ab3bc49e693e96293b",
+        "filename": "DerpFest-v16.2-20260515-nio-Official-Stable.zip",
+        "id": "5ebad81c78ca3bbe9592020366ce5dab3838c51f1bdf85bbe64a5d8f61787d01",
         "romtype": "Official",
-        "size": 2224392956,
-        "url": "https://sourceforge.net/projects/derpfest/files/nio/DerpFest-v16.2-20260430-nio-Official-Stable.zip/download",
+        "size": 2212019863,
+        "url": "https://sourceforge.net/projects/derpfest/files/nio/DerpFest-v16.2-20260515-nio-Official-Stable.zip/download",
         "version": "v16.2",
-        "datetime": 1777565480
+        "datetime": 1778860750
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_nio.txt",
       "sources": [
