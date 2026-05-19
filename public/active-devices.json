@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T01:54:06.142Z",
+  "generated_at": "2026-05-19T01:53:38.173Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -297,13 +297,13 @@
       "support_group": null,
       "status": "Active",
       "latest": {
-        "filename": "DerpFest-v16.2-20260412-Pacman-Official-Beta.zip",
-        "id": "8678406c48e53f2413e649339c06242d0c9c16c0f8b1ef0e88f1c3c589153937",
+        "filename": "DerpFest-v16.2-20260518-Pacman-Official-Stable.zip",
+        "id": "b3b1b950f4cf16adbc1b54bf44f74648e82cb85a963afc0999127b913a80a477",
         "romtype": "Official",
-        "size": 2591453576,
-        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQDHXFF0a3T7SJTaTS_Yj6C4ARXuj4LRoxgvPfHlNBu_nUA?e=avY8v7",
+        "size": 2620179344,
+        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQCjfWI9Yy4tQ5H8tLZMj-n6ARy45q3FQG1QfdJTsGC2ToQ?e=56kZQL",
         "version": "16.2",
-        "datetime": 1775994140
+        "datetime": 1779102007
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Pacman.txt",
       "sources": [
@@ -325,13 +325,13 @@
       "support_group": null,
       "status": "Active",
       "latest": {
-        "filename": "DerpFest-v16.2-20260412-PacmanPro-Official-Beta.zip",
-        "id": "c062a936a5943827090208ded79f5c0aa114b23d0dedec94fe91f72b878b1906",
+        "filename": "DerpFest-v16.2-20260518-PacmanPro-Official-Stable.zip",
+        "id": "e0f63cedb694d8632e9356e78faec887644278c1628c15ea911db30f08cb8430",
         "romtype": "Official",
-        "size": 2591501107,
-        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQAQC6b3LpMBRa04x33J3gmEAYkz011gdjti7Cz3I7f1cFQ?e=1tZvxK",
+        "size": 2620219608,
+        "url": "https://itraps-my.sharepoint.com/:u:/g/personal/public_builds_itraps_onmicrosoft_com/IQD_QmmoK4TgQ6h7ORwU0O2KAXttCsLUNwRj69Zz_oVgXtA?e=RaoD1A",
         "version": "16.2",
-        "datetime": 1775994694
+        "datetime": 1779112680
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_PacmanPro.txt",
       "sources": [
