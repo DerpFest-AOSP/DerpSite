@@ -1,465 +1,173 @@
 [
-   {
+  {
     "codename": "instantnoodlep",
-    "aliases": [
-        "OnePlus 8 Pro"
-    ],
-    "displayName": "OnePlus 8 Pro",
-    "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16.2",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+iArCVx0Ly2YwMDM1",
-        "version": "16.2",
-        "datetime": 1
+      "url": "https://t.me/+iArCVx0Ly2YwMDM1",
+      "version": "16.2",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
     "codename": "instantnoodle",
-    "aliases": [
-        "OnePlus 8"
-    ],
-    "displayName": "OnePlus 8",
-    "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16.2",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+iArCVx0Ly2YwMDM1",
-        "version": "16.2",
-        "datetime": 1
+      "url": "https://t.me/+iArCVx0Ly2YwMDM1",
+      "version": "16.2",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
-    "_comment": "actually codename is just \"kebab\"",
-    "codename": "lemonkebab", 
-    "aliases": [
-        "OnePlus 8T"
-    ],
-    "displayName": "OnePlus 8T",
-    "maintainer": "P.A.N.Z.",
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
+    "codename": "lemonkebab",
     "latest": {
-        "filename": "DerpFest 16.2",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+Q63yzL3pOyswNDZk",
-        "version": "16.2",
-        "datetime": 1
+      "url": "https://t.me/+Q63yzL3pOyswNDZk",
+      "version": "16.2",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
-    "codename": "nabu", 
-    "aliases": [
-        "Xiaomi Pad 5"
-    ],
-    "displayName": "Xiaomi Pad 5",
-    "maintainer": "P.A.N.Z.",
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
+    "codename": "nabu",
     "latest": {
-        "filename": "DerpFest 16",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+Zsuj5CErroUzNzhk",
-        "version": "16",
-        "datetime": 1
+      "url": "https://t.me/+Zsuj5CErroUzNzhk",
+      "version": "16",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
-    "codename": "waffle", 
-    "aliases": [
-        "OnePlus 12"
-    ],
-    "displayName": "OnePlus 12",
-    "maintainer": "P.A.N.Z.",
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
+    "codename": "waffle",
     "latest": {
-        "filename": "DerpFest 16.2",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+lFmFwuv9tms5ZDRk",
-        "version": "16.2",
-        "datetime": 1
+      "url": "https://t.me/+lFmFwuv9tms5ZDRk",
+      "version": "16.2",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
-    "codename": "gta4xlwifi", 
-    "aliases": [
-        "Samsung Galaxy Tab S6 Lite Exynos Wi-Fi"
-    ],
-    "displayName": "Samsung Galaxy Tab S6 Lite Exynos Wi-Fi",
-    "maintainer": "P.A.N.Z.",
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
+    "codename": "gta4xlwifi",
     "latest": {
-        "filename": "DerpFest 16",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+2x_c7EzzhlI5ZDY0",
-        "version": "16",
-        "datetime": 1
+      "url": "https://t.me/+2x_c7EzzhlI5ZDY0",
+      "version": "16",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
-    "codename": "gta4xl", 
-    "aliases": [
-        "Samsung Galaxy Tab S6 Lite Exynos LTE"
-    ],
-    "displayName": "Samsung Galaxy Tab S6 Lite Exynos LTE",
-    "maintainer": "P.A.N.Z.",
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
+    "codename": "gta4xl",
     "latest": {
-        "filename": "DerpFest 16",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+2x_c7EzzhlI5ZDY0",
-        "version": "16",
-        "datetime": 1
+      "url": "https://t.me/+2x_c7EzzhlI5ZDY0",
+      "version": "16",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
-    "codename": "fajita", 
-    "aliases": [
-        "OnePlus 6T"
-    ],
-    "displayName": "OnePlus 6T",
-    "maintainer": "P.A.N.Z.",
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
+    "codename": "fajita",
     "latest": {
-        "filename": "DerpFest 16",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+EZs6t2jBM7Q1NTg0",
-        "version": "16",
-        "datetime": 1
+      "url": "https://t.me/+EZs6t2jBM7Q1NTg0",
+      "version": "16",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
-    "codename": "enchilada", 
-    "aliases": [
-        "OnePlus 6"
-    ],
-    "displayName": "OnePlus 6",
-    "maintainer": "P.A.N.Z.",
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
+    "codename": "enchilada",
     "latest": {
-        "filename": "DerpFest 16",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+L84wpssTQR5iYTY0",
-        "version": "16",
-        "datetime": 1
+      "url": "https://t.me/+L84wpssTQR5iYTY0",
+      "version": "16",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
-    "codename": "guacamoleb", 
-    "aliases": [
-        "OnePlus 7"
-    ],
-    "displayName": "OnePlus 7",
-    "maintainer": "P.A.N.Z.",
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
+    "codename": "guacamoleb",
     "latest": {
-        "filename": "DerpFest 16.2",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
-        "version": "16.2",
-        "datetime": 1
+      "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
+      "version": "16.2",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
-    "codename": "guacamole", 
-    "aliases": [
-        "OnePlus 7 Pro"
-    ],
-    "displayName": "OnePlus 7 Pro",
-    "maintainer": "P.A.N.Z.",
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
+    "codename": "guacamole",
     "latest": {
-        "filename": "DerpFest 16.2",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
-        "version": "16.2",
-        "datetime": 1
+      "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
+      "version": "16.2",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
-    "codename": "hotdogb", 
-    "aliases": [
-        "OnePlus 7T"
-    ],
-    "displayName": "OnePlus 7T",
-    "maintainer": "P.A.N.Z.",
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
+    "codename": "hotdogb",
     "latest": {
-        "filename": "DerpFest 16.2",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
-        "version": "16.2",
-        "datetime": 1
+      "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
+      "version": "16.2",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
-    "codename": "hotdog", 
-    "aliases": [
-        "OnePlus 7T Pro"
-    ],
-    "displayName": "OnePlus 7T Pro",
-    "maintainer": "P.A.N.Z.",
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
+    "codename": "hotdog",
     "latest": {
-        "filename": "DerpFest 16.2",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
-        "version": "16.2",
-        "datetime": 1
+      "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
+      "version": "16.2",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
     "codename": "cupid",
-    "aliases": [
-        "Xiaomi 12"
-    ],
-    "displayName": "Xiaomi 12",
-    "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16.2",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+nEq4vgkUTGxiOTA0",
-        "version": "16.2",
-        "datetime": 1
+      "url": "https://t.me/+nEq4vgkUTGxiOTA0",
+      "version": "16.2",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
     "codename": "diting",
-    "aliases": [
-        "Xiaomi 12T Pro",
-        "Redmi K50 Ultra"
-    ],
-    "displayName": "Xiaomi 12T Pro | Redmi K50 Ultra",
-    "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16.2",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/+nEq4vgkUTGxiOTA0",
-        "version": "16.2",
-        "datetime": 1
+      "url": "https://t.me/+nEq4vgkUTGxiOTA0",
+      "version": "16.2",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
     "codename": "panther",
-    "aliases": [
-        "Google Pixel 7"
-    ],
-    "displayName": "Google Pixel 7",
-    "maintainer": "Sean Dabes",
     "latest": {
-        "filename": "DerpFest 16",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3AQF1Tl0hb2kvIiKo_60sAYY?e=Awcg8C",
-        "version": "16",
-        "datetime": 1
+      "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3AQF1Tl0hb2kvIiKo_60sAYY?e=Awcg8C",
+      "version": "16",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
     "codename": "cheetah",
-    "aliases": [
-        "Google Pixel 7 Pro"
-    ],
-    "displayName": "Google Pixel 7 Pro",
-    "maintainer": "Sean Dabes",
     "latest": {
-        "filename": "DerpFest 16",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3AQF1Tl0hb2kvIiKo_60sAYY?e=Awcg8C",
-        "version": "16",
-        "datetime": 1
+      "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3AQF1Tl0hb2kvIiKo_60sAYY?e=Awcg8C",
+      "version": "16",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
     "codename": "lynx",
-    "aliases": [
-        "Google Pixel 7a"
-    ],
-    "displayName": "Google Pixel 7a",
-    "maintainer": "Sean Dabes",
     "latest": {
-        "filename": "DerpFest 16",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3AQF1Tl0hb2kvIiKo_60sAYY?e=Awcg8C",
-        "version": "16",
-        "datetime": 1
+      "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3AQF1Tl0hb2kvIiKo_60sAYY?e=Awcg8C",
+      "version": "16",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   },
-   {
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  },
+  {
     "codename": "RM6785",
-    "aliases": [
-        "Realme 6",
-        "Realme 6i (Indian)",
-        "Realme 6s",
-        "Realme 7",
-        "Narzo 20 Pro",
-        "Narzo 30 4G"
-    ],
-    "displayName": "RM6785",
-    "maintainer": "MeowDroider",
     "latest": {
-        "filename": "DerpFest 16.2",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://t.me/derprm6785",
-        "version": "16.2",
-        "datetime": 1
+      "url": "https://t.me/derprm6785",
+      "version": "16.2",
+      "datetime": null
     },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
-        }
-    ]
-   }
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt"
+  }
 ]

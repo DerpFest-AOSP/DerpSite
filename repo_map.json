@@ -1,4 +1,5 @@
 [
   {"path":"repo_primary","owner":"DerpFest-AOSP","repo":"Updater-Stuff","branch":"master"},
-  {"path":"repo_avalon","owner":"amanrajOO7","repo":"derpfest_avalon","branch":"16.0"}
+  {"path":"repo_no-ota","owner":"DerpFest-AOSP","repo":"Updater-Stuff","branch":"no-ota"},
+  {"path":"repo_amanraj007","owner":"amanrajOO7","repo":"derpfest_avalon","branch":"16.0"}
 ]
