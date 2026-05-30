@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T13:10:33.603Z",
+  "generated_at": "2026-05-30T00:49:57.480Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -3151,13 +3151,13 @@
       "displayName": "Xiaomi Mi Note 10 Lite",
       "maintainer": "Dennis Murimi (AndroidHQ254)",
       "latest": {
-        "filename": "DerpFest-v16.2-20260423-toco-Official-Stable.zip",
-        "id": "2cb769e22318f73e0791922c4a0cce001e78d765a7b836ca448bd47a27840dab",
+        "filename": "DerpFest-v16.2-20260528-toco-Official-Stable.zip",
+        "id": "4604d6e55ac28ceabe612cc8e97a4d68dd372402d13064916a12ca510f2130db",
         "romtype": "Official",
-        "size": 2860195094,
-        "url": "https://sourceforge.net/projects/derpfest/files/toco/DerpFest-v16.2-20260423-toco-Official-Stable.zip/download",
+        "size": 2856777909,
+        "url": "https://sourceforge.net/projects/derpfest/files/toco/DerpFest-v16.2-20260528-toco-Official-Stable.zip/download",
         "version": "v16.2",
-        "datetime": 1776931687
+        "datetime": 1779904044
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_toco.txt",
       "sources": [
