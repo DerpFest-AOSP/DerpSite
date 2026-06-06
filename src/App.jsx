@@ -3,6 +3,7 @@ import { Routes, Route, useLocation, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import Navbar from './components/js/Navbar'
 import Footer from './components/js/Footer'
+import ContributionNotice from './components/js/ContributionNotice'
 import Build from './pages/Build'
 import Credit from './pages/Credit'
 import Devices from './pages/Devices'
@@ -47,6 +48,7 @@ function App() {
         <Route path="/tou" element={<TOU />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
+      <ContributionNotice />
       <Footer />
     </>
   )
