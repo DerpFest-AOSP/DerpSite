@@ -37,7 +37,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="navbar shadow-md relative z-[70]">
+    <nav className="navbar shadow-md relative z-[70]" aria-label="Main navigation">
       <div className="flex-1">
         <Link to="/" className="btn btn-ghost text-xl">
           <img 
@@ -131,7 +131,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

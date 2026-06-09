@@ -1,0 +1,14 @@
+Xiaomi Pad 6 (pipa)
+glitch-wraith
+https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/refs/heads/master/pipa.json
+https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/refs/heads/master/changelog_pipa.txt
+
+Samsung Galaxy A52s 5G (a52sxq)
+genoxci-dev
+https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/refs/heads/master/a52sxq.json
+https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/refs/heads/master/changelog_a52sxq.txt
+
+OnePlus Nord (avalon)
+amanrajOO7
+https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/refs/heads/master/avalon.json
+https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/refs/heads/master/changelog_avalon.txt

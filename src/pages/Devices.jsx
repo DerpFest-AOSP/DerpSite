@@ -178,7 +178,9 @@ export default function Devices() {
       <header className="devices-hero" aria-hidden>
         <div className="devices-hero-inner">
           <h1 className="devices-title"><span className="devices-colored-a">DerpFest Downloads</span></h1>
-          <p className="devices-sub">Find your device and download official builds.</p>
+          <p className="devices-sub">
+            Find your device and download official DerpFest custom ROM builds for Android phones and tablets.
+          </p>
           <div className="devices-hero-ctas">
             <input
               value={search}

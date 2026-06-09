@@ -13,6 +13,7 @@ import NotFound from './pages/NotFound'
 import Screenshots from './pages/Screenshots'
 import Team from './pages/Team'
 import TOU from './pages/TOU'
+import PageSeo from './components/js/PageSeo'
 
 function App() {
   const location = useLocation();
@@ -36,7 +37,9 @@ function App() {
 
   return (
     <>
+      <PageSeo />
       <Navbar />
+      <main id="main-content">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/build" element={<Build />} />
@@ -48,6 +51,7 @@ function App() {
         <Route path="/tou" element={<TOU />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
+      </main>
       <ContributionNotice />
       <Footer />
     </>
