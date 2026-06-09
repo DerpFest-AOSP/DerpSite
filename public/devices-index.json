@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T00:50:12.542Z",
+  "generated_at": "2026-06-09T13:04:34.217Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -478,7 +478,7 @@
         "Google Pixel 9"
       ],
       "displayName": "Google Pixel 9",
-      "maintainer": "Unknown",
+      "maintainer": "Alexander Brunswig (NurKeinNeid)",
       "latest": {
         "filename": "DerpFest-v16.0-20250824-tokay-Official-Stable.zip",
         "id": "fc0280c75f463e0b1e045538c48c9972240e2ea32c4514943092036aaec3c560",
@@ -502,7 +502,7 @@
         "Google Pixel 9 Pro"
       ],
       "displayName": "Google Pixel 9 Pro",
-      "maintainer": "Unknown",
+      "maintainer": "Alexander Brunswig (NurKeinNeid)",
       "latest": {
         "filename": "DerpFest-v16.0-20250824-caiman-Official-Stable.zip",
         "id": "59257c23619ad4743a773735ffa6766d45ce9d4b0e52248607f21c6de68a808e",
@@ -550,7 +550,7 @@
         "Google Pixel 9 Pro XL"
       ],
       "displayName": "Google Pixel 9 Pro XL",
-      "maintainer": "Unknown",
+      "maintainer": "Alexander Brunswig (NurKeinNeid)",
       "latest": {
         "filename": "DerpFest-v16.0-20250824-komodo-Official-Stable.zip",
         "id": "fefb59da239ea8c83873e39802312182782fd6c541a05b089aad4279db4d9469",
