@@ -13,6 +13,25 @@ const Footer = () => {
                   <br />
                   Website Designed By <Link to="/credit">DerpFest Team</Link>
                </p>
+               <div className="mt-6 flex items-center gap-3">
+                  <a
+                     href="https://www.berlin.de/"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="inline-flex shrink-0 opacity-90 transition-opacity hover:opacity-100"
+                     aria-label="Berlin — official city logo"
+                  >
+                     <img
+                        src="./img/berlin-logo.png"
+                        alt="Berlin"
+                        className="h-8 w-auto"
+                        draggable="false"
+                     />
+                  </a>
+                  <p className="text-sm leading-snug text-base-content/70">
+                     Open source, made in Berlin, Germany
+                  </p>
+               </div>
             </aside>
             <nav>
                <h6 className="footer-title">Link</h6>
