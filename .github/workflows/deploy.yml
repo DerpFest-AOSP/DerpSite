@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - master
-  workflow_run:
-    workflows: ["Build Devices Index"]
-    types:
-      - completed
   workflow_dispatch:
 
 permissions:
@@ -20,17 +16,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    if: >
-      github.event_name == 'push' ||
-      github.event_name == 'workflow_dispatch' ||
-      (github.event_name == 'workflow_run' && github.event.workflow_run.name == 'Build Devices Index' && github.event.workflow_run.conclusion == 'success')
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -55,6 +42,13 @@ jobs:
         with:
           path: './dist'
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
