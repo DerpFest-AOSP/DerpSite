@@ -4,7 +4,7 @@ export const SITE_NAME = 'DerpFest'
 export const DEFAULT_SEO = {
   title: 'DerpFest | Feature Rich Android Custom ROM',
   description:
-    'DerpFest is an AOSP based custom ROM, twisted with the latest features from all over the Android development community.',
+    'Combining newest security patches, original features and wide device support, DerpFest is a product created to make your life easier and breathe some fresh air into the Android Custom ROM scene.',
   image: `${SITE_URL}/img/og-image.png`,
 }
 
