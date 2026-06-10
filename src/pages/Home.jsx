@@ -2,23 +2,6 @@ import { Link } from 'react-router-dom'
 
 const featureShowcase = [
    {
-      title: 'Accord × DynamicBar',
-      subtitle: 'Apple Music vibes, in your status bar',
-      description: (
-         <>
-            DerpFest ships{' '}
-            <a href="https://github.com/FoedusProgramme/Accord" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#33bbff] transition-colors duration-300 no-underline">Accord</a>
-            , a stunning local music player inspired by Apple Music, built by our friend FoedusProgramme. Paired with DynamicBar — an expandable status bar chip ported from{' '}
-            <a href="https://github.com/AxionAOSP" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#33bbff] transition-colors duration-300 no-underline">AxionOS</a>
-            {' '}— we brought Accord’s cinematic backdrop blur, player design, and seekbar eye candy animation into the expanded media card.
-         </>
-      ),
-      accent: 'from-[#33bbff] to-[#1de099]',
-      image: './img/5467370364699613033.jpg',
-      imageAlt: 'DerpFest Accord music player with DynamicBar expanded media card',
-      footer: 'Accord by FoedusProgramme · DynamicBar by AxionOS',
-   },
-   {
       title: 'Game Space',
       subtitle: 'Performance & focus controls',
       description: 'Curated by DerpFest for gamers: tweak GPU profiles, silence distractions, and surface critical stats without leaving your match.',
@@ -59,12 +42,21 @@ const featureShowcase = [
       imageAlt: 'DerpFest Caddy app drawer grouping',
    },
    {
-      title: 'Status Bar Clock Background',
-      subtitle: 'Clock chip styles',
-      description: 'Choose status bar clock background chip styles from a dedicated picker. Forward ported from Rising OS source with improved colors and settings preferences.',
-      accent: 'from-[#1de099] to-[#33bbff]',
-      image: './img/5233574769129625083.jpg',
-      imageAlt: 'DerpFest status bar clock background chip style picker',
+      title: 'Accord × DynamicBar',
+      subtitle: 'Apple Music vibes, in your status bar',
+      description: (
+         <>
+            DerpFest ships{' '}
+            <a href="https://github.com/FoedusProgramme/Accord" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#33bbff] transition-colors duration-300 no-underline">Accord</a>
+            , a stunning local music player inspired by Apple Music, built by our friend FoedusProgramme. Paired with DynamicBar — an expandable status bar chip ported from{' '}
+            <a href="https://github.com/AxionAOSP" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#33bbff] transition-colors duration-300 no-underline">AxionOS</a>
+            {' '}— we brought Accord’s cinematic backdrop blur, player design, and seekbar eye candy animation into the expanded media card.
+         </>
+      ),
+      accent: 'from-[#33bbff] to-[#1de099]',
+      image: './img/5467370364699613033.jpg',
+      imageAlt: 'DerpFest Accord music player with DynamicBar expanded media card',
+      footer: 'Accord by FoedusProgramme · DynamicBar by AxionOS',
    },
    {
       title: 'Accent Status Bar',
@@ -89,6 +81,14 @@ const featureShowcase = [
       imageClass: 'w-56 md:w-64 h-auto rounded-2xl border border-white/20 shadow-lg shadow-black/20 bg-black/40 p-3',
       imageOverlay: false,
       layout: 'landscape'
+   },
+   {
+      title: 'Status Bar Clock Background',
+      subtitle: 'Clock chip styles',
+      description: 'Choose status bar clock background chip styles from a dedicated picker. Forward ported from Rising OS source with improved colors and settings preferences.',
+      accent: 'from-[#1de099] to-[#33bbff]',
+      image: './img/5233574769129625083.jpg',
+      imageAlt: 'DerpFest status bar clock background chip style picker',
    },
 ];
 
