@@ -2,6 +2,23 @@ import { Link } from 'react-router-dom'
 
 const featureShowcase = [
    {
+      title: 'Accord × DynamicBar',
+      subtitle: 'Apple Music vibes, in your status bar',
+      description: (
+         <>
+            DerpFest ships{' '}
+            <a href="https://github.com/FoedusProgramme/Accord" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#33bbff] transition-colors duration-300 no-underline">Accord</a>
+            , a stunning local music player inspired by Apple Music, built by our friend FoedusProgramme. Paired with DynamicBar — an expandable status bar chip ported from{' '}
+            <a href="https://github.com/AxionAOSP" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#33bbff] transition-colors duration-300 no-underline">AxionOS</a>
+            {' '}— we brought Accord’s cinematic backdrop blur, player design, and seekbar eye candy animation into the expanded media card.
+         </>
+      ),
+      accent: 'from-[#33bbff] to-[#1de099]',
+      image: './img/5467370364699613033.jpg',
+      imageAlt: 'DerpFest Accord music player with DynamicBar expanded media card',
+      footer: 'Accord by FoedusProgramme · DynamicBar by AxionOS',
+   },
+   {
       title: 'Game Space',
       subtitle: 'Performance & focus controls',
       description: 'Curated by DerpFest for gamers: tweak GPU profiles, silence distractions, and surface critical stats without leaving your match.',
@@ -26,30 +43,6 @@ const featureShowcase = [
       imageAlt: 'DerpFest gradient quick settings tiles',
    },
    {
-      title: 'Accent Status Bar',
-      subtitle: 'Material You, actually shipped',
-      description: 'Google teased it in their Material You mock-ups; we made it real. Flip the toggle and let system accents flow right into your status bar chrome.',
-      accent: 'from-[#1de099] to-[#33bbff]',
-      image: './img/5226475742240116596.jpg',
-      imageAlt: 'DerpFest accent colored status bar toggle',
-      imageWrapperClass: 'relative flex justify-center mb-6',
-      imageClass: 'w-48 md:w-56 h-auto rounded-2xl border border-white/20 shadow-lg shadow-black/20 bg-black/40 p-4',
-      imageOverlay: false,
-      layout: 'landscape',
-   },
-   {
-      title: 'Pixel Launcher Hotseat',
-      subtitle: 'Android 16 QPR1 search style',
-      description: 'We ported the closed-source Android 16 QPR1 Pixel Launcher hotseat search bar look into our open implementation.',
-      accent: 'from-[#1de099] to-[#33bbff]',
-      image: './img/5226475742240116599.jpg',
-      imageAlt: 'DerpFest Pixel Launcher hotseat styles',
-      imageWrapperClass: 'relative flex justify-center mb-6',
-      imageClass: 'w-56 md:w-64 h-auto rounded-2xl border border-white/20 shadow-lg shadow-black/20 bg-black/40 p-3',
-      imageOverlay: false,
-      layout: 'landscape'
-   },
-   {
       title: 'Gradient Volume Slider',
       subtitle: 'Volume controls, gradient tinted',
       description: 'Volume slider styled with gradient tint for a cohesive Material You look. One of the features we shipped for the Android community.',
@@ -72,6 +65,30 @@ const featureShowcase = [
       accent: 'from-[#1de099] to-[#33bbff]',
       image: './img/5233574769129625083.jpg',
       imageAlt: 'DerpFest status bar clock background chip style picker',
+   },
+   {
+      title: 'Accent Status Bar',
+      subtitle: 'Material You, actually shipped',
+      description: 'Google teased it in their Material You mock-ups; we made it real. Flip the toggle and let system accents flow right into your status bar chrome.',
+      accent: 'from-[#1de099] to-[#33bbff]',
+      image: './img/5226475742240116596.jpg',
+      imageAlt: 'DerpFest accent colored status bar toggle',
+      imageWrapperClass: 'relative flex justify-center mb-6',
+      imageClass: 'w-48 md:w-56 h-auto rounded-2xl border border-white/20 shadow-lg shadow-black/20 bg-black/40 p-4',
+      imageOverlay: false,
+      layout: 'landscape',
+   },
+   {
+      title: 'Pixel Launcher Hotseat',
+      subtitle: 'Android 16 QPR1 search style',
+      description: 'We ported the closed-source Android 16 QPR1 Pixel Launcher hotseat search bar look into our open implementation.',
+      accent: 'from-[#1de099] to-[#33bbff]',
+      image: './img/5226475742240116599.jpg',
+      imageAlt: 'DerpFest Pixel Launcher hotseat styles',
+      imageWrapperClass: 'relative flex justify-center mb-6',
+      imageClass: 'w-56 md:w-64 h-auto rounded-2xl border border-white/20 shadow-lg shadow-black/20 bg-black/40 p-3',
+      imageOverlay: false,
+      layout: 'landscape'
    },
 ];
 
@@ -155,7 +172,7 @@ const Home = () => {
                                  <p className="text-[#1de099] uppercase tracking-widest text-xs font-semibold mt-2">{feature.subtitle}</p>
                                  <p className="mt-4 text-white/70 leading-relaxed">{feature.description}</p>
                                  <div className="mt-8 pt-6 border-t border-white/10 text-sm text-white/50">
-                                    Crafted in-house, open for everyone.
+                                    {feature.footer ?? 'Crafted in-house, open for everyone.'}
                                  </div>
                               </div>
                            </div>
