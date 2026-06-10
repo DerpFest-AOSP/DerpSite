@@ -64,11 +64,6 @@ export const FAQ_SCHEMA = [
     answer:
       'Contact us on our Telegram group. Our team will verify your device tree and other requirements and then, if they decide to, they will add you.',
   },
-  {
-    question: 'Where can I find XDA Template for the DerpFest ROM I made?',
-    answer:
-      'Get the XDA thread template from the DerpFest GitHub manifest repository.',
-  },
 ]
 
 export const ORGANIZATION_SCHEMA = {
