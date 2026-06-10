@@ -83,6 +83,14 @@ const featureShowcase = [
       layout: 'landscape'
    },
    {
+      title: 'Edge Light Live Preview',
+      subtitle: 'See notifications glow before you apply',
+      description: 'We built a live preview for edge light notifications — tune pulse count, bar width, and color mode on a device mockup and watch the effect update in real time as you customize it.',
+      accent: 'from-[#33bbff] to-[#1de099]',
+      image: './img/5282839792066436781.jpg',
+      imageAlt: 'DerpFest edge light notification live preview in settings',
+   },
+   {
       title: 'Status Bar Clock Background',
       subtitle: 'Clock chip styles',
       description: 'Choose status bar clock background chip styles from a dedicated picker. Forward ported from Rising OS source with improved colors and settings preferences.',
