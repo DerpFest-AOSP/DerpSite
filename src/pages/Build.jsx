@@ -37,8 +37,7 @@ const Build = () => {
                      <code>
 {`mkdir derpfest
 cd derpfest
-repo init -u https://github.com/DerpFest-AOSP/android_manifest.git \\
-    -b 16.2 --git-lfs`}
+repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git-lfs`}
                      </code>
                   </pre>
                </div>
@@ -212,8 +211,7 @@ repo init -u https://github.com/DerpFest-AOSP/android_manifest.git \\
                      <code>
 {`mkdir derpfest
 cd derpfest
-repo init -u https://github.com/DerpFest-AOSP/android_manifest.git \\
-    -b 16.2 --git-lfs
+repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git-lfs
 
 # After init, add your local manifest:
 # .repo/local_manifests/<device>.xml
