@@ -48,7 +48,7 @@ const featureShowcase = [
          <>
             DerpFest ships{' '}
             <a href="https://github.com/FoedusProgramme/Accord" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#33bbff] transition-colors duration-300 no-underline">Accord</a>
-            , a stunning local music player inspired by Apple Music, built by our friend FoedusProgramme. Paired with DynamicBar — an expandable status bar chip ported from{' '}
+            , a stunning local music player inspired by Apple Music, built by our friends at FoedusProgramme. Paired with DynamicBar — an expandable status bar chip ported from{' '}
             <a href="https://github.com/AxionAOSP" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#33bbff] transition-colors duration-300 no-underline">AxionOS</a>
             {' '}— we brought Accord’s cinematic backdrop blur, player design, and seekbar eye candy animation into the expanded media card.
          </>
