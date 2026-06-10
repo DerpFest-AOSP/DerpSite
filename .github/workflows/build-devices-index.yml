@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout site repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Checkout DerpFest repo (primary)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: DerpFest-AOSP/Updater-Stuff
           ref: master
@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0
 
       - name: Checkout Avalon extras (secondary)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: amanrajOO7/derpfest_avalon
           ref: "16.0"
@@ -32,7 +32,7 @@ jobs:
 
       # To add another repo in future:
       # - name: Checkout SomeOtherRepo
-      #   uses: actions/checkout@v4
+      #   uses: actions/checkout@v6
       #   with:
       #     repository: someuser/somerepo
       #     ref: main
@@ -51,9 +51,9 @@ jobs:
           JSON
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 18
+          node-version: lts/*
 
       - name: Run build-index
         run: node scripts/build-index.cjs
