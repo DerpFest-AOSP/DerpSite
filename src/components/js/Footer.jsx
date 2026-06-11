@@ -34,7 +34,7 @@ const Footer = () => {
                </div>
             </aside>
             <nav>
-               <h6 className="footer-title">Link</h6>
+               <h6 className="footer-title">Links</h6>
                <Link to="/build">Build</Link>
                <Link to="/credit">Credit</Link>
                <Link to="/devices">Devices</Link>
