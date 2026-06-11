@@ -100,6 +100,37 @@ const featureShowcase = [
    },
 ];
 
+const philosophyCards = [
+   {
+      title: 'Original by Design',
+      description:
+         'DerpFest is not a patchwork of borrowed features. We prototype, build, and ship a lot of what lands in our builds ourselves — unique tools and ideas that come from our team, not an endless mix of other projects.',
+      span: 'md:col-span-2',
+      accent: 'from-[#33bbff]/10 to-transparent',
+   },
+   {
+      title: 'Clean & Considered',
+      description:
+         'Additions are planned before they ship. New work is shaped with feedback from our maintainers along the way, so what you get feels polished and intentional — not thrown together.',
+      span: '',
+      accent: 'from-[#1de099]/10 to-transparent',
+   },
+   {
+      title: 'Studied, Then Rebuilt',
+      description:
+         'When we want Pixel-like behavior or OEM polish, we study how Google, Samsung, and others implement it — then write our own implementation on top of AOSP. Inspired by the best, written entirely in our tree.',
+      span: '',
+      accent: 'from-purple-500/10 to-transparent',
+   },
+   {
+      title: 'Pixel Fidelity',
+      description:
+         'We follow Pixel stock design language and Google\'s Material Design 3 expressive guidelines across settings, launcher, and system UI — so DerpFest feels native, cohesive, and unmistakably Google-aligned.',
+      span: 'md:col-span-2',
+      accent: 'from-zinc-500/10 to-transparent',
+   },
+];
+
 const Home = () => {
    return (
       <div className="relative overflow-hidden">
@@ -110,7 +141,7 @@ const Home = () => {
             <div className="absolute -bottom-8 left-1/2 w-80 h-80 bg-gradient-to-r from-[#33bbff] to-[#1de099] rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse" style={{animationDelay: '4s'}}></div>
          </div>
 
-         <div className="hero bg-transparent min-h-screen relative z-10">
+         <div className="hero bg-transparent relative z-10">
             <div className="hero-content text-center py-20">
                <div className="max-w-4xl">
                   <div className="py-10">
@@ -133,8 +164,36 @@ const Home = () => {
                         </Link>
                      </div>
                   </div>
-                  
-                  <div className="pt-16">
+               </div>
+            </div>
+         </div>
+
+         <section className="relative z-10 px-6 md:px-12 pb-24 max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+               <p className="uppercase tracking-widest text-sm text-white/50 mb-3">Our approach</p>
+               <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">How we build DerpFest</h2>
+               <p className="text-lg text-white/60 max-w-2xl mx-auto">
+                  Original ideas, thoughtful execution, stock design done right.
+               </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[minmax(220px,_auto)]">
+               {philosophyCards.map((card) => (
+                  <div
+                     key={card.title}
+                     className={`group relative rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md p-8 md:p-10 flex flex-col justify-center overflow-hidden shadow-2xl hover:shadow-[#33bbff]/10 transition-all duration-500 hover:-translate-y-1 ${card.span}`}
+                  >
+                     <div className={`absolute inset-0 bg-gradient-to-br ${card.accent} opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none`} />
+                     <h3 className="relative z-10 text-2xl md:text-3xl font-semibold text-white mb-4">{card.title}</h3>
+                     <p className="relative z-10 text-white/70 leading-relaxed">{card.description}</p>
+                  </div>
+               ))}
+            </div>
+         </section>
+
+         <div className="relative z-10 pb-20">
+            <div className="max-w-4xl mx-auto px-6">
+                  <div className="pt-8">
                      <div className="text-center mb-8">
                         <p className="uppercase tracking-widest text-sm text-white/50 mb-2">DerpFest Originals</p>
                         <h2 className="text-3xl md:text-4xl font-semibold text-white">Features we shipped for the Android community</h2>
@@ -187,7 +246,6 @@ const Home = () => {
                         ))}
                      </div>
                   </div>
-               </div>
             </div>
          </div>
       </div>
