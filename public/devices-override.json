@@ -97,6 +97,102 @@
     ]
    },
    {
+    "codename": "infiniti",
+    "aliases": [
+        "OnePlus 15"
+    ],
+    "displayName": "OnePlus 15",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16.2",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+Xt0gkGnFWAI0ZDA0",
+        "version": "16.2",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "macan",
+    "aliases": [
+        "OnePlus 15R"
+    ],
+    "displayName": "OnePlus 15R",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16.2",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+Xt0gkGnFWAI0ZDA0",
+        "version": "16.2",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "macanc",
+    "aliases": [
+        "OnePlus Ace 6T"
+    ],
+    "displayName": "OnePlus Ace 6T",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16.2",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+Xt0gkGnFWAI0ZDA0",
+        "version": "16.2",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "fairlady",
+    "aliases": [
+        "OnePlus 15T"
+    ],
+    "displayName": "OnePlus 15T",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16.2",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+Xt0gkGnFWAI0ZDA0",
+        "version": "16.2",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
     "codename": "waffle", 
     "aliases": [
         "OnePlus 12"
@@ -452,6 +548,30 @@
         "size": "1024",
         "url": "https://t.me/derprm6785",
         "version": "16.2",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
+    "codename": "h870",
+    "aliases": [
+        "LG G6"
+    ],
+    "displayName": "LG G6 (ThinQ)",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 13 @ 2026 Security Patch",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+xsgNKuwSDNMxYWY0",
+        "version": "13 @ 2026 Security Patch",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
