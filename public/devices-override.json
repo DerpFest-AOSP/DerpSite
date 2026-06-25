@@ -581,5 +581,53 @@
             "filePath": "repo_primary/komodo.json"
         }
     ]
+   },
+   {
+    "codename": "tokay",
+    "aliases": [
+        "Google Pixel 9"
+    ],
+    "displayName": "Google Pixel 9",
+    "maintainer": "Alexander Brunswig (NurKeinNeid)",
+    "latest": {
+        "filename": "DerpFest 16.2",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://drive.google.com/drive/folders/1trhRmqMNRQ1aZ6JnJ7VpyVSWmQ95B-I2",
+        "version": "16.2",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_tokay.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/tokay.json"
+        }
+    ]
+   },
+   {
+    "codename": "caiman",
+    "aliases": [
+        "Google Pixel 9 Pro"
+    ],
+    "displayName": "Google Pixel 9 Pro",
+    "maintainer": "Alexander Brunswig (NurKeinNeid)",
+    "latest": {
+        "filename": "DerpFest 16.2",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://drive.google.com/drive/folders/1URiioCXL04NHDnqB7Ww7jkVGL5lHpBuX",
+        "version": "16.2",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_caiman.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/tokay.json"
+        }
+    ]
    }
 ]
