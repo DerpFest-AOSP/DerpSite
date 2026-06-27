@@ -1,5 +1,5 @@
 import './components/css/App.css'
-import { Routes, Route, useLocation, useNavigate } from 'react-router-dom'
+import { Routes, Route, useLocation, useNavigate, Navigate, useParams } from 'react-router-dom'
 import { useEffect } from 'react'
 import Navbar from './components/js/Navbar'
 import Footer from './components/js/Footer'
@@ -14,6 +14,11 @@ import Screenshots from './pages/Screenshots'
 import Team from './pages/Team'
 import TOU from './pages/TOU'
 import PageSeo from './components/js/PageSeo'
+
+function DeviceCodenameRedirect() {
+  const { codename } = useParams();
+  return <Navigate to={`/devices?s=${encodeURIComponent(codename)}`} replace />;
+}
 
 function App() {
   const location = useLocation();
@@ -45,6 +50,7 @@ function App() {
         <Route path="/build" element={<Build />} />
         <Route path="/credit" element={<Credit />} />
         <Route path="/devices" element={<Devices />} />
+        <Route path="/devices/:codename" element={<DeviceCodenameRedirect />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/screenshots" element={<Screenshots />} />
         <Route path="/team" element={<Team />} />
