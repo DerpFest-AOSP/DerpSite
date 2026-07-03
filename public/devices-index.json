@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T13:58:45.093Z",
+  "generated_at": "2026-07-03T02:54:46.569Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -181,6 +181,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/blazer.json"
+        }
+      ]
+    },
+    {
+      "codename": "mustang",
+      "aliases": [
+        "Google Pixel 10 Pro XL"
+      ],
+      "displayName": "Google Pixel 10 Pro XL",
+      "maintainer": "Wang Daning (@wangdaning)",
+      "latest": {
+        "filename": "DerpFest-v16.2-20260702-mustang-Official-Stable.zip",
+        "id": "5219191698c1588951fdf6a99dc6944722fefb4e497c9361949de1144bfeb425",
+        "romtype": "Official",
+        "size": 2566715421,
+        "url": "https://disk.yandex.com/d/8cn_VjoeVcb_CA",
+        "version": "v16.2",
+        "datetime": 1782938925
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_mustang.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/mustang.json"
         }
       ]
     },
@@ -976,30 +1000,6 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/rtwo.json"
-        }
-      ]
-    },
-    {
-      "codename": "mustang",
-      "aliases": [
-        "mustang"
-      ],
-      "displayName": "mustang",
-      "maintainer": "Wang Daning (@wangdaning)",
-      "latest": {
-        "filename": "DerpFest-v16.2-20260702-mustang-Official-Stable.zip",
-        "id": "5219191698c1588951fdf6a99dc6944722fefb4e497c9361949de1144bfeb425",
-        "romtype": "Official",
-        "size": 2566715421,
-        "url": "https://disk.yandex.com/d/8cn_VjoeVcb_CA",
-        "version": "v16.2",
-        "datetime": 1782938925
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_mustang.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/mustang.json"
         }
       ]
     },
