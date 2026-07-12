@@ -1511,10 +1511,10 @@
     {
       "codename": "corvette",
       "aliases": [
-        "OnePlus Nord 2T"
+        "OnePlus Ace 3 Pro"
       ],
-      "displayName": "OnePlus Nord 2T",
-      "maintainer": "Unknown",
+      "displayName": "OnePlus Ace 3 Pro",
+      "maintainer": "LucasBlackLu",
       "latest": {
         "filename": "DerpFest-v16.2-20260315-corvette-Official-Beta.zip",
         "id": "293f5765a98d451ccfd2a453b9a0ed18b8543bab840d3fcc74b7e4f94b80af84",
