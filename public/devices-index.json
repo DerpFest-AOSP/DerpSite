@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T02:41:32.185Z",
+  "generated_at": "2026-07-12T13:17:13.252Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1511,10 +1511,10 @@
     {
       "codename": "corvette",
       "aliases": [
-        "OnePlus Ace 3 Pro"
+        "OnePlus Nord 2T"
       ],
-      "displayName": "OnePlus Ace 3 Pro",
-      "maintainer": "LucasBlackLu",
+      "displayName": "OnePlus Nord 2T",
+      "maintainer": "Unknown",
       "latest": {
         "filename": "DerpFest-v16.2-20260315-corvette-Official-Beta.zip",
         "id": "293f5765a98d451ccfd2a453b9a0ed18b8543bab840d3fcc74b7e4f94b80af84",
