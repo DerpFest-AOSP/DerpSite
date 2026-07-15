@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T13:41:33.045Z",
+  "generated_at": "2026-07-15T02:24:08.120Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1156,13 +1156,13 @@
       "displayName": "OnePlus 13R",
       "maintainer": "0mar",
       "latest": {
-        "filename": "DerpFest-v16.2-20260523-giulia-Official-Stable.zip",
-        "id": "ab53b3e99a347ea116c25dc0f7fab82b2c5d30ed1e742aa859b7d984d07f8111",
+        "filename": "DerpFest-v16.2-20260714-giulia-Official-Stable.zip",
+        "id": "6af09873a498540fd26153a940e6a09d3f50ae0bd5ea1924baf625139411cca6",
         "romtype": "Official",
-        "size": 4068544572,
-        "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.2-20260523-giulia-Official-Stable.zip/download",
+        "size": 4410311277,
+        "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.2-20260714-giulia-Official-Stable.zip/download",
         "version": "v16.2",
-        "datetime": 1779480826
+        "datetime": 1784000106
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_giulia.txt",
       "sources": [
@@ -1468,13 +1468,13 @@
       "displayName": "OnePlus Ace 5",
       "maintainer": "0mar",
       "latest": {
-        "filename": "DerpFest-v16.2-20260523-giuliac-Official-Stable.zip",
-        "id": "06468a852ec61f14f9d0365c74061e38e4715564c04294c6f936a15c2b4e5dc7",
+        "filename": "DerpFest-v16.2-20260714-giuliac-Official-Stable.zip",
+        "id": "cd9c15bbe380dbeec369f9dddbe292a12790664afcd50c3131366f9ade267254",
         "romtype": "Official",
-        "size": 4097345968,
-        "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.2-20260523-giuliac-Official-Stable.zip/download",
+        "size": 4452138063,
+        "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.2-20260714-giuliac-Official-Stable.zip/download",
         "version": "v16.2",
-        "datetime": 1779468259
+        "datetime": 1784002892
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_giuliac.txt",
       "sources": [
