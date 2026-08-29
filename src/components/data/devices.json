@@ -647,6 +647,20 @@
           }
         }
       ]
+    },
+    {
+      "name": "Bluefox",
+      "devices": [
+        {
+          "name": "Bluefox NX1",
+          "code": "NX1",
+          "maintainer": "EdwardWu(bluehomewu)",
+          "links": {
+            "download": "https://itraps-my.sharepoint.com/:f:/g/personal/public_builds_itraps_onmicrosoft_com/IgA7vdi3K5elR5F7eE5YQmvFARn1MO3toLSBaLuZCDJPaoA?e=7xaaQP",
+            "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/refs/heads/master/changelog_NX1.txt"
+          }
+        }
+      ]
     }
   ]
 }
