@@ -5,6 +5,15 @@ on:
     branches:
       - master
   workflow_dispatch:
+  # Called by Build Devices Index after it pushes with GITHUB_TOKEN.
+  # Those pushes do not trigger this workflow's `on.push` (GitHub loop guard).
+  workflow_call:
+    inputs:
+      ref:
+        description: 'Git ref or SHA to build (the commit that updated devices-index.json)'
+        type: string
+        required: false
+        default: ''
 
 permissions:
   contents: read
@@ -20,6 +29,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          # workflow_call's github.sha is the caller's starting commit, not the
+          # bot commit that was just pushed. Prefer the explicit ref when set.
+          ref: ${{ inputs.ref || github.sha }}
 
       - name: Set up Node
         uses: actions/setup-node@v6
