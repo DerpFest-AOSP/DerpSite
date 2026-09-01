@@ -458,6 +458,30 @@
     ]
    },
    {
+    "codename": "mayfly",
+    "aliases": [
+        "Xiaomi 12S"
+    ],
+    "displayName": "Xiaomi 12S",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16.2",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://t.me/+nEq4vgkUTGxiOTA0",
+        "version": "16.2",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
+   },
+   {
     "codename": "panther",
     "aliases": [
         "Google Pixel 7"
