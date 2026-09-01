@@ -629,5 +629,29 @@
             "filePath": "repo_primary/tokay.json"
         }
     ]
+   },
+   {
+    "codename": "uke",
+    "aliases": [
+        "Xiaomi Pad 7"
+    ],
+    "displayName": "Xiaomi Pad 7 (uke)",
+    "maintainer": "P.A.N.Z.",
+    "latest": {
+        "filename": "DerpFest 16.2 coming soon",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://derpfest.org/devices",
+        "version": "16.2 coming soon",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/komodo.json"
+        }
+    ]
    }
 ]
