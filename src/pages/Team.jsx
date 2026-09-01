@@ -4,6 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom'
 
 const ROLE_LABELS = [
    { match: 'Founder', label: 'Founder', color: 'from-yellow-400 to-orange-400' },
+   { match: 'Lead', label: 'Lead Developer', color: 'from-yellow-400 to-orange-400' },
    { match: 'Senior', label: 'Senior Maintainer', color: 'from-purple-400 to-pink-400' },
    { match: 'Web Developer', label: 'Web Developer', color: 'from-blue-400 to-cyan-400' },
    { match: 'Developer', label: 'Developer', color: 'from-blue-400 to-cyan-400' },
@@ -26,6 +27,22 @@ function getRoleTitle(role) {
    return role.split('\n')[0].trim()
 }
 
+function getRolePriority(role) {
+   const firstLine = role.split('\n')[0]
+   if (/lead|founder/i.test(firstLine)) return 0
+   if (/senior/i.test(firstLine)) return 1
+   return 2
+}
+
+const sortedTeamData = [...TeamData].sort((a, b) => {
+   const priorityA = getRolePriority(a.role)
+   const priorityB = getRolePriority(b.role)
+   if (priorityA !== priorityB) {
+      return priorityA - priorityB
+   }
+   return a.name.localeCompare(b.name, undefined, { sensitivity: 'base' })
+})
+
 const Team = () => {
    const [profilePics, setProfilePics] = useState({})
    const [loading, setLoading] = useState(true)
@@ -33,8 +50,8 @@ const Team = () => {
    const navigate = useNavigate()
    const hashId = location.hash.replace('#', '')
    const filteredTeam = hashId
-      ? TeamData.filter(m => m.name.toLowerCase().replace(/[^a-z0-9]/g, '') === hashId)
-      : TeamData
+      ? sortedTeamData.filter(m => m.name.toLowerCase().replace(/[^a-z0-9]/g, '') === hashId)
+      : sortedTeamData
 
    // Extract GitHub usernames from URLs
    const getGitHubUsername = (githubUrl) => {
@@ -44,7 +61,7 @@ const Team = () => {
    // Fetch GitHub profile pictures
    useEffect(() => {
       const fetchProfilePics = async () => {
-         const picPromises = TeamData.map(async (member) => {
+         const picPromises = sortedTeamData.map(async (member) => {
             const username = getGitHubUsername(member.github)
             try {
                const response = await fetch(`https://api.github.com/users/${username}`)
