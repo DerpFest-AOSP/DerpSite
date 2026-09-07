@@ -13,6 +13,11 @@ export const ROUTE_SEO = {
     title: DEFAULT_SEO.title,
     description: DEFAULT_SEO.description,
   },
+  '/blog': {
+    title: 'Blog | DerpFest',
+    description:
+      'DerpFest development updates, Android source releases, and feature deep dives from the team.',
+  },
   '/build': {
     title: 'Build DerpFest | Compile from Source',
     description:

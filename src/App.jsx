@@ -4,6 +4,8 @@ import { useEffect } from 'react'
 import Navbar from './components/js/Navbar'
 import Footer from './components/js/Footer'
 import ContributionNotice from './components/js/ContributionNotice'
+import Blog from './pages/Blog'
+import BlogPost from './pages/BlogPost'
 import Build from './pages/Build'
 import Credit from './pages/Credit'
 import Devices from './pages/Devices'
@@ -47,6 +49,8 @@ function App() {
       <main id="main-content">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/build" element={<Build />} />
         <Route path="/credit" element={<Credit />} />
         <Route path="/devices" element={<Devices />} />

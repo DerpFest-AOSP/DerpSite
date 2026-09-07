@@ -16,6 +16,20 @@
    </url>
 
    <url>
+      <loc>https://derpfest.org/blog</loc>
+      <lastmod>2026-09-07</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://derpfest.org/blog/2026-09-07-android-17</loc>
+      <lastmod>2026-09-07</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
       <loc>https://derpfest.org/build</loc>
       <lastmod>2026-06-09</lastmod>
       <changefreq>monthly</changefreq>

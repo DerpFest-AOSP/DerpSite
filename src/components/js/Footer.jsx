@@ -22,7 +22,7 @@ const Footer = () => {
                      aria-label="Berlin — official city logo"
                   >
                      <img
-                        src="./img/berlin-logo.png"
+                        src="/img/berlin-logo.png"
                         alt="Berlin"
                         className="h-8 w-auto"
                         draggable="false"
@@ -36,6 +36,7 @@ const Footer = () => {
             <nav>
                <h6 className="footer-title">Links</h6>
                <Link to="/build">Build</Link>
+               <Link to="/blog">Blog</Link>
                <Link to="/credit">Credit</Link>
                <Link to="/devices">Devices</Link>
                <Link to="/faq">FAQ</Link>

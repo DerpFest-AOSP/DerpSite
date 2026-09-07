@@ -31,6 +31,7 @@ const Navbar = () => {
   const menuItems = [
     { title: 'Build', path: '/build' },
     { title: 'Screenshots', path: '/screenshots' },
+    { title: 'Blog', path: '/blog' },
     { title: 'Devices', path: '/devices' },
     { title: 'FAQ', path: '/faq' },
     { title: 'Team', path: '/team' }
@@ -41,7 +42,7 @@ const Navbar = () => {
       <div className="flex-1">
         <Link to="/" className="btn btn-ghost text-xl">
           <img 
-            src="./img/logo.png" 
+            src="/img/logo.png" 
             alt="DerpFest Logo" 
             className="h-7 mr-2 transition-all duration-300 hover:scale-105" 
           />
