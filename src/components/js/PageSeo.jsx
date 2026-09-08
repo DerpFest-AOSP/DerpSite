@@ -162,11 +162,18 @@ export default function PageSeo() {
         datePublished: post.date,
         image: `${SITE_URL}${post.cover}`,
         url: canonicalUrl,
-        author: {
-          '@type': 'Organization',
-          name: SITE_NAME,
-          url: SITE_URL,
-        },
+        author: post.author
+          ? {
+              '@type': 'Person',
+              name: post.author.name,
+              url: post.author.github || post.author.href,
+              image: post.author.avatar,
+            }
+          : {
+              '@type': 'Organization',
+              name: SITE_NAME,
+              url: SITE_URL,
+            },
         publisher: ORGANIZATION_SCHEMA,
         mainEntityOfPage: canonicalUrl,
       })

@@ -35,10 +35,24 @@ const BlogPost = () => {
         </h1>
 
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-white/55 mb-4">
-          <span className="inline-flex items-center gap-2 text-white">
-            <img src="/img/logo.png" alt="" className="h-7 w-7 rounded-full bg-white/10 p-1" />
-            DerpFest Team
-          </span>
+          {post.author ? (
+            <Link
+              to={post.author.href || post.author.github}
+              className="inline-flex items-center gap-2 text-white hover:text-[#1de099] transition-colors duration-300"
+            >
+              <img
+                src={post.author.avatar}
+                alt=""
+                className="h-8 w-8 rounded-full object-cover ring-1 ring-white/20"
+              />
+              {post.author.name}
+            </Link>
+          ) : (
+            <span className="inline-flex items-center gap-2 text-white">
+              <img src="/img/logo.png" alt="" className="h-7 w-7 rounded-full bg-white/10 p-1" />
+              DerpFest Team
+            </span>
+          )}
           <span className="inline-flex items-center gap-1.5 text-[#1de099]">
             <CalendarIcon />
             {formatPostDate(post.date, 'long')}
@@ -158,7 +172,7 @@ function Android17Body() {
         <strong className="text-white">Separate</strong> splits the gestures: swipe down from the top right for Quick Settings, top left for notifications. <strong className="text-white">Combined (classic)</strong> keeps the single panel most people already know. Pick one and the rest of the shade follows.
       </p>
       <p>
-        Our custom QS features still work on top of that — tile shapes, layout studio, gradient brightness and volume sliders, media card, the lot. Dual shade is the platform plumbing. The extras you already use in DerpFest are still there.
+        Our custom QS features still work on top of that — gradient tiles and sliders, data usage, a custom QS header image, tile shapes, and more. Dual shade is the platform plumbing. The extras you already use in DerpFest are still there.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 py-2">
@@ -169,8 +183,8 @@ function Android17Body() {
         />
         <PhoneShot
           src="/img/5257988497111457610.jpg"
-          alt="DerpFest Android 17 Quick Settings with custom tile shapes, gradient sliders, and media card"
-          caption="Custom QS on Android 17 — shaped tiles, gradient sliders, media card, still working."
+          alt="DerpFest Android 17 Quick Settings with gradient tiles and sliders, data usage, a custom header image, and custom tile shapes"
+          caption="Custom QS on Android 17 — gradient tiles and slider, data usage, custom header image, tile shapes, and more."
         />
       </div>
 
@@ -232,6 +246,31 @@ function Android17Body() {
           caption="Notification icons — show icon, app icons, count, or hide, each with a preview."
         />
       </div>
+
+      <h2>Qualcomm BoostFramework</h2>
+      <p>
+        Not everything in this tree has a screenshot. We implemented Qualcomm&apos;s BoostFramework on Snapdragon builds.
+      </p>
+      <p>
+        BoostFramework is Qualcomm&apos;s vendor API for short, targeted frequency boosts. When something needs to feel immediate — an app launch, a fling, a window animation — the framework can raise CPU, GPU, and related system clocks for a moment, then drop them again. It is not a permanent overclock. It is a hint to the SoC that the next few frames matter.
+      </p>
+      <p>
+        DerpFest now talks to that API so Snapdragon devices can use the same boost path OEM skins already rely on, instead of leaving those hints unused in an AOSP tree.
+      </p>
+
+      <h2>Smartspacer, in DerpFest Launcher</h2>
+      <p>
+        <a href="https://github.com/KieronQuinn/Smartspacer" target="_blank" rel="noopener noreferrer">
+          Smartspacer
+        </a>
+        , by Kieron Quinn, is a drop-in At a Glance replacement: plugins, complications, and a requirements system that can surface a loyalty card at the store or a gym pass at the gym — without throwing away Google&apos;s own At a Glance data. On stock Pixel that usually means Shizuku and a widget.
+      </p>
+      <p>
+        <a href="https://uwuaosp.uwuniverse.org/" target="_blank" rel="noopener noreferrer">
+          uwuAOSP
+        </a>{' '}
+        did the actual work of wiring Smartspacer into AOSP Launcher3 as a native client. We ported that integration into DerpFest Launcher. Install Smartspacer, pick your targets, and At a Glance on the DerpFest home screen is the upgraded one.
+      </p>
 
       <div className="bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-sm border border-white/10 rounded-2xl shadow-xl p-6 md:p-8 mt-10">
         <h2 className="!mt-0">Get the source</h2>

@@ -3,9 +3,9 @@ export const blogPosts = [
     slug: '2026-09-07-android-17',
     title: 'DerpFest Android 17 source is here',
     excerpt:
-      'The Android 17 tree is public. QPR2 color options force-enabled on QPR0, icon packs and Pixel wallpaper effects in the native picker, the QPR1 Beta 6 home wallpaper carousel in our open launcher, separate or combined Quick Settings, a finished QS layout editor, and rebuilt style pickers.',
+      'The Android 17 tree is public. QPR2 color options on QPR0, native theming and wallpaper work, a finished QS layout editor, rebuilt style pickers, Qualcomm BoostFramework, and Smartspacer in DerpFest Launcher — ported from uwuAOSP’s Launcher3 integration.',
     date: '2026-09-07',
-    readMinutes: 8,
+    readMinutes: 10,
     cover: '/img/5257988497111458123.jpg',
     coverAlt: 'DerpFest Android 17 color styles Neutral, Soft, Bright, and Bold',
     coverPair: [
@@ -19,6 +19,12 @@ export const blogPosts = [
       },
     ],
     tags: ['Android 17', 'Theming', 'Source'],
+    author: {
+      name: 'Alexander Brunswig',
+      avatar: 'https://github.com/NurKeinNeid.png?size=128',
+      href: '/team#alexanderbrunswig',
+      github: 'https://github.com/NurKeinNeid',
+    },
   },
 ]
 

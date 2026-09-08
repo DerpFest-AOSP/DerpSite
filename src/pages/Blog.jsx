@@ -58,7 +58,7 @@ function FeaturedCard({ post }) {
       </div>
 
       <div className="p-6 md:p-10">
-        <PostMeta date={post.date} readMinutes={post.readMinutes} />
+        <PostMeta date={post.date} readMinutes={post.readMinutes} author={post.author} />
         <h2 className="mt-4 text-3xl md:text-4xl font-bold text-white group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#33bbff] group-hover:to-[#1de099] transition-colors duration-300">
           {post.title}
         </h2>
@@ -87,7 +87,7 @@ function ArticleCard({ post }) {
         />
       </div>
       <div className="p-6 flex flex-col flex-1">
-        <PostMeta date={post.date} readMinutes={post.readMinutes} />
+        <PostMeta date={post.date} readMinutes={post.readMinutes} author={post.author} />
         <h3 className="mt-3 text-2xl font-semibold text-white">{post.title}</h3>
         <p className="mt-3 text-white/65 leading-relaxed flex-1">{post.excerpt}</p>
         <span className="mt-6 inline-flex items-center gap-2 text-white font-medium">
@@ -99,9 +99,19 @@ function ArticleCard({ post }) {
   )
 }
 
-function PostMeta({ date, readMinutes }) {
+function PostMeta({ date, readMinutes, author }) {
   return (
     <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-white/50">
+      {author && (
+        <span className="inline-flex items-center gap-2 text-white/80">
+          <img
+            src={author.avatar}
+            alt=""
+            className="h-6 w-6 rounded-full object-cover ring-1 ring-white/20"
+          />
+          {author.name}
+        </span>
+      )}
       <span className="inline-flex items-center gap-1.5 text-[#1de099]">
         <CalendarIcon />
         {formatPostDate(date)}
