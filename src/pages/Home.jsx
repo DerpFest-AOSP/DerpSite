@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { getSortedPosts } from '../data/blog'
 
 const featureShowcase = [
    {
@@ -132,6 +133,8 @@ const philosophyCards = [
 ];
 
 const Home = () => {
+   const latestPost = getSortedPosts()[0]
+
    return (
       <div className="relative overflow-hidden">
          {/* Animated background elements */}
@@ -145,6 +148,16 @@ const Home = () => {
             <div className="hero-content text-center py-20">
                <div className="max-w-4xl">
                   <div className="py-10">
+                     {latestPost && (
+                        <Link
+                           to={`/blog/${latestPost.slug}`}
+                           className="inline-flex items-center gap-2 mb-8 px-4 py-1.5 rounded-full border border-white/15 bg-white/5 backdrop-blur-md text-sm text-white/80 hover:text-white hover:border-[#1de099]/40 transition-colors duration-300"
+                        >
+                           <span className="h-1.5 w-1.5 rounded-full bg-[#1de099] animate-pulse" aria-hidden="true"></span>
+                           Android 17 source is public
+                           <span aria-hidden="true" className="text-[#1de099]">→</span>
+                        </Link>
+                     )}
                      <h1 className="text-6xl md:text-7xl font-bold mb-8 leading-tight">
                         Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#33bbff] to-[#1de099] gradient-shift">DerpFest!</span>
                      </h1>
