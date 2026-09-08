@@ -287,7 +287,7 @@ repo sync`}
         </div>
         <p className="mb-0">
           From there it is the usual <code className="text-[#1de099]">. build/envsetup.sh</code>, lunch, and{' '}
-          <code className="text-[#1de099]">mka derp</code>. Full notes are on the <Link to="/build">Build</Link> page, and trees live under{' '}
+          <code className="text-[#1de099]">m derp</code>. Full notes are on the <Link to="/build">Build</Link> page, and trees live under{' '}
           <a href="https://github.com/DerpFest-AOSP" target="_blank" rel="noopener noreferrer">
             DerpFest-AOSP
           </a>

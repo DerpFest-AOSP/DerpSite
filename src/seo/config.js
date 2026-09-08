@@ -21,7 +21,7 @@ export const ROUTE_SEO = {
   '/build': {
     title: 'Build DerpFest | Compile from Source',
     description:
-      'Learn how to build DerpFest from source for your Android device. Prerequisites, repo sync, and build instructions for maintainers and contributors.',
+      'Learn how to build DerpFest Android 17 from source. Prerequisites, repo init on the 17 branch, and lunch/m instructions for maintainers and contributors.',
   },
   '/credit': {
     title: 'Credits | DerpFest',

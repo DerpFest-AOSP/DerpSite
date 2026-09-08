@@ -29,7 +29,7 @@ const Build = () => {
                <h2 className="text-3xl mb-6 text-[#33bbff] font-semibold">Getting Started</h2>
 
                <p className="mb-6 text-gray-300 leading-relaxed">
-                  To initialize your local repository using the AOSP/CAF based DerpFest source, use a command like this:
+                  To initialize your local repository against the Android 17 tree, use a command like this:
                </p>
 
                <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4 mb-6 overflow-x-auto">
@@ -37,7 +37,7 @@ const Build = () => {
                      <code>
 {`mkdir derpfest
 cd derpfest
-repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git-lfs`}
+repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 17 --git-lfs`}
                      </code>
                   </pre>
                </div>
@@ -74,7 +74,7 @@ repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git
                      <p className="mb-3 text-[#1de099] font-semibold">Prepare your device with:</p>
                      <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4 overflow-x-auto">
                         <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
-                           <code>lunch lineage_$device-bp4a-user</code>
+                           <code>lunch lineage_$device-cp2a-user</code>
                         </pre>
                      </div>
                      <p className="mt-3 text-gray-300 leading-relaxed">
@@ -82,7 +82,7 @@ repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git
                      </p>
                      <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4 mt-3 overflow-x-auto">
                         <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
-                           <code>lunch lineage_polaris-bp4a-user</code>
+                           <code>lunch lineage_polaris-cp2a-user</code>
                         </pre>
                      </div>
                   </div>
@@ -91,7 +91,7 @@ repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git
                      <p className="mb-3 text-[#1de099] font-semibold">Then fire it off with:</p>
                      <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4 overflow-x-auto">
                         <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
-                           <code>mka derp</code>
+                           <code>m derp</code>
                         </pre>
                      </div>
                   </div>
@@ -156,8 +156,8 @@ repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git
 {`<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!--Remotes-->
-    <remote name="LineageOS"            fetch="https://github.com/LineageOS"           revision="lineage-23.0" />
-    <remote name="TheMuppets"           fetch="https://github.com/TheMuppets"          revision="lineage-23.0" />
+    <remote name="LineageOS"            fetch="https://github.com/LineageOS"           revision="lineage-24.0" />
+    <remote name="TheMuppets"           fetch="https://github.com/TheMuppets"          revision="lineage-24.0" />
 
     <!--Devices Trees-->
     <project name="android_device_xiaomi_polaris"           path="device/xiaomi/polaris"       remote="LineageOS" />
@@ -184,8 +184,8 @@ repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git
                <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4 mb-6 overflow-x-auto">
                   <pre className="text-sm text-gray-300 font-mono">
                      <code>
-{`<remote name="LineageOS"            fetch="https://github.com/LineageOS"           revision="lineage-23.0" />
-<remote name="TheMuppets"           fetch="https://github.com/TheMuppets"          revision="lineage-23.0" />`}
+{`<remote name="LineageOS"            fetch="https://github.com/LineageOS"           revision="lineage-24.0" />
+<remote name="TheMuppets"           fetch="https://github.com/TheMuppets"          revision="lineage-24.0" />`}
                      </code>
                   </pre>
                </div>
@@ -211,7 +211,7 @@ repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git
                      <code>
 {`mkdir derpfest
 cd derpfest
-repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git-lfs
+repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 17 --git-lfs
 
 # After init, add your local manifest:
 # .repo/local_manifests/<device>.xml
@@ -220,8 +220,8 @@ repo sync -c -j$(nproc --all) \\
     --force-sync --no-clone-bundle --no-tags
 
 . build/envsetup.sh
-lunch lineage_$device-bp4a-user
-mka derp`}
+lunch lineage_$device-cp2a-user
+m derp`}
                      </code>
                   </pre>
                </div>
