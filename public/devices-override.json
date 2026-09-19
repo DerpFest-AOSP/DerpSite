@@ -607,6 +607,30 @@
     ]
    },
    {
+    "codename": "Spacewar",
+    "aliases": [
+        "Nothing Phone (1)"
+    ],
+    "displayName": "Nothing Phone (1)",
+    "maintainer": "Alexander Brunswig (NurKeinNeid)",
+    "latest": {
+        "filename": "DerpFest 17",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://drive.google.com/drive/u/0/folders/1KNWcqfYw5rMN7O-ngEgfLu4ZE4viM3un",
+        "version": "17",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_tokay.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/tokay.json"
+        }
+    ]
+   },
+   {
     "codename": "tokay",
     "aliases": [
         "Google Pixel 9"
