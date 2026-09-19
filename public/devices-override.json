@@ -12,7 +12,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+iArCVx0Ly2YwMDM1",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -36,7 +36,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+iArCVx0Ly2YwMDM1",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -61,7 +61,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+Q63yzL3pOyswNDZk",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -109,7 +109,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+Xt0gkGnFWAI0ZDA0",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -133,7 +133,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+Xt0gkGnFWAI0ZDA0",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -157,7 +157,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+Xt0gkGnFWAI0ZDA0",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -181,7 +181,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+Xt0gkGnFWAI0ZDA0",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -205,7 +205,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+lFmFwuv9tms5ZDRk",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -421,7 +421,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+nEq4vgkUTGxiOTA0",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -446,7 +446,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+nEq4vgkUTGxiOTA0",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -470,7 +470,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+nEq4vgkUTGxiOTA0",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -619,7 +619,31 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://drive.google.com/drive/folders/1trhRmqMNRQ1aZ6JnJ7VpyVSWmQ95B-I2",
-        "version": "16.2",
+        "version": "17",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_tokay.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/tokay.json"
+        }
+    ]
+   },
+   {
+    "codename": "komodo",
+    "aliases": [
+        "Google Pixel 9 Pro XL"
+    ],
+    "displayName": "Google Pixel 9 Pro XL",
+    "maintainer": "Alexander Brunswig (NurKeinNeid)",
+    "latest": {
+        "filename": "DerpFest 17",
+        "id": "4206942069420694206942069420694206942069420694206942069420694206",
+        "romtype": "Official",
+        "size": "1024",
+        "url": "https://drive.google.com/drive/folders/1Q9W0pHD5mt8vhzp8eZmUzmUQkaZ0yIc9",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_tokay.txt",
@@ -643,7 +667,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://drive.google.com/drive/folders/1URiioCXL04NHDnqB7Ww7jkVGL5lHpBuX",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_caiman.txt",
@@ -662,12 +686,12 @@
     "displayName": "Xiaomi Pad 7 (uke)",
     "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 17 coming soon",
+        "filename": "DerpFest 17 ETA unkown",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://derpfest.org/devices",
-        "version": "17 coming soon",
+        "version": "17 ETA unknown",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
