@@ -1,4 +1,33 @@
+const ALEXANDER = {
+  name: 'Alexander Brunswig',
+  avatar: 'https://github.com/NurKeinNeid.png?size=128',
+  href: '/team#alexanderbrunswig',
+  github: 'https://github.com/NurKeinNeid',
+}
+
 export const blogPosts = [
+  {
+    slug: '2026-09-19-mid-september',
+    title: 'Mid-September source update',
+    excerpt:
+      'September 2026 security patches, scene-container follow-through, more blur, rewritten color pickers, a gradient dual-shade QS status chip, HD and Wi-Fi standard icons, Pixel exclusives from Fundamental OS, a redesigned recovery, and a lockscreen clock that writes the time in words.',
+    date: '2026-09-19',
+    readMinutes: 10,
+    cover: '/img/5267227113499075516.jpg',
+    coverAlt: 'DerpFest lock screen with a text clock reading It’s Two Fifty Three',
+    coverPair: [
+      {
+        src: '/img/5260283710454572854.jpg',
+        alt: 'AOSP theme picker Clock sheet with the text clock selected, previewing It’s Seventeen Nineteen',
+      },
+      {
+        src: '/img/5267227113499075516.jpg',
+        alt: 'DerpFest lock screen with a text clock reading It’s Two Fifty Three',
+      },
+    ],
+    tags: ['Android 17', 'Security', 'Source'],
+    author: ALEXANDER,
+  },
   {
     slug: '2026-09-07-android-17',
     title: 'DerpFest Android 17 source is here',
@@ -19,12 +48,7 @@ export const blogPosts = [
       },
     ],
     tags: ['Android 17', 'Theming', 'Source'],
-    author: {
-      name: 'Alexander Brunswig',
-      avatar: 'https://github.com/NurKeinNeid.png?size=128',
-      href: '/team#alexanderbrunswig',
-      github: 'https://github.com/NurKeinNeid',
-    },
+    author: ALEXANDER,
   },
 ]
 

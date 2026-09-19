@@ -154,7 +154,7 @@ const Home = () => {
                            className="inline-flex items-center gap-2 mb-8 px-4 py-1.5 rounded-full border border-white/15 bg-white/5 backdrop-blur-md text-sm text-white/80 hover:text-white hover:border-[#1de099]/40 transition-colors duration-300"
                         >
                            <span className="h-1.5 w-1.5 rounded-full bg-[#1de099] animate-pulse" aria-hidden="true"></span>
-                           Android 17 source is public
+                           {latestPost.title}
                            <span aria-hidden="true" className="text-[#1de099]">→</span>
                         </Link>
                      )}

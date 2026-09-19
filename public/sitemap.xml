@@ -17,8 +17,15 @@
 
    <url>
       <loc>https://derpfest.org/blog</loc>
-      <lastmod>2026-09-07</lastmod>
+      <lastmod>2026-09-19</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://derpfest.org/blog/2026-09-19-mid-september</loc>
+      <lastmod>2026-09-19</lastmod>
+      <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
 

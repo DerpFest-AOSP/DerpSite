@@ -2,6 +2,7 @@ import { Link, Navigate, useParams } from 'react-router-dom'
 import { formatPostDate, getPostBySlug } from '../data/blog'
 
 const postBodies = {
+  '2026-09-19-mid-september': MidSeptemberBody,
   '2026-09-07-android-17': Android17Body,
 }
 
@@ -65,6 +66,173 @@ const BlogPost = () => {
 
         {Body ? <Body /> : null}
       </article>
+    </div>
+  )
+}
+
+function MidSeptemberBody() {
+  return (
+    <div className="blog-prose text-gray-300 leading-relaxed text-lg space-y-6">
+      <p>
+        Two weeks after the Android 17 tree went public, another source drop. Call it the mid-September update: September security patches, a lot of bugfixes around the scene container flag from the first drop, a redesigned recovery, and a few new features.
+      </p>
+      <p>
+        Official images still follow the maintainers. The tree is there now if you want to compile it. Same{' '}
+        <a href="https://github.com/DerpFest-AOSP/android_manifest" target="_blank" rel="noopener noreferrer">
+          official manifest
+        </a>
+        , same <Link to="/build">Build</Link> page.
+      </p>
+
+      <h2>September security patches</h2>
+      <p>
+        This tree pulls in the September 2026 security patches. Google published the{' '}
+        <a href="https://source.android.com/docs/security/bulletin/pixel/2026/2026-09-01" target="_blank" rel="noopener noreferrer">
+          Pixel Update Bulletin
+        </a>{' '}
+        on September 15. Newest patches, on the public Android 17 tree.
+      </p>
+
+      <h2>Scene container, after the first drop</h2>
+      <p>
+        The first Android 17 source drop force-enabled the scene container aconfig flag. That flag turns on the modern scene-based architecture for core SystemUI surfaces — lockscreen, shade, and Quick Settings. Dual shade and the new Panels page came with it.
+      </p>
+      <p>
+        Enabling it on QPR0 was the right call. This drop is the follow-through: lockscreen, shade, and Quick Settings behaving like a scene-based SystemUI instead of fighting the old view hierarchy.
+      </p>
+      <p>
+        With that work in, we turned on more blur flags that had to stay off in the first drop. Lockscreen notifications are blurred now — you can see it on the text-clock shot below, the one with the Telegram cards over the wallpaper.
+      </p>
+      <p>
+        If something felt off after the first sync — shade transitions, lockscreen layout, Quick Settings on dual shade — this is the tree that is supposed to settle it. Keep reporting what still breaks.
+      </p>
+
+      <h2>A lockscreen clock that writes the time</h2>
+      <p>
+        First new feature we want to show: a custom lockscreen clock in the native AOSP theme picker. Open Wallpaper &amp; style, pick Clock, and one of the styles writes the time as words instead of digits — <em>It&apos;s Seventeen Nineteen</em>, not 17:19.
+      </p>
+      <p>
+        Some people will remember that from much older Android. The clock is originally from{' '}
+        <a href="https://github.com/FundamentalOS" target="_blank" rel="noopener noreferrer">
+          Fundamental OS
+        </a>
+        . Their developer worked with us to bring it up on Android 17 with scene container enabled, so it actually lives in the new lockscreen instead of a leftover view.
+      </p>
+      <p>
+        Style, color, and size are the usual Clock sheet tabs. Apply it and the lockscreen uses words for the time, including when notifications are on the shade — those cards are blurred now too.
+      </p>
+
+      <div className="flex justify-center py-2">
+        <PhoneShot
+          src="/img/5260283710454572854.jpg"
+          alt="AOSP theme picker Clock sheet with the text clock selected, previewing It’s Seventeen Nineteen"
+          caption="Clock in the theme picker — the text style, previewing It’s Seventeen Nineteen."
+          wide
+        />
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 py-2">
+        <PhoneShot
+          src="/img/5267227113499075516.jpg"
+          alt="DerpFest lock screen with a text clock reading It’s Two Fifty Three"
+          caption="On the lockscreen: It’s Two Fifty Three."
+        />
+        <PhoneShot
+          src="/img/5273879992070775175.jpg"
+          alt="DerpFest lock screen with a text clock reading Twelve Thirty Three above blurred notification cards"
+          caption="Same clock with notifications on the shade — Twelve Thirty Three. Lockscreen notification cards are blurred now."
+        />
+      </div>
+
+      <h2>Pixel exclusives, from Fundamental OS</h2>
+      <p>
+        The text clock is not the only thing we took from{' '}
+        <a href="https://github.com/FundamentalOS" target="_blank" rel="noopener noreferrer">
+          Fundamental OS
+        </a>
+        . They reverse-engineered a lot of Pixel-only SystemUI. That work is in this tree now.
+      </p>
+      <p>
+        Now Playing on the lockscreen — the song playing around you, not a media-player widget (will soon also be available for non-Pixels). Pixel&apos;s screenshot reveal animation. Calculator and Calendar as lockscreen quick affordances. A refresh-rate boost before you authenticate, so the lockscreen does not sit on a low panel. And Pixel&apos;s on-device back-gesture classifier, so an edge swipe decides back the way a Pixel does.
+      </p>
+
+      <h2>Color pickers, rewritten</h2>
+      <p>
+        We also rewrote our color pickers. The old ones looked like Android 7 — a leftover dialog with a hex field and not much else. They did the job. They did not look like they belonged on Android 17.
+      </p>
+      <p>
+        They do now. Gradients, for example, gets a hue wheel, a value slider, and the hex sitting on the color you actually picked. Drag the wheel and those digits roll with the color instead of snapping to the new code. That shot is Gradient end color for Quick Settings tile backgrounds. Monet Personalization still lets you tap the wallpaper to pull an accent off the photo. We only redesigned the dialog.
+      </p>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 py-2">
+        <PhoneShot
+          src="/img/5291907004899204476.jpg"
+          alt="DerpFest Gradients settings with a hue wheel, value slider, and hex field for the Quick Settings tile gradient end color"
+          caption="Gradient end color — hue wheel, slider, hex that rolls with the color."
+        />
+        <PhoneShot
+          src="/img/5274169159333912994.jpg"
+          alt="DerpFest Monet Personalization picker letting you tap a wallpaper photo to choose an accent color"
+          caption="Monet Personalization — same wallpaper tap, new dialog."
+        />
+      </div>
+
+      <h2>A gradient for the dual-shade status chip</h2>
+      <p>
+        Dual shade puts a status chip in the Quick Settings header — connectivity on the right, date on the left. We added a gradient styling option for that chip, so it can follow the same look as the rest of the shade instead of sitting there as a flat pill.
+      </p>
+
+      <div className="py-2">
+        <PhoneShot
+          src="/img/5291907004899204560.jpg"
+          alt="DerpFest dual-shade Quick Settings header with a gradient status chip showing 5G, signal, and a heart"
+          caption="Dual shade Quick Settings — the status chip on a gradient."
+          landscape
+        />
+      </div>
+
+      <h2>HD calling and the Wi-Fi standard badge</h2>
+      <p>
+        Android 17&apos;s status bar is smaller. The HD calling mark and the Wi-Fi 4 / 5 / 6 / 7 badge were drawn for the old canvas, so they sat wrong on the new signal icons — HD in particular could vanish into the tighter mobile container.
+      </p>
+      <p>
+        Thanks to{' '}
+        <a href="https://github.com/AOSPA" target="_blank" rel="noopener noreferrer">
+          AOSPA
+        </a>
+        . They redrew the Wi-Fi generation badges for Android 17 and put that overlay on the modern status bar pipeline. HD calling stays visible on the smaller signal icon instead of getting clipped off.
+      </p>
+      <p>
+        We only had to adapt their Wi-Fi badge. DerpFest has always put it on the left of the icon; AOSPA puts it lower-right. The badge hides when there is no internet, so you do not get a generation number next to an exclamation.
+      </p>
+
+      <h2>Recovery, redesigned</h2>
+      <p>
+        Recovery still had the old logo. It sat like that for a long time. This drop finally puts current DerpFest branding on it — the owl, the wordmark, a Recovery pill, DerpFest v17 Official on the device line. It finally looks like it belongs on the same device as the rest of DerpFest.
+      </p>
+
+      <div className="bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-sm border border-white/10 rounded-2xl shadow-xl p-6 md:p-8 mt-10">
+        <h2 className="!mt-0">Get the source</h2>
+        <p>
+          Initialize against the Android 17 branch of the official manifest:
+        </p>
+        <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4 overflow-x-auto">
+          <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
+            <code>
+{`repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 17 --git-lfs
+repo sync`}
+            </code>
+          </pre>
+        </div>
+        <p className="mb-0">
+          From there it is the usual <code className="text-[#1de099]">. build/envsetup.sh</code>, lunch, and{' '}
+          <code className="text-[#1de099]">m derp</code>. Full notes are on the <Link to="/build">Build</Link> page, and trees live under{' '}
+          <a href="https://github.com/DerpFest-AOSP" target="_blank" rel="noopener noreferrer">
+            DerpFest-AOSP
+          </a>
+          .
+        </p>
+      </div>
     </div>
   )
 }
@@ -298,14 +466,18 @@ repo sync`}
   )
 }
 
-function PhoneShot({ src, alt, caption, wide = false }) {
+function PhoneShot({ src, alt, caption, wide = false, landscape = false }) {
   return (
     <figure className={wide ? 'w-full max-w-sm' : 'w-full'}>
-      <div className="bg-gradient-to-br from-[#33bbff] to-[#1de099] p-1 rounded-3xl shadow-2xl">
+      <div
+        className={`bg-gradient-to-br from-[#33bbff] to-[#1de099] p-1 shadow-2xl ${
+          landscape ? 'rounded-2xl' : 'rounded-3xl'
+        }`}
+      >
         <img
           src={src}
           alt={alt}
-          className="w-full h-auto rounded-[1.35rem] bg-black"
+          className={`w-full h-auto bg-black ${landscape ? 'rounded-[0.9rem]' : 'rounded-[1.35rem]'}`}
           draggable="false"
         />
       </div>

@@ -42,20 +42,7 @@ function FeaturedCard({ post }) {
       to={`/blog/${post.slug}`}
       className="group block rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md overflow-hidden shadow-2xl hover:shadow-[#33bbff]/20 hover:-translate-y-1 transition-all duration-500"
     >
-      <div className="relative bg-black/40 min-h-[260px] md:min-h-[340px] flex items-end justify-center gap-3 md:gap-6 px-4 pt-10 pb-4 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f23] via-transparent to-transparent pointer-events-none"></div>
-        {(post.coverPair ?? [{ src: post.cover, alt: post.coverAlt }]).map((image, index) => (
-          <img
-            key={image.src}
-            src={image.src}
-            alt={image.alt}
-            className={`relative z-10 w-[42%] max-w-[220px] rounded-2xl border border-white/15 shadow-2xl shadow-black/40 transition-transform duration-500 ${
-              index === 0 ? 'group-hover:-rotate-2 -rotate-3 origin-bottom' : 'group-hover:rotate-2 rotate-3 origin-bottom'
-            }`}
-            draggable="false"
-          />
-        ))}
-      </div>
+      <CoverPhones post={post} size="featured" />
 
       <div className="p-6 md:p-10">
         <PostMeta date={post.date} readMinutes={post.readMinutes} author={post.author} />
@@ -78,14 +65,7 @@ function ArticleCard({ post }) {
       to={`/blog/${post.slug}`}
       className="group flex flex-col rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md overflow-hidden shadow-xl hover:shadow-[#33bbff]/20 hover:-translate-y-1 transition-all duration-500"
     >
-      <div className="relative bg-black/40 overflow-hidden">
-        <img
-          src={post.cover}
-          alt={post.coverAlt}
-          className="w-full h-56 object-cover object-top group-hover:scale-[1.03] transition-transform duration-500"
-          draggable="false"
-        />
-      </div>
+      <CoverPhones post={post} size="card" />
       <div className="p-6 flex flex-col flex-1">
         <PostMeta date={post.date} readMinutes={post.readMinutes} author={post.author} />
         <h3 className="mt-3 text-2xl font-semibold text-white">{post.title}</h3>
@@ -96,6 +76,41 @@ function ArticleCard({ post }) {
         </span>
       </div>
     </Link>
+  )
+}
+
+function CoverPhones({ post, size = 'featured' }) {
+  const images = post.coverPair ?? [{ src: post.cover, alt: post.coverAlt }]
+  const featured = size === 'featured'
+  const single = images.length === 1
+
+  return (
+    <div
+      className={
+        featured
+          ? 'relative bg-black/40 min-h-[260px] md:min-h-[340px] flex items-end justify-center gap-3 md:gap-6 px-4 pt-10 pb-4 overflow-hidden'
+          : 'relative bg-black/40 min-h-[220px] flex items-end justify-center gap-2 px-3 pt-8 pb-3 overflow-hidden'
+      }
+    >
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f23] via-transparent to-transparent pointer-events-none"></div>
+      {images.map((image, index) => (
+        <img
+          key={image.src}
+          src={image.src}
+          alt={image.alt}
+          className={`relative z-10 rounded-2xl border border-white/15 shadow-2xl shadow-black/40 transition-transform duration-500 ${
+            featured ? 'w-[42%] max-w-[220px]' : 'w-[44%] max-w-[150px]'
+          } ${
+            single
+              ? 'rotate-0'
+              : index === 0
+                ? 'group-hover:-rotate-2 -rotate-3 origin-bottom'
+                : 'group-hover:rotate-2 rotate-3 origin-bottom'
+          }`}
+          draggable="false"
+        />
+      ))}
+    </div>
   )
 }
 
