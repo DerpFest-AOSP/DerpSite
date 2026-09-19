@@ -71,7 +71,8 @@ export default function Devices() {
             .sort((a, b) => a.displayName.localeCompare(b.displayName));
 
         }
-        catch(_) {
+        catch (err) {
+          console.warn("Failed to parse /devices-override.json:", err);
           overrideFailed = true;
         }
 
