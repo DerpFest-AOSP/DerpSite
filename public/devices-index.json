@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:04:42.033Z",
+  "generated_at": "2026-10-02T04:14:49.092Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -2104,13 +2104,13 @@
       "displayName": "Redmi K20 Pro",
       "maintainer": "Arghaya Mondal (ergdev)",
       "latest": {
-        "filename": "DerpFest-v17-20260929-raphael-Official-Stable.zip",
-        "id": "215f1aa6b98b2ca25f450ccf5ebcaa4771e52caad430ea0d4414c5301947d9b6",
+        "filename": "DerpFest-v17-20261001-raphael-Official-Stable.zip",
+        "id": "6f8e8dc1a9a5d05bd3d876c8f734d17a5890cfa11361917464d9eeef58ee6e32",
         "romtype": "Official",
-        "size": 3185462827,
-        "url": "https://sourceforge.net/projects/derpfest/files/raphael/DerpFest-v17-20260929-raphael-Official-Stable.zip/download",
+        "size": 3308494329,
+        "url": "https://sourceforge.net/projects/derpfest/files/raphael/DerpFest-v17-20261001-raphael-Official-Stable.zip/download",
         "version": "v17",
-        "datetime": 1790702520
+        "datetime": 1790876153
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_raphael.txt",
       "sources": [
