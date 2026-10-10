@@ -12,7 +12,7 @@ const ROLE_LABELS = [
 ]
 
 function getRoleBadge(role) {
-   const firstLine = role.split('\n')[0]
+   const firstLine = role.split(/\r?\n|\r/)[0]
    for (const r of ROLE_LABELS) {
       if (firstLine.includes(r.match)) return r
    }
@@ -20,15 +20,56 @@ function getRoleBadge(role) {
 }
 
 function getDevices(role) {
-   return role.split('\n').map(l => l.trim()).filter(Boolean).slice(1)
+   if (!role) return { active: [], former: [] }
+
+   // Check if role contains standalone \r separating active and former sections
+   if (role.includes('\r') && !role.includes('\r\n')) {
+      const parts = role.split('\r')
+      const active = parts[0].split('\n').map(l => l.trim()).filter(Boolean).slice(1)
+      const former = []
+      for (let p = 1; p < parts.length; p++) {
+         const lines = parts[p].split('\n').map(l => l.trim()).filter(Boolean)
+         for (const line of lines) {
+            if (/^formerly:?/i.test(line)) {
+               const rest = line.replace(/^formerly:?/i, '').trim()
+               if (rest) former.push(rest)
+            } else {
+               former.push(line)
+            }
+         }
+      }
+      return { active, former }
+   }
+
+   const lines = role.split(/\r?\n/).map(l => l.trim()).filter(Boolean).slice(1)
+   const active = []
+   const former = []
+   let isFormer = false
+
+   for (const line of lines) {
+      if (/^formerly:?/i.test(line)) {
+         isFormer = true
+         const rest = line.replace(/^formerly:?/i, '').trim()
+         if (rest) former.push(rest)
+         continue
+      }
+
+      if (isFormer) {
+         former.push(line)
+      } else {
+         active.push(line)
+      }
+   }
+
+   return { active, former }
 }
 
 function getRoleTitle(role) {
-   return role.split('\n')[0].trim()
+   return role.split(/\r?\n|\r/)[0].trim()
 }
 
 function getRolePriority(role) {
-   const firstLine = role.split('\n')[0]
+   const firstLine = role.split(/\r?\n|\r/)[0]
    if (/lead|founder/i.test(firstLine)) return 0
    if (/senior/i.test(firstLine)) return 1
    return 2
@@ -158,7 +199,7 @@ const Team = () => {
                            </div>
 
                            {/* device list */}
-                           {devices.length > 0 && (
+                           {(devices.active.length > 0 || devices.former.length > 0) && (
                               <div className="flex flex-col gap-2 flex-1 mt-2">
                                  <p className="text-xs font-semibold text-base-content/50 uppercase tracking-widest text-center">
                                     Maintained Devices
@@ -167,14 +208,32 @@ const Team = () => {
                                     className="overflow-y-auto pr-1"
                                     style={{ maxHeight: '160px', scrollbarWidth: 'thin' }}
                                  >
-                                    <ul className="space-y-2">
-                                       {devices.map((device, i) => (
-                                          <li key={i} className="flex items-start gap-2 text-sm text-base-content/80">
-                                             <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-gradient-to-br from-[#33bbff] to-[#1de099] flex-shrink-0"></span>
-                                             {device}
-                                          </li>
-                                       ))}
-                                    </ul>
+                                    {devices.active.length > 0 && (
+                                       <ul className="space-y-2">
+                                          {devices.active.map((device, i) => (
+                                             <li key={`active-${i}`} className="flex items-start gap-2 text-sm text-base-content/80">
+                                                <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-gradient-to-br from-[#33bbff] to-[#1de099] flex-shrink-0"></span>
+                                                <span>{device}</span>
+                                             </li>
+                                          ))}
+                                       </ul>
+                                    )}
+
+                                    {devices.former.length > 0 && (
+                                       <>
+                                          <p className={`text-xs font-semibold text-base-content/60 ${devices.active.length > 0 ? 'mt-3' : 'mt-1'} mb-1.5`}>
+                                             Formerly:
+                                          </p>
+                                          <ul className="space-y-2">
+                                             {devices.former.map((device, i) => (
+                                                <li key={`former-${i}`} className="flex items-start gap-2 text-sm text-base-content/50">
+                                                   <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-gradient-to-br from-[#33bbff] to-[#1de099] opacity-40 flex-shrink-0"></span>
+                                                   <span className="line-through">{device}</span>
+                                                </li>
+                                             ))}
+                                          </ul>
+                                       </>
+                                    )}
                                  </div>
                               </div>
                            )}
