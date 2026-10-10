@@ -6,8 +6,8 @@
       "telegram": "https://t.me/NurKeinNeid"
    },
    {
-      "name": "P. A. N. Z.",
-      "role": "Senior Device Maintainer\nOnePlus 15 (infiniti)\nOnePlus 15R (macan)\nOnePlus 15T (fairlady)\nOnePlus Ace 6T (macanc)\nOnePlus 12 (waffle)\nXiaomi 12 (cupid)\nXiaomi 12T Pro | Redmi K50 Ultra (diting)\nXiaomi 12S (mayfly)\nXiaomi Pad 5 (nabu)\nXiaomi Pad 7 (uke) (ETA unknown)\nOnePlus 6 (enchilada)\nOnePlus 6T (fajita)\nOnePlus 7 (hotdog)\nOnePlus 7 Pro (guacamole)\nOnePlus 7T (hotdogb)\nOnePlus 7T Pro (hotdog)\nOnePlus 8 (instantnoodle)\nOnePlus 8 Pro (instantnoodlep)\nOnePlus 8T (kebab)\nSamsung Galaxy Tab S6 Lite EXYNOS Wi-Fi (gta4xlwifi)\nSamsung Galaxy Tab S6 Lite EXYNOS LTE (gta4xl)\nGoogle Pixel 8 Pro (husky)\nGoogle Pixel 8 (shiba)\nGoogle Pixel 8a (akita)\n",
+      "name": "P.A.N.Z.",
+      "role": "Senior Device Maintainer\nOnePlus 15 (infiniti)\nOnePlus 15R (macan)\nOnePlus 15T (fairlady)\nOnePlus Ace 6T (macanc)\nOnePlus 12 (waffle)\nXiaomi 12 (cupid)\nXiaomi 12T Pro | Redmi K50 Ultra (diting)\nXiaomi 12S (mayfly)\nXiaomi Pad 5 (nabu)\nOnePlus 6 (enchilada)\nOnePlus 6T (fajita)\nOnePlus 8 (instantnoodle)\nOnePlus 8 Pro (instantnoodlep)\nOnePlus 8T (kebab)\n\nFormerly:\nOnePlus 7 (hotdog)\nOnePlus 7 Pro (guacamole)\nOnePlus 7T (hotdogb)\nOnePlus 7T Pro (hotdog)\nSamsung Galaxy Tab S6 Lite EXYNOS Wi-Fi (gta4xlwifi)\nSamsung Galaxy Tab S6 Lite EXYNOS LTE (gta4xl)\nGoogle Pixel 8 Pro (husky)\nGoogle Pixel 8 (shiba)\nGoogle Pixel 8a (akita)\n",
       "github": "https://github.com/ppanzenboeck",
       "telegram": "https://t.me/jakobBokaj1"
    },
@@ -107,12 +107,6 @@
       "telegram": "https://t.me/edwardwu0223"
    },
    {
-      "name": "Einar Gednochsson",
-      "role": "Device Maintainer\nLenovo Z6 Pro (zippo)\nGoogle Pixel 6 Series",
-      "github": "https://github.com/wilmabumsson",
-      "telegram": "https://t.me/kanstmablason"
-   },
-   {
       "name": "Emal0n",
       "role": "Device Maintainer\nMotorola Moto G7 (river)\nMotorola Moto G7 Power (ocean)",
       "github": "https://github.com/emal0n",
@@ -147,12 +141,6 @@
       "role": "Device Maintainer\nOnePlus 7T (hotdogb)",
       "github": "https://github.com/matt0301",
       "telegram": "https://t.me/matheus_vieira"
-   },
-   {
-      "name": "MeowDroider",
-      "role": "Device Maintainer\nRealme 6\nRealme 6i (Indian)\nRealme 6s\nRealme 7\nNarzo 20 Pro\nNarzo 30 4G",
-      "github": "https://github.com/meowdroider",
-      "telegram": "https://t.me/MuhammadIJC"
    },
    {
       "name": "Omar Aguilar",

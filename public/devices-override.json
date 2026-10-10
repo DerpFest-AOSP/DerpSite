@@ -80,12 +80,12 @@
     "displayName": "Xiaomi Pad 5",
     "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16.2",
+        "filename": "DerpFest 17",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+bkzf-zBnlTI4NThk",
-        "version": "16.2",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -200,7 +200,7 @@
     "displayName": "OnePlus 12",
     "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16.2",
+        "filename": "DerpFest 17",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
@@ -224,12 +224,12 @@
     "displayName": "Samsung Galaxy Tab S6 Lite Exynos Wi-Fi",
     "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 16.2",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+2x_c7EzzhlI5ZDY0",
-        "version": "16",
+        "version": "16.2 - discontinued :(",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -248,12 +248,12 @@
     "displayName": "Samsung Galaxy Tab S6 Lite Exynos LTE",
     "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 16.2",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+2x_c7EzzhlI5ZDY0",
-        "version": "16",
+        "version": "16.2 - discontinued :(",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -272,12 +272,12 @@
     "displayName": "OnePlus 6T",
     "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 17",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+EZs6t2jBM7Q1NTg0",
-        "version": "16",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -296,12 +296,12 @@
     "displayName": "OnePlus 6",
     "maintainer": "P.A.N.Z.",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 17",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+L84wpssTQR5iYTY0",
-        "version": "16",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -325,7 +325,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
-        "version": "16.2",
+        "version": "16.2 - discontinued :(",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -349,7 +349,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
-        "version": "16.2",
+        "version": "16.2 - discontinued :(",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -373,7 +373,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
-        "version": "16.2",
+        "version": "16.2 - discontinued :(",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -397,7 +397,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+MqAJ_6qkQWs4MmJl",
-        "version": "16.2",
+        "version": "16.2 - discontinued :(",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -489,12 +489,12 @@
     "displayName": "Google Pixel 7",
     "maintainer": "Sean Dabes",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 17",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3AQF1Tl0hb2kvIiKo_60sAYY?e=Awcg8C",
-        "version": "16",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -513,12 +513,12 @@
     "displayName": "Google Pixel 7 Pro",
     "maintainer": "Sean Dabes",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 17",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3AQF1Tl0hb2kvIiKo_60sAYY?e=Awcg8C",
-        "version": "16",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -537,12 +537,12 @@
     "displayName": "Google Pixel 7a",
     "maintainer": "Sean Dabes",
     "latest": {
-        "filename": "DerpFest 16",
+        "filename": "DerpFest 17",
         "id": "4206942069420694206942069420694206942069420694206942069420694206",
         "romtype": "Official",
         "size": "1024",
         "url": "https://1drv.ms/f/c/7c95dbbdd0a48b1b/IgBIWFsTT-UeTK_J-XtIGjz3AQF1Tl0hb2kvIiKo_60sAYY?e=Awcg8C",
-        "version": "16",
+        "version": "17",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -571,7 +571,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/derprm6785",
-        "version": "16.2",
+        "version": "16.2 - discontinued :(",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -595,7 +595,7 @@
         "romtype": "Official",
         "size": "1024",
         "url": "https://t.me/+xsgNKuwSDNMxYWY0",
-        "version": "13 @ 2026 Security Patch",
+        "version": "13 @ 2026 Security Patch - discontinued :(",
         "datetime": 1
     },
     "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
@@ -699,30 +699,6 @@
         {
             "repoFolder": "repo_primary",
             "filePath": "repo_primary/tokay.json"
-        }
-    ]
-   },
-   {
-    "codename": "uke",
-    "aliases": [
-        "Xiaomi Pad 7"
-    ],
-    "displayName": "Xiaomi Pad 7 (uke)",
-    "maintainer": "P.A.N.Z.",
-    "latest": {
-        "filename": "DerpFest 17 ETA unkown",
-        "id": "4206942069420694206942069420694206942069420694206942069420694206",
-        "romtype": "Official",
-        "size": "1024",
-        "url": "https://derpfest.org/devices",
-        "version": "17 ETA unknown",
-        "datetime": 1
-    },
-    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_komodo.txt",
-    "sources": [
-        {
-            "repoFolder": "repo_primary",
-            "filePath": "repo_primary/komodo.json"
         }
     ]
    }
