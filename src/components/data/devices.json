@@ -1,6 +1,20 @@
 {
   "brands": [
     {
+      "name": "Asus",
+      "devices": [
+        {
+          "name": "Asus Snapdragon Insiders Phone",
+          "code": "picasso",
+          "maintainer": "EdwardWu(bluehomewu)",
+          "links": {
+            "download": "https://sourceforge.net/projects/derpfest/files/picasso/",
+            "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_picasso.txt"
+          }
+        }
+      ]
+    },
+    {
       "name": "Google",
       "devices": [
         {

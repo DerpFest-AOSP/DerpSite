@@ -17,6 +17,30 @@
   ],
   "devices": [
     {
+      "codename": "picasso",
+      "aliases": [
+        "Asus Snapdragon Insiders Phone"
+      ],
+      "displayName": "Asus Snapdragon Insiders Phone",
+      "maintainer": "EdwardWu (@bluehomewu)",
+      "latest": {
+        "filename": "DerpFest-v17-20261013-picasso-Official-Stable.zip",
+        "id": "4432f36a8ed657ab3471049490361e1572bccfab82d1bc79708402b46e09cc2b",
+        "romtype": "Official",
+        "size": 2852251841,
+        "url": "https://sourceforge.net/projects/derpfest/files/picasso/DerpFest-v17-20261013-picasso-Official-Stable.zip/download",
+        "version": "v17",
+        "datetime": 1791822754
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_picasso.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/picasso.json"
+        }
+      ]
+    },
+    {
       "codename": "Z01R",
       "aliases": [
         "Asus Zenfone 5Z"
@@ -2049,7 +2073,7 @@
       ]
     },
     {
-      "codename": "picasso",
+      "codename": "picasso_xiaomi",
       "aliases": [
         "Redmi K30 5G"
       ],
@@ -2060,15 +2084,15 @@
         "id": "fe00ae0a95ad3e3a9de86cd2d3e9de310b24ccee137bc7785a819462ce9d59d1",
         "romtype": "Official",
         "size": 2222041837,
-        "url": "https://sourceforge.net/projects/derpfest/files/picasso/DerpFest-13-Official-Tango-picasso-20230725-1349.zip/download",
+        "url": "https://sourceforge.net/projects/derpfest/files/picasso_xiaomi/DerpFest-13-Official-Tango-picasso-20230725-1349.zip/download",
         "version": "13",
         "datetime": 1689581092
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_picasso.txt",
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_picasso_xiaomi.txt",
       "sources": [
         {
           "repoFolder": "repo_primary",
-          "filePath": "repo_primary/picasso.json"
+          "filePath": "repo_primary/picasso_xiaomi.json"
         }
       ]
     },
