@@ -2121,7 +2121,7 @@
       ]
     },
     {
-      "codename": "picasso",
+      "codename": "picasso_xiaomi",
       "aliases": [
         "Redmi K30 5G"
       ],
@@ -2132,15 +2132,15 @@
         "id": "fe00ae0a95ad3e3a9de86cd2d3e9de310b24ccee137bc7785a819462ce9d59d1",
         "romtype": "Official",
         "size": 2222041837,
-        "url": "https://sourceforge.net/projects/derpfest/files/picasso/DerpFest-13-Official-Tango-picasso-20230725-1349.zip/download",
+        "url": "https://sourceforge.net/projects/derpfest/files/picasso_xiaomi/DerpFest-13-Official-Tango-picasso-20230725-1349.zip/download",
         "version": "13",
         "datetime": 1689581092
       },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_picasso.txt",
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_picasso_xiaomi.txt",
       "sources": [
         {
           "repoFolder": "repo_primary",
-          "filePath": "repo_primary/picasso.json"
+          "filePath": "repo_primary/picasso_xiaomi.json"
         }
       ]
     },
