@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T05:38:06.867Z",
+  "generated_at": "2026-10-13T18:54:50.769Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -2129,12 +2129,12 @@
       "maintainer": "Arghaya Mondal (ergdev)",
       "latest": {
         "filename": "DerpFest-v17-20261013-raphael-Official-Stable.zip",
-        "id": "9deb909b0035c874a3246846b736c35b5e61abbd02272c5ea6476404a882319a",
+        "id": "d20c33acbdf8228a84c1a1a10c8a1bd05a12b3d07030440b3a38a8e89b2aa4e9",
         "romtype": "Official",
-        "size": 3315063703,
+        "size": 3315076640,
         "url": "https://sourceforge.net/projects/derpfest/files/raphael/DerpFest-v17-20261013-raphael-Official-Stable.zip/download",
         "version": "v17",
-        "datetime": 1791861945
+        "datetime": 1791909212
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_raphael.txt",
       "sources": [
