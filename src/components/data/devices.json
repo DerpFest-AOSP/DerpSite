@@ -17,6 +17,15 @@
     {
       "name": "Google",
       "devices": [
+          {
+          "name": "Google Pixel 10 Pro Fold",
+          "code": "rango",
+          "maintainer": "Cody Smith",
+          "links": {
+            "download": "https://sourceforge.net/projects/derpfest/files/rango/",
+            "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/refs/heads/master/changelog_rango.txt"
+           }
+        },
         {
           "name": "Google Pixel 9 Pro XL",
           "code": "komodo",
