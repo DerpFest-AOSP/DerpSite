@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T03:08:59.057Z",
+  "generated_at": "2026-10-17T15:00:51.726Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -1836,13 +1836,13 @@
       "displayName": "rango",
       "maintainer": "Unknown",
       "latest": {
-        "filename": "DerpFest-v16.2-20260807-rango-Official-Stable.zip",
-        "id": "e3c5474ec726ea92f02495603a4165beaa886d5b9c6168e6a32364c04b0e4ef6",
+        "filename": "DerpFest-v17-20261017-rango-Official-Beta.zip",
+        "id": "ec65af1e07b565c38a0a9b3a17028062292876e2652fb9b691785d4fa945743b",
         "romtype": "Official",
-        "size": 2470150244,
-        "url": "https://sourceforge.net/projects/derpfest/files/rango/DerpFest-v16.2-20260807-rango-Official-Stable.zip/download",
-        "version": "v16.2",
-        "datetime": 1786140001
+        "size": 3123189732,
+        "url": "https://sourceforge.net/projects/derpfest/files/rango/DerpFest-v17-20261017-rango-Official-Beta.zip/download",
+        "version": "v17",
+        "datetime": 1792205251
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rango.txt",
       "sources": [
