@@ -12,7 +12,7 @@ export const changelog = [
       'Open the dual-shade quick settings grid ahead of its tiles',
       'Fix variable pattern unlock grid size in SceneFramework bouncer',
       'Fix touch detection and pattern drawing in SceneFramework bouncer',
-      'Disable Now Playing until it is turned on',
+      'Disable Now Playing by default',
       'Pulse: Fade the visualizer in and out',
       'DynamicBar: Align the dynamic bar circle chip with status bar icons',
       'DynamicBar: Fix chip width constraints',
