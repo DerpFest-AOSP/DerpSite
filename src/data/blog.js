@@ -7,6 +7,28 @@ const ALEXANDER = {
 
 export const blogPosts = [
   {
+    slug: '2026-10-18-october',
+    title: 'October source update',
+    excerpt:
+      'October 2026 security patches, synced lyrics on the dynamic island, dynamic bar, and lockscreen that light up word by word as the song plays, Now Playing for every device, a reworked dual shade, and a month of DerpLauncher fixes.',
+    date: '2026-10-18',
+    readMinutes: 7,
+    cover: '/img/5359581606286402055.jpg',
+    coverAlt: 'DerpFest lock screen with synced lyrics for Rockstar by LISA above the media player',
+    coverPair: [
+      {
+        src: '/img/video5319249101253027048-poster.jpg',
+        alt: 'DerpFest dynamic island expanded into a media card with a synced lyrics card below it',
+      },
+      {
+        src: '/img/5359581606286402055.jpg',
+        alt: 'DerpFest lock screen with synced lyrics for Rockstar by LISA above the media player',
+      },
+    ],
+    tags: ['Android 17', 'Security', 'Lyrics'],
+    author: ALEXANDER,
+  },
+  {
     slug: '2026-09-19-mid-september',
     title: 'Mid-September source update',
     excerpt:

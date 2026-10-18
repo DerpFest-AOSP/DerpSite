@@ -2,6 +2,7 @@ import { Link, Navigate, useParams } from 'react-router-dom'
 import { formatPostDate, getPostBySlug } from '../data/blog'
 
 const postBodies = {
+  '2026-10-18-october': OctoberBody,
   '2026-09-19-mid-september': MidSeptemberBody,
   '2026-09-07-android-17': Android17Body,
 }
@@ -66,6 +67,158 @@ const BlogPost = () => {
 
         {Body ? <Body /> : null}
       </article>
+    </div>
+  )
+}
+
+function OctoberBody() {
+  return (
+    <div className="blog-prose text-gray-300 leading-relaxed text-lg space-y-6">
+      <p>
+        A month after the mid-September drop, the October update is in the tree: October security patches, synced lyrics on the dynamic island, dynamic bar, and lockscreen, and four weeks of fixes on top of the scene container work.
+      </p>
+      <p>
+        This post covers the highlights. Every change, day by day, is on the new <Link to="/changelog">Changelog</Link> page.
+      </p>
+
+      <h2>October security patches</h2>
+      <p>
+        This tree carries the October 2026 security patches. Google published the{' '}
+        <a href="https://source.android.com/docs/security/bulletin/pixel/2026/2026-10-01" target="_blank" rel="noopener noreferrer">
+          Pixel Update Bulletin
+        </a>{' '}
+        on October 6, with a patch level of 2026-10-05. On top of the regular Android Security Bulletin, it lists:
+      </p>
+      <ul className="list-disc pl-6 space-y-2 marker:text-[#1de099]">
+        <li>
+          <strong className="text-white">Kernel:</strong> two high-severity elevation-of-privilege fixes, in the filesystem code and the Wacom HID driver.
+        </li>
+        <li>
+          <strong className="text-white">Bluetooth:</strong> a critical elevation-of-privilege fix.
+        </li>
+        <li>
+          <strong className="text-white">GDMC:</strong> a critical elevation-of-privilege fix and a high-severity information disclosure fix.
+        </li>
+        <li>
+          <strong className="text-white">GSA:</strong> a critical information disclosure fix.
+        </li>
+      </ul>
+      <p>
+        The platform side is merged into the public Android 17 tree. Kernel and firmware fixes reach your device through the kernel and vendor images your maintainer ships with the build.
+      </p>
+
+      <h2>Lyrics that follow the song</h2>
+      <p>
+        The headline feature: synced lyrics. Play a song and the dynamic island or dynamic bar opens into the media card with a lyrics card underneath, in Accord style. The current line sits in the middle, the previous and next lines fade out above and below, and the card scrolls on its own as the song moves.
+      </p>
+      <p>
+        Lyrics are timed down to the word. When the source has word-level timing, the highlight sweeps through the line as each word is sung — karaoke style — instead of jumping a whole line at a time. Watch the bold line in the clip below.
+      </p>
+
+      <div className="flex justify-center py-2">
+        <PhoneVideo
+          src="/img/video5319249101253027048.mp4"
+          poster="/img/video5319249101253027048-poster.jpg"
+          label="DerpFest dynamic island expanded into a media card for Shake It Off by Taylor Swift, with a lyrics card whose current line highlights word by word"
+          caption="Dynamic island with the lyrics card. The bold line lights up word by word as it is sung."
+        />
+      </div>
+
+      <p>
+        The lockscreen gets the same treatment. Three lines sit between the clock and the media player, the current one bright, and the same word-by-word sweep runs there too. In the shot below, <em>I&apos;m a</em> has been sung and the rest of the line is still waiting.
+      </p>
+
+      <div className="flex justify-center py-2">
+        <PhoneShot
+          src="/img/5359581606286402055.jpg"
+          alt="DerpFest lock screen with the text clock, and synced lyrics for Rockstar by LISA above the media player"
+          caption="Lockscreen lyrics with the text clock. The highlight is partway through the current line."
+          wide
+        />
+      </div>
+
+      <h2>Where the lyrics come from</h2>
+      <p>
+        Lyrics are fetched by LyricTicker, and the sources are configurable. The default is now{' '}
+        <a href="https://lrclib.net/" target="_blank" rel="noopener noreferrer">
+          LRCLIB
+        </a>
+        , an open, community-run lyrics database, instead of Netease. Word-timed YRC lyrics are supported, word-timed display is configurable, and timestamps written with colon-separated fractions parse correctly now. The status bar lyric uses the Material 3 font, so it matches the rest of the bar.
+      </p>
+
+      <h2>Now Playing, on every device</h2>
+      <p>
+        In September we brought Pixel&apos;s Now Playing — the song playing around you, not a media widget — to the lockscreen and said other devices would follow. They have: lockscreen Now Playing works on all devices now. It stays off until you turn it on, and the switches live in DerpFestCustomizations under lockscreen settings.
+      </p>
+
+      <h2>Dual shade, reworked</h2>
+      <p>
+        Dual shade got a lot of attention this month. You can set where the top edge splits between notifications and Quick Settings, swipe sideways to move between the two panels, and pick the shade panel mode on large screens. Split shade works with the Dual Shade flag on, combined shade stays put on wide screens when Dual Shade is off, and gestures and panel transitions were reworked in the latest drop.
+      </p>
+
+      <h2>Also in this update</h2>
+      <ul className="list-disc pl-6 space-y-2 marker:text-[#1de099]">
+        <li>
+          <strong className="text-white">Obscura v2</strong> and advanced CPU/GPU model spoofing. The features come from{' '}
+          <a href="https://github.com/Pixelify-AOSP" target="_blank" rel="noopener noreferrer">
+            ASCP
+          </a>
+          , with the UI for both redesigned by us in Material 3 Expressive, so they look at home in DerpFestCustomizations.
+        </li>
+        <li>
+          <strong className="text-white">Custom fonts:</strong> a new fonts section in DerpFestCustomizations that imports a single font file, or lets you pick one out of a ZIP archive. Thanks to{' '}
+          <a href="https://uwuaosp.uwuniverse.org/" target="_blank" rel="noopener noreferrer">
+            uwuAOSP
+          </a>{' '}
+          for the fonts work.
+        </li>
+        <li>
+          <strong className="text-white">DerpLauncher:</strong> app rename, a per-app icon picker, app drawer styles and sort options, custom app drawer backgrounds, and pinning apps in recents are back. App rename comes from{' '}
+          <a href="https://github.com/Lunaris-AOSP" target="_blank" rel="noopener noreferrer">
+            LunarisAOSP
+          </a>
+          . Plus performance work from Yaap and a stack of layout fixes for large screens and cutouts.
+        </li>
+        <li>
+          <strong className="text-white">Pixel live wallpapers</strong> can be downloaded straight from the wallpaper picker.
+        </li>
+        <li>
+          <strong className="text-white">Simple View</strong>, the accessibility option from Pixels, is in Settings.
+        </li>
+        <li>
+          <strong className="text-white">Pulse</strong> gets custom color and height, and fades in and out. The Pulse additions come from{' '}
+          <a href="https://github.com/Lunaris-AOSP" target="_blank" rel="noopener noreferrer">
+            LunarisAOSP
+          </a>
+          .
+        </li>
+      </ul>
+      <p>
+        That is far from all of it. The <Link to="/changelog">Changelog</Link> has every fix since September 21.
+      </p>
+
+      <div className="bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-sm border border-white/10 rounded-2xl shadow-xl p-6 md:p-8 mt-10">
+        <h2 className="!mt-0">Get the source</h2>
+        <p>
+          Initialize against the Android 17 branch of the official manifest:
+        </p>
+        <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4 overflow-x-auto">
+          <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
+            <code>
+{`repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 17 --git-lfs
+repo sync`}
+            </code>
+          </pre>
+        </div>
+        <p className="mb-0">
+          From there it is the usual <code className="text-[#1de099]">. build/envsetup.sh</code>, lunch, and{' '}
+          <code className="text-[#1de099]">m derp</code>. Full notes are on the <Link to="/build">Build</Link> page, and trees live under{' '}
+          <a href="https://github.com/DerpFest-AOSP" target="_blank" rel="noopener noreferrer">
+            DerpFest-AOSP
+          </a>
+          .
+        </p>
+      </div>
     </div>
   )
 }
@@ -479,6 +632,32 @@ function PhoneShot({ src, alt, caption, wide = false, landscape = false }) {
           alt={alt}
           className={`w-full h-auto bg-black ${landscape ? 'rounded-[0.9rem]' : 'rounded-[1.35rem]'}`}
           draggable="false"
+        />
+      </div>
+      {caption && (
+        <figcaption className="mt-3 text-sm text-white/50 leading-relaxed text-center">
+          {caption}
+        </figcaption>
+      )}
+    </figure>
+  )
+}
+
+function PhoneVideo({ src, poster, label, caption }) {
+  return (
+    <figure className="w-full max-w-sm">
+      <div className="bg-gradient-to-br from-[#33bbff] to-[#1de099] p-1 shadow-2xl rounded-3xl">
+        <video
+          src={src}
+          poster={poster}
+          aria-label={label}
+          className="w-full h-auto bg-black rounded-[1.35rem]"
+          autoPlay
+          muted
+          loop
+          playsInline
+          controls
+          preload="metadata"
         />
       </div>
       {caption && (
