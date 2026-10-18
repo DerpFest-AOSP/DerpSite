@@ -23,6 +23,11 @@ export const ROUTE_SEO = {
     description:
       'Learn how to build DerpFest Android 17 from source. Prerequisites, repo init on the 17 branch, and lunch/m instructions for maintainers and contributors.',
   },
+  '/changelog': {
+    title: 'Changelog | DerpFest',
+    description:
+      'Dated DerpFest source changelog: AOSP merges, SystemUI fixes, Dynamic Island, DerpLauncher, ThemePicker, and other changes as they land.',
+  },
   '/credit': {
     title: 'Credits | DerpFest',
     description:

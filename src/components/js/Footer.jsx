@@ -37,6 +37,7 @@ const Footer = () => {
                <h6 className="footer-title">Links</h6>
                <Link to="/build">Build</Link>
                <Link to="/blog">Blog</Link>
+               <Link to="/changelog">Changelog</Link>
                <Link to="/credit">Credit</Link>
                <Link to="/devices">Devices</Link>
                <Link to="/faq">FAQ</Link>

@@ -7,6 +7,7 @@ import ContributionNotice from './components/js/ContributionNotice'
 import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
 import Build from './pages/Build'
+import Changelog from './pages/Changelog'
 import Credit from './pages/Credit'
 import Devices from './pages/Devices'
 import FAQ from './pages/FAQ'
@@ -52,6 +53,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/build" element={<Build />} />
+        <Route path="/changelog" element={<Changelog />} />
         <Route path="/credit" element={<Credit />} />
         <Route path="/devices" element={<Devices />} />
         <Route path="/devices/:codename" element={<DeviceCodenameRedirect />} />

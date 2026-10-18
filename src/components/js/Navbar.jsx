@@ -33,7 +33,7 @@ const Navbar = () => {
     { title: 'Screenshots', path: '/screenshots' },
     { title: 'Blog', path: '/blog' },
     { title: 'Devices', path: '/devices' },
-    { title: 'FAQ', path: '/faq' },
+    { title: 'Changelog', path: '/changelog' },
     { title: 'Team', path: '/team' }
   ];
 
