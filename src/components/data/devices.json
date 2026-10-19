@@ -666,6 +666,15 @@
       "name": "Bluefox",
       "devices": [
         {
+          "name": "Bluefox Aura A1",
+          "code": "Aura_A1",
+          "maintainer": "EdwardWu(bluehomewu)",
+          "links": {
+            "download": "https://sourceforge.net/projects/derpfest/files/Aura_A1/",
+            "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Aura_A1.txt"
+          }
+        },
+        {
           "name": "Bluefox NX1",
           "code": "NX1",
           "maintainer": "EdwardWu(bluehomewu)",
