@@ -113,6 +113,30 @@
       ]
     },
     {
+      "codename": "Aura_A1",
+      "aliases": [
+        "Bluefox Aura A1"
+      ],
+      "displayName": "Bluefox Aura A1",
+      "maintainer": "EdwardWu (@bluehomewu)",
+      "latest": {
+        "filename": "DerpFest-v17-20261019-Aura_A1-Official-Stable.zip",
+        "id": "908510dabfdf1d7e2d6f69275ab1b4b0e3ef6dc371fea8f4f82170827cc6ed5a",
+        "romtype": "Official",
+        "size": 3081306332,
+        "url": "https://sourceforge.net/projects/derpfest/files/Aura_A1/DerpFest-v17-20261019-Aura_A1-Official-Stable.zip/download",
+        "version": "v17",
+        "datetime": 1792388526
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Aura_A1.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/Aura_A1.json"
+        }
+      ]
+    },
+    {
       "codename": "NX1",
       "aliases": [
         "Bluefox NX1"
