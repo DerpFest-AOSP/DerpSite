@@ -1,6 +1,31 @@
 // Prefix a change with "Component: " to show it as a tag on the changelog page.
 export const changelog = [
   {
+    date: '2026-10-22',
+    changes: [
+      'Align Play Integrity spoofing with native property and KeyMint checks',
+      'Fix eMudhra certificate issue',
+      'Show battery state next to the text-only percentage',
+      'Show the low-battery color in Quick Settings',
+      'Use state colors for tinted battery fills',
+      'AppWidgetServiceImpl: Fix disappearing widgets on devices with a work profile',
+      'Fix the volume details page activating twice',
+      'Retain lockscreen media artwork across playback pauses',
+      'Hide the keyguard user avatar behind the system event chip',
+      'Keep the lockscreen music chip when lyrics do not fit',
+      'Surface status bar theme entries as expressive cards',
+      'AppErrorDialog: Add timeouts to MkrBinUtils and fallback to raw crash log on failure',
+      'Stop Ambient Music capture when the input stalls',
+      'Show Now Playing artwork for online matches on non-Pixels',
+      'Stop collapsing the Now Playing card when ASI repeats the song',
+      'Hide Now Playing on own playback only for the in-tree recognizer',
+      'ThemePicker: Add PUI app icon pack',
+      'ThemePicker: Show icon styles in two rows when they don\'t fit',
+      'DerpFestCustomizations: Download the latest keybox from spoofing settings',
+      'DerpFestCustomizations: Show the active Play Integrity fingerprint',
+    ],
+  },
+  {
     date: '2026-10-18',
     changes: [
       'Improve QS details contrast and layout',
