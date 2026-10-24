@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T16:31:26.036Z",
+  "generated_at": "2026-10-24T03:26:34.328Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -120,13 +120,13 @@
       "displayName": "Bluefox Aura A1",
       "maintainer": "EdwardWu (@bluehomewu)",
       "latest": {
-        "filename": "DerpFest-v17-20261019-Aura_A1-Official-Stable.zip",
-        "id": "908510dabfdf1d7e2d6f69275ab1b4b0e3ef6dc371fea8f4f82170827cc6ed5a",
+        "filename": "DerpFest-v17-20261024-Aura_A1-Official-Stable.zip",
+        "id": "c74c29b871cea949e5b5b0e97d9f9f60c84bc6fac886afea1827a7792778ec32",
         "romtype": "Official",
-        "size": 3081306332,
-        "url": "https://sourceforge.net/projects/derpfest/files/Aura_A1/DerpFest-v17-20261019-Aura_A1-Official-Stable.zip/download",
+        "size": 3082290311,
+        "url": "https://sourceforge.net/projects/derpfest/files/Aura_A1/DerpFest-v17-20261024-Aura_A1-Official-Stable.zip/download",
         "version": "v17",
-        "datetime": 1792388526
+        "datetime": 1792782603
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_Aura_A1.txt",
       "sources": [
@@ -1204,13 +1204,13 @@
       "displayName": "OnePlus 13R",
       "maintainer": "0mar",
       "latest": {
-        "filename": "DerpFest-v16.2-20260721-giulia-Official-Stable.zip",
-        "id": "f04f725ae3e0dcda26aa6f1d5ce91a0f777488275f116f244e82213540d7a008",
+        "filename": "DerpFest-v17-20261023-giulia-Official-Stable.zip",
+        "id": "d276280ba7214160f9238d5a9bbfdfe2157f25245df6d116c81f8c620c9e17f7",
         "romtype": "Official",
-        "size": 4412390993,
-        "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v16.2-20260721-giulia-Official-Stable.zip/download",
-        "version": "v16.2",
-        "datetime": 1784614226
+        "size": 4748017325,
+        "url": "https://sourceforge.net/projects/derpfest/files/giulia/DerpFest-v17-20261023-giulia-Official-Stable.zip/download",
+        "version": "v17",
+        "datetime": 1792783101
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_giulia.txt",
       "sources": [
@@ -1516,13 +1516,13 @@
       "displayName": "OnePlus Ace 5",
       "maintainer": "0mar",
       "latest": {
-        "filename": "DerpFest-v16.2-20260721-giuliac-Official-Stable.zip",
-        "id": "610f180dc5d769ec523e49b947e23bf26df8b73f6737c0a7fcb3d8a2fad34a2c",
+        "filename": "DerpFest-v17-20261023-giuliac-Official-Stable.zip",
+        "id": "2069ca6e83cfc65d16dd0ac3a49a749459224c13714cbb74d288e34f05f980fa",
         "romtype": "Official",
-        "size": 4454223506,
-        "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v16.2-20260721-giuliac-Official-Stable.zip/download",
-        "version": "v16.2",
-        "datetime": 1784615540
+        "size": 4790678584,
+        "url": "https://sourceforge.net/projects/derpfest/files/giuliac/DerpFest-v17-20261023-giuliac-Official-Stable.zip/download",
+        "version": "v17",
+        "datetime": 1792784393
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_giuliac.txt",
       "sources": [
