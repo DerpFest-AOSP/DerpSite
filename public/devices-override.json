@@ -1,5 +1,28 @@
 [
    {
+    "codename": "rango",
+    "aliases": [
+        "Pixel 10 Pro Fold"
+    ],
+    "displayName": "Pixel 10 Pro Fold",
+    "maintainer": "c_smith",
+    "latest": {
+        "filename": "DerpFest 17",
+        "id": "ec65af1e07b565c38a0a9b3a17028062292876e2652fb9b691785d4fa945743b",
+        "romtype": "Official",
+        "size": "1024",
+        "version": "17",
+        "datetime": 1
+    },
+    "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rango.txt",
+    "sources": [
+        {
+            "repoFolder": "repo_primary",
+            "filePath": "repo_primary/rango.json"
+        }
+    ]
+   },
+   {
     "codename": "instantnoodlep",
     "aliases": [
         "OnePlus 8 Pro"
