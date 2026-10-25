@@ -1,6 +1,22 @@
 // Prefix a change with "Component: " to show it as a tag on the changelog page.
 export const changelog = [
   {
+    date: '2026-10-25',
+    changes: [
+      'DynamicBar/Island: Implement word-timed Apple Music lyrics',
+      'DynamicBar/Island: Translate status bar lyrics on device',
+      'DynamicBar/Island: Add Spring animation for lyric focus',
+      'LyricTicker: Translate status bar lyrics on device',
+      'Enable custom fonts when pre-R devices support fs-verity',
+      'Skip hooked framework managers in keybox attestation',
+      'Support RKP attestation keyboxes',
+      'overlay: Lower Heart and Battery Inverter status bar icons',
+      'DerpFestClocks: Add German translation for Word clock',
+      'DerpFestClocks: Add Portuguese translation for Word clock',
+      'Update translations',
+    ],
+  },
+  {
     date: '2026-10-22',
     changes: [
       'Align Play Integrity spoofing with native property and KeyMint checks',
@@ -210,6 +226,6 @@ export function getSortedChangelog() {
 }
 
 export function splitChange(change) {
-  const match = change.match(/^([A-Za-z][\w-]*):\s+(.+)$/)
+  const match = change.match(/^([A-Za-z][\w/-]*):\s+(.+)$/)
   return match ? { component: match[1], text: match[2] } : { component: null, text: change }
 }
