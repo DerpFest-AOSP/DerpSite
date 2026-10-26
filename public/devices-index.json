@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:36:26.781Z",
+  "generated_at": "2026-10-26T03:24:08.665Z",
   "primary_repo": "DerpFest-AOSP/Updater-Stuff@master",
   "detected_repos": [
     {
@@ -253,6 +253,30 @@
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/blazer.json"
+        }
+      ]
+    },
+    {
+      "codename": "rango",
+      "aliases": [
+        "Google Pixel 10 Pro Fold"
+      ],
+      "displayName": "Google Pixel 10 Pro Fold",
+      "maintainer": "Cody Smith(c_smith)",
+      "latest": {
+        "filename": "DerpFest-v17-20261017-rango-Official-Beta.zip",
+        "id": "ec65af1e07b565c38a0a9b3a17028062292876e2652fb9b691785d4fa945743b",
+        "romtype": "Official",
+        "size": 3123189732,
+        "url": "https://sourceforge.net/projects/derpfest/files/rango/DerpFest-v17-20261017-rango-Official-Beta.zip/download",
+        "version": "v17",
+        "datetime": 1792205251
+      },
+      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rango.txt",
+      "sources": [
+        {
+          "repoFolder": "repo_primary",
+          "filePath": "repo_primary/rango.json"
         }
       ]
     },
@@ -1612,13 +1636,13 @@
       "displayName": "OnePlus Nord 5",
       "maintainer": "DaViDev985",
       "latest": {
-        "filename": "DerpFest-v16.2-20260707-lexus-Official-Stable.zip",
-        "id": "e1097e4ae6af560e4d2a29a0ade845ebf8b441d564691124dba1d79e40397b56",
+        "filename": "DerpFest-v17-20261023-lexus-Official-Stable.zip",
+        "id": "d4b36b3073fa3b0b9ac182930355dabb70146da6c3b5fa7a7a237f76d0a9fdf0",
         "romtype": "Official",
-        "size": 4244651561,
-        "url": "https://sourceforge.net/projects/derpfest/files/lexus/20260707/DerpFest-v16.2-20260707-lexus-Official-Stable.zip/download",
-        "version": "v16.2",
-        "datetime": 1783414557
+        "size": 4759371051,
+        "url": "https://sourceforge.net/projects/derpfest/files/lexus/20261023/DerpFest-v17-20261023-lexus-Official-Stable.zip/download",
+        "version": "v17",
+        "datetime": 1792781128
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_lexus.txt",
       "sources": [
@@ -1831,48 +1855,25 @@
     {
       "codename": "redwood",
       "aliases": [
-        "POCO X5 5G"
+        "POCO X5 Pro 5G",
+        "Redmi Note 12 Pro Speed"
       ],
-      "displayName": "POCO X5 5G",
-      "maintainer": "Unknown",
+      "displayName": "POCO X5 Pro 5G",
+      "maintainer": "Ravarage (@Ravarage)",
       "latest": {
-        "filename": "DerpFest-14-Official-Stable-redwood-20240819.zip",
-        "id": "d19c8d92c11dfedd9603f2cc0b0c5952f10e8bf072187a33077da8525210f0d0",
+        "filename": "DerpFest-v17-20261025-redwood-Official-Stable.zip",
+        "id": "a79b10ff7c8946e8c38b84c6dc3f7e3acbb667bd52835971f2b596be2e34d45e",
         "romtype": "Official",
-        "size": 2823523156,
-        "url": "https://sourceforge.net/projects/derpfest/files/redwood/DerpFest-14-Official-Stable-redwood-20240819.zip/download",
-        "version": "14",
-        "datetime": 1723129309
+        "size": 3259011883,
+        "url": "https://dl.ravarage.xyz/redwood/20261025/DerpFest-v17-20261025-redwood-Official-Stable.zip",
+        "version": "v17",
+        "datetime": 1792949278
       },
       "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_redwood.txt",
       "sources": [
         {
           "repoFolder": "repo_primary",
           "filePath": "repo_primary/redwood.json"
-        }
-      ]
-    },
-    {
-      "codename": "rango",
-      "aliases": [
-        "rango"
-      ],
-      "displayName": "rango",
-      "maintainer": "Unknown",
-      "latest": {
-        "filename": "DerpFest-v17-20261017-rango-Official-Beta.zip",
-        "id": "ec65af1e07b565c38a0a9b3a17028062292876e2652fb9b691785d4fa945743b",
-        "romtype": "Official",
-        "size": 3123189732,
-        "url": "https://sourceforge.net/projects/derpfest/files/rango/DerpFest-v17-20261017-rango-Official-Beta.zip/download",
-        "version": "v17",
-        "datetime": 1792205251
-      },
-      "changelog_raw_url": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_rango.txt",
-      "sources": [
-        {
-          "repoFolder": "repo_primary",
-          "filePath": "repo_primary/rango.json"
         }
       ]
     },
@@ -2198,7 +2199,7 @@
         "Redmi Note 10 Pro & Pro Max"
       ],
       "displayName": "Redmi Note 10 Pro & Pro Max",
-      "maintainer": "Unknown",
+      "maintainer": "stahed",
       "latest": {
         "filename": "DerpFest-v17-20261018-sweet-Official-Stable.zip",
         "id": "a618dd4d5b022d71383cf4d9625c1a6dcd31ea83f631e7b6e875235d8824bacd",
