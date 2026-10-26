@@ -422,6 +422,15 @@
           }
         },
         {
+          "name": "Xiaomi Poco X5 Pro 5G / Redmi Note 12 Pro Speed",
+          "code": "redwood",
+          "maintainer": "Ravarage",
+          "links": {
+            "download": "https://dl.ravarage.xyz/redwood/20261025/DerpFest-v17-20261025-redwood-Official-Stable.zip",
+            "changelogs": "https://raw.githubusercontent.com/DerpFest-AOSP/Updater-Stuff/master/changelog_redwood.txt"
+          }
+        },
+        {
           "name": "Xiaomi Poco X3 Pro",
           "code": "vayu",
           "maintainer": "Bagaskara",
