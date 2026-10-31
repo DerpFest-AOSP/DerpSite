@@ -46,7 +46,7 @@ function App() {
   return (
     <>
       <PageSeo />
-      <Navbar />
+      <Navbar key={location.key} />
       <main id="main-content">
       <Routes>
         <Route path="/" element={<Home />} />

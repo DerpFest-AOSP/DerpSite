@@ -7,7 +7,6 @@ const Navbar = () => {
 
   // Close menu when route changes
   useEffect(() => {
-    setIsMobileMenuOpen(false);
   }, [window.location.pathname]);
 
   // Prevent body scroll when menu is open
