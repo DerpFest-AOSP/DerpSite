@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from 'react-router-dom';
 
 const PAGE_SIZE = 12;
@@ -19,27 +19,17 @@ export default function Devices() {
   const [error, setError] = useState(null);
   const [devices, setDevices] = useState([]);
   const [searchParams, setSearchParams] = useSearchParams();
-  const initialSearch = searchParams.get('s') || "";
-  const [search, setSearch] = useState(initialSearch);
+  // The URL's 's' param is the single source of truth for the search text,
+  // so back/forward and /devices?s=codename links work without syncing state.
+  const search = searchParams.get('s') || "";
   const [companyFilter, setCompanyFilter] = useState("All");
   const [page, setPage] = useState(1);
   const [changelog, setChangelog] = useState({ open: false, codename: null, loading: false, content: "" });
 
-  // Use this effect to keep the internal state in sync with the URL's 's' parameter.
-  // This is primarily for when the user navigates back/forward.
-  useEffect(() => {
-    const urlSearchValue = searchParams.get('s') || '';
-    if (search !== urlSearchValue) {
-        setSearch(urlSearchValue);
-    }
-  }, [searchParams]); // Re-run when the URL's search params object changes
-
-  // Existing data fetching useEffect
+  // Data fetching (runs once on mount; loading starts true and error starts null)
   useEffect(() => {
     let cancelled = false;
     (async () => {
-      setLoading(true);
-      setError(null);
       try {
         const res = await fetch("/devices-index.json", { cache: "no-cache" });
         if (!res.ok) throw new Error("devices-index.json not found on site (did build-action run?)");
@@ -105,7 +95,6 @@ export default function Devices() {
     return ["All", ...Array.from(s).sort()];
   }, [devices]);
 
-  // filtered depends on local 'search' state, which is now synced from URL
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
     return devices.filter(d => {
@@ -120,12 +109,14 @@ export default function Devices() {
   }, [devices, companyFilter, search]);
 
   const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
-  useEffect(() => { if (page > pageCount) setPage(1); }, [pageCount]);
+  // Clamp instead of resetting in an effect: if the filter shrinks the list
+  // below the stored page, we simply show the last valid page.
+  const currentPage = Math.min(page, pageCount);
 
   const pageItems = useMemo(() => {
-    const start = (page - 1) * PAGE_SIZE;
+    const start = (currentPage - 1) * PAGE_SIZE;
     return filtered.slice(start, start + PAGE_SIZE);
-  }, [filtered, page]);
+  }, [filtered, currentPage]);
 
   async function openChangelog(codename, rawUrl) {
     setChangelog({ open: true, codename, loading: true, content: "" });
@@ -187,10 +178,9 @@ export default function Devices() {
               value={search}
               onChange={(e)=>{
                 const newValue = e.target.value;
-                setSearch(newValue);
                 setPage(1); // Reset page on new search
 
-                // Update URL search parameter
+                // Update URL search parameter (search is derived from it)
                 setSearchParams(
                   newValue
                     ? { s: newValue }
@@ -212,7 +202,7 @@ export default function Devices() {
             </button>
           ))}
         </div>
-        <div className="devices-stats">{filtered.length} devices • page {page}/{pageCount}</div>
+        <div className="devices-stats">{filtered.length} devices • page {currentPage}/{pageCount}</div>
       </div>
 
       <main className="devices-grid">
@@ -252,11 +242,11 @@ export default function Devices() {
       </main>
 
       <div className="devices-pagination">
-        <button className="devices-page-btn" onClick={()=>setPage(p=>Math.max(1,p-1))} disabled={page===1}>Prev</button>
-        {Array.from({ length: pageCount }, (_,i)=>i+1).filter(pn => Math.abs(pn - page) <= 3 || pn === 1 || pn === pageCount).map(pn => (
-          <button key={pn} className={`devices-page-btn ${pn === page ? "devices-page-btn--active" : ""}`} onClick={()=>setPage(pn)}>{pn}</button>
+        <button className="devices-page-btn" onClick={()=>setPage(Math.max(1, currentPage - 1))} disabled={currentPage===1}>Prev</button>
+        {Array.from({ length: pageCount }, (_,i)=>i+1).filter(pn => Math.abs(pn - currentPage) <= 3 || pn === 1 || pn === pageCount).map(pn => (
+          <button key={pn} className={`devices-page-btn ${pn === currentPage ? "devices-page-btn--active" : ""}`} onClick={()=>setPage(pn)}>{pn}</button>
         ))}
-        <button className="devices-page-btn" onClick={()=>setPage(p=>Math.min(pageCount,p+1))} disabled={page===pageCount}>Next</button>
+        <button className="devices-page-btn" onClick={()=>setPage(Math.min(pageCount, currentPage + 1))} disabled={currentPage===pageCount}>Next</button>
       </div>
 
       <div className={`devices-modal ${changelog.open ? "devices-modal--open" : ""}`} role="dialog" aria-hidden={!changelog.open}>
