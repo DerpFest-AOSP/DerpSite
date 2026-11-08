@@ -1,6 +1,38 @@
 // Prefix a change with "Component: " to show it as a tag on the changelog page.
 export const changelog = [
   {
+    date: '2026-11-09',
+    changes: [
+      'Merge November security patches',
+      'Port selfie camera feature from A17 QPR2',
+      'PackageInstaller: Show current/new version on install',
+      'DynamicBar: Fix notification leak',
+      'DynamicBar: Keep every posted notification on the island',
+      'DynamicBar: Keep notification signatures until removal',
+      'DynamicBar: Keep a dismissed notification hidden until it updates',
+      'Improve Dynamic Island chips and layout',
+      'Drop status bar chips the dynamic island shows',
+      'DynamicIsland: Show apps\' live updates in the island',
+      'DynamicIsland: Stack every live activity like ColorOS 17',
+      'DynamicIsland: Add an in-call card with call controls',
+      'DynamicIsland: Open the call card when a call first shows',
+      'Match keyguard battery text to the AOD lines',
+      'Hide the UDFPS circle when no glyph is drawn',
+      'Keep slider haptics on user movement',
+      'Translate lyrics online when the on-device pack is unavailable',
+      'Download a language pack when ASI refuses the session',
+      'Lock the device on double-tap to sleep',
+      'DerpFestCustomizations: Show how long the keybox stays valid and notify when revoked or expired',
+      'DerpLauncher: Add free-layout home screen mode',
+      'DerpLauncher: Add a setting to clear free-layout data',
+      'DerpLauncher: Update translations',
+      'DerpLauncher: Show the wallpaper behind the settings logo',
+      'overlays: Update OOS Icon Pack',
+      'Add more handpicked fonts',
+      'Add more udfps icons',
+    ],
+  },
+  {
     date: '2026-11-01',
     changes: [
       'Add support for access cards (Mifare for example)',
