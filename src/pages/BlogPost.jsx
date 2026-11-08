@@ -2,6 +2,7 @@ import { Link, Navigate, useParams } from 'react-router-dom'
 import { formatPostDate, getPostBySlug } from '../data/blog'
 
 const postBodies = {
+  '2026-11-09-november': NovemberBody,
   '2026-10-18-october': OctoberBody,
   '2026-09-19-mid-september': MidSeptemberBody,
   '2026-09-07-android-17': Android17Body,
@@ -67,6 +68,124 @@ const BlogPost = () => {
 
         {Body ? <Body /> : null}
       </article>
+    </div>
+  )
+}
+
+function NovemberBody() {
+  return (
+    <div className="blog-prose text-gray-300 leading-relaxed text-lg space-y-6">
+      <p>
+        Three weeks after the October drop, the November update is in the tree. November security patches, a home screen that lets you place icons by hand, live updates in the dynamic island, and another pass at lyrics, the shade, and the launcher.
+      </p>
+      <p>
+        This post is the highlights. Every change since October 18 is on the <Link to="/changelog">Changelog</Link>.
+      </p>
+
+      <h2>A home screen you can place by hand</h2>
+      <p>
+        DerpLauncher can leave the grid. Free-layout mode lets you drag an icon anywhere on the wallpaper, pull a corner to resize it, and rotate it. The rest of the screen stays in the normal grid. Long-press, move, and the icon sits where you leave it — tilted, if that is what you want.
+      </p>
+      <p>
+        The freeform home screen is ported from{' '}
+        <a href="https://github.com/Miku-UI/" target="_blank" rel="noopener noreferrer">
+          Miku UI
+        </a>
+        . There is also a setting to clear free-layout data and put the icons back.
+      </p>
+
+      <div className="flex justify-center py-2">
+        <PhoneVideo
+          src="/img/video5443064019030161681.mp4"
+          poster="/img/video5443064019030161681-poster.jpg"
+          label="DerpFest home screen in free-layout mode. An app icon is dragged off the grid, resized, and rotated while the other icons stay in place."
+          caption="Free-layout mode. Drag an icon off the grid, then resize and rotate it."
+        />
+      </div>
+
+      <h2>November security patches</h2>
+      <p>
+        This tree merges the November 2026 security patches. Google published the{' '}
+        <a href="https://source.android.com/docs/security/bulletin/2026/2026-11-01" target="_blank" rel="noopener noreferrer">
+          Android Security Bulletin
+        </a>{' '}
+        on November 2 and updated it on November 6. A patch level of 2026-11-05 or later covers every issue in it.         The most severe is a critical remote-code-execution bug in Framework, CVE-2026-58868, which needs no extra privileges and no tap from the user.
+      </p>
+      <p>
+        The 2026-11-01 patch level is the platform side, and that is what lands in the public tree. On top of that Framework fix, System has two more critical remote-code-execution fixes, three critical elevation-of-privilege fixes, and two critical denial-of-service fixes. The bulletin lists many more high-severity issues in Framework and System.
+      </p>
+      <p>
+        The 2026-11-05 patch level adds the kernel and chipset fixes: a critical elevation-of-privilege bug in the kernel&apos;s pKVM, four critical MediaTek modem fixes, and a critical Qualcomm closed-source fix. Those reach a device through the kernel and vendor images its maintainer ships.
+      </p>
+
+      <h2>The island keeps up</h2>
+      <p>
+        Apps&apos; live updates show in the dynamic island, stacked the way ColorOS 17 stacks them. A call gets its own card with call controls, and that card opens when the call first shows. Rotate the phone and the island docks to a side camera, stays upright, and opens its popup beside it. Alarm, stopwatch, and screen recording open in the dynamic bar cards. The chips and layout were cleaned up, and a status bar chip the island is already showing is dropped, so it is not drawn twice.
+      </p>
+      <p>
+        The dynamic bar cards take Monet colors and the surface blur. Notification handling is tighter: every posted notification stays on the island, a dismissed one stays hidden until it actually updates, and a leak there is fixed. The media chip steps aside while its player is open.
+      </p>
+
+      <h2>Lyrics, still moving</h2>
+      <p>
+        Apple Music lyrics are word-timed now, on the dynamic bar and the island. Status bar lyrics can be translated on the device. If that language pack is missing, the translation falls back to online, and DerpFest downloads a pack when on-device translation refuses the session. The line in focus uses a spring animation. Lock screen lyrics can show without the music player underneath. The Words clock picked up German and Portuguese.
+      </p>
+
+      <h2>Launcher, icons, and fonts</h2>
+      <p>
+        Eleven Google apps that ship no monochrome layer get inbuilt themed icons. Custom recent view styles are back, custom icon pack artwork is preserved through rendering and launch, and the launcher can default to a fixed landscape layout. The PUI icon pack is in the theme picker, colored to match Minimal, and the OxygenOS icon pack overlay was updated. More handpicked fonts landed, including five in the November 1 drop, and there are more under-display fingerprint icons. The settings logo can sit on the wallpaper.
+      </p>
+
+      <h2>Also since October</h2>
+      <ul className="list-disc pl-6 space-y-2 marker:text-[#1de099]">
+        <li>
+          <strong className="text-white">Calls and hotspot:</strong> the flashlight can blink on an incoming call, and a hotspot can take a one-time data limit.
+        </li>
+        <li>
+          <strong className="text-white">Access cards</strong>, MIFARE for example, and a button action that cycles ringer mode.
+        </li>
+        <li>
+          <strong className="text-white">GameSpace:</strong> fast charge, a higher touch polling rate, and automatic outdoor mode, on devices that support them.
+        </li>
+        <li>
+          <strong className="text-white">Selfie camera</strong> from Android 17 QPR2, and the package installer now shows the installed version next to the one you are about to install.
+        </li>
+        <li>
+          <strong className="text-white">Play Integrity:</strong> spoofing lines up with native property and KeyMint checks, the Play Store process can use the certified fingerprint, and DerpFestCustomizations shows how long the keybox stays valid and notifies you when it is revoked or expired. RKP attestation keyboxes are supported.
+        </li>
+        <li>
+          <strong className="text-white">Dual shade</strong> got another pass at gestures, spacing, and swipes from the lockscreen. The OmniStyle header picker was rebuilt in Material 3 Expressive.
+        </li>
+        <li>
+          <strong className="text-white">Widgets</strong> no longer disappear on devices with a work profile. Now Playing artwork shows for online matches on non-Pixels.
+        </li>
+      </ul>
+      <p>
+        That is not all of it. The <Link to="/changelog">Changelog</Link> has every line since October 18.
+      </p>
+
+      <div className="bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-sm border border-white/10 rounded-2xl shadow-xl p-6 md:p-8 mt-10">
+        <h2 className="!mt-0">Get the source</h2>
+        <p>
+          Initialize against the Android 17 branch of the official manifest:
+        </p>
+        <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-4 overflow-x-auto">
+          <pre className="text-sm text-gray-300 font-mono whitespace-pre-wrap break-all">
+            <code>
+{`repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 17 --git-lfs
+repo sync`}
+            </code>
+          </pre>
+        </div>
+        <p className="mb-0">
+          From there it is the usual <code className="text-[#1de099]">. build/envsetup.sh</code>, lunch, and{' '}
+          <code className="text-[#1de099]">m derp</code>. Full notes are on the <Link to="/build">Build</Link> page, and trees live under{' '}
+          <a href="https://github.com/DerpFest-AOSP" target="_blank" rel="noopener noreferrer">
+            DerpFest-AOSP
+          </a>
+          .
+        </p>
+      </div>
     </div>
   )
 }
