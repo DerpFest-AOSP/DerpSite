@@ -13,8 +13,18 @@ export const blogPosts = [
       'November 2026 security patches, a free-layout home screen ported from Miku UI, live updates and an in-call card in the dynamic island, word-timed Apple Music lyrics, and another round of launcher, shade, and GameSpace work.',
     date: '2026-11-09',
     readMinutes: 8,
-    cover: '/img/video5443064019030161681-poster.jpg',
-    coverAlt: 'DerpFest home screen in free-layout mode, rotating an app icon off the grid',
+    cover: '/img/5443064019490118932.jpg',
+    coverAlt: 'DerpFest About phone page with the logo over the wallpaper and the November 2026 security patch',
+    coverPair: [
+      {
+        src: '/img/video5443064019030161681-poster.jpg',
+        alt: 'DerpFest home screen in free-layout mode, rotating an app icon off the grid',
+      },
+      {
+        src: '/img/5443064019490118932.jpg',
+        alt: 'DerpFest About phone page with the logo over the wallpaper and the November 2026 security patch',
+      },
+    ],
     tags: ['Android 17', 'Launcher', 'Dynamic Island'],
     author: ALEXANDER,
   },

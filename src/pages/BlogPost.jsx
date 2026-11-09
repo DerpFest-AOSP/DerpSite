@@ -133,8 +133,17 @@ function NovemberBody() {
 
       <h2>Launcher, icons, and fonts</h2>
       <p>
-        Eleven Google apps that ship no monochrome layer get inbuilt themed icons. Custom recent view styles are back, custom icon pack artwork is preserved through rendering and launch, and the launcher can default to a fixed landscape layout. The PUI icon pack is in the theme picker, colored to match Minimal, and the OxygenOS icon pack overlay was updated. More handpicked fonts landed, including five in the November 1 drop, and there are more under-display fingerprint icons. The settings logo can sit on the wallpaper.
+        Eleven Google apps that ship no monochrome layer get inbuilt themed icons. Custom recent view styles are back, custom icon pack artwork is preserved through rendering and launch, and the launcher can default to a fixed landscape layout. The PUI icon pack is in the theme picker, colored to match Minimal, and the OxygenOS icon pack overlay was updated. More handpicked fonts landed, including five in the November 1 drop, and there are more under-display fingerprint icons.         The settings logo can sit on the wallpaper. About phone shows it over the current wallpaper, with the maintainer name on the card, and the security patch level underneath.
       </p>
+
+      <div className="flex justify-center py-2">
+        <PhoneShot
+          src="/img/5443064019490118932.jpg"
+          alt="DerpFest About phone page with the DerpFest logo over the wallpaper, a built-by card, and the November 1 2026 security patch"
+          caption="About phone. The logo sits on the wallpaper, and the security patch reads November 1, 2026."
+          wide
+        />
+      </div>
 
       <h2>Also since October</h2>
       <ul className="list-disc pl-6 space-y-2 marker:text-[#1de099]">
