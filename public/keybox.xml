@@ -1,87 +1,88 @@
 <?xml version="1.0"?>
 <AndroidAttestation>
     <NumberOfKeyboxes>1</NumberOfKeyboxes>
-    <Keybox DeviceID="Yurikey70. RKP keybox can pass strong integrity. Join my group: t.me/yuriiroot">
+    <Keybox DeviceID="t.me/keyboxstrong @evokerr">
         <Key algorithm="ecdsa">
             <PrivateKey format="pem">
-            -----BEGIN EC PRIVATE KEY-----
-            MHcCAQEEIJDjpLv/d65QXgXTB5ibqOxpzt7ZcOUIqYWv2Rcyat9noAoGCCqGSM49
-            AwEHoUQDQgAEC0ti4yGcbAybePUmohuHB9kz5JJTnqDMW4WkOynXcyf4GO2Hh5Nd
-            jaSFk33iyb1ipLNPgKN3wRFKzF5rDNISQw==
-            -----END EC PRIVATE KEY-----
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIJDjpLv/d65QXgXTB5ibqOxpzt7ZcOUIqYWv2Rcyat9noAoGCCqGSM49
+AwEHoUQDQgAEC0ti4yGcbAybePUmohuHB9kz5JJTnqDMW4WkOynXcyf4GO2Hh5Nd
+jaSFk33iyb1ipLNPgKN3wRFKzF5rDNISQw==
+-----END EC PRIVATE KEY-----
             </PrivateKey>
             <CertificateChain>
-            <NumberOfCertificates>4</NumberOfCertificates>
-            <Certificate format="pem">
-                -----BEGIN CERTIFICATE-----
-                MIICOzCCAeCgAwIBAgIRAIh0mAX4EFnFDevHThtWp4kwCgYIKoZIzj0EAwIwKTET
-                MBEGA1UEChMKR29vZ2xlIExMQzESMBAGA1UEAxMJRHJvaWQgQ0EzMB4XDTI2MTEx
-                MTA2MTQ0MloXDTI2MTEyNTA1NDQyM1owOTEMMAoGA1UEChMDVEVFMSkwJwYDVQQD
-                EyA4ODc0OTgwNWY4MTA1OWM1MGRlYmM3NGUxYjU2YTc4OTBZMBMGByqGSM49AgEG
-                CCqGSM49AwEHA0IABAtLYuMhnGwMm3j1JqIbhwfZM+SSU56gzFuFpDsp13Mn+Bjt
-                h4eTXY2khZN94sm9YqSzT4Cjd8ERSsxeawzSEkOjgdgwgdUwHQYDVR0OBBYEFN6s
-                0ZEGezg4y/8PdsnB4JYFygXuMB8GA1UdIwQYMBaAFL6fzf6V1hwID3KCsYaCvSUa
-                RMb+MA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgIEMHIGCisGAQQB1nkC
-                AR4EZKMBGCADZ09uZVBsdXMFowFoQVBQUk9WRUQCeEBmOWQ0NjE3Mzc2Yzc1Y2Nj
-                YWRhZGMxY2FjNWQ4ZGRmMGMxYzNjZDQyMTE5ZTA2N2NlYmU0OTRlMGJlNDJiZGVk
-                BmZUQUJMRVQwCgYIKoZIzj0EAwIDSQAwRgIhANTaTKXWucxkic8w7ArELX2e8qbV
-                AdlXXNISf0GLbsR7AiEA9gg7u3+TbiaZHHCBZKeL3BjXmfDCI1x7qZhc6vCwrvM=
-                -----END CERTIFICATE-----
-            </Certificate>
-            <Certificate format="pem">
-                -----BEGIN CERTIFICATE-----
-                MIIC8DCCAnagAwIBAgIUAN1T6FFHWOQqKLjrru8n/bmRhRQwCgYIKoZIzj0EAwMw
-                KTETMBEGA1UEChMKR29vZ2xlIExMQzESMBAGA1UEAxMJRHJvaWQgQ0EyMB4XDTI2
-                MTExMjE3MzY1OVoXDTI3MDEyMTE3MzY1OFowKTETMBEGA1UEChMKR29vZ2xlIExM
-                QzESMBAGA1UEAxMJRHJvaWQgQ0EzMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE
-                B396/EHZZkZRQboVn8THmB4MNVQCb8wCjA2Dl5XidePBPR1SRU7oqVz8FVhihiGV
-                J2T/wqZzAV3JB8YrQfQALqOCAXowggF2MA4GA1UdDwEB/wQEAwICBDAPBgNVHRMB
-                Af8EBTADAQH/MB0GA1UdDgQWBBS+n83+ldYcCA9ygrGGgr0lGkTG/jAfBgNVHSME
-                GDAWgBT7lO504bVwFpWJjoYiKJ1MD+HDHTCBjQYIKwYBBQUHAQEEgYAwfjB8Bggr
-                BgEFBQcwAoZwaHR0cDovL3ByaXZhdGVjYS1jb250ZW50LTY5OTQyMjQxLTAwMDAt
-                MjgzZi1iZTIxLTM0YzdlOTIxMmY4Yi5zdG9yYWdlLmdvb2dsZWFwaXMuY29tLzI5
-                NzAyY2YxMTkwODkzZWNkNmI0L2NhLmNydDCBggYDVR0fBHsweTB3oHWgc4ZxaHR0
-                cDovL3ByaXZhdGVjYS1jb250ZW50LTY5OTQyMjQxLTAwMDAtMjgzZi1iZTIxLTM0
-                YzdlOTIxMmY4Yi5zdG9yYWdlLmdvb2dsZWFwaXMuY29tLzI5NzAyY2YxMTkwODkz
-                ZWNkNmI0L2NybC5jcmwwCgYIKoZIzj0EAwMDaAAwZQIxANS7GdQmRpdN/939xmNE
-                +hHKiXSocL19lGX0T8QgLPIMSWHapWPQUEd77kYEyqUs3wIwehUbDb92CTLDtbRe
-                dhy7J88F8fx8O76ui0Oh1uhQWEc7RLlELFVY+lSx4TfIFutO
-                -----END CERTIFICATE-----
-            </Certificate>
-            <Certificate format="pem">
-                -----BEGIN CERTIFICATE-----
-                MIICZDCCAeugAwIBAgIRAPLC/gLfzdARgeSj5rNpoowwCgYIKoZIzj0EAwMwUjEc
-                MBoGA1UEAwwTS2V5IEF0dGVzdGF0aW9uIENBMTEQMA4GA1UECwwHQW5kcm9pZDET
-                MBEGA1UECgwKR29vZ2xlIExMQzELMAkGA1UEBhMCVVMwHhcNMjYwMjA5MjAwMTEx
-                WhcNMjkwMjA4MjAwMTExWjApMRMwEQYDVQQKEwpHb29nbGUgTExDMRIwEAYDVQQD
-                EwlEcm9pZCBDQTIwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAATkwn4jOZw/zpxhsBn4
-                27C8Xz684+3Ajq5zsIzXwYlQPGieyFBuNxkUUFSa4YzZObqTOrgI9iFcfTBqOuOl
-                yEtIuipjVowV9UCddBKO5ndqPTEk8Dd2RWn4yMtUTnyMMpGjga0wgaowHwYDVR0j
-                BBgwFoAUUjK7LPtGQ5vc1oGpDmVm4DRB6kAwDwYDVR0TAQH/BAUwAwEB/zAdBgNV
-                HQ4EFgQU+5TudOG1cBaViY6GIiidTA/hwx0wDgYDVR0PAQH/BAQDAgEGMEcGA1Ud
-                HwRAMD4wPKA6oDiGNmh0dHBzOi8vYW5kcm9pZC5nb29nbGVhcGlzLmNvbS9hdHRl
-                c3RhdGlvbi9rZXlfY2ExLmNybDAKBggqhkjOPQQDAwNnADBkAjArwb7NmSVBlasM
-                dMRjY0FFEum0b+SUZTMmvBT5AGYzk8xGCi2Mj2NZdchxZfxHUJgCMDseaiAzoixN
-                ISk40rfoR4vMvs7n9r4fgEgmb+9KQbpDgdq0+90mzcAL4vKr4hWSxA==
-                -----END CERTIFICATE-----
-            </Certificate>
-            <Certificate format="pem">
-                -----BEGIN CERTIFICATE-----
-                MIICIjCCAaigAwIBAgIRAISp0Cl7DrWK5/8OgN52BgUwCgYIKoZIzj0EAwMwUjEc
-                MBoGA1UEAwwTS2V5IEF0dGVzdGF0aW9uIENBMTEQMA4GA1UECwwHQW5kcm9pZDET
-                MBEGA1UECgwKR29vZ2xlIExMQzELMAkGA1UEBhMCVVMwHhcNMjUwNzE3MjIzMjE4
-                WhcNMzUwNzE1MjIzMjE4WjBSMRwwGgYDVQQDDBNLZXkgQXR0ZXN0YXRpb24gQ0Ex
-                MRAwDgYDVQQLDAdBbmRyb2lkMRMwEQYDVQQKDApHb29nbGUgTExDMQswCQYDVQQG
-                EwJVUzB2MBAGByqGSM49AgEGBSuBBAAiA2IABCPaI3FO3z5bBQo8cuiEas4HjqCt
-                G/mLFfRT0MsIssPBEEU5Cfbt6sH5yOAxqEi5QagpU1yX4HwnGb7OtBYpDTB57uH5
-                Eczm34A5FNijV3s0/f0UPl7zbJcTx6xwqMIRq6NCMEAwDwYDVR0TAQH/BAUwAwEB
-                /zAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYEFFIyuyz7RkOb3NaBqQ5lZuA0QepA
-                MAoGCCqGSM49BAMDA2gAMGUCMETfjPO/HwqReR2CS7p0ZWoD/LHs6hDi422opifH
-                EUaYLxwGlT9SLdjkVpz0UUOR5wIxAIoGyxGKRHVTpqpGRFiJtQEOOTp/+s1GcxeY
-                uR2zh/80lQyu9vAFCj6E4AXc+osmRg==
-                -----END CERTIFICATE-----
-            </Certificate>
+                <NumberOfCertificates>4</NumberOfCertificates>
+                <Certificate format="pem">
+-----BEGIN CERTIFICATE-----
+MIICOzCCAeCgAwIBAgIRAIh0mAX4EFnFDevHThtWp4kwCgYIKoZIzj0EAwIwKTET
+MBEGA1UEChMKR29vZ2xlIExMQzESMBAGA1UEAxMJRHJvaWQgQ0EzMB4XDTI2MTEx
+MTA2MTQ0MloXDTI2MTEyNTA1NDQyM1owOTEMMAoGA1UEChMDVEVFMSkwJwYDVQQD
+EyA4ODc0OTgwNWY4MTA1OWM1MGRlYmM3NGUxYjU2YTc4OTBZMBMGByqGSM49AgEG
+CCqGSM49AwEHA0IABAtLYuMhnGwMm3j1JqIbhwfZM+SSU56gzFuFpDsp13Mn+Bjt
+h4eTXY2khZN94sm9YqSzT4Cjd8ERSsxeawzSEkOjgdgwgdUwHQYDVR0OBBYEFN6s
+0ZEGezg4y/8PdsnB4JYFygXuMB8GA1UdIwQYMBaAFL6fzf6V1hwID3KCsYaCvSUa
+RMb+MA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgIEMHIGCisGAQQB1nkC
+AR4EZKMBGCADZ09uZVBsdXMFowFoQVBQUk9WRUQCeEBmOWQ0NjE3Mzc2Yzc1Y2Nj
+YWRhZGMxY2FjNWQ4ZGRmMGMxYzNjZDQyMTE5ZTA2N2NlYmU0OTRlMGJlNDJiZGVk
+BmZUQUJMRVQwCgYIKoZIzj0EAwIDSQAwRgIhANTaTKXWucxkic8w7ArELX2e8qbV
+AdlXXNISf0GLbsR7AiEA9gg7u3+TbiaZHHCBZKeL3BjXmfDCI1x7qZhc6vCwrvM=
+-----END CERTIFICATE-----
+                </Certificate>
+                <Certificate format="pem">
+-----BEGIN CERTIFICATE-----
+MIIC8DCCAnagAwIBAgIUAN1T6FFHWOQqKLjrru8n/bmRhRQwCgYIKoZIzj0EAwMw
+KTETMBEGA1UEChMKR29vZ2xlIExMQzESMBAGA1UEAxMJRHJvaWQgQ0EyMB4XDTI2
+MTExMjE3MzY1OVoXDTI3MDEyMTE3MzY1OFowKTETMBEGA1UEChMKR29vZ2xlIExM
+QzESMBAGA1UEAxMJRHJvaWQgQ0EzMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE
+B396/EHZZkZRQboVn8THmB4MNVQCb8wCjA2Dl5XidePBPR1SRU7oqVz8FVhihiGV
+J2T/wqZzAV3JB8YrQfQALqOCAXowggF2MA4GA1UdDwEB/wQEAwICBDAPBgNVHRMB
+Af8EBTADAQH/MB0GA1UdDgQWBBS+n83+ldYcCA9ygrGGgr0lGkTG/jAfBgNVHSME
+GDAWgBT7lO504bVwFpWJjoYiKJ1MD+HDHTCBjQYIKwYBBQUHAQEEgYAwfjB8Bggr
+BgEFBQcwAoZwaHR0cDovL3ByaXZhdGVjYS1jb250ZW50LTY5OTQyMjQxLTAwMDAt
+MjgzZi1iZTIxLTM0YzdlOTIxMmY4Yi5zdG9yYWdlLmdvb2dsZWFwaXMuY29tLzI5
+NzAyY2YxMTkwODkzZWNkNmI0L2NhLmNydDCBggYDVR0fBHsweTB3oHWgc4ZxaHR0
+cDovL3ByaXZhdGVjYS1jb250ZW50LTY5OTQyMjQxLTAwMDAtMjgzZi1iZTIxLTM0
+YzdlOTIxMmY4Yi5zdG9yYWdlLmdvb2dsZWFwaXMuY29tLzI5NzAyY2YxMTkwODkz
+ZWNkNmI0L2NybC5jcmwwCgYIKoZIzj0EAwMDaAAwZQIxANS7GdQmRpdN/939xmNE
++hHKiXSocL19lGX0T8QgLPIMSWHapWPQUEd77kYEyqUs3wIwehUbDb92CTLDtbRe
+dhy7J88F8fx8O76ui0Oh1uhQWEc7RLlELFVY+lSx4TfIFutO
+-----END CERTIFICATE-----
+                </Certificate>
+ZXZva2Vycg
+                <Certificate format="pem">
+-----BEGIN CERTIFICATE-----
+MIICZDCCAeugAwIBAgIRAPLC/gLfzdARgeSj5rNpoowwCgYIKoZIzj0EAwMwUjEc
+MBoGA1UEAwwTS2V5IEF0dGVzdGF0aW9uIENBMTEQMA4GA1UECwwHQW5kcm9pZDET
+MBEGA1UECgwKR29vZ2xlIExMQzELMAkGA1UEBhMCVVMwHhcNMjYwMjA5MjAwMTEx
+WhcNMjkwMjA4MjAwMTExWjApMRMwEQYDVQQKEwpHb29nbGUgTExDMRIwEAYDVQQD
+EwlEcm9pZCBDQTIwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAATkwn4jOZw/zpxhsBn4
+27C8Xz684+3Ajq5zsIzXwYlQPGieyFBuNxkUUFSa4YzZObqTOrgI9iFcfTBqOuOl
+yEtIuipjVowV9UCddBKO5ndqPTEk8Dd2RWn4yMtUTnyMMpGjga0wgaowHwYDVR0j
+BBgwFoAUUjK7LPtGQ5vc1oGpDmVm4DRB6kAwDwYDVR0TAQH/BAUwAwEB/zAdBgNV
+HQ4EFgQU+5TudOG1cBaViY6GIiidTA/hwx0wDgYDVR0PAQH/BAQDAgEGMEcGA1Ud
+HwRAMD4wPKA6oDiGNmh0dHBzOi8vYW5kcm9pZC5nb29nbGVhcGlzLmNvbS9hdHRl
+c3RhdGlvbi9rZXlfY2ExLmNybDAKBggqhkjOPQQDAwNnADBkAjArwb7NmSVBlasM
+dMRjY0FFEum0b+SUZTMmvBT5AGYzk8xGCi2Mj2NZdchxZfxHUJgCMDseaiAzoixN
+ISk40rfoR4vMvs7n9r4fgEgmb+9KQbpDgdq0+90mzcAL4vKr4hWSxA==
+-----END CERTIFICATE-----
+                </Certificate>
+                <Certificate format="pem">
+-----BEGIN CERTIFICATE-----
+MIICIjCCAaigAwIBAgIRAISp0Cl7DrWK5/8OgN52BgUwCgYIKoZIzj0EAwMwUjEc
+MBoGA1UEAwwTS2V5IEF0dGVzdGF0aW9uIENBMTEQMA4GA1UECwwHQW5kcm9pZDET
+MBEGA1UECgwKR29vZ2xlIExMQzELMAkGA1UEBhMCVVMwHhcNMjUwNzE3MjIzMjE4
+WhcNMzUwNzE1MjIzMjE4WjBSMRwwGgYDVQQDDBNLZXkgQXR0ZXN0YXRpb24gQ0Ex
+MRAwDgYDVQQLDAdBbmRyb2lkMRMwEQYDVQQKDApHb29nbGUgTExDMQswCQYDVQQG
+EwJVUzB2MBAGByqGSM49AgEGBSuBBAAiA2IABCPaI3FO3z5bBQo8cuiEas4HjqCt
+G/mLFfRT0MsIssPBEEU5Cfbt6sH5yOAxqEi5QagpU1yX4HwnGb7OtBYpDTB57uH5
+Eczm34A5FNijV3s0/f0UPl7zbJcTx6xwqMIRq6NCMEAwDwYDVR0TAQH/BAUwAwEB
+/zAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYEFFIyuyz7RkOb3NaBqQ5lZuA0QepA
+MAoGCCqGSM49BAMDA2gAMGUCMETfjPO/HwqReR2CS7p0ZWoD/LHs6hDi422opifH
+EUaYLxwGlT9SLdjkVpz0UUOR5wIxAIoGyxGKRHVTpqpGRFiJtQEOOTp/+s1GcxeY
+uR2zh/80lQyu9vAFCj6E4AXc+osmRg==
+-----END CERTIFICATE-----
+                </Certificate>
             </CertificateChain>
         </Key>
-    </Keybox>
+    </Keybox>                                                                                                                        <!--Telegram@evokerr t.me/keyboxstrong-->
 </AndroidAttestation>
